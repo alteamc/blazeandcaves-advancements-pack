@@ -1,0 +1,15 @@
+{	
+	"criteria": {
+		"below_void": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"y": {
+						"max": -64.0
+					}
+				},
+				"dimension": "minecraft:the_end"
+			}
+		}	
+	}
+}

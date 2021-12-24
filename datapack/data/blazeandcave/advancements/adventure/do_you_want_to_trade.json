@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_planks"
+        },
+        "title": {"translate":"Do You Want to Trade?"},
+        "description": {"translate":"Find an NPC village"},
+        "announce_to_chat": false
+    },
+    "parent": "minecraft:adventure/root",
+    "rewards": {
+        "function": "bc_rewards:adventure/do_you_want_to_trade"
+    },		
+    "criteria": {
+        "village": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "village"
+            }
+        }
+    }
+}

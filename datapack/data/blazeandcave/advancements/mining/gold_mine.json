@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ore"
+        },
+        "title": {"translate":"Gold Mine!"},
+        "description": {"translate":"Find a mineshaft on the surface of a mesa biome"},
+        "announce_to_chat": false
+    },
+    "parent": "blazeandcave:mining/eeuuwww",
+    "rewards": {
+        "function": "bc_rewards:mining/gold_mine"
+    },		
+    "criteria": {
+        "badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mineshaft",
+                "biome": "minecraft:badlands",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}
+            }
+        },
+        "wooded_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mineshaft",
+                "biome": "minecraft:wooded_badlands",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}
+            }
+        },	
+        "eroded_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mineshaft",
+                "biome": "minecraft:eroded_badlands",				
+				"position": {
+					"y": {
+						"min": 64.0
+					}
+				}
+            }
+        }	
+    },
+    "requirements": [
+		[
+        "badlands",
+		"wooded_badlands",
+		"eroded_badlands"
+		]
+    ]	
+}

@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_fence"
+        },
+        "title": {"translate":"Titanic"},
+        "description": {"translate":"Find a shipwreck in an iceberg biome"},
+        "announce_to_chat": false,
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:biomes/boatception",
+    "rewards": {
+        "function": "bc_rewards:biomes/titanic"
+    },		
+    "criteria": {
+        "iceberg_deep": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck",
+                "biome": "minecraft:deep_frozen_ocean"
+            }
+        },
+        "iceberg": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck",
+                "biome": "minecraft:frozen_ocean"
+            }
+        }
+    },
+	"requirements": [
+		[
+			"iceberg_deep",
+			"iceberg"
+		]
+	]
+}

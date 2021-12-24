@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_fence"
+        },
+        "title": {"translate":"This is Mine Now!"},
+        "description": {"translate":"Find an abandoned mineshaft that was not dug out by you"},
+        "announce_to_chat": false
+    },
+    "parent": "blazeandcave:mining/dungeons_and_spawners",
+    "rewards": {
+        "function": "bc_rewards:mining/this_is_mine_now"
+    },		
+    "criteria": {
+        "mineshaft": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mineshaft"
+            }
+        }
+    }
+}

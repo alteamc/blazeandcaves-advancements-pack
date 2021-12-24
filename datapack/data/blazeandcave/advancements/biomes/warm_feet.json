@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "title": {"translate":"Warm Feet"},
+        "description": {"color":"#75E1FF","translate":"Discover every dry biome"},
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "blazeandcave:biomes/one_with_the_forest",	
+    "rewards": {
+		"function": "bc_rewards:biomes/warm_feet"
+    },	
+    "criteria": {
+        "desert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert"
+            }
+        },
+        "badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:badlands"
+            }
+        },
+        "wooded_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_badlands"
+            }
+        },
+        "eroded_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:eroded_badlands"
+            }
+        },
+        "savanna": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:savanna"
+            }
+        },
+        "savanna_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:savanna_plateau"
+            }
+        },
+        "windswept_savanna": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:windswept_savanna"
+            }
+        }
+    }
+}

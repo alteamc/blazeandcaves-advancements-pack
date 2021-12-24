@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "title": {"translate":"A Good Start"},
+        "description": {"translate":"Chop down enough trees to collect a full stack of one log type"},
+        "announce_to_chat": false
+    },
+    "parent": "blazeandcave:building/root",
+    "rewards": {
+        "function": "bc_rewards:building/a_good_start"
+    },		
+    "criteria": {
+        "logs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"tag": "minecraft:logs",
+						"count": 64
+                    }
+                ]
+            }
+        }
+	}
+}

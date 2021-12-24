@@ -24,4 +24,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: build/datapacks/Armor Statues ${{ steps.get_version.outputs.VERSION }}.zip
+          files: build/datapacks/BlazeandCaves Advancements Pack ${{ steps.get_version.outputs.VERSION }}.zip

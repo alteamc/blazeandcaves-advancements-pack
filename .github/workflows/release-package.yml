@@ -1,0 +1,27 @@
+name: Datapack packaging on release
+
+on:
+  release:
+    types: [ published ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Checking for errors
+        run: scripts/lint.sh
+
+      - name: Packaging
+        run: scripts/package.sh
+
+      - name: Retrieving release version
+        id: get_version
+        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
+
+      - name: Attaching datapack to a release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: build/datapacks/Armor Statues ${{ steps.get_version.outputs.VERSION }}.zip

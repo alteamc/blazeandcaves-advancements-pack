@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:rabbit_stew"}, "title": {"translate": "Тушёное дело"}, "description": {"translate": "Создайте и съешьте тушёного кролика"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/lucky_charm", "rewards": {"function": "bc_rewards:animal/getting_into_a_stew"}, "criteria": {"rabbit_stew": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:rabbit_stew"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_stew"
+    },
+    "title": {
+      "translate": "Тушёное дело"
+    },
+    "description": {
+      "translate": "Создайте и съешьте тушёного кролика"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/lucky_charm",
+  "rewards": {
+    "function": "bc_rewards:animal/getting_into_a_stew"
+  },
+  "criteria": {
+    "rabbit_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rabbit_stew"
+          ]
+        }
+      }
+    }
+  }
+}

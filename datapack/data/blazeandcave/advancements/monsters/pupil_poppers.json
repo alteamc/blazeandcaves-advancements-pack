@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:spider_eye"}, "title": {"translate": "Приятного аппетита"}, "description": {"translate": "Съешьте 1000 паучьих глаз"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:monsters/the_ghastly_eyes", "rewards": {"function": "bc_rewards:monsters/pupil_poppers"}, "criteria": {"pupil_poppers": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:used", "stat": "minecraft:spider_eye", "value": {"min": 1000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "Приятного аппетита"
+    },
+    "description": {
+      "translate": "Съешьте 1000 паучьих глаз"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:monsters/the_ghastly_eyes",
+  "rewards": {
+    "function": "bc_rewards:monsters/pupil_poppers"
+  },
+  "criteria": {
+    "pupil_poppers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:spider_eye",
+                "value": {
+                  "min": 1000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

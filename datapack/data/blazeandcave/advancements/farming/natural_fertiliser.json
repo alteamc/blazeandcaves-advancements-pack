@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:podzol"}, "title": {"translate": "Природное удобрение"}, "description": {"translate": "Заполните компостницу"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/the_garbage_will_do", "rewards": {"function": "bc_rewards:farming/natural_fertiliser"}, "criteria": {"fill_composter": {"trigger": "minecraft:item_used_on_block", "conditions": {"location": {"block": {"blocks": ["minecraft:composter"], "state": {"level": 7}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:podzol"
+    },
+    "title": {
+      "translate": "Природное удобрение"
+    },
+    "description": {
+      "translate": "Заполните компостницу"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/the_garbage_will_do",
+  "rewards": {
+    "function": "bc_rewards:farming/natural_fertiliser"
+  },
+  "criteria": {
+    "fill_composter": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:composter"
+            ],
+            "state": {
+              "level": 7
+            }
+          }
+        }
+      }
+    }
+  }
+}

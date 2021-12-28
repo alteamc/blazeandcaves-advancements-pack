@@ -1,1 +1,38 @@
-{"display": {"icon": {"item": "minecraft:porkchop"}, "title": {"translate": "Попугаи и летучие мыши"}, "description": {"translate": "Размножьте 100 животных"}, "announce_to_chat": false}, "parent": "blazeandcave:statistics/root", "rewards": {"function": "bc_rewards:statistics/the_parrots_and_the_bats"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:animals_bred", "value": {"min": 100}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:porkchop"
+    },
+    "title": {
+      "translate": "Попугаи и летучие мыши"
+    },
+    "description": {
+      "translate": "Размножьте 100 животных"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:statistics/root",
+  "rewards": {
+    "function": "bc_rewards:statistics/the_parrots_and_the_bats"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:animals_bred",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

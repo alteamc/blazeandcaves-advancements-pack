@@ -1,1 +1,52 @@
-{"display": {"icon": {"item": "minecraft:obsidian"}, "title": {"translate": "Исследователь пустоши"}, "description": {"color": "#75E1FF", "translate": "Исследуйте каждый биом измерения Энд"}, "announce_to_chat": false, "frame": "goal"}, "parent": "minecraft:end/enter_end_gateway", "rewards": {"function": "bc_rewards:end/void_walker"}, "criteria": {"the_end": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:the_end"}}, "small_end_islands": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:small_end_islands"}}, "end_highlands": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:end_highlands"}}, "end_midlands": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:end_midlands"}}, "end_barrens": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:end_barrens"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Исследователь пустоши"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Исследуйте каждый биом измерения Энд"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "minecraft:end/enter_end_gateway",
+  "rewards": {
+    "function": "bc_rewards:end/void_walker"
+  },
+  "criteria": {
+    "the_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:the_end"
+      }
+    },
+    "small_end_islands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:small_end_islands"
+      }
+    },
+    "end_highlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:end_highlands"
+      }
+    },
+    "end_midlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:end_midlands"
+      }
+    },
+    "end_barrens": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:end_barrens"
+      }
+    }
+  }
+}

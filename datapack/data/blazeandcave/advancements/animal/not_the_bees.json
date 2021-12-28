@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:spawner"}, "title": {"translate": "ТОЛЬКО НЕ ПЧЁЛЫ!"}, "description": {"translate": "Будьте закусаны пчёлами до смерти"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/hive_mind", "rewards": {"function": "bc_rewards:animal/not_the_bees"}, "criteria": {"iron_golem": {"trigger": "minecraft:entity_killed_player", "conditions": {"entity": {"type": "bee"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "ТОЛЬКО НЕ ПЧЁЛЫ!"
+    },
+    "description": {
+      "translate": "Будьте закусаны пчёлами до смерти"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/hive_mind",
+  "rewards": {
+    "function": "bc_rewards:animal/not_the_bees"
+  },
+  "criteria": {
+    "iron_golem": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "bee"
+        }
+      }
+    }
+  }
+}

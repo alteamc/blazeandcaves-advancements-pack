@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:skeleton_spawn_egg"}, "title": {"translate": "Убийца скелетов"}, "description": {"color": "#75E1FF", "translate": "Соберите стак костей"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:monsters/frosty", "rewards": {"function": "bc_rewards:monsters/skeleton_smiter"}, "criteria": {"bone": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:bone"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_spawn_egg"
+    },
+    "title": {
+      "translate": "Убийца скелетов"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Соберите стак костей"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:monsters/frosty",
+  "rewards": {
+    "function": "bc_rewards:monsters/skeleton_smiter"
+  },
+  "criteria": {
+    "bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

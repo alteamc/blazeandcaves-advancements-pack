@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:ender_chest"}, "title": {"translate": "Эндер-сундук"}, "description": {"translate": "Создайте эндер-сундук, чтобы… Сами придумайте применение"}, "announce_to_chat": false}, "parent": "minecraft:nether/obtain_blaze_rod", "rewards": {"function": "bc_rewards:nether/enders_chest"}, "criteria": {"ender_chest": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:ender_chest"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "Эндер-сундук"
+    },
+    "description": {
+      "translate": "Создайте эндер-сундук, чтобы… Сами придумайте применение"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:nether/obtain_blaze_rod",
+  "rewards": {
+    "function": "bc_rewards:nether/enders_chest"
+  },
+  "criteria": {
+    "ender_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_chest"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

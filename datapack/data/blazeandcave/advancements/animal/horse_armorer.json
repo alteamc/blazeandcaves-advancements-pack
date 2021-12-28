@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:leather_horse_armor"}, "title": {"translate": "Нарядная лошадь господина"}, "description": {"translate": "Создайте кожаную конскую броню"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/cowboy", "rewards": {"function": "bc_rewards:animal/horse_armorer"}, "criteria": {"leather_horse_armor": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:leather_horse_armor"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_horse_armor"
+    },
+    "title": {
+      "translate": "Нарядная лошадь господина"
+    },
+    "description": {
+      "translate": "Создайте кожаную конскую броню"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/cowboy",
+  "rewards": {
+    "function": "bc_rewards:animal/horse_armorer"
+  },
+  "criteria": {
+    "leather_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,40 @@
-{"display": {"icon": {"item": "minecraft:carrot_on_a_stick"}, "title": {"translate": "Пятачок 500"}, "description": {"color": "#75E1FF", "translate": "Преодолейте 1км верхом на свинье"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:statistics/pig_training", "rewards": {"function": "bc_rewards:statistics/snout_500"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:pig_one_cm", "value": {"min": 100000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick"
+    },
+    "title": {
+      "translate": "Пятачок 500"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Преодолейте 1км верхом на свинье"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:statistics/pig_training",
+  "rewards": {
+    "function": "bc_rewards:statistics/snout_500"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:pig_one_cm",
+                "value": {
+                  "min": 100000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:potion", "nbt": "{Potion:\"minecraft:strength\"}"}, "title": {"translate": "Тяжёлый караван"}, "description": {"translate": "Приручите ламу с силой 5"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:animal/llama_festival", "rewards": {"function": "bc_rewards:animal/heavy_duty_caravan"}, "criteria": {"strength": {"trigger": "minecraft:tame_animal", "conditions": {"entity": {"type": "#blazeandcave:llamas", "nbt": "{Strength:5}"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strength\"}"
+    },
+    "title": {
+      "translate": "Тяжёлый караван"
+    },
+    "description": {
+      "translate": "Приручите ламу с силой 5"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:animal/llama_festival",
+  "rewards": {
+    "function": "bc_rewards:animal/heavy_duty_caravan"
+  },
+  "criteria": {
+    "strength": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "#blazeandcave:llamas",
+          "nbt": "{Strength:5}"
+        }
+      }
+    }
+  }
+}

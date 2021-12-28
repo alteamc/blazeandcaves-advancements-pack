@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:furnace"}, "title": {"translate": "Горячая штучка"}, "description": {"translate": "Создайте печку из восьми булыжника"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/fossil_fuel", "rewards": {"function": "bc_rewards:mining/hot_topic"}, "criteria": {"furnace": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:furnace"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "Горячая штучка"
+    },
+    "description": {
+      "translate": "Создайте печку из восьми булыжника"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/fossil_fuel",
+  "rewards": {
+    "function": "bc_rewards:mining/hot_topic"
+  },
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

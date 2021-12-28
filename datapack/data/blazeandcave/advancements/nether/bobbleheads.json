@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:strider_spawn_egg"}, "title": {"translate": "Болванчик"}, "description": {"translate": "Размножьте двух лавомерок при помощи искажённого гриба"}, "announce_to_chat": false}, "parent": "minecraft:nether/ride_strider", "rewards": {"function": "bc_rewards:nether/bobbleheads"}, "criteria": {"strider": {"trigger": "minecraft:bred_animals", "conditions": {"parent": {"type": "minecraft:strider"}, "partner": {"type": "minecraft:strider"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:strider_spawn_egg"
+    },
+    "title": {
+      "translate": "Болванчик"
+    },
+    "description": {
+      "translate": "Размножьте двух лавомерок при помощи искажённого гриба"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:nether/ride_strider",
+  "rewards": {
+    "function": "bc_rewards:nether/bobbleheads"
+  },
+  "criteria": {
+    "strider": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:strider"
+        },
+        "partner": {
+          "type": "minecraft:strider"
+        }
+      }
+    }
+  }
+}

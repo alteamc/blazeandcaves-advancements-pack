@@ -1,1 +1,40 @@
-{"display": {"icon": {"item": "minecraft:spruce_boat"}, "title": {"translate": "Капитан пиратов"}, "description": {"color": "#75E1FF", "translate": "Проплывите 10км при помощи лодки"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:statistics/luxury_cruise", "rewards": {"function": "bc_rewards:statistics/pirate_captain"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:boat_one_cm", "value": {"min": 1000000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_boat"
+    },
+    "title": {
+      "translate": "Капитан пиратов"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Проплывите 10км при помощи лодки"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:statistics/luxury_cruise",
+  "rewards": {
+    "function": "bc_rewards:statistics/pirate_captain"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:boat_one_cm",
+                "value": {
+                  "min": 1000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:detector_rail"}, "title": {"translate": "Проверка давления"}, "description": {"translate": "Создайте рельсы с датчиком"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/under_pressure", "rewards": {"function": "bc_rewards:redstone/pressure_detector"}, "criteria": {"detector_rail": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:detector_rail"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:detector_rail"
+    },
+    "title": {
+      "translate": "Проверка давления"
+    },
+    "description": {
+      "translate": "Создайте рельсы с датчиком"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/under_pressure",
+  "rewards": {
+    "function": "bc_rewards:redstone/pressure_detector"
+  },
+  "criteria": {
+    "detector_rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:detector_rail"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

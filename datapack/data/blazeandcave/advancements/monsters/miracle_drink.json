@@ -1,1 +1,55 @@
-{"display": {"icon": {"item": "minecraft:honey_bottle"}, "title": {"translate": "Чудо-напиток"}, "description": {"color": "#75E1FF", "translate": "Выпейте молоко или мед, чтобы вылечить яд, когда у Вас осталось полсердца"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:monsters/witch", "rewards": {"function": "bc_rewards:monsters/miracle_drink"}, "criteria": {"miracle_drink": {"trigger": "minecraft:consume_item", "conditions": {"item": {"tag": "blazeandcave:poison_cures"}, "player": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"effects": {"minecraft:poison": {"amplifier": {"min": 0}, "duration": {"min": 1}}}}}, {"condition": "minecraft:entity_scores", "entity": "this", "scores": {"bac_health": 1}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Чудо-напиток"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Выпейте молоко или мед, чтобы вылечить яд, когда у Вас осталось полсердца"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:monsters/witch",
+  "rewards": {
+    "function": "bc_rewards:monsters/miracle_drink"
+  },
+  "criteria": {
+    "miracle_drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "blazeandcave:poison_cures"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:poison": {
+                  "amplifier": {
+                    "min": 0
+                  },
+                  "duration": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bac_health": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

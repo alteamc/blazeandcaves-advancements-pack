@@ -1,1 +1,79 @@
-{"display": {"icon": {"item": "minecraft:iron_boots"}, "title": {"translate": "Десять тысяч блоков"}, "description": {"color": "#75E1FF", "translate": "Путешествуйте, как минимум на 10000 блоков от центра мира в любом направлении", "extra": [{"text": "\n"}, {"color": "#75E1FF", "translate": "Путешествие, которое началось всего с одного шага"}]}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:biomes/kilometre_walk", "rewards": {"function": "bc_rewards:biomes/ten_thousand_blocks"}, "criteria": {"outer_pos_x": {"trigger": "minecraft:location", "conditions": {"position": {"x": {"min": 10000}}}}, "outer_pos_z": {"trigger": "minecraft:location", "conditions": {"position": {"z": {"min": 10000}}}}, "outer_neg_x": {"trigger": "minecraft:location", "conditions": {"position": {"x": {"max": -10000}}}}, "outer_neg_z": {"trigger": "minecraft:location", "conditions": {"position": {"z": {"max": -10000}}}}}, "requirements": [["outer_pos_x", "outer_pos_z", "outer_neg_x", "outer_neg_z"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "Десять тысяч блоков"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Путешествуйте, как минимум на 10000 блоков от центра мира в любом направлении",
+      "extra": [
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#75E1FF",
+          "translate": "Путешествие, которое началось всего с одного шага"
+        }
+      ]
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:biomes/kilometre_walk",
+  "rewards": {
+    "function": "bc_rewards:biomes/ten_thousand_blocks"
+  },
+  "criteria": {
+    "outer_pos_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "min": 10000
+          }
+        }
+      }
+    },
+    "outer_pos_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "min": 10000
+          }
+        }
+      }
+    },
+    "outer_neg_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "max": -10000
+          }
+        }
+      }
+    },
+    "outer_neg_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "max": -10000
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "outer_pos_x",
+      "outer_pos_z",
+      "outer_neg_x",
+      "outer_neg_z"
+    ]
+  ]
+}

@@ -1,1 +1,37 @@
-{"display": {"icon": {"item": "minecraft:rabbit_hide"}, "title": {"translate": "Спускаясь по кроличьей норе"}, "description": {"color": "#75E1FF", "translate": "Приведите кролика на дно мира, а затем убейте его"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:animal/getting_into_a_stew", "rewards": {"function": "bc_rewards:animal/going_down_the_rabbit_hole"}, "criteria": {"rabbit": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "rabbit", "location": {"position": {"y": {"max": 5.5}}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "title": {
+      "translate": "Спускаясь по кроличьей норе"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Приведите кролика на дно мира, а затем убейте его"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:animal/getting_into_a_stew",
+  "rewards": {
+    "function": "bc_rewards:animal/going_down_the_rabbit_hole"
+  },
+  "criteria": {
+    "rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "rabbit",
+          "location": {
+            "position": {
+              "y": {
+                "max": 5.5
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

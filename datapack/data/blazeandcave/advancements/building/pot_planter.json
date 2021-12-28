@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:flower_pot"}, "title": {"translate": "Плантатор горшка"}, "description": {"translate": "Создайте и поставьте цветочный горшок"}, "announce_to_chat": false}, "parent": "blazeandcave:building/bricks", "rewards": {"function": "bc_rewards:building/pot_planter"}, "criteria": {"flower_pot": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:flower_pot"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flower_pot"
+    },
+    "title": {
+      "translate": "Плантатор горшка"
+    },
+    "description": {
+      "translate": "Создайте и поставьте цветочный горшок"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/bricks",
+  "rewards": {
+    "function": "bc_rewards:building/pot_planter"
+  },
+  "criteria": {
+    "flower_pot": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:flower_pot"
+      }
+    }
+  }
+}

@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:oak_planks"}, "title": {"translate": "Не желаете ли поторговаться?"}, "description": {"translate": "Найдите деревню крестьян"}, "announce_to_chat": false}, "parent": "minecraft:adventure/root", "rewards": {"function": "bc_rewards:adventure/do_you_want_to_trade"}, "criteria": {"village": {"trigger": "minecraft:location", "conditions": {"feature": "village"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Не желаете ли поторговаться?"
+    },
+    "description": {
+      "translate": "Найдите деревню крестьян"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:adventure/root",
+  "rewards": {
+    "function": "bc_rewards:adventure/do_you_want_to_trade"
+  },
+  "criteria": {
+    "village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village"
+      }
+    }
+  }
+}

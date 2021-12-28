@@ -1,1 +1,33 @@
-{"display": {"icon": {"item": "minecraft:egg"}, "title": {"translate": "Эггинг, чувак!"}, "description": {"translate": "Забросайте кого-нибудь яйцами"}, "announce_to_chat": false}, "parent": "blazeandcave:weaponry/root", "rewards": {"function": "bc_rewards:weaponry/egging_dude"}, "criteria": {"egg": {"trigger": "minecraft:player_hurt_entity", "conditions": {"damage": {"type": {"is_projectile": true, "direct_entity": {"type": "minecraft:egg"}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "translate": "Эггинг, чувак!"
+    },
+    "description": {
+      "translate": "Забросайте кого-нибудь яйцами"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:weaponry/root",
+  "rewards": {
+    "function": "bc_rewards:weaponry/egging_dude"
+  },
+  "criteria": {
+    "egg": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:egg"
+            }
+          }
+        }
+      }
+    }
+  }
+}

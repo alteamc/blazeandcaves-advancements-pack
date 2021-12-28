@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:zombie_head"}, "title": {"translate": "Зомби-апокалипсис"}, "description": {"color": "#FF2A2A", "translate": "Заполучите стак голов зомби"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/nuclear_fusion", "rewards": {"function": "bc_rewards:challenges/zombie_apocalypse"}, "criteria": {"zombie_head": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:zombie_head"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "Зомби-апокалипсис"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Заполучите стак голов зомби"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/nuclear_fusion",
+  "rewards": {
+    "function": "bc_rewards:challenges/zombie_apocalypse"
+  },
+  "criteria": {
+    "zombie_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:zombie_head"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

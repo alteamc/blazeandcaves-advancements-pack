@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:cooked_porkchop"}, "title": {"translate": "Свиная отбивная"}, "description": {"translate": "Ты знаешь кунг-фу, но как насчёт свиной отбивной?"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/bacon", "rewards": {"function": "bc_rewards:animal/pork_chop"}, "criteria": {"cooked_porkchop": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:cooked_porkchop"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "Свиная отбивная"
+    },
+    "description": {
+      "translate": "Ты знаешь кунг-фу, но как насчёт свиной отбивной?"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/bacon",
+  "rewards": {
+    "function": "bc_rewards:animal/pork_chop"
+  },
+  "criteria": {
+    "cooked_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_porkchop"
+          ]
+        }
+      }
+    }
+  }
+}

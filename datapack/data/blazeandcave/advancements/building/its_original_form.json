@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:stone"}, "title": {"translate": "Так задумала природа"}, "description": {"translate": "Используйте печь, чтобы переплавить булыжник обратно в камень"}, "announce_to_chat": false}, "parent": "blazeandcave:building/rock_collection", "rewards": {"function": "bc_rewards:building/its_original_form"}, "criteria": {"stone": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:stone"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "translate": "Так задумала природа"
+    },
+    "description": {
+      "translate": "Используйте печь, чтобы переплавить булыжник обратно в камень"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/rock_collection",
+  "rewards": {
+    "function": "bc_rewards:building/its_original_form"
+  },
+  "criteria": {
+    "stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

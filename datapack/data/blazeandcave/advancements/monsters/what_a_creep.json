@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:gunpowder"}, "title": {"translate": "Ну что за гримаса!"}, "description": {"translate": "Убейте крипера"}, "announce_to_chat": false}, "parent": "minecraft:adventure/kill_a_mob", "rewards": {"function": "bc_rewards:monsters/what_a_creep"}, "criteria": {"creeper": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "creeper"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Ну что за гримаса!"
+    },
+    "description": {
+      "translate": "Убейте крипера"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "rewards": {
+    "function": "bc_rewards:monsters/what_a_creep"
+  },
+  "criteria": {
+    "creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "creeper"
+        }
+      }
+    }
+  }
+}

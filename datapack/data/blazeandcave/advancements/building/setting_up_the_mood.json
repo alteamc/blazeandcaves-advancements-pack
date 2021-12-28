@@ -1,1 +1,33 @@
-{"display": {"icon": {"item": "minecraft:candle"}, "title": {"translate": "Настройка настроения"}, "description": {"translate": "Поставьте свечу и зажгите ее, используя зажигалку, чтобы поднять настроение"}, "announce_to_chat": false}, "parent": "blazeandcave:building/one_pickle_two_pickle_sea_pickle_four", "rewards": {"function": "bc_rewards:building/setting_up_the_mood"}, "criteria": {"candle": {"trigger": "minecraft:item_used_on_block", "conditions": {"location": {"block": {"tag": "minecraft:candles"}}, "item": {"tag": "blazeandcave:candle_lightables"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:candle"
+    },
+    "title": {
+      "translate": "Настройка настроения"
+    },
+    "description": {
+      "translate": "Поставьте свечу и зажгите ее, используя зажигалку, чтобы поднять настроение"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/one_pickle_two_pickle_sea_pickle_four",
+  "rewards": {
+    "function": "bc_rewards:building/setting_up_the_mood"
+  },
+  "criteria": {
+    "candle": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:candles"
+          }
+        },
+        "item": {
+          "tag": "blazeandcave:candle_lightables"
+        }
+      }
+    }
+  }
+}

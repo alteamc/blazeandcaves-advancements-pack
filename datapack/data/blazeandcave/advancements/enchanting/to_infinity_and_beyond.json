@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:arrow"}, "title": {"translate": "Бесконечность не предел!"}, "description": {"color": "#75E1FF", "translate": "Заполучите зачарование «Бесконечность» для лука"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:enchanting/bow_down_to_me", "rewards": {"function": "bc_rewards:enchanting/to_infinity_and_beyond"}, "criteria": {"infinity": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:bow"], "enchantments": [{"enchantment": "minecraft:infinity"}]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Бесконечность не предел!"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Заполучите зачарование «Бесконечность» для лука"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:enchanting/bow_down_to_me",
+  "rewards": {
+    "function": "bc_rewards:enchanting/to_infinity_and_beyond"
+  },
+  "criteria": {
+    "infinity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:infinity"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

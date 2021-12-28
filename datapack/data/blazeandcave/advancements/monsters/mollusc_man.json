@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:nautilus_shell"}, "title": {"translate": "Человек-моллюск"}, "description": {"color": "#75E1FF", "translate": "Победите утопленника, держащего раковину наутилуса"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:monsters/a_watery_grave", "rewards": {"function": "bc_rewards:monsters/mollusc_man"}, "criteria": {"drowned": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "drowned", "nbt": "{HandItems:[{},{id:\"minecraft:nautilus_shell\",Count:1b}]}"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "Человек-моллюск"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Победите утопленника, держащего раковину наутилуса"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:monsters/a_watery_grave",
+  "rewards": {
+    "function": "bc_rewards:monsters/mollusc_man"
+  },
+  "criteria": {
+    "drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "drowned",
+          "nbt": "{HandItems:[{},{id:\"minecraft:nautilus_shell\",Count:1b}]}"
+        }
+      }
+    }
+  }
+}

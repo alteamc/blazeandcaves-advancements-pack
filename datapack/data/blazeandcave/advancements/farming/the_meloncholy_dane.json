@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:melon"}, "title": {"translate": "Арбуз обыкновенный"}, "description": {"color": "#75E1FF", "translate": "Создайте стак блоков из ломтиков арбуза"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:farming/scientific_inaccuracy", "rewards": {"function": "bc_rewards:farming/the_meloncholy_dane"}, "criteria": {"melon_block": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:melon"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:melon"
+    },
+    "title": {
+      "translate": "Арбуз обыкновенный"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Создайте стак блоков из ломтиков арбуза"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:farming/scientific_inaccuracy",
+  "rewards": {
+    "function": "bc_rewards:farming/the_meloncholy_dane"
+  },
+  "criteria": {
+    "melon_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

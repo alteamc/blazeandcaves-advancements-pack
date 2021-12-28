@@ -1,1 +1,102 @@
-{"display": {"icon": {"item": "minecraft:wooden_sword"}, "title": {"translate": "Время нанести удар!"}, "description": {"translate": "Используйте доски и палку для создания меча"}, "announce_to_chat": false}, "parent": "blazeandcave:bacap/time_to_mine", "rewards": {"function": "bc_rewards:bacap/time_to_strike"}, "criteria": {"wooden_sword": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:wooden_sword"]}]}}, "stone_sword": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:stone_sword"]}]}}, "iron_sword": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:iron_sword"]}]}}, "diamond_sword": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:diamond_sword"]}]}}, "golden_sword": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:golden_sword"]}]}}, "netherite_sword": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_sword"]}]}}}, "requirements": [["wooden_sword", "stone_sword", "iron_sword", "diamond_sword", "golden_sword", "netherite_sword"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "title": {
+      "translate": "Время нанести удар!"
+    },
+    "description": {
+      "translate": "Используйте доски и палку для создания меча"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:bacap/time_to_mine",
+  "rewards": {
+    "function": "bc_rewards:bacap/time_to_strike"
+  },
+  "criteria": {
+    "wooden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "stone_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "golden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_sword",
+      "stone_sword",
+      "iron_sword",
+      "diamond_sword",
+      "golden_sword",
+      "netherite_sword"
+    ]
+  ]
+}

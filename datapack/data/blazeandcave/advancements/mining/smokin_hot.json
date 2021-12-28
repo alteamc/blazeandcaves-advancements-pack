@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:smoker"}, "title": {"translate": "Копчение"}, "description": {"translate": "Улучшите свою печь до коптильни при помощи древесины"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/renewable_energy", "rewards": {"function": "bc_rewards:mining/smokin_hot"}, "criteria": {"smoker": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:smoker"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:smoker"
+    },
+    "title": {
+      "translate": "Копчение"
+    },
+    "description": {
+      "translate": "Улучшите свою печь до коптильни при помощи древесины"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/renewable_energy",
+  "rewards": {
+    "function": "bc_rewards:mining/smokin_hot"
+  },
+  "criteria": {
+    "smoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smoker"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

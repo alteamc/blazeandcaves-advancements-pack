@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:filled_map"}, "title": {"translate": "Х обозначает место"}, "description": {"color": "#75E1FF", "translate": "Используйте карту сокровищ, чтобы найти спрятанный клад"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:biomes/ahoy", "rewards": {"function": "bc_rewards:biomes/x_marks_the_spot"}, "criteria": {"heart_of_the_sea": {"trigger": "minecraft:player_generates_container_loot", "conditions": {"loot_table": "minecraft:chests/buried_treasure"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "Х обозначает место"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Используйте карту сокровищ, чтобы найти спрятанный клад"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:biomes/ahoy",
+  "rewards": {
+    "function": "bc_rewards:biomes/x_marks_the_spot"
+  },
+  "criteria": {
+    "heart_of_the_sea": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    }
+  }
+}

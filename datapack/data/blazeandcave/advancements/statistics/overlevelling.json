@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:enchanted_book", "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"}, "title": {"translate": "Переизбыток опыта"}, "description": {"color": "#75E1FF", "translate": "Заполучите 100 уровень опыта"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:statistics/level_up", "rewards": {"function": "bc_rewards:statistics/overlevelling"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"level": {"min": 100}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    },
+    "title": {
+      "translate": "Переизбыток опыта"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Заполучите 100 уровень опыта"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:statistics/level_up",
+  "rewards": {
+    "function": "bc_rewards:statistics/overlevelling"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "level": {
+              "min": 100
+            }
+          }
+        }
+      }
+    }
+  }
+}

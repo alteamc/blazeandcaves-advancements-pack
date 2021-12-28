@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:honeycomb"}, "title": {"translate": "Мой жужжащий друг!"}, "description": {"translate": "Привяжите поводок к пчеле"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/lead_the_way", "rewards": {"function": "bc_rewards:animal/beeloons"}, "criteria": {"lead": {"trigger": "minecraft:player_interacted_with_entity", "conditions": {"item": {"items": ["minecraft:lead"]}, "entity": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"type": "minecraft:bee"}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Мой жужжащий друг!"
+    },
+    "description": {
+      "translate": "Привяжите поводок к пчеле"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/lead_the_way",
+  "rewards": {
+    "function": "bc_rewards:animal/beeloons"
+  },
+  "criteria": {
+    "lead": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:bee"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

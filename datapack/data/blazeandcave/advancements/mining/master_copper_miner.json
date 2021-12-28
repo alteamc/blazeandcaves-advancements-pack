@@ -1,1 +1,34 @@
-{"display": {"icon": {"item": "minecraft:copper_block"}, "title": {"translate": "Помешанный на меди"}, "description": {"translate": "Добудьте достаточно меди, чтобы сделать стак медных блоков."}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:mining/copper_miner", "rewards": {"function": "bc_rewards:mining/master_copper_miner"}, "criteria": {"copper_block": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:copper_block"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:copper_block"
+    },
+    "title": {
+      "translate": "Помешанный на меди"
+    },
+    "description": {
+      "translate": "Добудьте достаточно меди, чтобы сделать стак медных блоков."
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:mining/copper_miner",
+  "rewards": {
+    "function": "bc_rewards:mining/master_copper_miner"
+  },
+  "criteria": {
+    "copper_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_block"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

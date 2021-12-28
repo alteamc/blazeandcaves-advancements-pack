@@ -1,1 +1,34 @@
-{"display": {"icon": {"item": "minecraft:coal_block"}, "title": {"translate": "Угольный бизнес"}, "description": {"translate": "Добудьте достаточно угля и создайте стак угольных блоков"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:mining/coal_miner", "rewards": {"function": "bc_rewards:mining/master_coal_miner"}, "criteria": {"coal": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:coal_block"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:coal_block"
+    },
+    "title": {
+      "translate": "Угольный бизнес"
+    },
+    "description": {
+      "translate": "Добудьте достаточно угля и создайте стак угольных блоков"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:mining/coal_miner",
+  "rewards": {
+    "function": "bc_rewards:mining/master_coal_miner"
+  },
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal_block"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,51 @@
-{"display": {"icon": {"item": "minecraft:netherite_boots"}, "title": {"bold": "true", "translate": "65", "extra": [{"text": " "}, {"bold": "false", "translate": "часов ходьбы"}]}, "description": {"color": "light_purple", "translate": "Пройдите 1000 км"}, "announce_to_chat": false, "frame": "challenge", "hidden": "true"}, "parent": "blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft", "rewards": {"function": "bc_rewards:statistics/65_hours_of_walking"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:walk_one_cm", "value": {"min": 100000000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_boots"
+    },
+    "title": {
+      "bold": "true",
+      "translate": "65",
+      "extra": [
+        {
+          "text": " "
+        },
+        {
+          "bold": "false",
+          "translate": "часов ходьбы"
+        }
+      ]
+    },
+    "description": {
+      "color": "light_purple",
+      "translate": "Пройдите 1000 км"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge",
+    "hidden": "true"
+  },
+  "parent": "blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft",
+  "rewards": {
+    "function": "bc_rewards:statistics/65_hours_of_walking"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:walk_one_cm",
+                "value": {
+                  "min": 100000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

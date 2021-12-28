@@ -1,1 +1,44 @@
-{"display": {"icon": {"item": "minecraft:jungle_boat"}, "title": {"translate": "Свиной спорт"}, "description": {"color": "#75E1FF", "translate": "Оседлать свинью, находящуюся в лодке, которая находится на вагонетке"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:animal/pig_slaughterer", "rewards": {"function": "bc_rewards:animal/swine_sailing"}, "criteria": {"swine_sailing": {"trigger": "minecraft:started_riding", "conditions": {"player": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"vehicle": {"type": "pig", "vehicle": {"type": "boat", "vehicle": {"type": "minecart"}}}}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jungle_boat"
+    },
+    "title": {
+      "translate": "Свиной спорт"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Оседлать свинью, находящуюся в лодке, которая находится на вагонетке"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:animal/pig_slaughterer",
+  "rewards": {
+    "function": "bc_rewards:animal/swine_sailing"
+  },
+  "criteria": {
+    "swine_sailing": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "pig",
+                "vehicle": {
+                  "type": "boat",
+                  "vehicle": {
+                    "type": "minecart"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

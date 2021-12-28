@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:shulker_shell"}, "title": {"translate": "Земля в иллюминаторе"}, "description": {"color": "#FF2A2A", "translate": "Пролевитируйте на дистанцию в 256 блоков"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/ad_astra", "rewards": {"function": "bc_rewards:challenges/im_in_space"}, "criteria": {"levitated": {"trigger": "minecraft:levitation", "conditions": {"distance": {"y": {"min": 256}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Земля в иллюминаторе"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Пролевитируйте на дистанцию в 256 блоков"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/ad_astra",
+  "rewards": {
+    "function": "bc_rewards:challenges/im_in_space"
+  },
+  "criteria": {
+    "levitated": {
+      "trigger": "minecraft:levitation",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 256
+          }
+        }
+      }
+    }
+  }
+}

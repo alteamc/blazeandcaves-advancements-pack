@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:carrot_on_a_stick"}, "title": {"translate": "Жаль, что свиньи не летают…"}, "description": {"translate": "Оседлайте свинью с помощью седла, а затем, будучи верхом на ней, упадите с высоты не менее, чем 5 блоков"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/pork_chop", "rewards": {"function": "bc_rewards:animal/when_pigs_used_to_fly"}, "criteria": {"carrot_on_a_stick": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:carrot_on_a_stick"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick"
+    },
+    "title": {
+      "translate": "Жаль, что свиньи не летают…"
+    },
+    "description": {
+      "translate": "Оседлайте свинью с помощью седла, а затем, будучи верхом на ней, упадите с высоты не менее, чем 5 блоков"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/pork_chop",
+  "rewards": {
+    "function": "bc_rewards:animal/when_pigs_used_to_fly"
+  },
+  "criteria": {
+    "carrot_on_a_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

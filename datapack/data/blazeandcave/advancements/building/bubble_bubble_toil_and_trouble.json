@@ -1,1 +1,37 @@
-{"display": {"icon": {"item": "minecraft:cauldron"}, "title": {"translate": "Гори огонь, кипи котёл!"}, "description": {"translate": "Заполните котёл ведром с водой"}, "announce_to_chat": false}, "parent": "blazeandcave:building/agent_smithing_table", "rewards": {"function": "bc_rewards:building/bubble_bubble_toil_and_trouble"}, "criteria": {"fill_cauldron": {"trigger": "minecraft:item_used_on_block", "conditions": {"location": {"block": {"blocks": ["minecraft:water_cauldron"]}}, "item": {"items": ["minecraft:water_bucket"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "Гори огонь, кипи котёл!"
+    },
+    "description": {
+      "translate": "Заполните котёл ведром с водой"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/agent_smithing_table",
+  "rewards": {
+    "function": "bc_rewards:building/bubble_bubble_toil_and_trouble"
+  },
+  "criteria": {
+    "fill_cauldron": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:water_cauldron"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:melon"}, "title": {"translate": "Научная неточность"}, "description": {"translate": "Создайте из девяти ломтиков арбуза блок, который, будучи сломанным, не вернёт Вам все девять ломтиков арбуза назад"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/the_melon_the_melon_the_melon", "rewards": {"function": "bc_rewards:farming/scientific_inaccuracy"}, "criteria": {"melon_block": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:melon"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:melon"
+    },
+    "title": {
+      "translate": "Научная неточность"
+    },
+    "description": {
+      "translate": "Создайте из девяти ломтиков арбуза блок, который, будучи сломанным, не вернёт Вам все девять ломтиков арбуза назад"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/the_melon_the_melon_the_melon",
+  "rewards": {
+    "function": "bc_rewards:farming/scientific_inaccuracy"
+  },
+  "criteria": {
+    "melon_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:melon"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

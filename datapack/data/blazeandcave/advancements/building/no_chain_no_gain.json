@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:chain"}, "title": {"translate": "Нет цепи, нет выгоды"}, "description": {"translate": "Создайте цепь из железного слитка и самородков"}, "announce_to_chat": false}, "parent": "blazeandcave:building/greek_art_decor", "rewards": {"function": "bc_rewards:building/no_chain_no_gain"}, "criteria": {"chain": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:chain"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chain"
+    },
+    "title": {
+      "translate": "Нет цепи, нет выгоды"
+    },
+    "description": {
+      "translate": "Создайте цепь из железного слитка и самородков"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/greek_art_decor",
+  "rewards": {
+    "function": "bc_rewards:building/no_chain_no_gain"
+  },
+  "criteria": {
+    "chain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chain"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

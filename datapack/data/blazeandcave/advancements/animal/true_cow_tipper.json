@@ -1,1 +1,48 @@
-{"display": {"icon": {"item": "minecraft:cow_spawn_egg"}, "title": {"translate": "Настоящий коровник"}, "description": {"color": "#75E1FF", "translate": "Соберите стак сырой говядины и кожи"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:animal/milk_does_your_body_good", "rewards": {"function": "bc_rewards:animal/true_cow_tipper"}, "criteria": {"beef": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:beef"], "count": 64}]}}, "leather": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:leather"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cow_spawn_egg"
+    },
+    "title": {
+      "translate": "Настоящий коровник"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Соберите стак сырой говядины и кожи"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:animal/milk_does_your_body_good",
+  "rewards": {
+    "function": "bc_rewards:animal/true_cow_tipper"
+  },
+  "criteria": {
+    "beef": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beef"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

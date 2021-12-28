@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:cookie"}, "title": {"translate": "Я люблю печенье"}, "description": {"translate": "Испеките несколько печенек… и затем съешьте их сами"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/its_where_nutella_comes_from", "rewards": {"function": "bc_rewards:farming/me_love_cookie"}, "criteria": {"cookie": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:cookie"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "Я люблю печенье"
+    },
+    "description": {
+      "translate": "Испеките несколько печенек… и затем съешьте их сами"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/its_where_nutella_comes_from",
+  "rewards": {
+    "function": "bc_rewards:farming/me_love_cookie"
+  },
+  "criteria": {
+    "cookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        }
+      }
+    }
+  }
+}

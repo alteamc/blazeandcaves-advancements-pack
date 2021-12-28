@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:comparator"}, "title": {"translate": "Сила сравнения"}, "description": {"translate": "Создайте редстоуновый компаратор"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/quirky_quartz", "rewards": {"function": "bc_rewards:redstone/comparing_comparator"}, "criteria": {"comparator": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:comparator"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:comparator"
+    },
+    "title": {
+      "translate": "Сила сравнения"
+    },
+    "description": {
+      "translate": "Создайте редстоуновый компаратор"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/quirky_quartz",
+  "rewards": {
+    "function": "bc_rewards:redstone/comparing_comparator"
+  },
+  "criteria": {
+    "comparator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:comparator"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

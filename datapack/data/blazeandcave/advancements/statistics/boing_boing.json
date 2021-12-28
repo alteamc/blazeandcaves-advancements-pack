@@ -1,1 +1,40 @@
-{"display": {"icon": {"item": "minecraft:acacia_leaves"}, "title": {"translate": "Прыг-прыг!"}, "description": {"color": "#75E1FF", "translate": "Пропрыгайте 10,000 раз"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:statistics/spring_in_your_step", "rewards": {"function": "bc_rewards:statistics/boing_boing"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:jump", "value": {"min": 10000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_leaves"
+    },
+    "title": {
+      "translate": "Прыг-прыг!"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Пропрыгайте 10,000 раз"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:statistics/spring_in_your_step",
+  "rewards": {
+    "function": "bc_rewards:statistics/boing_boing"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:jump",
+                "value": {
+                  "min": 10000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

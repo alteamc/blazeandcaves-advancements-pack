@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:rabbit_foot"}, "title": {"translate": "Безумная ярость"}, "description": {"translate": "Повысьте высоту прыжка при помощи зелья или маяка"}, "announce_to_chat": false}, "parent": "blazeandcave:potion/marine_marauder", "rewards": {"function": "bc_rewards:potion/hopping_mad"}, "criteria": {"jump_boost": {"trigger": "minecraft:effects_changed", "conditions": {"effects": {"minecraft:jump_boost": {}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "Безумная ярость"
+    },
+    "description": {
+      "translate": "Повысьте высоту прыжка при помощи зелья или маяка"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:potion/marine_marauder",
+  "rewards": {
+    "function": "bc_rewards:potion/hopping_mad"
+  },
+  "criteria": {
+    "jump_boost": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:jump_boost": {}
+        }
+      }
+    }
+  }
+}

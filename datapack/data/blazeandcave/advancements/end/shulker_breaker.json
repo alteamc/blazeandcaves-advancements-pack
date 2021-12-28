@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:shulker_spawn_egg"}, "title": {"translate": "Разрушитель шалкеров"}, "description": {"color": "#75E1FF", "translate": "Соберите стак панцирей шалкера"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:end/shouldnt_my_shield_levitate_too", "rewards": {"function": "bc_rewards:end/shulker_breaker"}, "criteria": {"shulker_shell": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:shulker_shell"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_spawn_egg"
+    },
+    "title": {
+      "translate": "Разрушитель шалкеров"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Соберите стак панцирей шалкера"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:end/shouldnt_my_shield_levitate_too",
+  "rewards": {
+    "function": "bc_rewards:end/shulker_breaker"
+  },
+  "criteria": {
+    "shulker_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_shell"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

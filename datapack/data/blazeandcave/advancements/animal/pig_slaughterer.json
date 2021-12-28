@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:pig_spawn_egg"}, "title": {"translate": "Свинобойщик"}, "description": {"color": "#75E1FF", "translate": "Соберите стак сырой свинины"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:animal/when_pigs_used_to_fly", "rewards": {"function": "bc_rewards:animal/pig_slaughterer"}, "criteria": {"porkchop": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:porkchop"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pig_spawn_egg"
+    },
+    "title": {
+      "translate": "Свинобойщик"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Соберите стак сырой свинины"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:animal/when_pigs_used_to_fly",
+  "rewards": {
+    "function": "bc_rewards:animal/pig_slaughterer"
+  },
+  "criteria": {
+    "porkchop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:porkchop"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

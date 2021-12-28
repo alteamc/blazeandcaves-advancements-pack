@@ -1,1 +1,24 @@
-{"display": {"icon": {"item": "minecraft:potion"}, "title": {"translate": "Зельеварение"}, "description": {"translate": "Приготовление зелий с полезными и не очень эффектами"}, "background": "minecraft:textures/block/glowstone.png", "show_toast": false, "announce_to_chat": false}, "rewards": {"function": "bc_rewards:potion/root"}, "criteria": {"potion": {"trigger": "minecraft:brewed_potion"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Зельеварение"
+    },
+    "description": {
+      "translate": "Приготовление зелий с полезными и не очень эффектами"
+    },
+    "background": "minecraft:textures/block/glowstone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "bc_rewards:potion/root"
+  },
+  "criteria": {
+    "potion": {
+      "trigger": "minecraft:brewed_potion"
+    }
+  }
+}

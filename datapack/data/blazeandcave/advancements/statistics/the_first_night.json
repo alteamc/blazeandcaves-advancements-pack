@@ -1,1 +1,23 @@
-{"display": {"icon": {"item": "minecraft:sunflower"}, "title": {"translate": "Первая ночь"}, "description": {"translate": "Выживите первую ночь в совершенно новом мире"}, "announce_to_chat": false}, "parent": "blazeandcave:statistics/root", "rewards": {"function": "bc_rewards:statistics/the_first_night"}, "criteria": {"trigger": {"trigger": "minecraft:impossible"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sunflower"
+    },
+    "title": {
+      "translate": "Первая ночь"
+    },
+    "description": {
+      "translate": "Выживите первую ночь в совершенно новом мире"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:statistics/root",
+  "rewards": {
+    "function": "bc_rewards:statistics/the_first_night"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

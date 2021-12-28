@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:kelp"}, "title": {"translate": "Огурчи меня!"}, "description": {"translate": "Соберите немного ламинарий с морского дна"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/sugar_sugar", "rewards": {"function": "bc_rewards:farming/kelp_me"}, "criteria": {"kelp": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:kelp"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
+    },
+    "title": {
+      "translate": "Огурчи меня!"
+    },
+    "description": {
+      "translate": "Соберите немного ламинарий с морского дна"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/sugar_sugar",
+  "rewards": {
+    "function": "bc_rewards:farming/kelp_me"
+  },
+  "criteria": {
+    "kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:kelp"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

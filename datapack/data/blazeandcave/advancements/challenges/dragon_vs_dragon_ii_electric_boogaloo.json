@@ -1,1 +1,25 @@
-{"display": {"icon": {"item": "minecraft:dragon_head"}, "title": {"translate": "Дракон на Дракона II"}, "description": {"color": "#FF2A2A", "translate": "Победите Эндер-дракона, надев при этом голову дракона… и не касаясь земли"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/were_in_the_endgame_now", "rewards": {"function": "bc_rewards:challenges/dragon_vs_dragon_ii_electric_boogaloo"}, "criteria": {"ten_withers": {"trigger": "minecraft:impossible"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "Дракон на Дракона II"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Победите Эндер-дракона, надев при этом голову дракона… и не касаясь земли"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/were_in_the_endgame_now",
+  "rewards": {
+    "function": "bc_rewards:challenges/dragon_vs_dragon_ii_electric_boogaloo"
+  },
+  "criteria": {
+    "ten_withers": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

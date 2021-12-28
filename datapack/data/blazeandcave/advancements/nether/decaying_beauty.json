@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:wither_rose"}, "title": {"translate": "Иссушающая красота"}, "description": {"translate": "Подберите несколько роз визера"}, "announce_to_chat": false}, "parent": "minecraft:nether/summon_wither", "rewards": {"function": "bc_rewards:nether/decaying_beauty"}, "criteria": {"wither_rose": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:wither_rose"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Иссушающая красота"
+    },
+    "description": {
+      "translate": "Подберите несколько роз визера"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:nether/summon_wither",
+  "rewards": {
+    "function": "bc_rewards:nether/decaying_beauty"
+  },
+  "criteria": {
+    "wither_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_rose"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

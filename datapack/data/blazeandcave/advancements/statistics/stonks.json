@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:egg"}, "title": {"translate": "СТОНКС!"}, "description": {"translate": "Поторгавать с жителями 2500 раз"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:statistics/big_spender", "rewards": {"function": "bc_rewards:statistics/stonks"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:traded_with_villager", "value": {"min": 2500}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "translate": "СТОНКС!"
+    },
+    "description": {
+      "translate": "Поторгавать с жителями 2500 раз"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/big_spender",
+  "rewards": {
+    "function": "bc_rewards:statistics/stonks"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:traded_with_villager",
+                "value": {
+                  "min": 2500
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

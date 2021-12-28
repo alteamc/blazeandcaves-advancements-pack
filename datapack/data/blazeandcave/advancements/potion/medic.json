@@ -1,1 +1,38 @@
-{"display": {"icon": {"item": "minecraft:glistering_melon_slice"}, "title": {"translate": "Медицина рулит"}, "description": {"translate": "Приготовьте зелье исцеления"}, "announce_to_chat": false}, "parent": "blazeandcave:potion/root", "rewards": {"function": "bc_rewards:potion/medic"}, "criteria": {"healing": {"trigger": "minecraft:brewed_potion", "conditions": {"potion": "minecraft:healing"}}, "strong_healing": {"trigger": "minecraft:brewed_potion", "conditions": {"potion": "minecraft:strong_healing"}}}, "requirements": [["healing", "strong_healing"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "title": {
+      "translate": "Медицина рулит"
+    },
+    "description": {
+      "translate": "Приготовьте зелье исцеления"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:potion/root",
+  "rewards": {
+    "function": "bc_rewards:potion/medic"
+  },
+  "criteria": {
+    "healing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:healing"
+      }
+    },
+    "strong_healing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_healing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "healing",
+      "strong_healing"
+    ]
+  ]
+}

@@ -1,1 +1,58 @@
-{"display": {"icon": {"item": "minecraft:llama_spawn_egg"}, "title": {"translate": "Король караванов"}, "description": {"color": "#75E1FF", "translate": "Приручите лам всех видов"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:animal/so_i_got_that_going_for_me", "rewards": {"function": "bc_rewards:animal/llama_llama_duck_king"}, "criteria": {"creamy": {"trigger": "minecraft:tame_animal", "conditions": {"entity": {"type": "#blazeandcave:llamas", "nbt": "{Variant:0}"}}}, "white": {"trigger": "minecraft:tame_animal", "conditions": {"entity": {"type": "#blazeandcave:llamas", "nbt": "{Variant:1}"}}}, "brown": {"trigger": "minecraft:tame_animal", "conditions": {"entity": {"type": "#blazeandcave:llamas", "nbt": "{Variant:2}"}}}, "gray": {"trigger": "minecraft:tame_animal", "conditions": {"entity": {"type": "#blazeandcave:llamas", "nbt": "{Variant:3}"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:llama_spawn_egg"
+    },
+    "title": {
+      "translate": "Король караванов"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Приручите лам всех видов"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:animal/so_i_got_that_going_for_me",
+  "rewards": {
+    "function": "bc_rewards:animal/llama_llama_duck_king"
+  },
+  "criteria": {
+    "creamy": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "#blazeandcave:llamas",
+          "nbt": "{Variant:0}"
+        }
+      }
+    },
+    "white": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "#blazeandcave:llamas",
+          "nbt": "{Variant:1}"
+        }
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "#blazeandcave:llamas",
+          "nbt": "{Variant:2}"
+        }
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "#blazeandcave:llamas",
+          "nbt": "{Variant:3}"
+        }
+      }
+    }
+  }
+}

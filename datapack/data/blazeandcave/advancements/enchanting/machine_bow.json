@@ -1,1 +1,38 @@
-{"display": {"icon": {"item": "minecraft:crossbow"}, "title": {"translate": "Лук-машина"}, "description": {"color": "#75E1FF", "translate": "Стреляйте из арбалета как можно быстрее"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:enchanting/librarian", "rewards": {"function": "bc_rewards:enchanting/machine_bow"}, "criteria": {"shot_crossbow": {"trigger": "minecraft:shot_crossbow", "conditions": {"item": {"items": ["minecraft:crossbow"], "enchantments": [{"enchantment": "minecraft:quick_charge", "levels": 3}]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Лук-машина"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Стреляйте из арбалета как можно быстрее"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "rewards": {
+    "function": "bc_rewards:enchanting/machine_bow"
+  },
+  "criteria": {
+    "shot_crossbow": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:quick_charge",
+              "levels": 3
+            }
+          ]
+        }
+      }
+    }
+  }
+}

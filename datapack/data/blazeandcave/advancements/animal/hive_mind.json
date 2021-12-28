@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:beehive"}, "title": {"translate": "Пчеловод"}, "description": {"translate": "Разместите улей, создав его из досок и пчелиных сот"}, "announce_to_chat": false}, "parent": "minecraft:husbandry/safely_harvest_honey", "rewards": {"function": "bc_rewards:animal/hive_mind"}, "criteria": {"beehive": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:beehive"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beehive"
+    },
+    "title": {
+      "translate": "Пчеловод"
+    },
+    "description": {
+      "translate": "Разместите улей, создав его из досок и пчелиных сот"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/safely_harvest_honey",
+  "rewards": {
+    "function": "bc_rewards:animal/hive_mind"
+  },
+  "criteria": {
+    "beehive": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:beehive"
+      }
+    }
+  }
+}

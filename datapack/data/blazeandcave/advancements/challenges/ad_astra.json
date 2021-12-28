@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:firework_rocket"}, "title": {"translate": "К звёздам"}, "description": {"color": "#FF2A2A", "translate": "Достигните высоты в 10,000 блоков над миром"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/root", "rewards": {"function": "bc_rewards:challenges/ad_astra"}, "criteria": {"world_height": {"trigger": "minecraft:location", "conditions": {"position": {"y": {"min": 10000}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "К звёздам"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Достигните высоты в 10,000 блоков над миром"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/root",
+  "rewards": {
+    "function": "bc_rewards:challenges/ad_astra"
+  },
+  "criteria": {
+    "world_height": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "y": {
+            "min": 10000
+          }
+        }
+      }
+    }
+  }
+}

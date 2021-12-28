@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:ancient_debris"}, "title": {"translate": "Незеритодобытчик"}, "description": {"color": "#75E1FF", "translate": "Добудьте стак древних обломков"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:nether/diamonds_are_not_forever", "rewards": {"function": "bc_rewards:nether/netherite_miner"}, "criteria": {"ancient_debris": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:ancient_debris"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ancient_debris"
+    },
+    "title": {
+      "translate": "Незеритодобытчик"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Добудьте стак древних обломков"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:nether/diamonds_are_not_forever",
+  "rewards": {
+    "function": "bc_rewards:nether/netherite_miner"
+  },
+  "criteria": {
+    "ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ancient_debris"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

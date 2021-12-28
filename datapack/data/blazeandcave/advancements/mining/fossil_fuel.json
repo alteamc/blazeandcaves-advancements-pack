@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:coal"}, "title": {"translate": "Окаменелое топливо"}, "description": {"translate": "Уголь! И остатки мёртвых динозавров!"}, "announce_to_chat": false}, "parent": "minecraft:story/upgrade_tools", "rewards": {"function": "bc_rewards:mining/fossil_fuel"}, "criteria": {"coal": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:coal"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:coal"
+    },
+    "title": {
+      "translate": "Окаменелое топливо"
+    },
+    "description": {
+      "translate": "Уголь! И остатки мёртвых динозавров!"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:story/upgrade_tools",
+  "rewards": {
+    "function": "bc_rewards:mining/fossil_fuel"
+  },
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,34 @@
-{"display": {"icon": {"item": "minecraft:netherite_ingot"}, "title": {"translate": "Шахтёр, не уважающий своё время"}, "description": {"translate": "Добудьте достаточно древних обломков, чтобы сделать стак слитков незерита (не волнуйтесь, добычи стака блоков незерита необязательна в этом пакете данных, я не такой злой…)"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:nether/netherite_miner", "rewards": {"function": "bc_rewards:nether/master_netherite_miner"}, "criteria": {"netherite_ingot": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_ingot"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "Шахтёр, не уважающий своё время"
+    },
+    "description": {
+      "translate": "Добудьте достаточно древних обломков, чтобы сделать стак слитков незерита (не волнуйтесь, добычи стака блоков незерита необязательна в этом пакете данных, я не такой злой…)"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:nether/netherite_miner",
+  "rewards": {
+    "function": "bc_rewards:nether/master_netherite_miner"
+  },
+  "criteria": {
+    "netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

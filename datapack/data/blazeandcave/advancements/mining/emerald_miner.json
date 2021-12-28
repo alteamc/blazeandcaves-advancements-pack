@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:emerald_ore"}, "title": {"translate": "Добытчик изумрудов"}, "description": {"translate": "Добудьте стак изумрудной руды"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:mining/diamond_miner", "rewards": {"function": "bc_rewards:mining/emerald_miner"}, "criteria": {"silk_touch": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "minecraft:emerald_ores", "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_ore"
+    },
+    "title": {
+      "translate": "Добытчик изумрудов"
+    },
+    "description": {
+      "translate": "Добудьте стак изумрудной руды"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:mining/diamond_miner",
+  "rewards": {
+    "function": "bc_rewards:mining/emerald_miner"
+  },
+  "criteria": {
+    "silk_touch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:emerald_ores",
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

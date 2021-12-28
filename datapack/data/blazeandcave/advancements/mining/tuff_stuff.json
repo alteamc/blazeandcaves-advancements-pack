@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:tuff"}, "title": {"translate": "Туф"}, "description": {"translate": "Добудьте немного туфа в подземной пещере"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/deep_slate_nine", "rewards": {"function": "bc_rewards:mining/tuff_stuff"}, "criteria": {"tuff": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:tuff"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tuff"
+    },
+    "title": {
+      "translate": "Туф"
+    },
+    "description": {
+      "translate": "Добудьте немного туфа в подземной пещере"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/deep_slate_nine",
+  "rewards": {
+    "function": "bc_rewards:mining/tuff_stuff"
+  },
+  "criteria": {
+    "tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tuff"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

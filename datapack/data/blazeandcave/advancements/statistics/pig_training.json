@@ -1,1 +1,38 @@
-{"display": {"icon": {"item": "minecraft:saddle"}, "title": {"translate": "Свиная тренировка"}, "description": {"translate": "Преодолейте 100м верхом на свинье"}, "announce_to_chat": false}, "parent": "blazeandcave:statistics/root", "rewards": {"function": "bc_rewards:statistics/pig_training"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:pig_one_cm", "value": {"min": 10000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Свиная тренировка"
+    },
+    "description": {
+      "translate": "Преодолейте 100м верхом на свинье"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:statistics/root",
+  "rewards": {
+    "function": "bc_rewards:statistics/pig_training"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:pig_one_cm",
+                "value": {
+                  "min": 10000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:water_bucket"}, "title": {"translate": "Урок плавания"}, "description": {"translate": "Просто продолжайте плыть по течению"}, "announce_to_chat": false}, "parent": "blazeandcave:biomes/root", "rewards": {"function": "bc_rewards:biomes/just_keep_swimming"}, "criteria": {"enter_water": {"trigger": "minecraft:enter_block", "conditions": {"block": "minecraft:water"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Урок плавания"
+    },
+    "description": {
+      "translate": "Просто продолжайте плыть по течению"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:biomes/root",
+  "rewards": {
+    "function": "bc_rewards:biomes/just_keep_swimming"
+  },
+  "criteria": {
+    "enter_water": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water"
+      }
+    }
+  }
+}

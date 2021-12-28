@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:iron_axe"}, "title": {"translate": "А вот и Джонни!"}, "description": {"translate": "Убейте поборника в лесном особняке"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/house_of_psychos", "rewards": {"function": "bc_rewards:adventure/heres_johnny"}, "criteria": {"vindicator": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "vindicator", "location": {"feature": "mansion"}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "А вот и Джонни!"
+    },
+    "description": {
+      "translate": "Убейте поборника в лесном особняке"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/house_of_psychos",
+  "rewards": {
+    "function": "bc_rewards:adventure/heres_johnny"
+  },
+  "criteria": {
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "vindicator",
+          "location": {
+            "feature": "mansion"
+          }
+        }
+      }
+    }
+  }
+}

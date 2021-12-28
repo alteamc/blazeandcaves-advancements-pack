@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:creeper_head"}, "title": {"translate": "Криперогеддон"}, "description": {"color": "#FF2A2A", "translate": "Заполучите стак голов крипера"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/rise_of_the_skeletons", "rewards": {"function": "bc_rewards:challenges/creepergeddon"}, "criteria": {"creeper_head": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:creeper_head"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": {
+      "translate": "Криперогеддон"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Заполучите стак голов крипера"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/rise_of_the_skeletons",
+  "rewards": {
+    "function": "bc_rewards:challenges/creepergeddon"
+  },
+  "criteria": {
+    "creeper_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:creeper_head"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

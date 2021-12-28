@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:spyglass"}, "title": {"translate": "Галилей Фигаро"}, "description": {"translate": "Посмотрите в подзорной трубы"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/gi_geode", "rewards": {"function": "bc_rewards:mining/galileo_figaro"}, "criteria": {"spyglass": {"trigger": "minecraft:using_item", "conditions": {"item": {"items": ["minecraft:spyglass"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Галилей Фигаро"
+    },
+    "description": {
+      "translate": "Посмотрите в подзорной трубы"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/gi_geode",
+  "rewards": {
+    "function": "bc_rewards:mining/galileo_figaro"
+  },
+  "criteria": {
+    "spyglass": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  }
+}

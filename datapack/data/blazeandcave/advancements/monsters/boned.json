@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:bone_meal"}, "title": {"translate": "Бескостность"}, "description": {"translate": "Измельчите кости в костную муку"}, "announce_to_chat": false}, "parent": "blazeandcave:monsters/spooky_skeleton", "rewards": {"function": "bc_rewards:monsters/boned"}, "criteria": {"bone_meal": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:bone_meal"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bone_meal"
+    },
+    "title": {
+      "translate": "Бескостность"
+    },
+    "description": {
+      "translate": "Измельчите кости в костную муку"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:monsters/spooky_skeleton",
+  "rewards": {
+    "function": "bc_rewards:monsters/boned"
+  },
+  "criteria": {
+    "bone_meal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone_meal"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

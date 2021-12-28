@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:painting"}, "title": {"translate": "Шедевр искусства"}, "description": {"translate": "Повесьте картину"}, "announce_to_chat": false}, "parent": "blazeandcave:building/its_a_sign", "rewards": {"function": "bc_rewards:building/a_masterpiece"}, "criteria": {"painting": {"trigger": "minecraft:item_used_on_block", "conditions": {"item": {"items": ["minecraft:painting"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:painting"
+    },
+    "title": {
+      "translate": "Шедевр искусства"
+    },
+    "description": {
+      "translate": "Повесьте картину"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/its_a_sign",
+  "rewards": {
+    "function": "bc_rewards:building/a_masterpiece"
+  },
+  "criteria": {
+    "painting": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:painting"
+          ]
+        }
+      }
+    }
+  }
+}

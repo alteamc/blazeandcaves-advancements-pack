@@ -1,1 +1,33 @@
-{"display": {"icon": {"item": "minecraft:ocelot_spawn_egg"}, "title": {"translate": "Симба"}, "description": {"color": "#75E1FF", "translate": "Размножьте двух оцелотов, чтобы получить ребёнка"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:biomes/lion_hunter", "rewards": {"function": "bc_rewards:biomes/simba"}, "criteria": {"ocelot": {"trigger": "minecraft:bred_animals", "conditions": {"parent": {"type": "minecraft:ocelot"}, "partner": {"type": "minecraft:ocelot"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ocelot_spawn_egg"
+    },
+    "title": {
+      "translate": "Симба"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Размножьте двух оцелотов, чтобы получить ребёнка"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:biomes/lion_hunter",
+  "rewards": {
+    "function": "bc_rewards:biomes/simba"
+  },
+  "criteria": {
+    "ocelot": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:ocelot"
+        },
+        "partner": {
+          "type": "minecraft:ocelot"
+        }
+      }
+    }
+  }
+}

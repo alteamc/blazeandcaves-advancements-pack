@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:salmon"}, "title": {"translate": "Вера в лучшее"}, "description": {"translate": "Съешьте сырого лосося и не отравитесь при этом"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/sushi", "rewards": {"function": "bc_rewards:animal/salmonella_poisoning"}, "criteria": {"salmon": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:salmon"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon"
+    },
+    "title": {
+      "translate": "Вера в лучшее"
+    },
+    "description": {
+      "translate": "Съешьте сырого лосося и не отравитесь при этом"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/sushi",
+  "rewards": {
+    "function": "bc_rewards:animal/salmonella_poisoning"
+  },
+  "criteria": {
+    "salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon"
+          ]
+        }
+      }
+    }
+  }
+}

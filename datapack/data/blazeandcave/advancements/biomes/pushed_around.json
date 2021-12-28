@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:magma_block"}, "title": {"translate": "Круговорот"}, "description": {"translate": "Войдите в столб пузырей"}, "announce_to_chat": false}, "parent": "blazeandcave:biomes/echolocation", "rewards": {"function": "bc_rewards:biomes/pushed_around"}, "criteria": {"enter_water": {"trigger": "minecraft:enter_block", "conditions": {"block": "minecraft:bubble_column"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Круговорот"
+    },
+    "description": {
+      "translate": "Войдите в столб пузырей"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:biomes/echolocation",
+  "rewards": {
+    "function": "bc_rewards:biomes/pushed_around"
+  },
+  "criteria": {
+    "enter_water": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:bubble_column"
+      }
+    }
+  }
+}

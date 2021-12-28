@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:writable_book"}, "title": {"translate": "Живые мысли"}, "description": {"translate": "Используйте книгу, чернильный мешок и перо для создания книги и пера"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/its_full_of_ink", "rewards": {"function": "bc_rewards:farming/write_your_thoughts"}, "criteria": {"writable_book": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:writable_book"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "Живые мысли"
+    },
+    "description": {
+      "translate": "Используйте книгу, чернильный мешок и перо для создания книги и пера"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/its_full_of_ink",
+  "rewards": {
+    "function": "bc_rewards:farming/write_your_thoughts"
+  },
+  "criteria": {
+    "writable_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:writable_book"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

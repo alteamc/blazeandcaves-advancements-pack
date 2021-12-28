@@ -1,1 +1,25 @@
-{"display": {"icon": {"item": "minecraft:tube_coral_fan"}, "title": {"translate": "Фридайвинг"}, "description": {"color": "#75E1FF", "translate": "Пробудьте под водой на протяжении двух минут"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:biomes/dive_bomb", "rewards": {"function": "bc_rewards:biomes/free_diver"}, "criteria": {"trigger": {"trigger": "minecraft:impossible"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tube_coral_fan"
+    },
+    "title": {
+      "translate": "Фридайвинг"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Пробудьте под водой на протяжении двух минут"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:biomes/dive_bomb",
+  "rewards": {
+    "function": "bc_rewards:biomes/free_diver"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

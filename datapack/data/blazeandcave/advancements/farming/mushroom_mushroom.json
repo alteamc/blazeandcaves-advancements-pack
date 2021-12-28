@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:mushroom_stew"}, "title": {"translate": "Грибочек, грибочек!"}, "description": {"translate": "Испытайте на вкус грибной суп"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/shrooms", "rewards": {"function": "bc_rewards:farming/mushroom_mushroom"}, "criteria": {"mushroom_stew": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:mushroom_stew"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "translate": "Грибочек, грибочек!"
+    },
+    "description": {
+      "translate": "Испытайте на вкус грибной суп"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/shrooms",
+  "rewards": {
+    "function": "bc_rewards:farming/mushroom_mushroom"
+  },
+  "criteria": {
+    "mushroom_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ]
+        }
+      }
+    }
+  }
+}

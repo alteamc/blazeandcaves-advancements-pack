@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:diamond_horse_armor"}, "title": {"translate": "Бич Запада"}, "description": {"translate": "Преодолейте 50км верхом на лошади"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:statistics/sheriff_firearm", "rewards": {"function": "bc_rewards:statistics/scourge_of_the_west"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:horse_one_cm", "value": {"min": 5000000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_horse_armor"
+    },
+    "title": {
+      "translate": "Бич Запада"
+    },
+    "description": {
+      "translate": "Преодолейте 50км верхом на лошади"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/sheriff_firearm",
+  "rewards": {
+    "function": "bc_rewards:statistics/scourge_of_the_west"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:horse_one_cm",
+                "value": {
+                  "min": 5000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

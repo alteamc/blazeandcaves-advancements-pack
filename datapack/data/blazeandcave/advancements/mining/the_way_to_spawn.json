@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:compass"}, "title": {"translate": "Дорога к спавну"}, "description": {"translate": "Создайте компас на тот случай, если Вы потеряетесь"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/seeing_red", "rewards": {"function": "bc_rewards:mining/the_way_to_spawn"}, "criteria": {"compass": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:compass"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "title": {
+      "translate": "Дорога к спавну"
+    },
+    "description": {
+      "translate": "Создайте компас на тот случай, если Вы потеряетесь"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/seeing_red",
+  "rewards": {
+    "function": "bc_rewards:mining/the_way_to_spawn"
+  },
+  "criteria": {
+    "compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

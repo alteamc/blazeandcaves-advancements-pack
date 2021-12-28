@@ -1,1 +1,34 @@
-{"display": {"icon": {"item": "minecraft:lingering_potion", "nbt": "{Potion:\"minecraft:harming\"}"}, "title": {"translate": "Смертельный туман!"}, "description": {"color": "#75E1FF", "translate": "Убейте моба, используя туманное зелье"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:potion/noxious_fumes", "rewards": {"function": "bc_rewards:potion/gas"}, "criteria": {"kill_magic": {"trigger": "minecraft:player_killed_entity", "conditions": {"killing_blow": {"is_magic": "true", "direct_entity": {"type": "minecraft:area_effect_cloud"}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lingering_potion",
+      "nbt": "{Potion:\"minecraft:harming\"}"
+    },
+    "title": {
+      "translate": "Смертельный туман!"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Убейте моба, используя туманное зелье"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:potion/noxious_fumes",
+  "rewards": {
+    "function": "bc_rewards:potion/gas"
+  },
+  "criteria": {
+    "kill_magic": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "is_magic": "true",
+          "direct_entity": {
+            "type": "minecraft:area_effect_cloud"
+          }
+        }
+      }
+    }
+  }
+}

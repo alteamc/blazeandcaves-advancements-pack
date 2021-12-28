@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:blue_ice"}, "title": {"translate": "Толстый лёд!"}, "description": {"translate": "Создайте или добудьте с айсберга синий лёд"}, "announce_to_chat": false}, "parent": "blazeandcave:biomes/spike_ice", "rewards": {"function": "bc_rewards:biomes/thick_ice"}, "criteria": {"blue_ice": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:blue_ice"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Толстый лёд!"
+    },
+    "description": {
+      "translate": "Создайте или добудьте с айсберга синий лёд"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:biomes/spike_ice",
+  "rewards": {
+    "function": "bc_rewards:biomes/thick_ice"
+  },
+  "criteria": {
+    "blue_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_ice"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

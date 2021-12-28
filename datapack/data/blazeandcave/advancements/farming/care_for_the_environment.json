@@ -1,1 +1,66 @@
-{"display": {"icon": {"item": "minecraft:oak_sapling"}, "title": {"translate": "Уход за окружающей средой"}, "description": {"translate": "Посадите саженец"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/root", "rewards": {"function": "bc_rewards:farming/care_for_the_environment"}, "criteria": {"oak_sapling": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:oak_sapling"}}, "spruce_sapling": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:spruce_sapling"}}, "birch_sapling": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:birch_sapling"}}, "jungle_sapling": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:jungle_sapling"}}, "acacia_sapling": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:acacia_sapling"}}, "dark_oak_sapling": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:dark_oak_sapling"}}}, "requirements": [["oak_sapling", "spruce_sapling", "birch_sapling", "jungle_sapling", "acacia_sapling", "dark_oak_sapling"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "Уход за окружающей средой"
+    },
+    "description": {
+      "translate": "Посадите саженец"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/root",
+  "rewards": {
+    "function": "bc_rewards:farming/care_for_the_environment"
+  },
+  "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:oak_sapling"
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:spruce_sapling"
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:birch_sapling"
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:jungle_sapling"
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:acacia_sapling"
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:dark_oak_sapling"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_sapling",
+      "spruce_sapling",
+      "birch_sapling",
+      "jungle_sapling",
+      "acacia_sapling",
+      "dark_oak_sapling"
+    ]
+  ]
+}

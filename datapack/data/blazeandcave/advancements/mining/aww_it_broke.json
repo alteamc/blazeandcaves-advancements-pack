@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:stick"}, "title": {"translate": "Упс… Сломался!"}, "description": {"translate": "Сломайте первый инструмент"}, "announce_to_chat": false}, "parent": "minecraft:story/mine_stone", "rewards": {"function": "bc_rewards:mining/aww_it_broke"}, "criteria": {"break_tool": {"trigger": "minecraft:item_durability_changed", "conditions": {"durability": {"max": 0}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick"
+    },
+    "title": {
+      "translate": "Упс… Сломался!"
+    },
+    "description": {
+      "translate": "Сломайте первый инструмент"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:story/mine_stone",
+  "rewards": {
+    "function": "bc_rewards:mining/aww_it_broke"
+  },
+  "criteria": {
+    "break_tool": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  }
+}

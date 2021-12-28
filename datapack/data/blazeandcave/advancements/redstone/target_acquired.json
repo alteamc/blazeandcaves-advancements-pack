@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:target"}, "title": {"translate": "Цель установлена"}, "description": {"translate": "Поставьте мишень для стрельбы из лука"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/dispense_with_this", "rewards": {"function": "bc_rewards:redstone/target_acquired"}, "criteria": {"target": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:target"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:target"
+    },
+    "title": {
+      "translate": "Цель установлена"
+    },
+    "description": {
+      "translate": "Поставьте мишень для стрельбы из лука"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/dispense_with_this",
+  "rewards": {
+    "function": "bc_rewards:redstone/target_acquired"
+  },
+  "criteria": {
+    "target": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:target"
+      }
+    }
+  }
+}

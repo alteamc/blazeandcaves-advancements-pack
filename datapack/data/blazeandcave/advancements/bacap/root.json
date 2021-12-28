@@ -1,1 +1,24 @@
-{"display": {"icon": {"item": "minecraft:grass_block"}, "title": {"translate": "Достижения от BlazeandCave"}, "description": {"translate": "Много новых достижений для Вашего мира Minecraft!"}, "background": "minecraft:textures/block/dirt.png", "show_toast": false, "announce_to_chat": false}, "rewards": {"function": "bc_rewards:bacap/root"}, "criteria": {"location": {"trigger": "minecraft:location"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "Достижения от BlazeandCave"
+    },
+    "description": {
+      "translate": "Много новых достижений для Вашего мира Minecraft!"
+    },
+    "background": "minecraft:textures/block/dirt.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/root"
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

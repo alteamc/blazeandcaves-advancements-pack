@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:spore_blossom"}, "title": {"translate": "Вентилятор частиц"}, "description": {"translate": "Заполучите спороцвет"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/a_shiny_treat", "rewards": {"function": "bc_rewards:mining/particle_fan"}, "criteria": {"spore_blossom": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:spore_blossom"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spore_blossom"
+    },
+    "title": {
+      "translate": "Вентилятор частиц"
+    },
+    "description": {
+      "translate": "Заполучите спороцвет"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/a_shiny_treat",
+  "rewards": {
+    "function": "bc_rewards:mining/particle_fan"
+  },
+  "criteria": {
+    "spore_blossom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spore_blossom"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

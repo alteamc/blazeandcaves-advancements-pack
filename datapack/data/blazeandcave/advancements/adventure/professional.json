@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:loom"}, "title": {"translate": "Профессионал"}, "description": {"color": "#75E1FF", "translate": "Поторгуйтесь с крестьянином на максимальном уровне"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:adventure/traveller", "rewards": {"function": "bc_rewards:adventure/professional"}, "criteria": {"master": {"trigger": "minecraft:villager_trade", "conditions": {"villager": {"nbt": "{VillagerData:{level:5}}"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:loom"
+    },
+    "title": {
+      "translate": "Профессионал"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Поторгуйтесь с крестьянином на максимальном уровне"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:adventure/traveller",
+  "rewards": {
+    "function": "bc_rewards:adventure/professional"
+  },
+  "criteria": {
+    "master": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{level:5}}"
+        }
+      }
+    }
+  }
+}

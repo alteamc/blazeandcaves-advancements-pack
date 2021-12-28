@@ -1,1 +1,37 @@
-{"display": {"icon": {"item": "minecraft:water_bucket"}, "title": {"translate": "Горячий источник"}, "description": {"translate": "Сядьте в воду в Незере"}, "announce_to_chat": false}, "parent": "blazeandcave:nether/hells_bells", "rewards": {"function": "bc_rewards:nether/hot_spring"}, "criteria": {"enter_water_cauldron": {"trigger": "minecraft:enter_block", "conditions": {"block": "minecraft:water_cauldron", "player": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"location": {"dimension": "the_nether"}}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Горячий источник"
+    },
+    "description": {
+      "translate": "Сядьте в воду в Незере"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:nether/hells_bells",
+  "rewards": {
+    "function": "bc_rewards:nether/hot_spring"
+  },
+  "criteria": {
+    "enter_water_cauldron": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water_cauldron",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:suspicious_stew"}, "title": {"translate": "Какой-то подозрительный суп"}, "description": {"translate": "Испробуйте подозрительный суп на вкус, надеясь, что не увидите гигантские летающие глаза в небе"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/mushroom_mushroom", "rewards": {"function": "bc_rewards:farming/suspicious_looking_stew"}, "criteria": {"suspicious_stew": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:suspicious_stew"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "translate": "Какой-то подозрительный суп"
+    },
+    "description": {
+      "translate": "Испробуйте подозрительный суп на вкус, надеясь, что не увидите гигантские летающие глаза в небе"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/mushroom_mushroom",
+  "rewards": {
+    "function": "bc_rewards:farming/suspicious_looking_stew"
+  },
+  "criteria": {
+    "suspicious_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    }
+  }
+}

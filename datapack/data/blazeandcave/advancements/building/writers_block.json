@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:lectern"}, "title": {"translate": "Творческий кризис"}, "description": {"translate": "Создайте кафедру из деревянных плит и книжной палки, а затем разместите её"}, "announce_to_chat": false}, "parent": "blazeandcave:building/barrel_rider", "rewards": {"function": "bc_rewards:building/writers_block"}, "criteria": {"lectern": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:lectern"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lectern"
+    },
+    "title": {
+      "translate": "Творческий кризис"
+    },
+    "description": {
+      "translate": "Создайте кафедру из деревянных плит и книжной палки, а затем разместите её"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/barrel_rider",
+  "rewards": {
+    "function": "bc_rewards:building/writers_block"
+  },
+  "criteria": {
+    "lectern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:lectern"
+      }
+    }
+  }
+}

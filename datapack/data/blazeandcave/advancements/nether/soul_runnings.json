@@ -1,1 +1,54 @@
-{"display": {"icon": {"item": "minecraft:netherite_boots", "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:3}]}"}, "title": {"translate": "Побег души!"}, "description": {"color": "#75E1FF", "translate": "Встаньте на песок душ в незеритовых ботинках, зачарованных на «Скорость души III»"}, "announce_to_chat": false, "frame": "goal"}, "parent": "minecraft:nether/netherite_armor", "rewards": {"function": "bc_rewards:nether/soul_runnings"}, "criteria": {"soul_runnings": {"trigger": "minecraft:location", "conditions": {"player": [{"condition": "minecraft:entity_properties", "predicate": {"stepping_on": {"block": {"tag": "minecraft:soul_speed_blocks"}}, "equipment": {"feet": {"items": ["minecraft:netherite_boots"], "enchantments": [{"enchantment": "minecraft:soul_speed", "levels": 3}]}}}, "entity": "this"}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_boots",
+      "nbt": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:3}]}"
+    },
+    "title": {
+      "translate": "Побег души!"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Встаньте на песок душ в незеритовых ботинках, зачарованных на «Скорость души III»"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "minecraft:nether/netherite_armor",
+  "rewards": {
+    "function": "bc_rewards:nether/soul_runnings"
+  },
+  "criteria": {
+    "soul_runnings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "tag": "minecraft:soul_speed_blocks"
+                }
+              },
+              "equipment": {
+                "feet": {
+                  "items": [
+                    "minecraft:netherite_boots"
+                  ],
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:soul_speed",
+                      "levels": 3
+                    }
+                  ]
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}

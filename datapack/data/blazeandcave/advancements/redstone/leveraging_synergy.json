@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:lever"}, "title": {"translate": "Волшебная синергия"}, "description": {"translate": "Щёлкните рычагом"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/click", "rewards": {"function": "bc_rewards:redstone/leveraging_synergy"}, "criteria": {"lever": {"trigger": "minecraft:item_used_on_block", "conditions": {"location": {"block": {"blocks": ["minecraft:lever"]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lever"
+    },
+    "title": {
+      "translate": "Волшебная синергия"
+    },
+    "description": {
+      "translate": "Щёлкните рычагом"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/click",
+  "rewards": {
+    "function": "bc_rewards:redstone/leveraging_synergy"
+  },
+  "criteria": {
+    "lever": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:lever"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

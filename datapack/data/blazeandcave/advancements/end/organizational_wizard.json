@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:anvil"}, "title": {"translate": "Организационный мастер"}, "description": {"translate": "Назовите шалкеровый ящик «Blocks» для хранения блоков"}, "announce_to_chat": false}, "parent": "blazeandcave:end/portable_storage", "rewards": {"function": "bc_rewards:end/organizational_wizard"}, "criteria": {"shulker_box": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"tag": "minecraft:shulker_boxes", "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Blocks\\\"}\"}}"}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Организационный мастер"
+    },
+    "description": {
+      "translate": "Назовите шалкеровый ящик «Blocks» для хранения блоков"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:end/portable_storage",
+  "rewards": {
+    "function": "bc_rewards:end/organizational_wizard"
+  },
+  "criteria": {
+    "shulker_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:shulker_boxes",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Blocks\\\"}\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

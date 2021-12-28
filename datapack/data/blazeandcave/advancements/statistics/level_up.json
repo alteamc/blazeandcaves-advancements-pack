@@ -1,1 +1,33 @@
-{"display": {"icon": {"item": "minecraft:experience_bottle", "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"}, "title": {"translate": "Повышение уровня"}, "description": {"translate": "Заполучите 30 уровень опыта"}, "announce_to_chat": false}, "parent": "blazeandcave:statistics/root", "rewards": {"function": "bc_rewards:statistics/level_up"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"level": {"min": 30}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:experience_bottle",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    },
+    "title": {
+      "translate": "Повышение уровня"
+    },
+    "description": {
+      "translate": "Заполучите 30 уровень опыта"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:statistics/root",
+  "rewards": {
+    "function": "bc_rewards:statistics/level_up"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "level": {
+              "min": 30
+            }
+          }
+        }
+      }
+    }
+  }
+}

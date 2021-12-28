@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:golden_pickaxe"}, "title": {"translate": "Бац!.. Буц!.. Всё."}, "description": {"color": "#75E1FF", "translate": "Используйте золотую кирку, пока она не сломается, а затем подумайте над тем, что Вы сделали"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:mining/living_like_kings", "rewards": {"function": "bc_rewards:mining/bling_bling_gone"}, "criteria": {"break_pickaxe": {"trigger": "minecraft:item_durability_changed", "conditions": {"item": {"items": ["minecraft:golden_pickaxe"]}, "durability": {"max": 0}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "Бац!.. Буц!.. Всё."
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Используйте золотую кирку, пока она не сломается, а затем подумайте над тем, что Вы сделали"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:mining/living_like_kings",
+  "rewards": {
+    "function": "bc_rewards:mining/bling_bling_gone"
+  },
+  "criteria": {
+    "break_pickaxe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  }
+}

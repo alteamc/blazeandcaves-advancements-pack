@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:deepslate"}, "title": {"translate": "Глубокая сланцевая девятка"}, "description": {"translate": "Шахта достаточно глубокая, чтобы потемнел камень"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/spelunker", "rewards": {"function": "bc_rewards:mining/deep_slate_nine"}, "criteria": {"deepslate_level": {"trigger": "minecraft:location", "conditions": {"position": {"y": {"max": 4.5}}, "dimension": "minecraft:overworld"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "Глубокая сланцевая девятка"
+    },
+    "description": {
+      "translate": "Шахта достаточно глубокая, чтобы потемнел камень"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/spelunker",
+  "rewards": {
+    "function": "bc_rewards:mining/deep_slate_nine"
+  },
+  "criteria": {
+    "deepslate_level": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "y": {
+            "max": 4.5
+          }
+        },
+        "dimension": "minecraft:overworld"
+      }
+    }
+  }
+}

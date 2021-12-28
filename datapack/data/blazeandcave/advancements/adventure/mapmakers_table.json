@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:cartography_table"}, "title": {"translate": "Стол картографа"}, "description": {"translate": "Создайте стол картографа из бумаги и досок"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/mapmaker", "rewards": {"function": "bc_rewards:adventure/mapmakers_table"}, "criteria": {"cartography_table": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:cartography_table"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cartography_table"
+    },
+    "title": {
+      "translate": "Стол картографа"
+    },
+    "description": {
+      "translate": "Создайте стол картографа из бумаги и досок"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/mapmaker",
+  "rewards": {
+    "function": "bc_rewards:adventure/mapmakers_table"
+  },
+  "criteria": {
+    "cartography_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cartography_table"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,40 @@
-{"display": {"icon": {"item": "minecraft:stick", "nbt": "{Enchantments:[{id:\"minecraft:smite\",lvl:10}]}"}, "title": {"translate": "Экспеллиармус!"}, "description": {"translate": "Ударьте моба палкой"}, "announce_to_chat": false}, "parent": "blazeandcave:weaponry/root", "rewards": {"function": "bc_rewards:weaponry/expelliarmus"}, "criteria": {"stick": {"trigger": "minecraft:player_hurt_entity", "conditions": {"entity": {"distance": {"absolute": {"max": 5}}}, "damage": {"type": {"source_entity": {"nbt": "{SelectedItem:{id:\"minecraft:stick\",}}"}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+      "nbt": "{Enchantments:[{id:\"minecraft:smite\",lvl:10}]}"
+    },
+    "title": {
+      "translate": "Экспеллиармус!"
+    },
+    "description": {
+      "translate": "Ударьте моба палкой"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:weaponry/root",
+  "rewards": {
+    "function": "bc_rewards:weaponry/expelliarmus"
+  },
+  "criteria": {
+    "stick": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "distance": {
+            "absolute": {
+              "max": 5
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "source_entity": {
+              "nbt": "{SelectedItem:{id:\"minecraft:stick\",}}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

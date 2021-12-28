@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:leather"}, "title": {"translate": "Живодёр"}, "description": {"translate": "Соберите немного кожи"}, "announce_to_chat": false}, "parent": "minecraft:husbandry/root", "rewards": {"function": "bc_rewards:animal/cow_tipper"}, "criteria": {"leather": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:leather"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather"
+    },
+    "title": {
+      "translate": "Живодёр"
+    },
+    "description": {
+      "translate": "Соберите немного кожи"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "rewards": {
+    "function": "bc_rewards:animal/cow_tipper"
+  },
+  "criteria": {
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

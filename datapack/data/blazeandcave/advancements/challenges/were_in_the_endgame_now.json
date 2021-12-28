@@ -1,1 +1,34 @@
-{"display": {"icon": {"item": "minecraft:end_stone"}, "title": {"translate": "Финальное сражение"}, "description": {"color": "#FF2A2A", "translate": "Возведите деревню в измерении Энд, а затем защитите её от рейда"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/root", "rewards": {"function": "bc_rewards:challenges/were_in_the_endgame_now"}, "criteria": {"start_raid_end": {"trigger": "minecraft:voluntary_exile", "conditions": {"dimension": "the_end"}}, "defend_raid_end": {"trigger": "minecraft:hero_of_the_village", "conditions": {"dimension": "the_end"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "Финальное сражение"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Возведите деревню в измерении Энд, а затем защитите её от рейда"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/root",
+  "rewards": {
+    "function": "bc_rewards:challenges/were_in_the_endgame_now"
+  },
+  "criteria": {
+    "start_raid_end": {
+      "trigger": "minecraft:voluntary_exile",
+      "conditions": {
+        "dimension": "the_end"
+      }
+    },
+    "defend_raid_end": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "dimension": "the_end"
+      }
+    }
+  }
+}

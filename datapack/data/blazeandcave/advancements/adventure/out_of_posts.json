@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:dark_oak_planks"}, "title": {"translate": "Без приглашения"}, "description": {"translate": "Войдите в аванпост разбойников"}, "announce_to_chat": false}, "parent": "minecraft:adventure/root", "rewards": {"function": "bc_rewards:adventure/out_of_posts"}, "criteria": {"pillager_outpost": {"trigger": "minecraft:location", "conditions": {"feature": "pillager_outpost"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "title": {
+      "translate": "Без приглашения"
+    },
+    "description": {
+      "translate": "Войдите в аванпост разбойников"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:adventure/root",
+  "rewards": {
+    "function": "bc_rewards:adventure/out_of_posts"
+  },
+  "criteria": {
+    "pillager_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "pillager_outpost"
+      }
+    }
+  }
+}

@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:lead"}, "title": {"translate": "Ты никуда не уйдёшь!"}, "description": {"translate": "Сделайте поводок из веревки и шара слизи, затем привяжите его к мобу"}, "announce_to_chat": false}, "parent": "minecraft:husbandry/root", "rewards": {"function": "bc_rewards:animal/lead_the_way"}, "criteria": {"lead": {"trigger": "minecraft:player_interacted_with_entity", "conditions": {"item": {"items": ["minecraft:lead"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lead"
+    },
+    "title": {
+      "translate": "Ты никуда не уйдёшь!"
+    },
+    "description": {
+      "translate": "Сделайте поводок из веревки и шара слизи, затем привяжите его к мобу"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "rewards": {
+    "function": "bc_rewards:animal/lead_the_way"
+  },
+  "criteria": {
+    "lead": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        }
+      }
+    }
+  }
+}

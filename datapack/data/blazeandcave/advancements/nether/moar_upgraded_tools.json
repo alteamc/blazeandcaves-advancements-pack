@@ -1,1 +1,70 @@
-{"display": {"icon": {"item": "minecraft:netherite_pickaxe"}, "title": {"translate": "БОЛЬШЕ прочных инструментов"}, "description": {"color": "#75E1FF", "translate": "Создайте незеритовые кирку, топор, лопату и мотыгу"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:nether/diamonds_are_not_forever", "rewards": {"function": "bc_rewards:nether/moar_upgraded_tools"}, "criteria": {"netherite_pickaxe": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_pickaxe"]}]}}, "netherite_axe": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_axe"]}]}}, "netherite_shovel": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_shovel"]}]}}, "netherite_hoe": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_hoe"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "БОЛЬШЕ прочных инструментов"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Создайте незеритовые кирку, топор, лопату и мотыгу"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:nether/diamonds_are_not_forever",
+  "rewards": {
+    "function": "bc_rewards:nether/moar_upgraded_tools"
+  },
+  "criteria": {
+    "netherite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

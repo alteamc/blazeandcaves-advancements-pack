@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:flint"}, "title": {"translate": "Один из Флинтстоунов"}, "description": {"translate": "Получите кремень из гравия"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/moar_tools", "rewards": {"function": "bc_rewards:mining/meet_the_flintstones"}, "criteria": {"flint": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:flint"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint"
+    },
+    "title": {
+      "translate": "Один из Флинтстоунов"
+    },
+    "description": {
+      "translate": "Получите кремень из гравия"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/moar_tools",
+  "rewards": {
+    "function": "bc_rewards:mining/meet_the_flintstones"
+  },
+  "criteria": {
+    "flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flint"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

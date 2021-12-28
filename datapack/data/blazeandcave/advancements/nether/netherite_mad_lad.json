@@ -1,1 +1,36 @@
-{"display": {"icon": {"item": "minecraft:netherite_block"}, "title": {"translate": "Незеритовый безумец"}, "description": {"color": "light_purple", "translate": "Будьте абсолютным безумцем и переплавьте достаточно древних обломков, чтобы собрать стак блоков незерита (это скрыто и не требуется для Легенды сего мира, кстати…)"}, "announce_to_chat": false, "frame": "challenge", "hidden": "true"}, "parent": "blazeandcave:nether/master_netherite_miner", "rewards": {"function": "bc_rewards:nether/netherite_mad_lad"}, "criteria": {"netherite_block": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_block"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "Незеритовый безумец"
+    },
+    "description": {
+      "color": "light_purple",
+      "translate": "Будьте абсолютным безумцем и переплавьте достаточно древних обломков, чтобы собрать стак блоков незерита (это скрыто и не требуется для Легенды сего мира, кстати…)"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge",
+    "hidden": "true"
+  },
+  "parent": "blazeandcave:nether/master_netherite_miner",
+  "rewards": {
+    "function": "bc_rewards:nether/netherite_mad_lad"
+  },
+  "criteria": {
+    "netherite_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_block"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

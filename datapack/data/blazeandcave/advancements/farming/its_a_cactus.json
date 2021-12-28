@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:green_dye"}, "title": {"translate": "Да это же… КАКТУС!"}, "description": {"translate": "Разбейте кактус в пустыне"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/care_for_the_environment", "rewards": {"function": "bc_rewards:farming/its_a_cactus"}, "criteria": {"cactus": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:cactus"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:green_dye"
+    },
+    "title": {
+      "translate": "Да это же… КАКТУС!"
+    },
+    "description": {
+      "translate": "Разбейте кактус в пустыне"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/care_for_the_environment",
+  "rewards": {
+    "function": "bc_rewards:farming/its_a_cactus"
+  },
+  "criteria": {
+    "cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cactus"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,48 @@
-{"display": {"icon": {"item": "minecraft:cornflower"}, "title": {"translate": "Флорист"}, "description": {"translate": "Выторгуйте цветок у странствующего торговца"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/travelling_merchant", "rewards": {"function": "bc_rewards:adventure/florist"}, "criteria": {"flower": {"trigger": "minecraft:villager_trade", "conditions": {"item": {"items": ["minecraft:dandelion", "minecraft:poppy", "minecraft:blue_orchid", "minecraft:allium", "minecraft:azure_bluet", "minecraft:red_tulip", "minecraft:orange_tulip", "minecraft:pink_tulip", "minecraft:white_tulip", "minecraft:oxeye_daisy", "minecraft:sunflower", "minecraft:lilac", "minecraft:rose_bush", "minecraft:peony", "minecraft:cornflower", "minecraft:lily_of_the_valley"]}, "villager": {"type": "wandering_trader"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cornflower"
+    },
+    "title": {
+      "translate": "Флорист"
+    },
+    "description": {
+      "translate": "Выторгуйте цветок у странствующего торговца"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/travelling_merchant",
+  "rewards": {
+    "function": "bc_rewards:adventure/florist"
+  },
+  "criteria": {
+    "flower": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dandelion",
+            "minecraft:poppy",
+            "minecraft:blue_orchid",
+            "minecraft:allium",
+            "minecraft:azure_bluet",
+            "minecraft:red_tulip",
+            "minecraft:orange_tulip",
+            "minecraft:pink_tulip",
+            "minecraft:white_tulip",
+            "minecraft:oxeye_daisy",
+            "minecraft:sunflower",
+            "minecraft:lilac",
+            "minecraft:rose_bush",
+            "minecraft:peony",
+            "minecraft:cornflower",
+            "minecraft:lily_of_the_valley"
+          ]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    }
+  }
+}

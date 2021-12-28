@@ -1,1 +1,34 @@
-{"display": {"icon": {"item": "minecraft:hoglin_spawn_egg"}, "title": {"translate": "Расти большим и здоровым"}, "description": {"color": "#75E1FF", "translate": "Ударьте маленького хоглина, на котором сидит маленький пиглин"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:nether/whole_hog", "rewards": {"function": "bc_rewards:nether/giddy_up"}, "criteria": {"piglin_jockey": {"trigger": "minecraft:player_hurt_entity", "conditions": {"entity": {"type": "hoglin", "flags": {"is_baby": true}, "nbt": "{Passengers:[{id:\"minecraft:piglin\"}]}"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:hoglin_spawn_egg"
+    },
+    "title": {
+      "translate": "Расти большим и здоровым"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ударьте маленького хоглина, на котором сидит маленький пиглин"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:nether/whole_hog",
+  "rewards": {
+    "function": "bc_rewards:nether/giddy_up"
+  },
+  "criteria": {
+    "piglin_jockey": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "hoglin",
+          "flags": {
+            "is_baby": true
+          },
+          "nbt": "{Passengers:[{id:\"minecraft:piglin\"}]}"
+        }
+      }
+    }
+  }
+}

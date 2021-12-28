@@ -1,1 +1,51 @@
-{"display": {"icon": {"item": "minecraft:red_tulip"}, "title": {"translate": "Эй! Вы двое должны поцеловаться!"}, "description": {"color": "#75E1FF", "translate": "Используйте подзорную трубу, чтобы посмотреть на двух жителей деревни, сидящих в лодке, по крайней мере, с расстояния 50 блоков"}, "announce_to_chat": false, "frame": "goal"}, "parent": "minecraft:adventure/trade", "rewards": {"function": "bc_rewards:adventure/hey_you_two_should_kiss"}, "criteria": {"how_romantic": {"trigger": "minecraft:using_item", "conditions": {"player": [{"condition": "minecraft:entity_properties", "predicate": {"player": {"looking_at": {"type": "minecraft:boat", "nbt": "{Passengers:[{id:\"minecraft:villager\"},{id:\"minecraft:villager\"}]}", "distance": {"absolute": {"min": 50}}}}}, "entity": "this"}], "item": {"items": ["minecraft:spyglass"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_tulip"
+    },
+    "title": {
+      "translate": "Эй! Вы двое должны поцеловаться!"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Используйте подзорную трубу, чтобы посмотреть на двух жителей деревни, сидящих в лодке, по крайней мере, с расстояния 50 блоков"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/trade",
+  "rewards": {
+    "function": "bc_rewards:adventure/hey_you_two_should_kiss"
+  },
+  "criteria": {
+    "how_romantic": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "player": {
+                "looking_at": {
+                  "type": "minecraft:boat",
+                  "nbt": "{Passengers:[{id:\"minecraft:villager\"},{id:\"minecraft:villager\"}]}",
+                  "distance": {
+                    "absolute": {
+                      "min": 50
+                    }
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  }
+}

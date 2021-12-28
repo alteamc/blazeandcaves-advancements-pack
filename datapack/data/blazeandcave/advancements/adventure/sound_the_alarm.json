@@ -1,1 +1,23 @@
-{"display": {"icon": {"item": "minecraft:bell"}, "title": {"translate": "Тревога!"}, "description": {"translate": "Позвоните в колокол когда в деревне враг"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/were_being_attacked", "rewards": {"function": "bc_rewards:adventure/sound_the_alarm"}, "criteria": {"sound_the_alarm": {"trigger": "minecraft:impossible"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Тревога!"
+    },
+    "description": {
+      "translate": "Позвоните в колокол когда в деревне враг"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/were_being_attacked",
+  "rewards": {
+    "function": "bc_rewards:adventure/sound_the_alarm"
+  },
+  "criteria": {
+    "sound_the_alarm": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

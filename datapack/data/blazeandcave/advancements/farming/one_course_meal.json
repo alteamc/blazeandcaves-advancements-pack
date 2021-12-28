@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:acacia_sapling"}, "title": {"translate": "Еда из одного блюда"}, "description": {"translate": "Используйте костную муку, чтобы вырастить саженец в дерево"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/natural_fertiliser", "rewards": {"function": "bc_rewards:farming/one_course_meal"}, "criteria": {"bone_meal": {"trigger": "minecraft:item_used_on_block", "conditions": {"location": {"block": {"tag": "minecraft:logs_that_burn"}}, "item": {"items": ["minecraft:bone_meal"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_sapling"
+    },
+    "title": {
+      "translate": "Еда из одного блюда"
+    },
+    "description": {
+      "translate": "Используйте костную муку, чтобы вырастить саженец в дерево"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/natural_fertiliser",
+  "rewards": {
+    "function": "bc_rewards:farming/one_course_meal"
+  },
+  "criteria": {
+    "bone_meal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:logs_that_burn"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        }
+      }
+    }
+  }
+}

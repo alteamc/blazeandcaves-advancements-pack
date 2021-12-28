@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:cyan_banner"}, "title": {"translate": "Поднять флаг!"}, "description": {"translate": "Создайте и поставьте флаг"}, "announce_to_chat": false}, "parent": "blazeandcave:building/display_your_items_for_all_to_see", "rewards": {"function": "bc_rewards:building/raise_the_flag"}, "criteria": {"banner": {"trigger": "minecraft:placed_block", "conditions": {"item": {"tag": "minecraft:banners"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_banner"
+    },
+    "title": {
+      "translate": "Поднять флаг!"
+    },
+    "description": {
+      "translate": "Создайте и поставьте флаг"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/display_your_items_for_all_to_see",
+  "rewards": {
+    "function": "bc_rewards:building/raise_the_flag"
+  },
+  "criteria": {
+    "banner": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:banners"
+        }
+      }
+    }
+  }
+}

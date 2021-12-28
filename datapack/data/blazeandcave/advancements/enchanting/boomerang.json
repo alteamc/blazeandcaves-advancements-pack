@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:trident"}, "title": {"translate": "Бумеранг"}, "description": {"color": "#75E1FF", "translate": "Заполучите трезубец с зачарованием «Верность»"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:enchanting/librarian", "rewards": {"function": "bc_rewards:enchanting/boomerang"}, "criteria": {"power": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:trident"], "enchantments": [{"enchantment": "minecraft:loyalty"}]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Бумеранг"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Заполучите трезубец с зачарованием «Верность»"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "rewards": {
+    "function": "bc_rewards:enchanting/boomerang"
+  },
+  "criteria": {
+    "power": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:trident"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:loyalty"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

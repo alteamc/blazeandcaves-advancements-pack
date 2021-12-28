@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:porkchop"}, "title": {"translate": "Бекон!"}, "description": {"translate": "Нужно убить эту свинью-нью-нью"}, "announce_to_chat": false}, "parent": "minecraft:husbandry/root", "rewards": {"function": "bc_rewards:animal/bacon"}, "criteria": {"pig": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "pig"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:porkchop"
+    },
+    "title": {
+      "translate": "Бекон!"
+    },
+    "description": {
+      "translate": "Нужно убить эту свинью-нью-нью"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "rewards": {
+    "function": "bc_rewards:animal/bacon"
+  },
+  "criteria": {
+    "pig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "pig"
+        }
+      }
+    }
+  }
+}

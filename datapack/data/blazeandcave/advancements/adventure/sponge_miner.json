@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:sponge"}, "title": {"translate": "План по иссушению мира"}, "description": {"color": "#75E1FF", "translate": "Соберите стак губок из подводных крепостей"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:adventure/dry_spell", "rewards": {"function": "bc_rewards:adventure/sponge_miner"}, "criteria": {"sponge": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:sponge"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "План по иссушению мира"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Соберите стак губок из подводных крепостей"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:adventure/dry_spell",
+  "rewards": {
+    "function": "bc_rewards:adventure/sponge_miner"
+  },
+  "criteria": {
+    "sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:cyan_carpet"}, "title": {"translate": "Прыг-скок"}, "description": {"translate": "Пропрыгайте 100,000 раз"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:statistics/boing_boing", "rewards": {"function": "bc_rewards:statistics/jumping_jacks"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:jump", "value": {"min": 100000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_carpet"
+    },
+    "title": {
+      "translate": "Прыг-скок"
+    },
+    "description": {
+      "translate": "Пропрыгайте 100,000 раз"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/boing_boing",
+  "rewards": {
+    "function": "bc_rewards:statistics/jumping_jacks"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:jump",
+                "value": {
+                  "min": 100000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

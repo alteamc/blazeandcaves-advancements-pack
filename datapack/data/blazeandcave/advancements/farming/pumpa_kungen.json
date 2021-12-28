@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:carved_pumpkin"}, "title": {"translate": "Король тыкв!"}, "description": {"color": "#75E1FF", "translate": "Соберите стак вырезанных тыкв"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:farming/unmasked", "rewards": {"function": "bc_rewards:farming/pumpa_kungen"}, "criteria": {"carved_pumpkin": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:carved_pumpkin"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "Король тыкв!"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Соберите стак вырезанных тыкв"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:farming/unmasked",
+  "rewards": {
+    "function": "bc_rewards:farming/pumpa_kungen"
+  },
+  "criteria": {
+    "carved_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carved_pumpkin"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

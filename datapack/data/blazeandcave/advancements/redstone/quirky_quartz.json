@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:quartz"}, "title": {"translate": "Причудливый кварц"}, "description": {"translate": "Добудьте кварц в Незере"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/repeating_repeater", "rewards": {"function": "bc_rewards:redstone/quirky_quartz"}, "criteria": {"quartz": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:quartz"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:quartz"
+    },
+    "title": {
+      "translate": "Причудливый кварц"
+    },
+    "description": {
+      "translate": "Добудьте кварц в Незере"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/repeating_repeater",
+  "rewards": {
+    "function": "bc_rewards:redstone/quirky_quartz"
+  },
+  "criteria": {
+    "quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

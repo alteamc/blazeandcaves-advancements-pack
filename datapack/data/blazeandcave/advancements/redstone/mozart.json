@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:note_block"}, "title": {"translate": "Моцарт"}, "description": {"translate": "Создайте нотный блок"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/root", "rewards": {"function": "bc_rewards:redstone/mozart"}, "criteria": {"noteblock": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:note_block"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "Моцарт"
+    },
+    "description": {
+      "translate": "Создайте нотный блок"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/root",
+  "rewards": {
+    "function": "bc_rewards:redstone/mozart"
+  },
+  "criteria": {
+    "noteblock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:note_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,47 @@
-{"display": {"icon": {"item": "minecraft:soul_torch"}, "title": {"translate": "Лазурность!"}, "description": {"translate": "Осветите местность факелами и фонарями душ"}, "announce_to_chat": false}, "parent": "blazeandcave:building/shroom_lightyear", "rewards": {"function": "bc_rewards:building/cerulean"}, "criteria": {"soul_torch": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:soul_torch"}}, "soul_wall_torch": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:soul_wall_torch"}}, "soul_lantern": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:soul_lantern"}}}, "requirements": [["soul_torch", "soul_wall_torch"], ["soul_lantern"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_torch"
+    },
+    "title": {
+      "translate": "Лазурность!"
+    },
+    "description": {
+      "translate": "Осветите местность факелами и фонарями душ"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/shroom_lightyear",
+  "rewards": {
+    "function": "bc_rewards:building/cerulean"
+  },
+  "criteria": {
+    "soul_torch": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:soul_torch"
+      }
+    },
+    "soul_wall_torch": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:soul_wall_torch"
+      }
+    },
+    "soul_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:soul_lantern"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soul_torch",
+      "soul_wall_torch"
+    ],
+    [
+      "soul_lantern"
+    ]
+  ]
+}

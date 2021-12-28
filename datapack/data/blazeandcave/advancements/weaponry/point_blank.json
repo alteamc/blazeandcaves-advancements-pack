@@ -1,1 +1,40 @@
-{"display": {"icon": {"item": "minecraft:string"}, "title": {"translate": "В упор"}, "description": {"translate": "Выстрелите в моба с очень близкого расстояния"}, "announce_to_chat": false}, "parent": "minecraft:adventure/shoot_arrow", "rewards": {"function": "bc_rewards:weaponry/point_blank"}, "criteria": {"point_blank": {"trigger": "minecraft:player_hurt_entity", "conditions": {"damage": {"type": {"is_projectile": true, "direct_entity": {"type": "minecraft:arrow"}}}, "entity": {"distance": {"absolute": {"max": 2}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:string"
+    },
+    "title": {
+      "translate": "В упор"
+    },
+    "description": {
+      "translate": "Выстрелите в моба с очень близкого расстояния"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:adventure/shoot_arrow",
+  "rewards": {
+    "function": "bc_rewards:weaponry/point_blank"
+  },
+  "criteria": {
+    "point_blank": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
+          }
+        },
+        "entity": {
+          "distance": {
+            "absolute": {
+              "max": 2
+            }
+          }
+        }
+      }
+    }
+  }
+}

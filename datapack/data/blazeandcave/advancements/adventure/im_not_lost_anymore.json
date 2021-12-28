@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:blue_banner"}, "title": {"translate": "Теперь я не потеряюсь!"}, "description": {"translate": "Привязать баннер к карте правой кнопкой мыши"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/mapmakers_table", "rewards": {"function": "bc_rewards:adventure/im_not_lost_anymore"}, "criteria": {"map": {"trigger": "minecraft:item_used_on_block", "conditions": {"location": {"block": {"tag": "minecraft:banners"}}, "item": {"items": ["minecraft:filled_map"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_banner"
+    },
+    "title": {
+      "translate": "Теперь я не потеряюсь!"
+    },
+    "description": {
+      "translate": "Привязать баннер к карте правой кнопкой мыши"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/mapmakers_table",
+  "rewards": {
+    "function": "bc_rewards:adventure/im_not_lost_anymore"
+  },
+  "criteria": {
+    "map": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:banners"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:filled_map"
+          ]
+        }
+      }
+    }
+  }
+}

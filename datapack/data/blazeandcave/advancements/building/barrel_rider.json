@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:barrel"}, "title": {"translate": "Бондарь за работой"}, "description": {"translate": "Создайте и поставьте бочку"}, "announce_to_chat": false}, "parent": "blazeandcave:building/its_a_sign", "rewards": {"function": "bc_rewards:building/barrel_rider"}, "criteria": {"barrel": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:barrel"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrel"
+    },
+    "title": {
+      "translate": "Бондарь за работой"
+    },
+    "description": {
+      "translate": "Создайте и поставьте бочку"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/its_a_sign",
+  "rewards": {
+    "function": "bc_rewards:building/barrel_rider"
+  },
+  "criteria": {
+    "barrel": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:barrel"
+      }
+    }
+  }
+}

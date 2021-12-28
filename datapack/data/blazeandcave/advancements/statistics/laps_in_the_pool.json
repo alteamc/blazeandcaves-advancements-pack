@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:leather_leggings", "nbt": "{display:{color:41727}}"}, "title": {"translate": "Плескаясь в бассейне"}, "description": {"translate": "Проплывите 1км"}, "announce_to_chat": false}, "parent": "blazeandcave:statistics/root", "rewards": {"function": "bc_rewards:statistics/laps_in_the_pool"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:swim_one_cm", "value": {"min": 100000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_leggings",
+      "nbt": "{display:{color:41727}}"
+    },
+    "title": {
+      "translate": "Плескаясь в бассейне"
+    },
+    "description": {
+      "translate": "Проплывите 1км"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:statistics/root",
+  "rewards": {
+    "function": "bc_rewards:statistics/laps_in_the_pool"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:swim_one_cm",
+                "value": {
+                  "min": 100000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

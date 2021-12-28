@@ -1,1 +1,48 @@
-{"display": {"icon": {"item": "minecraft:phantom_membrane"}, "title": {"translate": "Настоящая невесомость"}, "description": {"translate": "Сварите и выпейте зелье медленного падения"}, "announce_to_chat": false}, "parent": "blazeandcave:potion/the_invisible_player", "rewards": {"function": "bc_rewards:potion/true_feather_falling"}, "criteria": {"slow_falling": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:potion"], "nbt": "{Potion:\"minecraft:slow_falling\"}"}}}, "long_slow_falling": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:potion"], "nbt": "{Potion:\"minecraft:long_slow_falling\"}"}}}}, "requirements": [["slow_falling", "long_slow_falling"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Настоящая невесомость"
+    },
+    "description": {
+      "translate": "Сварите и выпейте зелье медленного падения"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:potion/the_invisible_player",
+  "rewards": {
+    "function": "bc_rewards:potion/true_feather_falling"
+  },
+  "criteria": {
+    "slow_falling": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{Potion:\"minecraft:slow_falling\"}"
+        }
+      }
+    },
+    "long_slow_falling": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slow_falling",
+      "long_slow_falling"
+    ]
+  ]
+}

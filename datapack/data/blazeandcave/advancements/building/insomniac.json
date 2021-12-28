@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:phantom_spawn_egg"}, "title": {"translate": "Бессонница"}, "description": {"translate": "30 дней без сна"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:building/rainbow_dreams", "rewards": {"function": "bc_rewards:building/insomniac"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:time_since_rest", "value": {"min": 720000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:phantom_spawn_egg"
+    },
+    "title": {
+      "translate": "Бессонница"
+    },
+    "description": {
+      "translate": "30 дней без сна"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:building/rainbow_dreams",
+  "rewards": {
+    "function": "bc_rewards:building/insomniac"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:time_since_rest",
+                "value": {
+                  "min": 720000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

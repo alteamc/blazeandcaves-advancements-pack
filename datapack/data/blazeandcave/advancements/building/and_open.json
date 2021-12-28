@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:iron_door"}, "title": {"translate": "И-и-и-и… Открылись!"}, "description": {"translate": "Создайте и разместите железные двери"}, "announce_to_chat": false}, "parent": "blazeandcave:building/its_a_trap", "rewards": {"function": "bc_rewards:building/and_open"}, "criteria": {"iron_door": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:iron_door"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_door"
+    },
+    "title": {
+      "translate": "И-и-и-и… Открылись!"
+    },
+    "description": {
+      "translate": "Создайте и разместите железные двери"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/its_a_trap",
+  "rewards": {
+    "function": "bc_rewards:building/and_open"
+  },
+  "criteria": {
+    "iron_door": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:iron_door"
+      }
+    }
+  }
+}

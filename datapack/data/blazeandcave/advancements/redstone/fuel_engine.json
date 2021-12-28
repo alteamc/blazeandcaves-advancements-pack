@@ -1,1 +1,40 @@
-{"display": {"icon": {"item": "minecraft:furnace_minecart"}, "title": {"translate": "Топливный двигатель"}, "description": {"translate": "Создайте вагонетку с печью и используйте уголь или древесный уголь, чтобы заставить её пыхтеть"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/all_aboard", "rewards": {"function": "bc_rewards:redstone/fuel_engine"}, "criteria": {"furnace_minecart": {"trigger": "minecraft:player_interacted_with_entity", "conditions": {"item": {"items": ["minecraft:coal", "minecraft:charcoal"]}, "entity": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"type": "minecraft:furnace_minecart"}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace_minecart"
+    },
+    "title": {
+      "translate": "Топливный двигатель"
+    },
+    "description": {
+      "translate": "Создайте вагонетку с печью и используйте уголь или древесный уголь, чтобы заставить её пыхтеть"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/all_aboard",
+  "rewards": {
+    "function": "bc_rewards:redstone/fuel_engine"
+  },
+  "criteria": {
+    "furnace_minecart": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:coal",
+            "minecraft:charcoal"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:furnace_minecart"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

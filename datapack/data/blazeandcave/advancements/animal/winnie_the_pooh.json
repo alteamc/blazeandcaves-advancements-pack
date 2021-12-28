@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:honey_bottle"}, "title": {"translate": "Винни-Пух"}, "description": {"translate": "Выпейте бутыль мёда"}, "announce_to_chat": false}, "parent": "minecraft:husbandry/safely_harvest_honey", "rewards": {"function": "bc_rewards:animal/winnie_the_pooh"}, "criteria": {"honey_bottle": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:honey_bottle"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Винни-Пух"
+    },
+    "description": {
+      "translate": "Выпейте бутыль мёда"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/safely_harvest_honey",
+  "rewards": {
+    "function": "bc_rewards:animal/winnie_the_pooh"
+  },
+  "criteria": {
+    "honey_bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        }
+      }
+    }
+  }
+}

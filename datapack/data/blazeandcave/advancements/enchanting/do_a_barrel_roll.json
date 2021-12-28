@@ -1,1 +1,37 @@
-{"display": {"icon": {"item": "minecraft:water_bucket"}, "title": {"translate": "Сделать бочку"}, "description": {"color": "#75E1FF", "translate": "Используйте «Тягун», чтобы ускориться"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:enchanting/boomerang", "rewards": {"function": "bc_rewards:enchanting/do_a_barrel_roll"}, "criteria": {"riptide": {"trigger": "minecraft:using_item", "conditions": {"item": {"items": ["minecraft:trident"], "enchantments": [{"enchantment": "minecraft:riptide"}]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Сделать бочку"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Используйте «Тягун», чтобы ускориться"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:enchanting/boomerang",
+  "rewards": {
+    "function": "bc_rewards:enchanting/do_a_barrel_roll"
+  },
+  "criteria": {
+    "riptide": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:riptide"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

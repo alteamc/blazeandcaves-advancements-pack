@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:fletching_table"}, "title": {"translate": "Призвание лучника"}, "description": {"translate": "Создайте стол лучника"}, "announce_to_chat": false}, "parent": "minecraft:adventure/shoot_arrow", "rewards": {"function": "bc_rewards:weaponry/that_is_so_fletch"}, "criteria": {"fletching_table": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:fletching_table"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fletching_table"
+    },
+    "title": {
+      "translate": "Призвание лучника"
+    },
+    "description": {
+      "translate": "Создайте стол лучника"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:adventure/shoot_arrow",
+  "rewards": {
+    "function": "bc_rewards:weaponry/that_is_so_fletch"
+  },
+  "criteria": {
+    "fletching_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fletching_table"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

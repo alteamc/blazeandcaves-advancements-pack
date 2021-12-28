@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:daylight_detector"}, "title": {"translate": "Солнечная сила"}, "description": {"translate": "Создайте датчик дневного света"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/comparing_comparator", "rewards": {"function": "bc_rewards:redstone/solar_power"}, "criteria": {"daylight_detector": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:daylight_detector"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:daylight_detector"
+    },
+    "title": {
+      "translate": "Солнечная сила"
+    },
+    "description": {
+      "translate": "Создайте датчик дневного света"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/comparing_comparator",
+  "rewards": {
+    "function": "bc_rewards:redstone/solar_power"
+  },
+  "criteria": {
+    "daylight_detector": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:daylight_detector"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

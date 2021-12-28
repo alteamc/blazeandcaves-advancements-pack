@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:experience_bottle"}, "title": {"translate": "Магазин редких конфет"}, "description": {"translate": "Выторгуйте бутылёк с опытом у священника"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/knowledge_is_power", "rewards": {"function": "bc_rewards:adventure/rare_candy_shop"}, "criteria": {"experience_bottle": {"trigger": "minecraft:villager_trade", "conditions": {"item": {"items": ["minecraft:experience_bottle"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "Магазин редких конфет"
+    },
+    "description": {
+      "translate": "Выторгуйте бутылёк с опытом у священника"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/knowledge_is_power",
+  "rewards": {
+    "function": "bc_rewards:adventure/rare_candy_shop"
+  },
+  "criteria": {
+    "experience_bottle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:experience_bottle"
+          ]
+        }
+      }
+    }
+  }
+}

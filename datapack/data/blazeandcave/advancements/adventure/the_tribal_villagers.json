@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:jungle_log"}, "title": {"translate": "Дикарь"}, "description": {"color": "#75E1FF", "translate": "Поторгуйтесь с тропическим торговцем"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:adventure/businessman", "rewards": {"function": "bc_rewards:adventure/the_tribal_villagers"}, "criteria": {"jungle": {"trigger": "minecraft:villager_trade", "conditions": {"villager": {"nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jungle_log"
+    },
+    "title": {
+      "translate": "Дикарь"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Поторгуйтесь с тропическим торговцем"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:adventure/businessman",
+  "rewards": {
+    "function": "bc_rewards:adventure/the_tribal_villagers"
+  },
+  "criteria": {
+    "jungle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+        }
+      }
+    }
+  }
+}

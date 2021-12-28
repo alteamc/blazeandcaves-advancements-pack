@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:hay_block"}, "title": {"translate": "Полученное будет моим"}, "description": {"translate": "Размножьте двух лам сеном"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/stay_calmer", "rewards": {"function": "bc_rewards:animal/so_i_got_that_going_for_me"}, "criteria": {"llama": {"trigger": "minecraft:bred_animals", "conditions": {"parent": {"type": "#blazeandcave:llamas"}, "partner": {"type": "#blazeandcave:llamas"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "Полученное будет моим"
+    },
+    "description": {
+      "translate": "Размножьте двух лам сеном"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/stay_calmer",
+  "rewards": {
+    "function": "bc_rewards:animal/so_i_got_that_going_for_me"
+  },
+  "criteria": {
+    "llama": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "#blazeandcave:llamas"
+        },
+        "partner": {
+          "type": "#blazeandcave:llamas"
+        }
+      }
+    }
+  }
+}

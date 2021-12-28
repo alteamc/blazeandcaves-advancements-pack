@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:creeper_head"}, "title": {"translate": "Месть!"}, "description": {"translate": "Взорвите крипера при помощи динамита"}, "announce_to_chat": false}, "parent": "blazeandcave:weaponry/bombs_away", "rewards": {"function": "bc_rewards:weaponry/revenge"}, "criteria": {"creeper": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "creeper"}, "killing_blow": {"is_explosion": true}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": {
+      "translate": "Месть!"
+    },
+    "description": {
+      "translate": "Взорвите крипера при помощи динамита"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:weaponry/bombs_away",
+  "rewards": {
+    "function": "bc_rewards:weaponry/revenge"
+  },
+  "criteria": {
+    "creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "creeper"
+        },
+        "killing_blow": {
+          "is_explosion": true
+        }
+      }
+    }
+  }
+}

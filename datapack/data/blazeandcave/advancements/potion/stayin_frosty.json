@@ -1,1 +1,48 @@
-{"display": {"icon": {"item": "minecraft:magma_cream"}, "title": {"translate": "Оставаться прохладным"}, "description": {"translate": "Плавайте в лаве с эффектом «Огнестойкости»"}, "announce_to_chat": false}, "parent": "blazeandcave:potion/root", "rewards": {"function": "bc_rewards:potion/stayin_frosty"}, "criteria": {"fire_resistance": {"trigger": "minecraft:location", "conditions": {"block": {"blocks": ["minecraft:lava"]}, "player": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"effects": {"minecraft:fire_resistance": {"amplifier": {"min": 0}, "duration": {"min": 1}}}}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "Оставаться прохладным"
+    },
+    "description": {
+      "translate": "Плавайте в лаве с эффектом «Огнестойкости»"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:potion/root",
+  "rewards": {
+    "function": "bc_rewards:potion/stayin_frosty"
+  },
+  "criteria": {
+    "fire_resistance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "block": {
+          "blocks": [
+            "minecraft:lava"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:fire_resistance": {
+                  "amplifier": {
+                    "min": 0
+                  },
+                  "duration": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,52 @@
-{"display": {"icon": {"item": "minecraft:snowball"}, "title": {"translate": "Запах прохлады"}, "description": {"color": "#75E1FF", "translate": "Исследуйте все снежные биомы"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:biomes/warm_feet", "rewards": {"function": "bc_rewards:biomes/cold_feet"}, "criteria": {"snowy_taiga": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:snowy_taiga"}}, "snowy_plains": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:snowy_plains"}}, "ice_spikes": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:ice_spikes"}}, "frozen_river": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:frozen_river"}}, "snowy_beach": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:snowy_beach"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "Запах прохлады"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Исследуйте все снежные биомы"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "rewards": {
+    "function": "bc_rewards:biomes/cold_feet"
+  },
+  "criteria": {
+    "snowy_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_taiga"
+      }
+    },
+    "snowy_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_plains"
+      }
+    },
+    "ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:ice_spikes"
+      }
+    },
+    "frozen_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_river"
+      }
+    },
+    "snowy_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_beach"
+      }
+    }
+  }
+}

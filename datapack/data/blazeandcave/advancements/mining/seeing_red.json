@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:redstone"}, "title": {"translate": "Красное сияние"}, "description": {"translate": "Добудьте редстоун из самых глубоких пещер"}, "announce_to_chat": false}, "parent": "minecraft:story/iron_tools", "rewards": {"function": "bc_rewards:mining/seeing_red"}, "criteria": {"redstone": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:redstone"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Красное сияние"
+    },
+    "description": {
+      "translate": "Добудьте редстоун из самых глубоких пещер"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:story/iron_tools",
+  "rewards": {
+    "function": "bc_rewards:mining/seeing_red"
+  },
+  "criteria": {
+    "redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

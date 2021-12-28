@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:light_weighted_pressure_plate"}, "title": {"translate": "Сверкающая пластина"}, "description": {"translate": "Сверкай со стилем! (нет, на самом деле нет, вовсе нет)"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/metal_plate", "rewards": {"function": "bc_rewards:redstone/bling_plate"}, "criteria": {"light_weighted_pressure_plate": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:light_weighted_pressure_plate"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "Сверкающая пластина"
+    },
+    "description": {
+      "translate": "Сверкай со стилем! (нет, на самом деле нет, вовсе нет)"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/metal_plate",
+  "rewards": {
+    "function": "bc_rewards:redstone/bling_plate"
+  },
+  "criteria": {
+    "light_weighted_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_weighted_pressure_plate"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

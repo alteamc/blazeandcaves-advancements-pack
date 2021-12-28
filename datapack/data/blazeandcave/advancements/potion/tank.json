@@ -1,1 +1,62 @@
-{"display": {"icon": {"item": "minecraft:turtle_helmet"}, "title": {"translate": "Машина для убийств"}, "description": {"color": "#75E1FF", "translate": "Станьте практически невосприимчивым к урону, используя черепашье зелье"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:potion/true_feather_falling", "rewards": {"function": "bc_rewards:potion/tank"}, "criteria": {"turtle_master": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:potion"], "nbt": "{Potion:\"minecraft:turtle_master\"}"}}}, "strong_turtle_master": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:potion"], "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"}}}, "long_turtle_master": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:potion"], "nbt": "{Potion:\"minecraft:long_turtle_master\"}"}}}}, "requirements": [["turtle_master", "strong_turtle_master", "long_turtle_master"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "Машина для убийств"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Станьте практически невосприимчивым к урону, используя черепашье зелье"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:potion/true_feather_falling",
+  "rewards": {
+    "function": "bc_rewards:potion/tank"
+  },
+  "criteria": {
+    "turtle_master": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{Potion:\"minecraft:turtle_master\"}"
+        }
+      }
+    },
+    "strong_turtle_master": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+        }
+      }
+    },
+    "long_turtle_master": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "turtle_master",
+      "strong_turtle_master",
+      "long_turtle_master"
+    ]
+  ]
+}

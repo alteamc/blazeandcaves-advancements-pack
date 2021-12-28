@@ -1,1 +1,24 @@
-{"display": {"icon": {"item": "minecraft:white_bed"}, "title": {"translate": "Выпустите меня!"}, "description": {"translate": "Проведите в Незере двадцать игровых дней"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "minecraft:nether/fast_travel", "rewards": {"function": "bc_rewards:nether/let_me_out"}, "criteria": {"let_me_out": {"trigger": "minecraft:impossible"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_bed"
+    },
+    "title": {
+      "translate": "Выпустите меня!"
+    },
+    "description": {
+      "translate": "Проведите в Незере двадцать игровых дней"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "minecraft:nether/fast_travel",
+  "rewards": {
+    "function": "bc_rewards:nether/let_me_out"
+  },
+  "criteria": {
+    "let_me_out": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

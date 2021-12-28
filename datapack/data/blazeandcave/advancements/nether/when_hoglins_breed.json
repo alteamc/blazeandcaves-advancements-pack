@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:crimson_fungus"}, "title": {"translate": "Когда хоглины размножаются"}, "description": {"translate": "Размножьте маленького хоглина при помощи багрового гриба"}, "announce_to_chat": false}, "parent": "blazeandcave:nether/roadhog", "rewards": {"function": "bc_rewards:nether/when_hoglins_breed"}, "criteria": {"hoglin": {"trigger": "minecraft:bred_animals", "conditions": {"parent": {"type": "minecraft:hoglin"}, "partner": {"type": "minecraft:hoglin"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crimson_fungus"
+    },
+    "title": {
+      "translate": "Когда хоглины размножаются"
+    },
+    "description": {
+      "translate": "Размножьте маленького хоглина при помощи багрового гриба"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:nether/roadhog",
+  "rewards": {
+    "function": "bc_rewards:nether/when_hoglins_breed"
+  },
+  "criteria": {
+    "hoglin": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:hoglin"
+        },
+        "partner": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,40 @@
-{"display": {"icon": {"item": "minecraft:trident", "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"}, "title": {"translate": "Древний чародей"}, "description": {"translate": "Зачаруйте 250 предметов"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:statistics/journeyman_enchanter", "rewards": {"function": "bc_rewards:statistics/elderly_enchanter"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:enchant_item", "value": {"min": 250}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    },
+    "title": {
+      "translate": "Древний чародей"
+    },
+    "description": {
+      "translate": "Зачаруйте 250 предметов"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/journeyman_enchanter",
+  "rewards": {
+    "function": "bc_rewards:statistics/elderly_enchanter"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:enchant_item",
+                "value": {
+                  "min": 250
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

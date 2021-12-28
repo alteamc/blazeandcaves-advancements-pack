@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:dried_kelp_block"}, "title": {"translate": "Аквабиотопливо"}, "description": {"translate": "Создайте блок сушёной ламинарии, чтобы использовать в качестве топлива"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/kelp_me", "rewards": {"function": "bc_rewards:farming/aquatic_biofuel"}, "criteria": {"dried_kelp_block": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:dried_kelp_block"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dried_kelp_block"
+    },
+    "title": {
+      "translate": "Аквабиотопливо"
+    },
+    "description": {
+      "translate": "Создайте блок сушёной ламинарии, чтобы использовать в качестве топлива"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/kelp_me",
+  "rewards": {
+    "function": "bc_rewards:farming/aquatic_biofuel"
+  },
+  "criteria": {
+    "dried_kelp_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dried_kelp_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

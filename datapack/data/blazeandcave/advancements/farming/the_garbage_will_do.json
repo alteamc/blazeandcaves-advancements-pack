@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:composter"}, "title": {"translate": "Переработка мусора"}, "description": {"translate": "Создайте компостницу, используя деревянные плиты, а затем поставьте её"}, "announce_to_chat": false}, "parent": "minecraft:husbandry/plant_seed", "rewards": {"function": "bc_rewards:farming/the_garbage_will_do"}, "criteria": {"composter": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:composter"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:composter"
+    },
+    "title": {
+      "translate": "Переработка мусора"
+    },
+    "description": {
+      "translate": "Создайте компостницу, используя деревянные плиты, а затем поставьте её"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "rewards": {
+    "function": "bc_rewards:farming/the_garbage_will_do"
+  },
+  "criteria": {
+    "composter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:composter"
+      }
+    }
+  }
+}

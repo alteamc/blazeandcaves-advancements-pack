@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:cooked_rabbit"}, "title": {"translate": "Сезон охоты на кроликов"}, "description": {"translate": "Убивать кроликов — это жестоко. Временами."}, "announce_to_chat": false}, "parent": "minecraft:husbandry/root", "rewards": {"function": "bc_rewards:animal/rabbit_season"}, "criteria": {"cooked_rabbit": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:cooked_rabbit"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_rabbit"
+    },
+    "title": {
+      "translate": "Сезон охоты на кроликов"
+    },
+    "description": {
+      "translate": "Убивать кроликов — это жестоко. Временами."
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "rewards": {
+    "function": "bc_rewards:animal/rabbit_season"
+  },
+  "criteria": {
+    "cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_rabbit"
+          ]
+        }
+      }
+    }
+  }
+}

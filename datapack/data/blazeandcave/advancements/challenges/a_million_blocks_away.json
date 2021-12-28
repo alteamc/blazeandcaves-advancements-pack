@@ -1,1 +1,70 @@
-{"display": {"icon": {"item": "minecraft:elytra"}, "title": {"translate": "Миллион блоков спустя"}, "description": {"color": "#FF2A2A", "translate": "Пропутешествуйте миллион блоков от спавна"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/the_devils_distance", "rewards": {"function": "bc_rewards:challenges/a_million_blocks_away"}, "criteria": {"outer_pos_x": {"trigger": "minecraft:location", "conditions": {"position": {"x": {"min": 1000000}}}}, "outer_pos_z": {"trigger": "minecraft:location", "conditions": {"position": {"z": {"min": 1000000}}}}, "outer_neg_x": {"trigger": "minecraft:location", "conditions": {"position": {"x": {"max": -1000000}}}}, "outer_neg_z": {"trigger": "minecraft:location", "conditions": {"position": {"z": {"max": -1000000}}}}}, "requirements": [["outer_pos_x", "outer_pos_z", "outer_neg_x", "outer_neg_z"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Миллион блоков спустя"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Пропутешествуйте миллион блоков от спавна"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/the_devils_distance",
+  "rewards": {
+    "function": "bc_rewards:challenges/a_million_blocks_away"
+  },
+  "criteria": {
+    "outer_pos_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "min": 1000000
+          }
+        }
+      }
+    },
+    "outer_pos_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "min": 1000000
+          }
+        }
+      }
+    },
+    "outer_neg_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "max": -1000000
+          }
+        }
+      }
+    },
+    "outer_neg_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "max": -1000000
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "outer_pos_x",
+      "outer_pos_z",
+      "outer_neg_x",
+      "outer_neg_z"
+    ]
+  ]
+}

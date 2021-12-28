@@ -1,1 +1,45 @@
-{"display": {"icon": {"item": "minecraft:slime_block"}, "title": {"translate": "Батут"}, "description": {"translate": "Прыгните на блок слизи с высоты не менее 30 блоков"}, "announce_to_chat": false}, "parent": "blazeandcave:monsters/gelatinous_cube", "rewards": {"function": "bc_rewards:monsters/trampoline"}, "criteria": {"slime_block": {"trigger": "minecraft:fall_from_height", "conditions": {"player": [{"condition": "minecraft:entity_properties", "predicate": {"stepping_on": {"block": {"blocks": ["minecraft:slime_block"]}}}, "entity": "this"}], "distance": {"y": {"min": 30}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Батут"
+    },
+    "description": {
+      "translate": "Прыгните на блок слизи с высоты не менее 30 блоков"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:monsters/gelatinous_cube",
+  "rewards": {
+    "function": "bc_rewards:monsters/trampoline"
+  },
+  "criteria": {
+    "slime_block": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:slime_block"
+                  ]
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 30
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:netherrack"}, "title": {"translate": "Спуск"}, "description": {"translate": "Проберитесь в самые нижние глубины Незера"}, "announce_to_chat": false}, "parent": "blazeandcave:nether/nugget_in_a_biscuit", "rewards": {"function": "bc_rewards:nether/the_descent"}, "criteria": {"the_descent": {"trigger": "minecraft:location", "conditions": {"dimension": "the_nether", "position": {"y": {"max": 22}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "Спуск"
+    },
+    "description": {
+      "translate": "Проберитесь в самые нижние глубины Незера"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:nether/nugget_in_a_biscuit",
+  "rewards": {
+    "function": "bc_rewards:nether/the_descent"
+  },
+  "criteria": {
+    "the_descent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "the_nether",
+        "position": {
+          "y": {
+            "max": 22
+          }
+        }
+      }
+    }
+  }
+}

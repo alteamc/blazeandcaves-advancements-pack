@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:dark_oak_door"}, "title": {"translate": "Поместье психов"}, "description": {"translate": "Найдите лесной особняк"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/treasure_map", "rewards": {"function": "bc_rewards:adventure/house_of_psychos"}, "criteria": {"mansion": {"trigger": "minecraft:location", "conditions": {"feature": "mansion"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_door"
+    },
+    "title": {
+      "translate": "Поместье психов"
+    },
+    "description": {
+      "translate": "Найдите лесной особняк"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/treasure_map",
+  "rewards": {
+    "function": "bc_rewards:adventure/house_of_psychos"
+  },
+  "criteria": {
+    "mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "mansion"
+      }
+    }
+  }
+}

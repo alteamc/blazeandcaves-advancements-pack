@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:sugar_cane"}, "title": {"translate": "Сахар, сахар"}, "description": {"translate": "Соберите немного тростника около водоёма"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/care_for_the_environment", "rewards": {"function": "bc_rewards:farming/sugar_sugar"}, "criteria": {"sugar_cane": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:sugar_cane"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sugar_cane"
+    },
+    "title": {
+      "translate": "Сахар, сахар"
+    },
+    "description": {
+      "translate": "Соберите немного тростника около водоёма"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/care_for_the_environment",
+  "rewards": {
+    "function": "bc_rewards:farming/sugar_sugar"
+  },
+  "criteria": {
+    "sugar_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar_cane"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

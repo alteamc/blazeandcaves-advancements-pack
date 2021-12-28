@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:flint_and_steel"}, "title": {"translate": "Контролируемая детонация"}, "description": {"translate": "Уговорите крипера взорваться с помощью кремня и стали"}, "announce_to_chat": false}, "parent": "blazeandcave:monsters/blast_shield", "rewards": {"function": "bc_rewards:monsters/controlled_detonation"}, "criteria": {"controlled_detonation": {"trigger": "minecraft:player_interacted_with_entity", "conditions": {"item": {"items": ["minecraft:flint_and_steel"]}, "entity": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"type": "minecraft:creeper"}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Контролируемая детонация"
+    },
+    "description": {
+      "translate": "Уговорите крипера взорваться с помощью кремня и стали"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:monsters/blast_shield",
+  "rewards": {
+    "function": "bc_rewards:monsters/controlled_detonation"
+  },
+  "criteria": {
+    "controlled_detonation": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:creeper"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

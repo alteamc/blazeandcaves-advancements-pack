@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:vine"}, "title": {"translate": "Тарзан"}, "description": {"translate": "Покачайтесь на лозе"}, "announce_to_chat": false}, "parent": "blazeandcave:biomes/the_mighty_jungle", "rewards": {"function": "bc_rewards:biomes/tarzan"}, "criteria": {"enter_vine": {"trigger": "minecraft:enter_block", "conditions": {"block": "minecraft:vine"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:vine"
+    },
+    "title": {
+      "translate": "Тарзан"
+    },
+    "description": {
+      "translate": "Покачайтесь на лозе"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:biomes/the_mighty_jungle",
+  "rewards": {
+    "function": "bc_rewards:biomes/tarzan"
+  },
+  "criteria": {
+    "enter_vine": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:vine"
+      }
+    }
+  }
+}

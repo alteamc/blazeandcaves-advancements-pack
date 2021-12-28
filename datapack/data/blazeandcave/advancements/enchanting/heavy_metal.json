@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:anvil"}, "title": {"translate": "Хэви-метал"}, "description": {"translate": "Создайте наковальню"}, "announce_to_chat": false}, "parent": "blazeandcave:enchanting/root", "rewards": {"function": "bc_rewards:enchanting/heavy_metal"}, "criteria": {"anvil": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:anvil"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Хэви-метал"
+    },
+    "description": {
+      "translate": "Создайте наковальню"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:enchanting/root",
+  "rewards": {
+    "function": "bc_rewards:enchanting/heavy_metal"
+  },
+  "criteria": {
+    "anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:anvil"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:dried_kelp_block"}, "title": {"translate": "Подводный огородник"}, "description": {"color": "#75E1FF", "translate": "Создайте стак блоков сушёной ламинарии"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:farming/aquatic_biofuel", "rewards": {"function": "bc_rewards:farming/undersea_gardener"}, "criteria": {"dried_kelp_block": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:dried_kelp_block"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dried_kelp_block"
+    },
+    "title": {
+      "translate": "Подводный огородник"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Создайте стак блоков сушёной ламинарии"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:farming/aquatic_biofuel",
+  "rewards": {
+    "function": "bc_rewards:farming/undersea_gardener"
+  },
+  "criteria": {
+    "dried_kelp_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dried_kelp_block"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

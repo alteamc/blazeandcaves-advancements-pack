@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:iron_bars"}, "title": {"translate": "Тюремные окна"}, "description": {"translate": "Создайте или найдите железные прутья"}, "announce_to_chat": false}, "parent": "blazeandcave:building/fake_stronghold", "rewards": {"function": "bc_rewards:building/jailhouse_block"}, "criteria": {"iron_bars": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:iron_bars"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_bars"
+    },
+    "title": {
+      "translate": "Тюремные окна"
+    },
+    "description": {
+      "translate": "Создайте или найдите железные прутья"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/fake_stronghold",
+  "rewards": {
+    "function": "bc_rewards:building/jailhouse_block"
+  },
+  "criteria": {
+    "iron_bars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_bars"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

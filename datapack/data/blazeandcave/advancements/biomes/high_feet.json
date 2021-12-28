@@ -1,1 +1,82 @@
-{"display": {"icon": {"item": "minecraft:stone"}, "title": {"translate": "Скалолаз"}, "description": {"color": "#75E1FF", "translate": "Исследуйте все горные биомы"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:biomes/overgrown", "rewards": {"function": "bc_rewards:biomes/high_feet"}, "criteria": {"stony_shore": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:stony_shore"}}, "windswept_hills": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:windswept_hills"}}, "windswept_forest": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:windswept_forest"}}, "windswept_gravelly_hills": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:windswept_gravelly_hills"}}, "meadow": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:meadow"}}, "grove": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:grove"}}, "snowy_slopes": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:snowy_slopes"}}, "frozen_peaks": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:frozen_peaks"}}, "jagged_peaks": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:jagged_peaks"}}, "stony_peaks": {"trigger": "minecraft:location", "conditions": {"biome": "minecraft:stony_peaks"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "translate": "Скалолаз"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Исследуйте все горные биомы"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "rewards": {
+    "function": "bc_rewards:biomes/high_feet"
+  },
+  "criteria": {
+    "stony_shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:stony_shore"
+      }
+    },
+    "windswept_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:windswept_hills"
+      }
+    },
+    "windswept_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:windswept_forest"
+      }
+    },
+    "windswept_gravelly_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:windswept_gravelly_hills"
+      }
+    },
+    "meadow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:meadow"
+      }
+    },
+    "grove": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:grove"
+      }
+    },
+    "snowy_slopes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:snowy_slopes"
+      }
+    },
+    "frozen_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:frozen_peaks"
+      }
+    },
+    "jagged_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:jagged_peaks"
+      }
+    },
+    "stony_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:stony_peaks"
+      }
+    }
+  }
+}

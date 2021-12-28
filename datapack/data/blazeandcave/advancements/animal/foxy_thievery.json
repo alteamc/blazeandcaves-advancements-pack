@@ -1,1 +1,41 @@
-{"display": {"icon": {"item": "minecraft:totem_of_undying"}, "title": {"translate": "Лисье бессмертие"}, "description": {"color": "#75E1FF", "translate": "Дайте лисе тотем бессмертия"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:animal/blackberry_market", "rewards": {"function": "bc_rewards:animal/foxy_thievery"}, "criteria": {"totem_of_undying": {"trigger": "minecraft:thrown_item_picked_up_by_entity", "conditions": {"item": {"items": ["minecraft:totem_of_undying"]}, "entity": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"type": "minecraft:fox"}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Лисье бессмертие"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Дайте лисе тотем бессмертия"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:animal/blackberry_market",
+  "rewards": {
+    "function": "bc_rewards:animal/foxy_thievery"
+  },
+  "criteria": {
+    "totem_of_undying": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:fox"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

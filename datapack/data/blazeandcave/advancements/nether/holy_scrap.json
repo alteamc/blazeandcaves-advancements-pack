@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:netherite_scrap"}, "title": {"translate": "Святой Лом!"}, "description": {"translate": "Переплавьте древние обломки в незеритовый лом"}, "announce_to_chat": false}, "parent": "minecraft:nether/obtain_ancient_debris", "rewards": {"function": "bc_rewards:nether/holy_scrap"}, "criteria": {"netherite_scrap": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_scrap"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "title": {
+      "translate": "Святой Лом!"
+    },
+    "description": {
+      "translate": "Переплавьте древние обломки в незеритовый лом"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris",
+  "rewards": {
+    "function": "bc_rewards:nether/holy_scrap"
+  },
+  "criteria": {
+    "netherite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_scrap"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

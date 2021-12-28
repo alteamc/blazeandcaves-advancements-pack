@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:shroomlight"}, "title": {"translate": "Грибное просветление"}, "description": {"translate": "Осветите местность грибосветом"}, "announce_to_chat": false}, "parent": "blazeandcave:building/glowing", "rewards": {"function": "bc_rewards:building/shroom_lightyear"}, "criteria": {"shroomlight": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:shroomlight"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shroomlight"
+    },
+    "title": {
+      "translate": "Грибное просветление"
+    },
+    "description": {
+      "translate": "Осветите местность грибосветом"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/glowing",
+  "rewards": {
+    "function": "bc_rewards:building/shroom_lightyear"
+  },
+  "criteria": {
+    "shroomlight": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:shroomlight"
+      }
+    }
+  }
+}

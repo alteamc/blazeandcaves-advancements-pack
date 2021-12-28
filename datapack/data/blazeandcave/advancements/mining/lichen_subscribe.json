@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:glow_lichen"}, "title": {"translate": "Подписывайтесь!"}, "description": {"translate": "Используйте ножницы для получения светящегося лишайника в подземной пещеры"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/spelunker", "rewards": {"function": "bc_rewards:mining/lichen_subscribe"}, "criteria": {"glow_lichen": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:glow_lichen"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_lichen"
+    },
+    "title": {
+      "translate": "Подписывайтесь!"
+    },
+    "description": {
+      "translate": "Используйте ножницы для получения светящегося лишайника в подземной пещеры"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/spelunker",
+  "rewards": {
+    "function": "bc_rewards:mining/lichen_subscribe"
+  },
+  "criteria": {
+    "glow_lichen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_lichen"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

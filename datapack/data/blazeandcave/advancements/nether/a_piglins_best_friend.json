@@ -1,1 +1,24 @@
-{"display": {"icon": {"item": "minecraft:gold_block"}, "title": {"translate": "Лучший друг пиглина"}, "description": {"translate": "Дайте в общей сложности 500 золотых пиглинам во время ваших приключений в Незере"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:nether/when_piglins_fly", "rewards": {"function": "bc_rewards:nether/a_piglins_best_friend"}, "criteria": {"a_piglins_best_friend": {"trigger": "minecraft:impossible"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "Лучший друг пиглина"
+    },
+    "description": {
+      "translate": "Дайте в общей сложности 500 золотых пиглинам во время ваших приключений в Незере"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:nether/when_piglins_fly",
+  "rewards": {
+    "function": "bc_rewards:nether/a_piglins_best_friend"
+  },
+  "criteria": {
+    "a_piglins_best_friend": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

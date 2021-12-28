@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:rotten_flesh"}, "title": {"translate": "Мёртвые не умирают"}, "description": {"translate": "Убейте зомби"}, "announce_to_chat": false}, "parent": "minecraft:adventure/kill_a_mob", "rewards": {"function": "bc_rewards:monsters/dead_dont_die"}, "criteria": {"zombie": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "zombie"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "Мёртвые не умирают"
+    },
+    "description": {
+      "translate": "Убейте зомби"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "rewards": {
+    "function": "bc_rewards:monsters/dead_dont_die"
+  },
+  "criteria": {
+    "zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zombie"
+        }
+      }
+    }
+  }
+}

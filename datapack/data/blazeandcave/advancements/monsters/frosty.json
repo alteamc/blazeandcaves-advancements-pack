@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:snowball"}, "title": {"translate": "Холодный парень"}, "description": {"translate": "Убейте зимогора"}, "announce_to_chat": false}, "parent": "minecraft:story/deflect_arrow", "rewards": {"function": "bc_rewards:monsters/frosty"}, "criteria": {"stray": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "stray"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "Холодный парень"
+    },
+    "description": {
+      "translate": "Убейте зимогора"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:story/deflect_arrow",
+  "rewards": {
+    "function": "bc_rewards:monsters/frosty"
+  },
+  "criteria": {
+    "stray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "stray"
+        }
+      }
+    }
+  }
+}

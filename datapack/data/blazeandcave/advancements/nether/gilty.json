@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:gilded_blackstone"}, "title": {"translate": "Виновен!"}, "description": {"translate": "Добудьте золочёный чернит в развалинах бастиона"}, "announce_to_chat": false}, "parent": "minecraft:nether/loot_bastion", "rewards": {"function": "bc_rewards:nether/gilty"}, "criteria": {"gilded_blackstone": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:gilded_blackstone"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "translate": "Виновен!"
+    },
+    "description": {
+      "translate": "Добудьте золочёный чернит в развалинах бастиона"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:nether/loot_bastion",
+  "rewards": {
+    "function": "bc_rewards:nether/gilty"
+  },
+  "criteria": {
+    "gilded_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

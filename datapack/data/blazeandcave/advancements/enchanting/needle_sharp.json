@@ -1,1 +1,58 @@
-{"display": {"icon": {"item": "minecraft:iron_sword"}, "title": {"translate": "Острое лезвие"}, "description": {"color": "#75E1FF", "translate": "Заполучите зачарование «Острота V»"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:enchanting/librarian", "rewards": {"function": "bc_rewards:enchanting/needle_sharp"}, "criteria": {"sharpness": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"enchantments": [{"enchantment": "minecraft:sharpness", "levels": 5}]}]}}, "sharpness_book": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"stored_enchantments": [{"enchantment": "minecraft:sharpness", "levels": 5}]}]}}}, "requirements": [["sharpness", "sharpness_book"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Острое лезвие"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Заполучите зачарование «Острота V»"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "rewards": {
+    "function": "bc_rewards:enchanting/needle_sharp"
+  },
+  "criteria": {
+    "sharpness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:sharpness",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "sharpness_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:sharpness",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sharpness",
+      "sharpness_book"
+    ]
+  ]
+}

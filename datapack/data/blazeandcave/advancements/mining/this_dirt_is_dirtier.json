@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:rooted_dirt"}, "title": {"translate": "Эта грязь еще грязнее"}, "description": {"translate": "Dig through some Rooted Dirt beneath an Azalea Tree so you can find a Lush Cave"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/spelunker", "rewards": {"function": "bc_rewards:mining/this_dirt_is_dirtier"}, "criteria": {"rooted_dirt": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:rooted_dirt"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rooted_dirt"
+    },
+    "title": {
+      "translate": "Эта грязь еще грязнее"
+    },
+    "description": {
+      "translate": "Подкопайте немного корнистой земли под деревом азалии и найдите пышную пещеру"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/spelunker",
+  "rewards": {
+    "function": "bc_rewards:mining/this_dirt_is_dirtier"
+  },
+  "criteria": {
+    "rooted_dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rooted_dirt"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

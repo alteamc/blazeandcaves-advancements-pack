@@ -1,1 +1,63 @@
-{"display": {"icon": {"item": "minecraft:gold_ore"}, "title": {"translate": "Золотая шахта!"}, "description": {"translate": "Найдите заброшенную шахту на поверхности столовых гор"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/eeuuwww", "rewards": {"function": "bc_rewards:mining/gold_mine"}, "criteria": {"badlands": {"trigger": "minecraft:location", "conditions": {"feature": "mineshaft", "biome": "minecraft:badlands", "position": {"y": {"min": 64}}}}, "wooded_badlands": {"trigger": "minecraft:location", "conditions": {"feature": "mineshaft", "biome": "minecraft:wooded_badlands", "position": {"y": {"min": 64}}}}, "eroded_badlands": {"trigger": "minecraft:location", "conditions": {"feature": "mineshaft", "biome": "minecraft:eroded_badlands", "position": {"y": {"min": 64}}}}}, "requirements": [["badlands", "wooded_badlands", "eroded_badlands"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ore"
+    },
+    "title": {
+      "translate": "Золотая шахта!"
+    },
+    "description": {
+      "translate": "Найдите заброшенную шахту на поверхности столовых гор"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/eeuuwww",
+  "rewards": {
+    "function": "bc_rewards:mining/gold_mine"
+  },
+  "criteria": {
+    "badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "mineshaft",
+        "biome": "minecraft:badlands",
+        "position": {
+          "y": {
+            "min": 64
+          }
+        }
+      }
+    },
+    "wooded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "mineshaft",
+        "biome": "minecraft:wooded_badlands",
+        "position": {
+          "y": {
+            "min": 64
+          }
+        }
+      }
+    },
+    "eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "mineshaft",
+        "biome": "minecraft:eroded_badlands",
+        "position": {
+          "y": {
+            "min": 64
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "badlands",
+      "wooded_badlands",
+      "eroded_badlands"
+    ]
+  ]
+}

@@ -1,1 +1,33 @@
-{"display": {"icon": {"item": "minecraft:skeleton_skull"}, "title": {"translate": "Говорящие головы"}, "description": {"translate": "Взорвите скелета заряженным крипером, чтобы получить его череп"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:monsters/melting", "rewards": {"function": "bc_rewards:monsters/spooky_skulls"}, "criteria": {"skeleton_skull": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:skeleton_skull"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "Говорящие головы"
+    },
+    "description": {
+      "translate": "Взорвите скелета заряженным крипером, чтобы получить его череп"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:monsters/melting",
+  "rewards": {
+    "function": "bc_rewards:monsters/spooky_skulls"
+  },
+  "criteria": {
+    "skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

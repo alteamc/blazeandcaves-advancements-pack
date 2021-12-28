@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:flint"}, "title": {"translate": "Кремневая прелесть"}, "description": {"color": "#75E1FF", "translate": "Добудьте стак кремня"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:mining/meet_the_flintstones", "rewards": {"function": "bc_rewards:mining/flint_miner"}, "criteria": {"flint": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:flint"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint"
+    },
+    "title": {
+      "translate": "Кремневая прелесть"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Добудьте стак кремня"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:mining/meet_the_flintstones",
+  "rewards": {
+    "function": "bc_rewards:mining/flint_miner"
+  },
+  "criteria": {
+    "flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flint"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

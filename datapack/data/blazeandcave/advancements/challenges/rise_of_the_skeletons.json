@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:skeleton_skull"}, "title": {"translate": "Восстание скелетов"}, "description": {"color": "#FF2A2A", "translate": "Заполучите стак черепов"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/zombie_apocalypse", "rewards": {"function": "bc_rewards:challenges/rise_of_the_skeletons"}, "criteria": {"skeleton_skull": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:skeleton_skull"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "Восстание скелетов"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Заполучите стак черепов"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/zombie_apocalypse",
+  "rewards": {
+    "function": "bc_rewards:challenges/rise_of_the_skeletons"
+  },
+  "criteria": {
+    "skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

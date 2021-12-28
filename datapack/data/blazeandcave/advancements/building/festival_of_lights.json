@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:lantern"}, "title": {"translate": "Фестиваль света"}, "description": {"translate": "Осветите местность при помощи фонаря"}, "announce_to_chat": false}, "parent": "blazeandcave:building/torched", "rewards": {"function": "bc_rewards:building/festival_of_lights"}, "criteria": {"lantern": {"trigger": "minecraft:placed_block", "conditions": {"block": "minecraft:lantern"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lantern"
+    },
+    "title": {
+      "translate": "Фестиваль света"
+    },
+    "description": {
+      "translate": "Осветите местность при помощи фонаря"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/torched",
+  "rewards": {
+    "function": "bc_rewards:building/festival_of_lights"
+  },
+  "criteria": {
+    "lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:lantern"
+      }
+    }
+  }
+}

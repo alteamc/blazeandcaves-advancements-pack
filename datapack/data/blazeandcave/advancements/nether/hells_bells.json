@@ -1,1 +1,33 @@
-{"display": {"icon": {"item": "minecraft:bell"}, "title": {"translate": "Адские бубенцы"}, "description": {"translate": "Позвоните в колокол в Незере"}, "announce_to_chat": false}, "parent": "minecraft:nether/root", "rewards": {"function": "bc_rewards:nether/hells_bells"}, "criteria": {"bell": {"trigger": "minecraft:item_used_on_block", "conditions": {"location": {"block": {"blocks": ["minecraft:bell"]}, "dimension": "the_nether"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Адские бубенцы"
+    },
+    "description": {
+      "translate": "Позвоните в колокол в Незере"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:nether/root",
+  "rewards": {
+    "function": "bc_rewards:nether/hells_bells"
+  },
+  "criteria": {
+    "bell": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell"
+            ]
+          },
+          "dimension": "the_nether"
+        }
+      }
+    }
+  }
+}

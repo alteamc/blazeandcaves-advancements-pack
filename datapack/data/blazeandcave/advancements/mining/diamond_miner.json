@@ -1,1 +1,35 @@
-{"display": {"icon": {"item": "minecraft:deepslate_diamond_ore"}, "title": {"translate": "Алмазная лихорадка"}, "description": {"color": "#75E1FF", "translate": "Добудьте стак алмазов. Удачи!"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:mining/diamond_clad", "rewards": {"function": "bc_rewards:mining/diamond_miner"}, "criteria": {"diamond": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:diamond"], "count": 64}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "title": {
+      "translate": "Алмазная лихорадка"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Добудьте стак алмазов. Удачи!"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:mining/diamond_clad",
+  "rewards": {
+    "function": "bc_rewards:mining/diamond_miner"
+  },
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

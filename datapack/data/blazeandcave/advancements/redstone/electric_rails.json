@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:powered_rail"}, "title": {"translate": "Энергорельсы"}, "description": {"translate": "Делаем самоходные вагонетки бесполезными"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/fuel_engine", "rewards": {"function": "bc_rewards:redstone/electric_rails"}, "criteria": {"powered_rail": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:powered_rail"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Энергорельсы"
+    },
+    "description": {
+      "translate": "Делаем самоходные вагонетки бесполезными"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/fuel_engine",
+  "rewards": {
+    "function": "bc_rewards:redstone/electric_rails"
+  },
+  "criteria": {
+    "powered_rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:powered_rail"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

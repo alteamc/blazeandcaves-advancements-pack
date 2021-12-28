@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:axolotl_spawn_egg"}, "title": {"translate": "Аксолитл"}, "description": {"translate": "Размножьте двух аксолотлей, используя тропическую рыбу"}, "announce_to_chat": false}, "parent": "minecraft:husbandry/kill_axolotl_target", "rewards": {"function": "bc_rewards:animal/axolittle"}, "criteria": {"axolotl": {"trigger": "minecraft:bred_animals", "conditions": {"parent": {"type": "minecraft:axolotl"}, "partner": {"type": "minecraft:axolotl"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_spawn_egg"
+    },
+    "title": {
+      "translate": "Аксолитл"
+    },
+    "description": {
+      "translate": "Размножьте двух аксолотлей, используя тропическую рыбу"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/kill_axolotl_target",
+  "rewards": {
+    "function": "bc_rewards:animal/axolittle"
+  },
+  "criteria": {
+    "axolotl": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:axolotl"
+        },
+        "partner": {
+          "type": "minecraft:axolotl"
+        }
+      }
+    }
+  }
+}

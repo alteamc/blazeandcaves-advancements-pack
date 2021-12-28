@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:iron_sword"}, "title": {"translate": "Охотник за призраками"}, "description": {"translate": "Победите вредину, призванного заклинателем"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/heres_johnny", "rewards": {"function": "bc_rewards:adventure/ghostbuster"}, "criteria": {"vex": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "vex"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Охотник за призраками"
+    },
+    "description": {
+      "translate": "Победите вредину, призванного заклинателем"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/heres_johnny",
+  "rewards": {
+    "function": "bc_rewards:adventure/ghostbuster"
+  },
+  "criteria": {
+    "vex": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "vex"
+        }
+      }
+    }
+  }
+}

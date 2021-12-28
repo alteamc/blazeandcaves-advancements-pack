@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:iron_bars"}, "title": {"translate": "Охрана!"}, "description": {"translate": "Погибните от рук железного голема, защищающего свою деревню"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/murderer", "rewards": {"function": "bc_rewards:adventure/rekt"}, "criteria": {"iron_golem": {"trigger": "minecraft:entity_killed_player", "conditions": {"entity": {"type": "iron_golem"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_bars"
+    },
+    "title": {
+      "translate": "Охрана!"
+    },
+    "description": {
+      "translate": "Погибните от рук железного голема, защищающего свою деревню"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/murderer",
+  "rewards": {
+    "function": "bc_rewards:adventure/rekt"
+  },
+  "criteria": {
+    "iron_golem": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "iron_golem"
+        }
+      }
+    }
+  }
+}

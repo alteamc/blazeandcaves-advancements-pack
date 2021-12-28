@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:rabbit_foot"}, "title": {"translate": "Кроличий шарм"}, "description": {"translate": "Получите кроличью лапку"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/theyre_breeding_like_rabbits", "rewards": {"function": "bc_rewards:animal/lucky_charm"}, "criteria": {"rabbit_foot": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:rabbit_foot"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "Кроличий шарм"
+    },
+    "description": {
+      "translate": "Получите кроличью лапку"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/theyre_breeding_like_rabbits",
+  "rewards": {
+    "function": "bc_rewards:animal/lucky_charm"
+  },
+  "criteria": {
+    "rabbit_foot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_foot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

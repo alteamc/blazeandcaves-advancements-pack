@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:panda_spawn_egg"}, "title": {"translate": "Зоолог"}, "description": {"translate": "Размножьте двух панд, чтобы получить ребёнка"}, "announce_to_chat": false}, "parent": "blazeandcave:biomes/construction_worker", "rewards": {"function": "bc_rewards:biomes/zoologist"}, "criteria": {"panda": {"trigger": "minecraft:bred_animals", "conditions": {"parent": {"type": "minecraft:panda"}, "partner": {"type": "minecraft:panda"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:panda_spawn_egg"
+    },
+    "title": {
+      "translate": "Зоолог"
+    },
+    "description": {
+      "translate": "Размножьте двух панд, чтобы получить ребёнка"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:biomes/construction_worker",
+  "rewards": {
+    "function": "bc_rewards:biomes/zoologist"
+  },
+  "criteria": {
+    "panda": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        },
+        "partner": {
+          "type": "minecraft:panda"
+        }
+      }
+    }
+  }
+}

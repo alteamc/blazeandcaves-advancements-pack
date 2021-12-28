@@ -1,1 +1,50 @@
-{"display": {"icon": {"item": "minecraft:grass"}, "title": {"translate": "Фолиаж"}, "description": {"translate": "Используйте ножницы, чтобы добыть траву или папоротник"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/trimming_the_treetops", "rewards": {"function": "bc_rewards:farming/foliage"}, "criteria": {"grass": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:grass"]}]}}, "fern": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:fern"]}]}}}, "requirements": [["grass", "fern"]]}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass"
+    },
+    "title": {
+      "translate": "Фолиаж"
+    },
+    "description": {
+      "translate": "Используйте ножницы, чтобы добыть траву или папоротник"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "rewards": {
+    "function": "bc_rewards:farming/foliage"
+  },
+  "criteria": {
+    "grass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass"
+            ]
+          }
+        ]
+      }
+    },
+    "fern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "grass",
+      "fern"
+    ]
+  ]
+}

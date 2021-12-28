@@ -1,1 +1,36 @@
-{"display": {"icon": {"item": "minecraft:emerald_block"}, "title": {"translate": "Повелитель крестьян"}, "description": {"translate": "Создайте 64 изумрудных блока"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:adventure/filthy_rich", "rewards": {"function": "bc_rewards:adventure/filthy_stinkin_rich"}, "criteria": {"emerald_blocks": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:emerald_block"], "count": {"min": 64}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "Повелитель крестьян"
+    },
+    "description": {
+      "translate": "Создайте 64 изумрудных блока"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:adventure/filthy_rich",
+  "rewards": {
+    "function": "bc_rewards:adventure/filthy_stinkin_rich"
+  },
+  "criteria": {
+    "emerald_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald_block"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

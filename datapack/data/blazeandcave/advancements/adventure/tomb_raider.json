@@ -1,1 +1,26 @@
-{"display": {"icon": {"item": "minecraft:mossy_cobblestone"}, "title": {"translate": "Знаток джунглей"}, "description": {"translate": "Войдите в тропический храм"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/grave_robber", "rewards": {"function": "bc_rewards:adventure/tomb_raider"}, "criteria": {"jungle_pyramid": {"trigger": "minecraft:location", "conditions": {"feature": "jungle_pyramid"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "title": {
+      "translate": "Знаток джунглей"
+    },
+    "description": {
+      "translate": "Войдите в тропический храм"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/grave_robber",
+  "rewards": {
+    "function": "bc_rewards:adventure/tomb_raider"
+  },
+  "criteria": {
+    "jungle_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "jungle_pyramid"
+      }
+    }
+  }
+}

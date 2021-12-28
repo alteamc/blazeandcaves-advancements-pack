@@ -1,1 +1,38 @@
-{"display": {"icon": {"item": "minecraft:glass"}, "title": {"translate": "Жестокий астронавт"}, "description": {"translate": "Отправьте Брутального Пиглина в Энд и убейте эго до того, как он зомбифицируеться"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:nether/et_tu_brute", "rewards": {"function": "bc_rewards:nether/astrobrute"}, "criteria": {"astrobrute": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"type": "piglin_brute", "location": {"dimension": "the_end"}}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glass"
+    },
+    "title": {
+      "translate": "Жестокий астронавт"
+    },
+    "description": {
+      "translate": "Отправьте Брутального Пиглина в Энд и убейте эго до того, как он зомбифицируеться"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:nether/et_tu_brute",
+  "rewards": {
+    "function": "bc_rewards:nether/astrobrute"
+  },
+  "criteria": {
+    "astrobrute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "piglin_brute",
+              "location": {
+                "dimension": "the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:grindstone"}, "title": {"translate": "Точильная станция"}, "description": {"translate": "Создайте точило при помощи досок, каменной плиты и палок"}, "announce_to_chat": false}, "parent": "blazeandcave:building/its_original_form", "rewards": {"function": "bc_rewards:building/sharpening_station"}, "criteria": {"grindstone": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:grindstone"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "title": {
+      "translate": "Точильная станция"
+    },
+    "description": {
+      "translate": "Создайте точило при помощи досок, каменной плиты и палок"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:building/its_original_form",
+  "rewards": {
+    "function": "bc_rewards:building/sharpening_station"
+  },
+  "criteria": {
+    "grindstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grindstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

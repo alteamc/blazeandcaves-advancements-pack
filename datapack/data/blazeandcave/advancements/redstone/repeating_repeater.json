@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:repeater"}, "title": {"translate": "Повторение — мать учения"}, "description": {"translate": "Создайте повторитель"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/powerful_light", "rewards": {"function": "bc_rewards:redstone/repeating_repeater"}, "criteria": {"repeater": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:repeater"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:repeater"
+    },
+    "title": {
+      "translate": "Повторение — мать учения"
+    },
+    "description": {
+      "translate": "Создайте повторитель"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/powerful_light",
+  "rewards": {
+    "function": "bc_rewards:redstone/repeating_repeater"
+  },
+  "criteria": {
+    "repeater": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:repeater"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

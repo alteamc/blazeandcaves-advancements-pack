@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:bookshelf"}, "title": {"translate": "Библиотекарь"}, "description": {"translate": "Смастерите несколько книжных полок для своего стола зачарования"}, "announce_to_chat": false}, "parent": "blazeandcave:enchanting/root", "rewards": {"function": "bc_rewards:enchanting/librarian"}, "criteria": {"bookshelf": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:bookshelf"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "title": {
+      "translate": "Библиотекарь"
+    },
+    "description": {
+      "translate": "Смастерите несколько книжных полок для своего стола зачарования"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:enchanting/root",
+  "rewards": {
+    "function": "bc_rewards:enchanting/librarian"
+  },
+  "criteria": {
+    "bookshelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bookshelf"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

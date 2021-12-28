@@ -1,1 +1,36 @@
-{"display": {"icon": {"item": "minecraft:arrow"}, "title": {"translate": "Спамер"}, "description": {"translate": "Атакуйте моба при помощи быстрой стрельбы (без сильного натягивания тетивы)"}, "announce_to_chat": false}, "parent": "blazeandcave:weaponry/point_blank", "rewards": {"function": "bc_rewards:weaponry/bow_spammer"}, "criteria": {"bow_spammer": {"trigger": "minecraft:player_hurt_entity", "conditions": {"damage": {"taken": {"max": 1}, "type": {"is_projectile": true, "direct_entity": {"type": "minecraft:arrow"}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Спамер"
+    },
+    "description": {
+      "translate": "Атакуйте моба при помощи быстрой стрельбы (без сильного натягивания тетивы)"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:weaponry/point_blank",
+  "rewards": {
+    "function": "bc_rewards:weaponry/bow_spammer"
+  },
+  "criteria": {
+    "bow_spammer": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "max": 1
+          },
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:tnt_minecart"}, "title": {"translate": "Подвижный взрыв"}, "description": {"translate": "Поместите динамит в вагонетку"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/moving_moving_storage", "rewards": {"function": "bc_rewards:redstone/mobile_explosion"}, "criteria": {"tnt_minecart": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:tnt_minecart"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt_minecart"
+    },
+    "title": {
+      "translate": "Подвижный взрыв"
+    },
+    "description": {
+      "translate": "Поместите динамит в вагонетку"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/moving_moving_storage",
+  "rewards": {
+    "function": "bc_rewards:redstone/mobile_explosion"
+  },
+  "criteria": {
+    "tnt_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt_minecart"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:gunpowder"}, "title": {"translate": "Мои глаза!"}, "description": {"translate": "Убейте моба при помощи взрыва от фейерверка"}, "announce_to_chat": false}, "parent": "blazeandcave:weaponry/explosive_fire", "rewards": {"function": "bc_rewards:weaponry/my_eyes"}, "criteria": {"firework_rocket_kill": {"trigger": "minecraft:player_killed_entity", "conditions": {"killing_blow": {"direct_entity": {"type": "minecraft:firework_rocket"}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Мои глаза!"
+    },
+    "description": {
+      "translate": "Убейте моба при помощи взрыва от фейерверка"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:weaponry/explosive_fire",
+  "rewards": {
+    "function": "bc_rewards:weaponry/my_eyes"
+  },
+  "criteria": {
+    "firework_rocket_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:firework_rocket"
+          }
+        }
+      }
+    }
+  }
+}

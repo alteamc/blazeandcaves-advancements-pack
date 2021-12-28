@@ -1,1 +1,212 @@
-{"display": {"icon": {"item": "minecraft:map"}, "title": {"translate": "Загадка:", "extra": [{"text": "                    "}]}, "description": {"color": "#FF2A2A", "translate": "Первое - выковать исчезающий компас", "extra": [{"text": "\n"}, {"color": "#FF2A2A", "translate": "Второе - убить труп, ловящий рыбу"}, {"text": "\n"}, {"color": "#FF2A2A", "translate": "Третье - путешествовать на перевернутом коне"}, {"text": "\n"}, {"color": "#FF2A2A", "translate": "Четвёртое - принять во внимание растяжку в храме"}, {"text": "\n"}, {"color": "#FF2A2A", "translate": "Пятое - быть невидимым, но быть видимым повсюду"}, {"text": "\n"}, {"color": "#FF2A2A", "translate": "Шестое - вернуть в воздухе курице её же продукт"}, {"text": "\n"}, {"color": "#FF2A2A", "translate": "Седьмое - позволить ребенку совершить воровство"}, {"text": "\n"}, {"color": "#FF2A2A", "translate": "Восьмой - поразить Иссушителя исцелением"}, {"text": "\n"}, {"color": "#FF2A2A", "translate": "Девятое - быть пиратом; попугай, подзорная труба, карта и лодка"}, {"text": "\n"}, {"color": "#FF2A2A", "translate": "Десятое, если вы сможете его достичь, вы станете мудрейшим игроком"}]}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:challenges/the_perfect_run", "rewards": {"function": "bc_rewards:challenges/riddle_me_this"}, "criteria": {"first_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_first_line": "true"}}}}}, "second_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_second_line": "true"}}}}}, "third_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_third_line": "true"}}}}}, "fourth_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_fourth_line": "true"}}}}}, "fifth_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_fifth_line": "true"}}}}}, "sixth_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_sixth_line": "true"}}}}}, "seventh_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_seventh_line": "true"}}}}}, "eighth_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_eighth_line": "true"}}}}}, "ninth_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_ninth_line": "true"}}}}}, "tenth_line": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"advancements": {"blazeandcave:technical/riddle_tenth_line": "true"}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:map"
+    },
+    "title": {
+      "translate": "Загадка:",
+      "extra": [
+        {
+          "text": "                    "
+        }
+      ]
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Первое - выковать исчезающий компас",
+      "extra": [
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Второе - убить труп, ловящий рыбу"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Третье - путешествовать на перевернутом коне"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Четвёртое - принять во внимание растяжку в храме"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Пятое - быть невидимым, но быть видимым повсюду"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Шестое - вернуть в воздухе курице её же продукт"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Седьмое - позволить ребенку совершить воровство"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Восьмой - поразить Иссушителя исцелением"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Девятое - быть пиратом; попугай, подзорная труба, карта и лодка"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "Десятое, если вы сможете его достичь, вы станете мудрейшим игроком"
+        }
+      ]
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/the_perfect_run",
+  "rewards": {
+    "function": "bc_rewards:challenges/riddle_me_this"
+  },
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_first_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "second_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_second_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "third_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_third_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "fourth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_fourth_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "fifth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_fifth_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "sixth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_sixth_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "seventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_seventh_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "eighth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_eighth_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "ninth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_ninth_line": "true"
+            }
+          }
+        }
+      }
+    },
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "blazeandcave:technical/riddle_tenth_line": "true"
+            }
+          }
+        }
+      }
+    }
+  }
+}

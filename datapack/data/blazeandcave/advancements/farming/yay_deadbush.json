@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:dead_bush"}, "title": {"translate": "Ура! Мёртвый куст!"}, "description": {"translate": "Заполучите мёртвый куст, потому что Вы — нуб"}, "announce_to_chat": false}, "parent": "blazeandcave:farming/foliage", "rewards": {"function": "bc_rewards:farming/yay_deadbush"}, "criteria": {"dead_bush": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:dead_bush"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dead_bush"
+    },
+    "title": {
+      "translate": "Ура! Мёртвый куст!"
+    },
+    "description": {
+      "translate": "Заполучите мёртвый куст, потому что Вы — нуб"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/foliage",
+  "rewards": {
+    "function": "bc_rewards:farming/yay_deadbush"
+  },
+  "criteria": {
+    "dead_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dead_bush"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

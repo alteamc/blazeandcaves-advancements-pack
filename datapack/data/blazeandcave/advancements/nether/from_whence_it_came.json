@@ -1,1 +1,27 @@
-{"display": {"icon": {"item": "minecraft:obsidian"}, "title": {"translate": "Откуда это здесь?"}, "description": {"translate": "Найдите сломанный портал в Незере"}, "announce_to_chat": false}, "parent": "minecraft:nether/root", "rewards": {"function": "bc_rewards:nether/from_whence_it_came"}, "criteria": {"ruined_portal": {"trigger": "minecraft:location", "conditions": {"feature": "ruined_portal", "dimension": "the_nether"}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Откуда это здесь?"
+    },
+    "description": {
+      "translate": "Найдите сломанный портал в Незере"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:nether/root",
+  "rewards": {
+    "function": "bc_rewards:nether/from_whence_it_came"
+  },
+  "criteria": {
+    "ruined_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "ruined_portal",
+        "dimension": "the_nether"
+      }
+    }
+  }
+}

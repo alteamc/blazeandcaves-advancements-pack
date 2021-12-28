@@ -1,1 +1,34 @@
-{"display": {"icon": {"item": "minecraft:apple"}, "title": {"translate": "Искусственный отбор"}, "description": {"translate": "Скрестите лошадь и осла, чтобы получить мула"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/are_we_there_yet", "rewards": {"function": "bc_rewards:animal/artificial_selection"}, "criteria": {"mule": {"trigger": "minecraft:bred_animals", "conditions": {"parent": {"type": "minecraft:horse"}, "partner": {"type": "minecraft:donkey"}, "child": {"type": "minecraft:mule"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": {
+      "translate": "Искусственный отбор"
+    },
+    "description": {
+      "translate": "Скрестите лошадь и осла, чтобы получить мула"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/are_we_there_yet",
+  "rewards": {
+    "function": "bc_rewards:animal/artificial_selection"
+  },
+  "criteria": {
+    "mule": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:horse"
+        },
+        "partner": {
+          "type": "minecraft:donkey"
+        },
+        "child": {
+          "type": "minecraft:mule"
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,33 @@
-{"display": {"icon": {"item": "minecraft:spectral_arrow"}, "title": {"translate": "Подсветка"}, "description": {"translate": "Выстрелите в моба спектральной стрелой"}, "announce_to_chat": false}, "parent": "blazeandcave:nether/seeing_stars", "rewards": {"function": "bc_rewards:nether/glows_in_the_dark"}, "criteria": {"spectral_arrow": {"trigger": "minecraft:player_hurt_entity", "conditions": {"damage": {"type": {"is_projectile": true, "direct_entity": {"type": "minecraft:spectral_arrow"}}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Подсветка"
+    },
+    "description": {
+      "translate": "Выстрелите в моба спектральной стрелой"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:nether/seeing_stars",
+  "rewards": {
+    "function": "bc_rewards:nether/glows_in_the_dark"
+  },
+  "criteria": {
+    "spectral_arrow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:spectral_arrow"
+            }
+          }
+        }
+      }
+    }
+  }
+}

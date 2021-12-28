@@ -1,1 +1,31 @@
-{"display": {"icon": {"item": "minecraft:cat_spawn_egg"}, "title": {"translate": "Котятки"}, "description": {"translate": "Размножьте двух котов рыбой, чтобы получить котика!"}, "announce_to_chat": false}, "parent": "blazeandcave:adventure/crazy_cat_lady", "rewards": {"function": "bc_rewards:adventure/if_only_cats_grew_into_kittens"}, "criteria": {"cat": {"trigger": "minecraft:bred_animals", "conditions": {"parent": {"type": "minecraft:cat"}, "partner": {"type": "minecraft:cat"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "title": {
+      "translate": "Котятки"
+    },
+    "description": {
+      "translate": "Размножьте двух котов рыбой, чтобы получить котика!"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:adventure/crazy_cat_lady",
+  "rewards": {
+    "function": "bc_rewards:adventure/if_only_cats_grew_into_kittens"
+  },
+  "criteria": {
+    "cat": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:cat"
+        },
+        "partner": {
+          "type": "minecraft:cat"
+        }
+      }
+    }
+  }
+}

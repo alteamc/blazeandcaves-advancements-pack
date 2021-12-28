@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:oak_button"}, "title": {"translate": "Клик!"}, "description": {"translate": "Поместите и нажмите на кнопку"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/root", "rewards": {"function": "bc_rewards:redstone/click"}, "criteria": {"oak_button": {"trigger": "minecraft:item_used_on_block", "conditions": {"location": {"block": {"tag": "minecraft:buttons"}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_button"
+    },
+    "title": {
+      "translate": "Клик!"
+    },
+    "description": {
+      "translate": "Поместите и нажмите на кнопку"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/root",
+  "rewards": {
+    "function": "bc_rewards:redstone/click"
+  },
+  "criteria": {
+    "oak_button": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:buttons"
+          }
+        }
+      }
+    }
+  }
+}

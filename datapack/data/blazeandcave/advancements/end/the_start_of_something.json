@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:end_crystal"}, "title": {"translate": "Начало чего-то нового"}, "description": {"translate": "Создайте первый кристалл Энда"}, "announce_to_chat": false}, "parent": "minecraft:end/dragon_egg", "rewards": {"function": "bc_rewards:end/the_start_of_something"}, "criteria": {"end_crystal": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:end_crystal"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "Начало чего-то нового"
+    },
+    "description": {
+      "translate": "Создайте первый кристалл Энда"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:end/dragon_egg",
+  "rewards": {
+    "function": "bc_rewards:end/the_start_of_something"
+  },
+  "criteria": {
+    "end_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_crystal"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

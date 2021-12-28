@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:piston"}, "title": {"translate": "Двигающиеся штуки"}, "description": {"translate": "Создайте поршень, чтобы двигать блоки"}, "announce_to_chat": false}, "parent": "blazeandcave:redstone/root", "rewards": {"function": "bc_rewards:redstone/moving_parts"}, "criteria": {"piston": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:piston"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:piston"
+    },
+    "title": {
+      "translate": "Двигающиеся штуки"
+    },
+    "description": {
+      "translate": "Создайте поршень, чтобы двигать блоки"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:redstone/root",
+  "rewards": {
+    "function": "bc_rewards:redstone/moving_parts"
+  },
+  "criteria": {
+    "piston": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piston"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

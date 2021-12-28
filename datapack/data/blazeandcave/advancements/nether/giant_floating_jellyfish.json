@@ -1,1 +1,28 @@
-{"display": {"icon": {"item": "minecraft:gunpowder"}, "title": {"translate": "Гигантская летающая медуза"}, "description": {"translate": "Убейте гаста"}, "announce_to_chat": false}, "parent": "blazeandcave:nether/the_tribal_snouts", "rewards": {"function": "bc_rewards:nether/giant_floating_jellyfish"}, "criteria": {"ghast": {"trigger": "minecraft:player_killed_entity", "conditions": {"entity": {"type": "ghast"}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Гигантская летающая медуза"
+    },
+    "description": {
+      "translate": "Убейте гаста"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:nether/the_tribal_snouts",
+  "rewards": {
+    "function": "bc_rewards:nether/giant_floating_jellyfish"
+  },
+  "criteria": {
+    "ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "ghast"
+        }
+      }
+    }
+  }
+}

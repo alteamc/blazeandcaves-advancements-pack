@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:lapis_lazuli"}, "title": {"translate": "АЛМА- ой, постой, нет, не он…"}, "description": {"translate": "Ну, он всё ещё пригоден для зачарований…"}, "announce_to_chat": false}, "parent": "minecraft:story/iron_tools", "rewards": {"function": "bc_rewards:mining/diam_oh_wait_no"}, "criteria": {"coal": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:lapis_lazuli"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "title": {
+      "translate": "АЛМА- ой, постой, нет, не он…"
+    },
+    "description": {
+      "translate": "Ну, он всё ещё пригоден для зачарований…"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:story/iron_tools",
+  "rewards": {
+    "function": "bc_rewards:mining/diam_oh_wait_no"
+  },
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,24 @@
-{"display": {"icon": {"item": "minecraft:enchanting_table"}, "title": {"translate": "Чародейство"}, "description": {"translate": "Зачаровывайте предметы на чародейском столе, чтобы придать им особые свойства"}, "background": "minecraft:textures/block/obsidian.png", "show_toast": false, "announce_to_chat": false}, "rewards": {"function": "bc_rewards:enchanting/root"}, "criteria": {"enchanted_item": {"trigger": "minecraft:enchanted_item"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Чародейство"
+    },
+    "description": {
+      "translate": "Зачаровывайте предметы на чародейском столе, чтобы придать им особые свойства"
+    },
+    "background": "minecraft:textures/block/obsidian.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "bc_rewards:enchanting/root"
+  },
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item"
+    }
+  }
+}

@@ -1,1 +1,30 @@
-{"display": {"icon": {"item": "minecraft:cod"}, "title": {"translate": "Суши"}, "description": {"translate": "Съешьте сырую рыбу"}, "announce_to_chat": false}, "parent": "blazeandcave:animal/delicious_fish", "rewards": {"function": "bc_rewards:animal/sushi"}, "criteria": {"cod": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": ["minecraft:cod"]}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cod"
+    },
+    "title": {
+      "translate": "Суши"
+    },
+    "description": {
+      "translate": "Съешьте сырую рыбу"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:animal/delicious_fish",
+  "rewards": {
+    "function": "bc_rewards:animal/sushi"
+  },
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ]
+        }
+      }
+    }
+  }
+}

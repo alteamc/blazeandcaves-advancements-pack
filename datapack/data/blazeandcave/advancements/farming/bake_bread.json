@@ -1,1 +1,32 @@
-{"display": {"icon": {"item": "minecraft:bread"}, "title": {"translate": "Хлеб насущный"}, "description": {"translate": "Вырастите пшеницу и приготовьте хлеб"}, "announce_to_chat": false}, "parent": "minecraft:husbandry/plant_seed", "rewards": {"function": "bc_rewards:farming/bake_bread"}, "criteria": {"bread": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:bread"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": {
+      "translate": "Хлеб насущный"
+    },
+    "description": {
+      "translate": "Вырастите пшеницу и приготовьте хлеб"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "rewards": {
+    "function": "bc_rewards:farming/bake_bread"
+  },
+  "criteria": {
+    "bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bread"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

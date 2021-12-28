@@ -1,1 +1,24 @@
-{"display": {"icon": {"item": "minecraft:ender_eye"}, "title": {"translate": "Горизонт событий"}, "description": {"translate": "Выживите после получения урона от пустоты"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:end/the_point_of_no_return", "rewards": {"function": "bc_rewards:end/event_horizon"}, "criteria": {"event_horizon": {"trigger": "minecraft:impossible"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "Горизонт событий"
+    },
+    "description": {
+      "translate": "Выживите после получения урона от пустоты"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:end/the_point_of_no_return",
+  "rewards": {
+    "function": "bc_rewards:end/event_horizon"
+  },
+  "criteria": {
+    "event_horizon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

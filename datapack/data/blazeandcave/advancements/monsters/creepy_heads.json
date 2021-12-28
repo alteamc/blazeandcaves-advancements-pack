@@ -1,1 +1,33 @@
-{"display": {"icon": {"item": "minecraft:creeper_head"}, "title": {"translate": "Криповые головы"}, "description": {"translate": "Взорвите крипера заряженным крипером, чтобы получить его голову"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:monsters/creeper_killer", "rewards": {"function": "bc_rewards:monsters/creepy_heads"}, "criteria": {"creeper_head": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:creeper_head"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": {
+      "translate": "Криповые головы"
+    },
+    "description": {
+      "translate": "Взорвите крипера заряженным крипером, чтобы получить его голову"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:monsters/creeper_killer",
+  "rewards": {
+    "function": "bc_rewards:monsters/creepy_heads"
+  },
+  "criteria": {
+    "creeper_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:creeper_head"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

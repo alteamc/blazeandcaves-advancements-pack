@@ -1,1 +1,39 @@
-{"display": {"icon": {"item": "minecraft:firework_rocket"}, "title": {"translate": "Летун"}, "description": {"translate": "Пролетите 1000км при помощи элитр"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:statistics/supersonic", "rewards": {"function": "bc_rewards:statistics/frequent_flyer"}, "criteria": {"trigger": {"trigger": "minecraft:location", "conditions": {"player": {"player": {"stats": [{"type": "minecraft:custom", "stat": "minecraft:aviate_one_cm", "value": {"min": 100000000}}]}}}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Летун"
+    },
+    "description": {
+      "translate": "Пролетите 1000км при помощи элитр"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/supersonic",
+  "rewards": {
+    "function": "bc_rewards:statistics/frequent_flyer"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:aviate_one_cm",
+                "value": {
+                  "min": 100000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

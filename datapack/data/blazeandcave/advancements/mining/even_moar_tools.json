@@ -1,1 +1,68 @@
-{"display": {"icon": {"item": "minecraft:diamond_shovel"}, "title": {"translate": "ЕЩЁ БОЛЬШЕ инструментов"}, "description": {"translate": "Создайте полный комплект алмазных инструментов"}, "announce_to_chat": false}, "parent": "blazeandcave:mining/stabcraft", "rewards": {"function": "bc_rewards:mining/even_moar_tools"}, "criteria": {"diamond_pickaxe": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:diamond_pickaxe"]}]}}, "diamond_axe": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:diamond_axe"]}]}}, "diamond_shovel": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:diamond_shovel"]}]}}, "diamond_hoe": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:diamond_hoe"]}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_shovel"
+    },
+    "title": {
+      "translate": "ЕЩЁ БОЛЬШЕ инструментов"
+    },
+    "description": {
+      "translate": "Создайте полный комплект алмазных инструментов"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:mining/stabcraft",
+  "rewards": {
+    "function": "bc_rewards:mining/even_moar_tools"
+  },
+  "criteria": {
+    "diamond_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "diamond_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "diamond_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,38 @@
-{"display": {"icon": {"item": "minecraft:flint_and_steel"}, "title": {"translate": "Древняя реставрация"}, "description": {"translate": "Восстановите и повторно активируйте разрушенный портал"}, "announce_to_chat": false, "frame": "goal"}, "parent": "blazeandcave:nether/from_whence_it_came", "rewards": {"function": "bc_rewards:nether/ancient_restoration"}, "criteria": {"entered_nether_portal": {"trigger": "minecraft:enter_block", "conditions": {"block": "minecraft:nether_portal", "player": [{"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"location": {"feature": "ruined_portal"}}}]}}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Древняя реставрация"
+    },
+    "description": {
+      "translate": "Восстановите и повторно активируйте разрушенный портал"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:nether/from_whence_it_came",
+  "rewards": {
+    "function": "bc_rewards:nether/ancient_restoration"
+  },
+  "criteria": {
+    "entered_nether_portal": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:nether_portal",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "feature": "ruined_portal"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,1 +1,24 @@
-{"display": {"icon": {"item": "minecraft:drowned_spawn_egg"}, "title": {"translate": "Сон с рыбками"}, "description": {"translate": "Проведите под водой сутки"}, "announce_to_chat": false, "frame": "challenge"}, "parent": "blazeandcave:biomes/free_diver", "rewards": {"function": "bc_rewards:biomes/sleep_with_the_fishes"}, "criteria": {"trigger": {"trigger": "minecraft:impossible"}}}
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:drowned_spawn_egg"
+    },
+    "title": {
+      "translate": "Сон с рыбками"
+    },
+    "description": {
+      "translate": "Проведите под водой сутки"
+    },
+    "announce_to_chat": false,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:biomes/free_diver",
+  "rewards": {
+    "function": "bc_rewards:biomes/sleep_with_the_fishes"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

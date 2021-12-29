@@ -219,4 +219,4 @@ execute as @s[advancements={blazeandcave:biomes/terralithic=true}] run function 
 
 
 # Message if trophies have been granted
-tellraw @s {"color":"green","text":"You have been granted trophies."}
+tellraw @s {"color": "green", "text": "You have been granted trophies."}

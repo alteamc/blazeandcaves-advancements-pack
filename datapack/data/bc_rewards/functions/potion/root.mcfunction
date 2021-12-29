@@ -1,4 +1,5 @@
-tellraw @s {"color":"gray","italic":"true","translate":"You have unlocked the root of the Potions tab"}
+tellraw @s {"color": "gray", "italic": "true", "translate": "Вы разблокировали вкладку «Зельеварение»"}
+
 execute if score reward bac_settings matches 1 run function bc_rewards:reward/potion/root
 execute if score reward bac_settings matches -1 unless score blazeandcave:potion/root bac_obtained matches 1.. run function bc_rewards:reward/potion/root
 execute if score exp bac_settings matches 1 run function bc_rewards:exp/potion/root

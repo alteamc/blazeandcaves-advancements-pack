@@ -1,7 +1,10 @@
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @s {"color":"gray","bold":"false","text":" ","extra":[{"color":"gray","bold":"false","translate":"Advancement Completion Message Settings"}]}
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+tellraw @s {"color": "gray", "bold": "false", "text": " ", "extra": [{"color": "gray", "bold": "false", "translate": "Настройки сообщения о завершении прогреса"}]}
+
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
 
 # Task Advancements
 execute if score task bac_settings matches 1 run tellraw @s ["",{"text":"[✔]","color":"green"}," ",{"text":"[/]","color":"gray","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/msg_task_first"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to enable only for the first player to get an advancement","color":"gold"}]}}," ",{"text":"[❌]","color":"gray","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/msg_task_off"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to disable for all players","color":"gold"}]}}," ",{"color":"green","translate":"Task"}," ",{"translate":"Advancements:"}," ",{"translate":"All players"}]
@@ -27,17 +30,26 @@ execute unless score milestone bac_settings matches 1 unless score milestone bac
 # Notes: 'Advancement Legend' is affected by the setting of Milestone advancements, and hidden advancements are affected by the setting of Challenge advancements.
 
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-# Preset settings
-tellraw @s ["",{"text":"[ »» ]","color":"green","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/msg_set_on"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to set","color":"gold"}]}}," ",{"translate":"Turn all messages on"}]
-tellraw @s ["",{"text":"[ »» ]","color":"red","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/msg_set_off"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to set","color":"gold"}]}}," ",{"translate":"Turn all messages off"}]
-tellraw @s ["",{"text":"[ »» ]","color":"yellow","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/msg_set_first"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to set","color":"gold"}]}}," ",{"translate":"Set all messages to first-player only (recommended and default for Cooperative Mode)"}]
-tellraw @s ["",{"text":"[ »» ]","color":"aqua","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/msg_set_server1"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to set","color":"gold"}]}}," ",{"translate":"Turn all on except tasks (recommended for large servers)"}]
-tellraw @s ["",{"text":"[ »» ]","color":"aqua","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/msg_set_server2"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to set","color":"gold"}]}}," ",{"translate":"Turn all on except tasks and goals"}]
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+# Preset settings
+tellraw @s ["", {"text": "[ »» ]", "color": "green", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/msg_set_on"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы выбрать", "color": "gold"}]}}, " ", {"translate": "Включить все сообщения"}]
+
+tellraw @s ["", {"text": "[ »» ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/msg_set_off"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы выбрать", "color": "gold"}]}}, " ", {"translate": "Отключить все сообщения"}]
+
+tellraw @s ["", {"text": "[ »» ]", "color": "yellow", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/msg_set_first"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы выбрать", "color": "gold"}]}}, " ", {"translate": "Установить все сообщения только для первого игрока (рекомендуется и по умолчанию для кооперативного режима)"}]
+
+tellraw @s ["", {"text": "[ »» ]", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/msg_set_server1"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы выбрать", "color": "gold"}]}}, " ", {"translate": "Включить все, кроме задач (рекомендуется для больших серверов)"}]
+
+tellraw @s ["", {"text": "[ »» ]", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/msg_set_server2"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы выбрать", "color": "gold"}]}}, " ", {"translate": "Включить все, кроме задач и целей"}]
+
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
 
 # Go back
-tellraw @s ["",{"text":"[ «« ]","color":"red","clickEvent":{"action":"run_command","value":"/function blazeandcave:config"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to go back","color":"gold"}]}}," ",{"translate":"Go back to main config menu"}]
+tellraw @s ["", {"text": "[ «« ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы вернуться", "color": "gold"}]}}, " ", {"translate": "Вернуться в главное меню конфигурации"}]
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+

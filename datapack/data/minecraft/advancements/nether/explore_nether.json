@@ -1,47 +1,52 @@
 {
-	"display": {
-		"icon": {
-			"item": "minecraft:golden_boots"
-		},
-		"title": {"translate":"Hot Tourist Destination"},
-		"description": {"color":"#75E1FF","translate":"Explore every Nether biome"},
-		"announce_to_chat": false,
-		"frame": "goal"
-	},
-	"parent": "blazeandcave:nether/twisted",	
-	"rewards": {
-		"function": "bc_rewards:nether/hot_tourist_destination"
-	},	
-	"criteria": {
-		"nether_wastes": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"biome": "minecraft:nether_wastes"
-			}
-		},
-		"crimson_forest": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"biome": "minecraft:crimson_forest"
-			}
-		},
-		"warped_forest": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"biome": "minecraft:warped_forest"
-			}
-		},
-		"soul_sand_valley": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"biome": "minecraft:soul_sand_valley"
-			}
-		},
-		"basalt_deltas": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"biome": "minecraft:basalt_deltas"
-			}
-		}
-	}
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_boots"
+    },
+    "title": {
+      "translate": "Горящий тур"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Исследуйте все биомы Незера"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:nether/twisted",
+  "rewards": {
+    "function": "bc_rewards:nether/hot_tourist_destination"
+  },
+  "criteria": {
+    "nether_wastes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:nether_wastes"
+      }
+    },
+    "crimson_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:crimson_forest"
+      }
+    },
+    "warped_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:warped_forest"
+      }
+    },
+    "soul_sand_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:soul_sand_valley"
+      }
+    },
+    "basalt_deltas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "minecraft:basalt_deltas"
+      }
+    }
+  }
 }

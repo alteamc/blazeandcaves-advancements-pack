@@ -1,1 +1,1 @@
-tellraw @s {"color":"gray","italic":"true","translate":"Fifth line complete…"}
+tellraw @s {"color": "gray", "italic": "true", "translate": "Вы выполнили пятое задание ..."}

@@ -1,9 +1,14 @@
 # Asks "Are you sure?"
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @s [" ",{"translate":"Are you sure?"}]
-tellraw @s [" ",{"color":"red","translate":"This function should only be used in worlds that used the Advancements Pack before updating to the Trophy Update."}]
-tellraw @s [" ",{"translate":"This function may also grossly fill inventories so make sure everyone is prepared to receive them!"}]
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
 
-tellraw @s ["",{"translate":"[ Yes ]","color":"green","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/trophies_begin_grant"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to confirm","color":"gold"}]}}," ",{"translate":"[ No ]","color":"red","clickEvent":{"action":"run_command","value":"/function blazeandcave:config"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to go back","color":"gold"}]}}]
+tellraw @s [" ", {"translate": "Уверены ли вы?"}]
+
+tellraw @s [" ", {"color": "red", "translate": "Эту функцию следует использовать только в мирах, в которых использовался датапак перед обновлением к обновлению трофеев."}]
+
+tellraw @s [" ", {"translate": "Эта функция может забить инвентарь, поэтому убедитесь, что все готовы их получить!"}]
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
+
+tellraw @s ["", {"translate": "[ Да ]", "color": "green", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/trophies_begin_grant"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы подтвердить", "color": "gold"}]}}, " ", {"translate": "[ Нет ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы вернуться", "color": "gold"}]}}]

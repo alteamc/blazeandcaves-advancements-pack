@@ -1,25 +1,30 @@
 {
-	"display": {
-		"icon": {
-			"item": "minecraft:iron_block"
-		},
-		"title": {"translate":"Hired Help"},
-		"description": {"color":"#75E1FF","translate":"Summon an Iron Golem to help defend a village"},
-		"announce_to_chat": false,
-		"frame": "goal"
-	},
-	"parent": "minecraft:adventure/trade",
-	"rewards": {
-		"function": "bc_rewards:adventure/body_guard"
-	},		
-	"criteria": {
-		"summoned": {
-			"trigger": "minecraft:summoned_entity",
-			"conditions": {
-				"entity": {
-					"type": "minecraft:iron_golem"
-				}
-			}
-		}
-	}
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "Три закона големотехники"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Создайте железного голема для обороны деревни"
+    },
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/trade",
+  "rewards": {
+    "function": "bc_rewards:adventure/body_guard"
+  },
+  "criteria": {
+    "summoned": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    }
+  }
 }

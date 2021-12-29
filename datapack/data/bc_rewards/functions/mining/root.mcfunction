@@ -1,4 +1,5 @@
-tellraw @s {"color":"gray","italic":"true","translate":"You have unlocked the root of the Mining tab"}
+tellraw @s {"color": "gray", "italic": "true", "translate": "Вы разблокировали вкладку «Шахтёрское ремесло»"}
+
 execute if score reward bac_settings matches 1 run function bc_rewards:reward/mining/root
 execute if score reward bac_settings matches -1 unless score blazeandcave:mining/root bac_obtained matches 1.. run function bc_rewards:reward/mining/root
 execute if score exp bac_settings matches 1 run function bc_rewards:exp/mining/root

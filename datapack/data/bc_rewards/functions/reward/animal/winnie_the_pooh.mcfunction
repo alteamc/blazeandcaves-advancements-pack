@@ -1,2 +1,3 @@
 give @s minecraft:honey_bottle 2
-tellraw @s {"color":"green","text":" +2 ","extra":[{"translate":"item.minecraft.honey_bottle"}]}
+tellraw @s {"color": "green", "text": " +2 ", "extra": [{"translate": "item.minecraft.honey_bottle"}]}
+

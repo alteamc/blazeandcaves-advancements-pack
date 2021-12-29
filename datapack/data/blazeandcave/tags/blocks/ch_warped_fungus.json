@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-	"minecraft:warped_fungus",
-	"minecraft:warped_stem"
+    "minecraft:warped_fungus",
+    "minecraft:warped_stem"
   ]
 }

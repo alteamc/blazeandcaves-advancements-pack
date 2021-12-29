@@ -1,7 +1,10 @@
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @s {"color":"gray","bold":"false","text":" ","extra":[{"color":"yellow","bold":"false","translate":"Blaze"},{"color":"gray","bold":"false","translate":"and"},{"color":"aqua","bold":"false","translate":"Cave"},{"color":"gray","bold":"false","translate":"'s Advancements Pack Config"}]}
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+tellraw @s {"color": "gray", "bold": "false", "text": " ", "extra": [{"color": "yellow", "bold": "false", "translate": "Blaze"}, {"color": "gray", "bold": "false", "translate": "and"}, {"color": "aqua", "bold": "false", "translate": "Cave"}, {"color": "gray", "bold": "false", "translate": "'s Advancements Pack Настройки"}]}
+
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
 
 # Welcome Message
 execute if score intro_msg bac_settings matches 1 run tellraw @s ["",{"text":"[ ✔ ]","color":"green","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/intro_msg_off"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to disable","color":"gold"}]}}," ",{"translate":"Welcome Message currently enabled"}]
@@ -22,18 +25,27 @@ execute unless score trophy bac_settings matches 1 unless score trophy bac_setti
 execute if score coop bac_settings matches 1 run tellraw @s ["",{"text":"[ ✔ ]","color":"green","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/coop_off"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to disable","color":"gold"}]}}," ",{"translate":"Cooperative Mode currently enabled"}]
 execute unless score coop bac_settings matches 1 run tellraw @s ["",{"text":"[ ❌ ]","color":"red","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/coop_ru_sure"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to enable","color":"gold"}]}}," ",{"translate":"Cooperative Mode currently disabled"}]
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
 # Link to Completion Message and Scoreboard Display settings
-tellraw @s ["",{"text":"[ »» ]","color":"gold","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/msg_settings"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to view","color":"gold"}]}}," ",{"translate":"Advancement Completion Message Settings"}]
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @s ["",{"text":"[ »» ]","color":"gold","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/scoreboard_settings"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to view","color":"gold"}]}}," ",{"translate":"Advancement Scoreboard Display Settings"}]
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+tellraw @s ["", {"text": "[ »» ]", "color": "gold", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/msg_settings"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы посмотреть", "color": "gold"}]}}, " ", {"translate": "Настройки сообщения о завершении прогреса"}]
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
+tellraw @s ["", {"text": "[ »» ]", "color": "gold", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_settings"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы посмотреть", "color": "gold"}]}}, " ", {"translate": "Настройки отображения табло прогресса"}]
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
 
 # Update Scoreboard
-tellraw @s ["",{"text":"[ »» ]","color":"gold","clickEvent":{"action":"run_command","value":"/function bc_rewards:update_score"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to run","color":"gold"}]}}," ",{"translate":"Update scoreboard"}]
-# Trophy granting
-tellraw @s ["",{"text":"[ »» ]","color":"gold","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/trophies_ru_sure"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to run","color":"gold"}]}}," ",{"translate":"Grant trophies"}]
+tellraw @s ["", {"text": "[ »» ]", "color": "gold", "clickEvent": {"action": "run_command", "value": "/function bc_rewards:update_score"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы запустить", "color": "gold"}]}}, " ", {"translate": "Обновить список"}]
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @s {"text":"\n\n","color":"dark_gray","strikethrough":true}
+# Trophy granting
+tellraw @s ["", {"text": "[ »» ]", "color": "gold", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/trophies_ru_sure"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы запустить", "color": "gold"}]}}, " ", {"translate": "Выдать трофеи"}]
+
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
+tellraw @s {"text": "\n\n", "color": "dark_gray", "strikethrough": true}
+
 

@@ -1,22 +1,26 @@
 {
-	"display": {
-		"icon": {
-			"item": "minecraft:ender_eye"
-		},
-		"title": {"translate":"Eye Spy"},
-		"description": {"translate":"Follow an Ender Eye"},
-		"announce_to_chat": false
-	},
-	"parent": "blazeandcave:nether/enders_chest",
-	"rewards": {
-		"function": "bc_rewards:nether/eye_spy"
-	},	
-	"criteria": {
-		"in_stronghold": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"feature": "stronghold"
-			}
-		}
-	}
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "Недреманное око"
+    },
+    "description": {
+      "translate": "Следуйте за оком Эндера"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:nether/enders_chest",
+  "rewards": {
+    "function": "bc_rewards:nether/eye_spy"
+  },
+  "criteria": {
+    "in_stronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "stronghold"
+      }
+    }
+  }
 }

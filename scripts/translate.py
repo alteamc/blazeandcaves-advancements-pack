@@ -20,7 +20,31 @@ def translate(data, trans, stat):
         for item in data:
             translate(item, trans, stat)
 
-DATA_DIR = "datapack/data/blazeandcave/advancements"
+def translate_json(_file, trans, stat):
+    with open(_file, "r") as _in:
+        data = hjson.load(_in)
+
+    translate(data, trans, stat)
+
+    with open(_file, "w") as out:
+        json.dump(data, out, ensure_ascii=False, indent=2)
+
+def translate_mcfunction(_file, trans, stat):
+    with open(_file, "r") as _in:
+        data = _in.readlines()
+
+    for i, line in enumerate(data):
+        if line.startswith("tellraw"):
+            args = line.split(" ", maxsplit=2)
+            raw = hjson.loads(args[2])
+            translate(raw, trans, stat)
+            data[i] = " ".join(args[:2] + [json.dumps(raw, ensure_ascii=False)]) + "\n"
+
+    with open(_file, "w") as out:
+        for line in data:
+            out.write(line)
+
+DATA_DIR = "datapack/data"
 TRANS_DIR = "translation/assets/minecraft/lang"
 
 import os, hjson, json
@@ -35,14 +59,12 @@ for _dir, _, files in os.walk(DATA_DIR):
     for _file in files:
         _file = os.path.join(_dir, _file)
         print("Translating {0}... ".format(_file), end="")
-        with open(_file, "r") as _in:
-            data = hjson.load(_in)
 
         stat = [0, 0]
-        translate(data, trans, stat)
-
-        with open(_file, "w") as out:
-            json.dump(data, out, ensure_ascii=False, indent=2)
+        if _file.endswith(".json"):
+            translate_json(_file, trans, stat)
+        elif _file.endswith(".mcfunction"):
+            translate_mcfunction(_file, trans, stat)
 
         if stat[0] > 0:
             if stat[0] > stat[1]:

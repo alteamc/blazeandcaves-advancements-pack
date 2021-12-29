@@ -1,7 +1,8 @@
 # Function that updates your advancement score depending on how many advancements you have obtained in your world so far
 # Should be run after updating datapack versions or when revoking advancements
 # Display message
-tellraw @s {"color":"green","translate":"The advancement count of all players currently online has been updated."}
+tellraw @s {"color": "green", "translate": "Обновлен счетчик достижений всех онлайн игроков."}
+
 # Set to 0
 scoreboard players set @a bac_advancements 0
 # Go through every advancement, and adds 1 to score if you have obtained that advancement

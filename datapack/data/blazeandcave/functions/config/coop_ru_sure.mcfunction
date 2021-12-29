@@ -1,10 +1,16 @@
 # Asks "Are you sure?"
 
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @s [" ",{"color":"red","translate":"Are you sure?"}]
-tellraw @s [" ",{"translate":"Cooperative Mode makes it so that whenever a player gets an advancement, that advancement will be shared across all players."}]
-tellraw @s [" ",{"color":"gold","translate":"Everyone's currently-obtained advancements will be shared between all players immediately when turning this setting on."}]
-tellraw @s [" ",{"color":"red","translate":"While the mode can be turned off, shared advancements cannot be easily revoked."}]
-tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
 
-tellraw @s ["",{"translate":"[ Yes ]","color":"green","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/coop_on"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to confirm","color":"gold"}]}}," ",{"translate":"[ No ]","color":"red","clickEvent":{"action":"run_command","value":"/function blazeandcave:config"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to go back","color":"gold"}]}}]
+tellraw @s [" ", {"color": "red", "translate": "Уверены ли вы?"}]
+
+tellraw @s [" ", {"translate": "Кооперативный режим делает так, что всякий раз, когда игрок получает продвижение, это продвижение будет делиться между всеми игроками"}]
+
+tellraw @s [" ", {"color": "gold", "translate": "Все достижения, полученные на данный момент, будут переданы всем игрокам сразу после включения этой настройки"}]
+
+tellraw @s [" ", {"color": "red", "translate": "Хотя этот режим можно отключить, общие достижения не могут быть легко отменены"}]
+
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
+
+tellraw @s ["", {"translate": "[ Да ]", "color": "green", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/coop_on"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы подтвердить", "color": "gold"}]}}, " ", {"translate": "[ Нет ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы вернуться", "color": "gold"}]}}]

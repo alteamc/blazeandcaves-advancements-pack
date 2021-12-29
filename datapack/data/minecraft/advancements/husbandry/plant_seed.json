@@ -1,55 +1,59 @@
 {
-	"display": {
-		"icon": {
-			"item": "minecraft:wheat_seeds"
-		},
-		"title": {"translate":"A Seedy Place"},
-		"description": {"translate":"Plant a seed and watch it grow"},
-		"announce_to_chat": false
-	},
-	"parent": "blazeandcave:farming/root",
-	"rewards": {
-		"function": "bc_rewards:farming/a_seedy_place"
-	},		
-	"criteria": {
-		"wheat": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"block": "minecraft:wheat"
-			}
-		},
-		"pumpkin_stem": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"block": "minecraft:pumpkin_stem"
-			}
-		},
-		"melon_stem": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"block": "minecraft:melon_stem"
-			}
-		},
-		"beetroots": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"block": "minecraft:beetroots"
-			}
-		},
-		"nether_wart": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"block": "minecraft:nether_wart"
-			}
-		}
-	},
-	"requirements": [
-		[
-		"wheat",
-		"pumpkin_stem",
-		"melon_stem",
-		"beetroots",
-		"nether_wart"
-		]
-	]
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "Поле чудес"
+    },
+    "description": {
+      "translate": "Посадите в землю зерно и дождитесь, пока оно вырастет"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:farming/root",
+  "rewards": {
+    "function": "bc_rewards:farming/a_seedy_place"
+  },
+  "criteria": {
+    "wheat": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:wheat"
+      }
+    },
+    "pumpkin_stem": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:pumpkin_stem"
+      }
+    },
+    "melon_stem": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:melon_stem"
+      }
+    },
+    "beetroots": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:beetroots"
+      }
+    },
+    "nether_wart": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:nether_wart"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wheat",
+      "pumpkin_stem",
+      "melon_stem",
+      "beetroots",
+      "nether_wart"
+    ]
+  ]
 }

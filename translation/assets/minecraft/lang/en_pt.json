@@ -4442,7 +4442,72 @@
 "Click to set": "Click to plunder",
 
 
-"Go back to main config menu": "Plundered"
+"Go back to main config menu": "Plundered",
+
+
+# Advancements added in the Terralith version for BACAP 1.13.1
+"A Cliffhanger!": "Hard a starboard!",
+"Discover every type of cliff biome": "Almost sail into all tha cliffs, yarr!",
+
+"A Grassy Nature": "Grassy Seas",
+"Discover every grasslands biome": "Sail to all tha' grassy lands",
+
+"A E S T H E T I C": "Sirens' Cove",
+"Discover the Mirage Isles. No, they’re not not real": "Discover tha mythical Sirens' Cove. Don't get drawn in by their lady beauty, arr!",
+
+"Alpha Days": "Ye Old Alpha Treasures",
+"Discover the mythical islands of Alpha": "Sail to the lost islands o' Alpha",
+
+"Bushranger": "Bushsailer",
+"Discover every shrublands biome": "Sail to all tha' shrubby lands",
+
+"Choco Mountain": "Sugar Mountain",
+"Discover a White Mesa": "Discover ye White Mesa",
+
+"Eruption in the Air": "The Devil's Roar",
+"Enter a volcano biome": "Land at yer forsaken mountain o' fire",
+
+"Highlander": "Highsailer",
+"Discover every highlands biome": "Sailt to all tha' lands o' highness",
+
+"Master Spelunker": "Captain Sp'lunkarr!",
+"Discover every cave biome": "Enter every type o' Pirate Cave!",
+
+"O-Land-o Bloom": "Will Turner's Land",
+"Discover a blooming biome": "Sail to a land o' bloomin'",
+
+"One Small Steppe For Man": "One Small Sail For Pirate",
+"Discover a steppe biome": "Sail to a steppe land",
+
+"Over the Moon": "Sailin' Over tha' Moon!",
+"Discover a moonlight biome": "Sail by moonlight",
+
+"Pretty in Purple": "Precious in Purple",
+"Discover every biome with trees of purple leaves": "Sail to all tha lands o' leaves o' purple",
+
+"Skylanders": "Skylandarrs",
+"Discover some mysterious lands floating high above the ground": "Sail to ye mysterious floatin' lands",
+
+"Smarter than the Average Bear": "Smarter than tha' Average Pirate",
+"Discover the Yellowstone biome": "Sail to tha' land o' Yellowstone",
+
+"Terralithic": "Sailor o' tha Seventy Seas",
+"Discover every Terralith biome": "Sail to all tha' lands o' Stardust",
+
+"The Boreal Deal": "The Boreal Deal",
+"Discover every boreal biome": "Sail to all tha' cold boreal lands",
+
+"The World Is Your Canvas": "Tha' Ocean Is Yers",
+"Discover the Painted Mountains": "Sail to tha mountains o' paint",
+
+# Adjusted descriptions
+"Discover every vanilla surface biome in the Overworld": "Sail to all tha' lands in the Ov'rworld",
+"Discover every vanilla biome from every dimension": "Sail to all tha' lands in every plane o' existence",
+
+"Stardust": "Stardust",
+
+"You have explored everything this world has to offer": "Ye have sailed everythin' tha seas have to offer",
+"But at the end of it all, it is all still made from stardust": "But at world's end, it be all made from stardust"
 
 
 

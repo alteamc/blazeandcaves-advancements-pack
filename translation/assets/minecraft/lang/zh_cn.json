@@ -9,7 +9,7 @@
 
 # Language: 简体中文(Simplified Chinese)
 # Author: Remilias_Scarlet(1.5), tianjr123(1.6-1.9), SleepyAsh#0191(1.10-1.13)
-# Pack version supported: 1.13
+# Pack version supported: 1.13.2
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -3170,7 +3170,7 @@
 "Pink Camo Pants" : "粉红迷彩裤",
 "They don't camouflage anywhere!" : "没办法在所有地方伪装!",
 
-"The Walking Head" : "阴尸颅",
+"The Walking Head" : "行骨走颅",
 "Yes, this head totally has legs" : "当然咯，这个头颅有着完整的双脚",
 
 "Sans's Head" : "骷髅杉斯的头颅",
@@ -3306,7 +3306,7 @@
 
 "Birthday Cake" : "生日蛋糕",
 "Happy birthday to you, happy birthday to you," : "祝你生日快乐~~祝你生日快乐♪~~",
-"this song is copyrighted, oh wait actually it's public domain!" : "但这首歌有版权...等下这是话语霸权!",
+"this song is copyrighted, oh wait actually it's public domain!" : "但这首歌有版权...等下，这实际上已经成为了公播作品!",
 
 "Piston Cup" : "活塞杯",
 "It's just an empty cup" : "就只是个空杯",
@@ -3330,7 +3330,7 @@
 "What kind of weapon are we talking about here?" : "我们在讨论哪种武器?",
 "The Thanos-killing kind" : "灭霸杀手那种",
 
-"Baconator" : "培根导引烽火台",
+"Baconator" : "培根导引风向标",
 "Oh... wait, I thought you said Bacon!" : "噢等等，我以为你说培根!",
 
 "Zork Chop" : "僵尸疣猪排",
@@ -3371,7 +3371,7 @@
 "Ring of Bedrock" : "基岩之戒",
 "The end of the End" : "终末的终结",
 
-"Singularity" : "奇异点",
+"Singularity" : "奇点",
 "Newton’s third law - the only way humans have ever" : "牛顿第三定律...即为人类想出的唯一解决之道",
 "figured out of getting somewhere is to leave something behind" : "就是把某些东西置之不理",
 
@@ -3447,7 +3447,7 @@
 "ACDC - Back in Black" : "回归黑暗",
 "Back in Black stomped Highway to Hell in terms of success" : "回归黑暗朝向地狱之路前进但拥戴胜利回归",
 
-"Endfinity Source" : "无限终结的奇异点",
+"Endfinity Source" : "无限终结的源头",
 "They will END the world..." : "这会毁灭世界",
 
 "Potion Master's Diploma" : "药水博士学位",
@@ -3799,7 +3799,7 @@
 "Sit in water in the Nether": "坐在下界的水上",
 
 "Polar Opposites": "两极对立",
-"Start freezing in the Nether": "在下界开始冰冻",
+"Start freezing in the Nether": "在下界里冻伤",
 
 "Jenga": "叠罗汉",
 "Ride a Strider riding another Strider riding a boat riding a minecart": "骑着一个骑着骑着骑着矿车的船的另一个炽足兽的炽足兽",
@@ -3981,13 +3981,13 @@
 "gets kinda boring after awhile…)": "会让人觉得很无聊……）",
 
 "Gilded Blade": "鎏金之刃",
-"A powerful weapon wielded by ancient mobs": "古代暴民使用的强大武器",
+"A powerful weapon wielded by ancient mobs": "对付远古怪物的终极武器",
 
 "Brick Astley": "Brick Astley",
 "Nether gonna brick you up!": "Nether gonna brick you up!",
 
 "Ultimate Flex": "终极灵活",
-"Dab on dem haters": "对他们的憎恨者进行点化",
+"Dab on dem haters": "对他们的黑粉进行点化",
 
 "Wormhole": "虫洞",
 "Is this some kind of portal?": "这是传送门中的一中吗？",
@@ -4452,8 +4452,78 @@
 "Click to set": "点击设置",
 
 
-"Go back to main config menu": "返回到主配置菜单"
+"Go back to main config menu": "返回到主配置菜单",
 
 
-# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+# Advancements added in the Terralith version for BACAP 1.13.1
+"A Cliffhanger!": "惊心动魄！",
+"Discover every type of cliff biome": "发现所有山崖生物群系",
+
+"A Grassy Nature": "草木皆兵",
+"Discover every grasslands biome": "发现所有草原生物群系",
+
+"A E S T H E T I C": "奇 幻 美 学",
+"Discover the Mirage Isles. No, they’re not not real": "发现海市蜃楼。不，它们不是真的",
+
+"Alpha Days": "阿尔法之日",
+"Discover the mythical islands of Alpha": "发现阿尔法神话之岛",
+
+"Bushranger": "丛林居民",
+"Discover every shrublands biome": "发现所有灌木丛生物群系",
+
+"Choco Mountain": "巧克力山",
+"Discover a White Mesa": "发现白色山脉",
+
+"Eruption in the Air": "空中喷发",
+"Enter a volcano biome": "进入火山生物群系",
+
+"Highlander": "高地居民",
+"Discover every highlands biome": "发现所有高地生物群系",
+
+"Master Spelunker": "洞穴探险大师",
+"Discover every cave biome": "发现所有洞穴生物群系",
+
+"O-Land-o Bloom": "花开富贵",
+"Discover a blooming biome": "发现花朵生物群系",
+
+"One Small Steppe For Man": "人类的一片小草原",
+"Discover a steppe biome": "发现干草原生物群系",
+
+"Over the Moon": "月亮之上",
+"Discover a moonlight biome": "发现月光生物群系",
+
+"Pretty in Purple": "华丽之紫",
+"Discover every biome with trees of purple leaves": "发现所有带紫色叶子的生物群系",
+
+"Skylanders": "天空居民",
+"Discover some mysterious lands floating high above the ground": "发现一些神秘的浮空山脉",
+
+"Smarter than the Average Bear": "比一般的熊更聪明",
+"Discover the Yellowstone biome": "发现黄石生物群系",
+
+"Terralithic": "地形勘探家",
+"Discover every Terralith biome": "发现所有 Terralith 生物群系",
+
+"The Boreal Deal": "北部地区的交易",
+"Discover every boreal biome": "发现所有寒带生物群系",
+
+"The World Is Your Canvas": "天下归汝所绘",
+"Discover the Painted Mountains": "发现彩绘山脉",
+
+# Adjusted descriptions
+"Discover every vanilla surface biome in the Overworld": "发现所有在原版主世界上的生物群系",
+"Discover every vanilla biome from every dimension": "发现所有在原版维度上的生物群系",
+
+"Stardust": "星尘",
+
+"You have explored everything this world has to offer": "你已经探索了这个世界所能提供的一切",
+"But at the end of it all, it is all still made from stardust": "但在这一切的最后，它仍然是由星尘构成的"
+
+
+
+
+
+
+
+# All advancements and trophies that get added in versions 1.12 or later will be added down here for easy locating by translators who wish to update their language file
 }

@@ -9,7 +9,7 @@
 
 # Language: German / Deutsch (Deutschland)
 # Author: Puddingpapst / Enucius
-# Pack version supported: 1.12
+# Pack version supported: 1.13
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -97,7 +97,7 @@
 "Adventure": "Abenteuer",
 "Adventure and exploration": "Abenteuer und Erkundung",
 
-"Snow Feet": "Schneeschuhe",
+"Snow Feet": "Schneebedeckte Füße",
 "Discover every snowy biome": "Erkunde jede Art von verschneiten Biomen",
 
 "Spear Fishing": "Speerfischen",
@@ -3841,7 +3841,7 @@
 
 
 "Is it a Plane?": "Ist das ein Flugzeug?",
-"Look at the Ender Dragon through a Spyglass": "Schaue den Enderdrachen durch ein Fernrohr an",
+"Look at the Ender Dragon through a Spyglass": "Betrachte den Enderdrachen durch ein Fernrohr hindurch",
 
 "Good Luck Getting This One": "Viel Erfolg bei dem hier",
 "Kill a baby Turtle, a Witch, a Phantom, an Elder Guardian and a Piglin Brute with one piercing arrow in The End": "Töte eine Baby-Schildkröte, eine Hexe, ein Phantom, einen großen Wächter und einen Piglin-Barbaren mit einem einzigen durchschießenden Pfeil im End",
@@ -4058,7 +4058,7 @@
 
 " Over ": " Über ",
 ## Number is inserted here
-" brand new advancements in your Minecraft world!": " brandneue Erfolge in eurer Minecraft-Welt!",
+" brand new advancements in your Minecraft world!": " brandneue Erfolge in deiner Minecraft-Welt!",
 
 " - Created by ": " - Erstellt von ",
 ## Cavinator1
@@ -4117,18 +4117,351 @@
 "Click to confirm": "Klicke zum Bestätigen",
 
 "[ No ]": "[ Nein ]",
-"Click to go back": "Klicke, um zurückzukehren",
+"Click to go back": "Klicke zum Zurückkehren",
 
 # Grant trophies confirmation message
 "All players have been granted trophies.": "Allen Spieler wurden Trophäen gewährt.",
-"Players that have been granted trophies by this function in the past did not receive any now. To manually re-enable trophy granting for them use the command:": "Spielern, denen in der Vergangenheit bereit Trophäen mithilfe dieser Funktion gewährt wurden, wurden nun keine gewährt. Um ihnen das Gewähren von Trophäen manuell wieder zu aktivieren, benutze folgenden Befehl:",
-"Click to insert command into chat": "Klicke, um Befehle in den Chat einzufügen"
+"Players that have been granted trophies by this function in the past did not receive any now. To manually re-enable trophy granting for them use the command:": "Spielern, denen in der Vergangenheit bereits Trophäen mithilfe dieser Funktion gewährt wurden, wurden nun keine gewährt. Um das Gewähren von Trophäen für sie manuell wieder zu aktivieren, benutze folgenden Befehl:",
+"Click to insert command into chat": "Klicke zum Einfügen des Befehls in den Chat",
+
+
+
+## All advancements added in version 1.13 are here
+"Dripstone Drop": "Tropfstein-Sturz",
+"Survive a fall of at least 10 blocks onto some Pointed Dripstone": "Überlebe einen Fall aus einer Höhe von mindestens 10 Blöcken auf einen spitzen Tropfstein",
+
+"Lucky Break": "Glücksfall",
+"Survive a long fall with just a sliver of health remaining": "Überlebe einen langen Fall ganz knapp",
+
+"Caves & Cliffs": "Caves & Cliffs",
+"Free fall from the top of the world (build limit) to the bottom of the world and survive": "Lasse dich vom oberen Ende der Welt (Baulimit) bis zum tiefsten Punkt der Welt fallen und überlebe",
+
+"Bottom to Top": "Von Unten nach Oben",
+"Place every cave block at the very top of the world": "Platziere jeden Höhlenblock am allerhöchsten Punkt der Welt",
+
+
+"A Good Start": "Ein Guter Start",
+"Chop down enough trees to collect a full stack of one log type": "Fälle genügend Bäume für einen kompletten Stack Holzstämme einer Holzart",
+
+
+"Squid Game": "Squid Game",
+"Hunt enough Squids to collect a stack of Ink Sacs": "Jage genügend Tintenfische für einen kompletten Stack Tintenfischbeutel",
+
+
+"Blackberry Market": "Schwarz(beeren)markt",
+"Trade some sweet berries to a Fox with an emerald in their mouth": "Tausche Süßbeeren mit einem Fuchs, der einen Smaragd im Maul hat",
+
+
+"We’re Going on a Bear Hunt": "Wir gehen auf eine Bärenjagd",
+"Get hunted by a Polar Bear": "Werde von einem Eisbären gejagt",
+
+"Dive Bomb": "Tauchbombe",
+"Dive into water from a cliff at least 50 blocks tall": "Springe von einer mindestens 50 Blöcke hohen Klippe ins Wasser",
+
+"Captain America": "Captain America",
+"Get completely frozen inside two blocks of Powder Snow for a loooong time.": "Lass dich für eine laaaange Zeit komplett in zwei Blöcken aus Puderschnee einfrieren.",
+"Big question is: Can you do this all day?": "Die große Frage ist: Kannst du das den ganzen Tag lang machen?",
+
+
+"Map Room": "Kartenraum",
+"Place a map in an item frame": "Platziere eine Karte in einem Rahmen",
+
+"Sound the Alarm!": "Schlag Alarm!",
+"Ring the bell with a hostile enemy in the village": "Läute eine Glocke mit einem feindlichen Monster im Dorf",
+
+"The Sound of Music": "Der Klang der Musik",
+"Make the Meadows come alive with the sound of music from a jukebox": "Erwecke ein Meadow-Biom mit dem Klang der Musik aus einem Plattenspieler zum Leben",
+
+
+"Click!": "Klick!",
+"Place and push a button": "Platziere und drücke einen Knopf",
+
+"Leveraging Synergy": "Hebelige Wechselwirkung",
+"Flick a lever": "Lege einen Hebel um",
+
+"On A Rail": "Auf den Gleisen",
+"Travel by Minecart in a straight line to at least 1 km from where you started": "Reise mit einem Minecart auf einer geraden Linie mindestens 1km, von wo aus du gestartet bist",
+
+
+"Baron of Blacksmiths": "Baron der Schmiede",
+"Get a stack of regular, chipped and damaged Anvils": "Sammle jeweils einen kompletten Stack normale, angeschlagene und beschädigte Ambosse",
+
+
+"65": "65",
+"hours of walking": "Stunden lang laufen",
+"Walk 1000km. The statistics tab shall no longer be the grindy super challenges tab": "Laufe 1000km. Der Statistics-Tab soll nicht länger der zermürbende Super Challenges-Tab sein.",
+
+
+"Feels Like Home": "Fühlt sich an wie zu Hause",
+"Take a Strider for a loooong ride on a lava lake in the Overworld": "Reite einen Schreiter für eine laaaange Zeit auf einem Lavasee in der Oberwelt",
+
+"Gilded Miner": "Vergoldeter Bergmann",
+"Mine a stack of Gilded Blackstone from Bastion Remnants": "Sammle einen Stack voll golddurchzogenen Schwarzstein aus einer Bastionsruine",
+
+"Astrobrute": "Astro-Barbar",
+"Send a Piglin Brute to the End and kill it there before it zombifies": "Schicke einen Piglin-Barbar ins Ende unt töte ihn dort, bevor er zombifiziert wird",
+
+"Ludicrous Speed!": "Lächerliche Geschwindigkeit",
+"Achieve an absolutely insane speed by combining the Speed II effect, Dolphin’s Grace, Depth Strider III, Soul Speed III and sprinting": "Erreiche eine absolut wahnsinnige Geschwindigkeit mithilfe der Effekte Schnelligkeit II und Gunst des Delfins und der Verzauberung Wasserläufer III, während du sprintest",
+
+
+"Stealth Takedown": "Heimlicher Takedown",
+"Dispatch a Creeper at melee range while you are invisible": "Erledige einen Creeper im Nahkampfradius, während du unsichtbar bist",
+
+"Dogfight": "Hundekampf",
+"Kill a Skeleton or Stray while both you and it have levitation": "Töte ein Skelett oder einen Eiswanderer, während ihr beide den Effekt Schwebekraft besitzt",
+
+"Riddle Me This": "Rätsle Mir Das",
+"The first is to smith a compass that vanishes": "Die erste Zeile besagt, einen Kompass zu schmieden, der verschwindet",
+"The second is to slay a corpse that fishes": "Die zweite Zeile besagt, eine fischende Leiche zu töten",
+"The third is to travel on an upside-down mount": "Die dritte Zeile besagt, auf einem umgedrehten Reittier zu reisen",
+"The fourth is to take a temple tripwire into account": "Die vierte Zeile besagt, einen Stolperdraht in einem Tempel zu beachten",
+"The fifth is to be invisible yet be visible everywhere": "Die fünfte Zeile besagt, unsichtbar, aber dennoch überall sichtbar, zu sein",
+"The sixth is to return the product of a fowl in mid-air": "Die sechste Zeile besagt, das Erzeugnis eines Huhnes in der Luft zurückzugeben",
+"The seventh is to allow a child to commit the act of stealing": "Die siebte Zeile besagt, einem Kind das Klauen zu erlauben",
+"The eighth is to smite a Wither with splash healing": "Die achte Zeile besagt, einen Wither mit einem Wurftrank der Heilung zu töten",
+"The ninth is to be a pirate; parrot, spyglass, map, and boat": "Die neunte Zeile besagt, ein Pirat zu sein; Papagei, Fernrohr, Karte und Boot",
+"The tenth, if you can achieve it, you will be the G.O.A.T.": "Nach Vollbringen der zehnten Zeile wirst du die Z.I.E.G.E sein",
+
+# Riddle Me This messages and hints
+"First line complete…": "Erste Zeile vollbracht…",
+"Second line complete…": "Zweite Zeile vollbracht…",
+"Third line complete…": "Dritte Zeile vollbracht…",
+"Fourth line complete…": "Vierte Zeile vollbracht…",
+"Fifth line complete…": "Fünfte Zeile vollbracht…",
+"Sixth line complete…": "Sechste Zeile vollbracht…",
+"Seventh line complete…": "Siebte Zeile vollbracht…",
+"Eighth line complete…": "Achte Zeile vollbracht…",
+"Ninth line complete…": "Neunte Zeile vollbracht…",
+
+"Tenth Parchment": "Zehntes Pergament",
+"Place Warped Buttons to number a thousand": "Platziere Wirrknöpfe zur Nummer 1000",
+"For this was the thousandth item added to the game": "Dies ist das tausendste Item, welches zum Spiel hinzugefügt wurde",
+"Like how this is the thousandth advancement added to the pack": "Genau wie dies der tausendste Erfolg ist, der zum Pack hinzugefügt wurde",
+
+
+# Renamed advancements and description changes in 1.12
+"All Aboard!": "Alle Einsteigen!",
+"Craft and board a Minecart for railway journeys": "Stelle eine Lore her und betrete diese für Einsenbahnreisen",
+
+"Star Trader": "Sternenhändler",
+"Trade with a villager at the build height limit": "Handle mit einem Dorfbewohner auf Höhe des Baulimits",
+
+"High Feet": "Hohe Füße",
+"Discover every mountain biome": "Erkunde jedes Bergbiom",
+
+"Natural Sprinter": "Echter Sprinter",
+"Sprint 10km": "Sprinte 10km",
+
+"Lichen Subscribe": "Lichen und Abonnieren",
+
+"Atlantis?": "Atlantis?",
+
+"Ahoy!": "Ahoi!",
+
+"Foliage": "Laub",
+
+"How Did We Get Here?": "Wie Sind Wir Hierher Gekommen?",
+
+
+# Description changes
+
+# # Adventuring Time
+"Discover every surface biome in the Overworld": "Entdecke alle Oberflächenbiome der Oberwelt",
+
+# # Explorer of Worlds
+"Discover every biome in every dimension": "Entdecke jedes Biom in allen Dimensionen",
+
+# # Trampoline
+"Bounce onto a slime block from at least 30 blocks high": "Springe aus einer Höhe von mindestens 30 Blöcken auf einen Schleimblock",
+
+# # Cool Kids
+"Craft and wear a leather jacket": "Stelle eine Lederjacke her und trage sie",
+
+# # Fashion Statement
+"Dye some leather pants with one color, then put them on": "Färbe eine Lederhose mit einem Farbstoff und ziehe sie dann an",
+
+# # Fuel Engine
+"Craft a Minecart with Furnace and use coal or charcoal to send it chugging": "Stelle eine Ofenlore her und nutze Kohle oder Holzkohle, um sie herumtuckern zu lassen",
+
+# # Troll Chest
+"Trigger a trapped chest. Good for trolling your friends!": "Aktiviere eine Redstone-Truhe. Gut, um deine Freunde hereinzulegen!",
+
+# # Tripping Over
+"Place a line of string between two tripwire hooks, and trigger it": "Platziere eine Linie aus Fäden zwischen zwei Haken und aktiviere sie dann",
+
+# # Under Pressure
+"Step on a pressure plate": "Tritt auf eine Druckplatte",
+
+# # Let It Go!
+"Using Frost Walker boots, walk on frozen water over a deep ocean": "Laufe mithilfe von Stiefeln, die mit der Verzauberung Eisläufer verzaubert sind, auf gefrorenem Wasser über einem Deep Ocean-Biom",
+
+# # Do A Barrel Roll!
+"Use Riptide to give yourself a boost": "Benutze die Verzauberung Sog, um dich selbst zu boosten",
+
+# # Kilometre Walk
+"Travel at least 1000 blocks from the centre of the world in any direction.": "Reise mindestens 1000 Blöcke vom Zentrum der Welt aus in eine beliebige Richtung",
+
+# # Ten Thousand Blocks
+"Travel at least 10,000 blocks from the centre of the world in any direction.": "Reise mindestens 10,000 Blöcke vom Zentrum der Welt aus in eine beliebige Richtung",
+
+# # Olympic Gold Medallist
+"Swim 50km": "Schwimme 50km",
+
+# # Global Railway Network
+"Ride 50km in a minecart": "Fahre 50km in einer Lore",
+
+# # Who needs cars?
+"Walk 50km": "Laufe 50km",
+
+# # I enjoy long walks and playing MC
+"Walk 250km": "Laufe 250km",
+
+# # Time to Chop!
+"Use planks and sticks to make an axe": "Nutze Holzbretter und Stöcke, um eine Axt herzustellen",
+
+
+
+# Custom Advancement Completion messages
+# # Has the syntax "<Player> has made the advancement <Advancement's name>"
+"%1$s has made the advancement %2$s%3$s%4$s": "%1$s hat den Erfolg %2$s%3$s%4$s erzielt",
+"%1$s has reached the goal %2$s%3$s%4$s": "%1$s hat das Ziel %2$s%3$s%4$s erreicht",
+"%1$s has completed the challenge %2$s%3$s%4$s": "%1$s hat die Challenge %2$s%3$s%4$s gemeistert",
+"%1$s has completed the super challenge %2$s%3$s%4$s": "%1$s hat die Super Challenge %2$s%3$s%4$s gemeistert",
+"%1$s has found the hidden advancement %2$s%3$s%4$s": "%1$s hat den versteckten Erfolg %2$s%3$s%4$s entdeckt",
+
+# # # There are 5 %1$s's here for the advancement "65 Hours of Walking"
+"%1$s has found the hidden advancement %2$s%3$s%4$s%5$s%6$s": "%1$s hat den versteckten Erfolg %2$s%3$s%4$s%5$s%6$s entdeckt",
+
+# # "For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>"
+"%1$s has completed every advancement in the %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s hat alle Erfolge im %2$s-Tab gemeistert und erhält deshalb den Erfolg %3$s%4$s%5$s",
+
+# # # Note: Because The End already has a 'the' in it, this line is exclusively used in "End Milestone"
+"%1$s has completed every advancement in %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s hat alle Erfolge im %2$s-Tab gemeistert und erhält deshalb den Erfolg %3$s%4$s%5$s",
+
+# # Advancement Legend
+"%1$s has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of %2$s%3$s%4$s": "%1$s hat alle Erfolge in BlazeandCave's Advancements Pack gemeistert und erhält deshalb den begehrten Titel %2$s%3$s%4$s",
+
+
+
+# Trophies added in 1.13
+"Azalea Parachute": "Azaleen-Fallschirm",
+"Good thing you didn't need this": "Zum Glück hast du den nicht gebraucht!",
+
+"Pyro's Mask": "Pyro's Maske",
+"One shudders to imagine what inhuman thoughts lie behind that mask": "Man erschaudert, wenn man sich vorstellt, welche unmenschlichen Gedanken sich hinter dieser Maske verbergen",
+
+"Deepslate Emerald Ore": "Tiefenschiefer-Smaragderz",
+"A rare specimen of emeralds embedded in the deepest of caves": "Eine seltene Probe von Smaragden, eingebettet in den tiefsten Tiefen von Höhlen",
+
+"Flex Tape": "Flex Tape",
+"To show the power of Flex Tape, you sawed all the blocks in half!": "Um die Kraft des Flex Tape zu demonstrieren, hast du alle Blöcke in zwei Teile zersägt",
+"#NotSponsored": "#NichtGesponsort",
+
+"Stairway to Heaven": "Stairway to Heaven",
+"Whatever you do, don't listen to it backwards!": "Was auch immer du tust, hör es dir nicht rückwärts an!",
+
+"Hot Potato": "Heiße Kartoffel",
+"Whooo, wiggy wiggy wiggy": "Whooo, wiggy wiggy wiggy",
+"Gimme that, gimme that, hoo": "Gib mir das, gib mir das, hoo",
+
+"Captain America's Shield": "Captain America's Schild",
+"Unfortunately there are no circles in Minecraft,": "Leider gibt es in Minecraft keine Kreise,",
+"meaning this shield is not very aerodynamic for throwing": "was bedeutet, dass dieses Schild nicht besonders aerodynamisch beim Werfen ist",
+
+"Harp String": "Harfensaite",
+"Playing so much must be wearing out your strings...": "So viel zu spielen muss deine Saiten ganz schön beanspruchen...",
+"Here! Have an extra.": "Hier! Da hast du eine als Ersatz.",
+
+"Roller Coaster Cart": "Achterbahn-Wagen",
+"Hey Ferb, I know what we're gonna do today!": "Hey Ferb, ich weiß, was wir heute tun werden!",
+
+"Time Machine": "Zeitmaschine",
+"You'll need it to get back all those hours you spent": "Du musst all die Stunden zurückbekommen, die du aufgewendet hast",
+
+"Plaid Block": "Karierter Block",
+"They've gone to plaid!": "Die sind jetzt kariert!",
+
+"Stink Bomb": "Stinkbombe",
+"P.U!": "P.U!",
+
+"Amalgamation": "Amalgamation",
+"The sheer gravitational forces of killing these mobs": "Die schiere Gravitationskraft beim Töten dieser Monster",
+"appears to have morphed them all together": "scheint sie alle verschmolzen zu haben",
+
+"Hubble Space Telescope": "Hubble-Weltraumteleskop",
+"A telescope orbiting in outer space,": "Ein Teleskop, das im Weltraum umherkreist,",
+"it can see to infinity and beyond": "es kann bis in die Unendlichkeit und darüber hinaus sehen",
+
+"Golden Advancement Plaque": "Goldene Erfolgs-Plakette",
+"Awarded to this datapack for reaching 1000 advancements": "Überreicht beim Meistern von 1000 Erfolgen",
+
+# # The Toilet trophy for 'WHERE'S THE HONEY LEBOWSKI' received a description change
+"WHERE'S THE HONEY?!!!": "WO IST DER HONIG?!!!",
+
+
+# Configuration menu additions in 1.13
+"Cooperative Mode currently enabled": "Koop-Modus aktuell aktiviert",
+"Cooperative Mode currently disabled": "Koop-Modus aktuell deaktiviert",
+
+"Cooperative Mode makes it so that whenever a player gets an advancement, that advancement will be shared across all players.": "Der Koop-Modus bewirkt, dass alle Spieler einen Erfolg erhalten, sobald einer der Spieler ihn erreicht.",
+"Everyone's currently-obtained advancements will be shared between all players immediately when turning this setting on.": "Alle Spieler erhalten sofort die von allen Spielern bisher erhaltenen Erfolge, sobald dieser Modus aktiviert wird.",
+"While the mode can be turned off, shared advancements cannot be easily revoked.": "Der Modus kann zwar wieder deaktiviert werden, geteilte Erfolge können jedoch nicht einfach so wieder zurückgenommen werden.",
+
+
+"Click to enable for all players": "Klicke hier, um Erfolge für alle Spieler zu aktivieren",
+"Click to enable only for the first player to get an advancement": "Klicke hier, damit nur der erste Spieler den jeweiligen Erfolg bekommt",
+"Click to disable for all players": "Klicke hier, um Erfolge für alle Spieler zu deaktivieren",
+
+# The syntax for these text strings is e.g. 'Item Rewards: All players'
+"Item Rewards:": "Item-Belohnungen",
+"Experience Rewards:": "Erfahrungs-Belohnungen",
+"Trophies:": "Trophäen",
+
+"All players": "Alle Spieler",
+"First player only": "Nur der erste Spieler",
+"Disabled": "Deaktiviert",
+#
+
+"Advancement Completion Message Settings": "Nachrichten-Einstellungen für das Erreichen von Erfolgen",
+"Advancement Scoreboard Display Settings": "Anzeige-Einstellungen für das Erfolgs-Scoreboard",
+
+"Click to view": "Klicke zum Zeigen",
+
+"Display Advancements Scoreboard on tab list": "Zeige das Erfolgs-Scoreboard in der Tabliste an",
+"Display First Advancements Scoreboard on tab list": "Zeige das 'Erster'-Erfolgs-Scoreboard in der Tabliste an",
+
+"Display Advancements Scoreboard on sidebar": "Zeige das Erfolgs-Scoreboard in der Seitenleiste an",
+"Display First Advancements Scoreboard on sidebar": "Zeige das 'Erster'-Erfolgs-Scoreboard in der Seitenleiste an",
+
+"The Advancements Scoreboard keeps track of how many advancements each player has obtained": "Das Erfolgs-Scoreboard zeigt an, wie viele Erfolge jeder Spieler erhalten hat",
+"The First Advancements Scoreboard keeps track of how many advancements each player was the first to obtain": "Das 'Erster'-Erfolgs-Scoreboard zeigt an, wie viele Erfolge jeder Spieler als Erstes erhalten hat",
+"Click to display": "Klicke zum Anzeigen",
+"Click to clear": "Klicke zum Löschen",
+
+# The syntax for these text strings is e.g. 'Task Advancements: All players'
+"Task": "Aufgabe",
+"Goal": "Ziel",
+"Challenge": "Challenge",
+"Super Challenges": "Super Challenge",
+"Milestone": "Meilenstein",
+
+"Advancements:": "Erfolge",
+#
+
+"Turn all messages on": "Aktiviere alle Nachrichten",
+"Turn all messages off": "Deaktiviere alle Nachrichten",
+"Set all messages to first-player only (recommended and default for Cooperative Mode)": "Stelle alle Nachrichten auf 'nur der erste Spieler' (empfohlen und standardmäßig für den Koop-Modus)",
+"Turn all on except tasks (recommended for large servers)": "Aktiviere alles außer einfache Erfolge (Aufgaben) (empfohlen für große Server)",
+"Turn all on except tasks and goals": "Aktiviere alles außer einfache Erfolge (Aufgaben) und Ziele",
+
+"Click to set": "Klicke zum Einstellen",
+
+
+"Go back to main config menu": "Zurück zum Hauptkonfigurationsmenü"
 
 
 
 
-
-
-
-# All advancements and trophies that get added in versions 1.13 or later will be added down here for easy locating by translators who wish to update their language file
+# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
 }

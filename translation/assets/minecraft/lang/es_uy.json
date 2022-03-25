@@ -4176,16 +4176,16 @@
 "Kill a Skeleton or Stray while both you and it have levitation": "Mata a un esqueleto o a un esqueleto glacial mientras ambos levitan",
 
 "Riddle Me This": "Una cosa quisicosa",
-"The first is to smith a compass that vanishes": "Tu primera tarea es forjar una brújula que desaparezca, es decir, crea o consigue una brújula encantada con maldición de desaparición",
-"The second is to slay a corpse that fishes": "Tu segunda tarea es acabar con un muerto capaz de pescar, es decir, mata a un ahogado que sostenga una caña de pescar o a un aldeano zombi con profesión de pescador",
-"The third is to travel on an upside-down mount": "Tu tercera tarea es viajar al revés, es decir, monta a una entidad llamada \"Dinnerbone\" o \"Grumm\"",
-"The fourth is to take a temple tripwire into account": "Tu cuarta tarea es tomar en cuenta el hilo de los templos, es decir, activa un hilo de activación en una jungla de cualquier tipo",
-"The fifth is to be invisible yet be visible everywhere": "Tu quinta tarea es ser visible e invisible a la vez, es decir, ten el efecto de invisibilidad y luminiscencia a la vez",
-"The sixth is to return the product of a fowl in mid-air": "Tu sexta tarea es devolver sus resultados al operador en medio del aire, es decir, ataca a una gallina que no esté en contacto con el suelo con un huevo",
-"The seventh is to allow a child to commit the act of stealing": "Tu séptima tarea es permitir a un niño robar, es decir, ditsrae a un piglin bebé",
-"The eighth is to smite a Wither with splash healing": "Tu octava tarea es matar a un Wither con vida arrojadiza, es decir, mata a un Wither con una poción arrojadiza",
-"The ninth is to be a pirate; parrot, spyglass, map, and boat": "Tu novena tarea es ser un pirata; con loro, catalejo, mapa y bote, es decir, mira a través de un catalejo mientras sostienes a la vez un mapa de cualquier tipo, además de tener a un loro en cualquier hombro y montar un bote sobre agua",
-"The tenth, if you can achieve it, you will be the G.O.A.T.": "Y tu décima y última tarea, si lo consigues serás considerado uno de los mejores, si no es que el mejor",
+"The first is to smith a compass that vanishes": "Tu primera tarea es forjar una brújula que desaparezca.",
+"The second is to slay a corpse that fishes": "Tu segunda tarea es acabar con un muerto capaz de pescar.",
+"The third is to travel on an upside-down mount": "Tu tercera tarea es viajar del revés.",
+"The fourth is to take a temple tripwire into account": "Tu cuarta tarea es tomar en cuenta el hilo de los templos.",
+"The fifth is to be invisible yet be visible everywhere": "Tu quinta tarea es ser invisible y supervisible a la vez.",
+"The sixth is to return the product of a fowl in mid-air": "Tu sexta tarea es devolver el producto al factor en medio del aire.",
+"The seventh is to allow a child to commit the act of stealing": "Tu séptima tarea es permitir que un niño robe.",
+"The eighth is to smite a Wither with splash healing": "Tu octava tarea es castigar a un Wither con vida arrojadiza.",
+"The ninth is to be a pirate; parrot, spyglass, map, and boat": "Tu novena tarea es ser un pirata; con loro, catalejo, mapa y bote.",
+"The tenth, if you can achieve it, you will be the G.O.A.T.": "Y tu décima y última tarea, si lo consigues serás considerado uno de los mejores, si no es que el mejor...",
 
 # Riddle Me This messages and hints
 
@@ -4289,24 +4289,30 @@
 
 
 # Custom Advancement Completion messages
-# # Has the syntax "<Player> has made the advancement <Advancement's name>"
+
+# # Has the syntax <Player> has made the advancement <Advancement's name>
+
 "%1$s has made the advancement %2$s%3$s%4$s": "%1$s ha conseguido el progreso %2$s%3$s%4$s",
 "%1$s has reached the goal %2$s%3$s%4$s": "%1$s ha alcanzado el objetivo %2$s%3$s%4$s",
 "%1$s has completed the challenge %2$s%3$s%4$s": "%1$s ha completado el desafío %2$s%3$s%4$s",
 "%1$s has completed the super challenge %2$s%3$s%4$s": "%1$s ha superado el desafío supremo %2$s%3$s%4$s",
 "%1$s has found the hidden advancement %2$s%3$s%4$s": "%1$s ha descubierto el progreso oculto %2$s%3$s%4$s",
 
-# # # There are 5 %1$s's here for the advancement "65 Hours of Walking"
+# # # There are 5 %1$s's here for the advancement '65 Hours of Walking'
+
 "%1$s has found the hidden advancement %2$s%3$s%4$s%5$s%6$s": "%1$s ha descubierto el progreso oculto %2$s%3$s%4$s%5$s%6$s",
 
-# # "For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>"
-"%1$s has completed every advancement in the %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s ha conseguido todos los progresos de la pestaña de %2$s, lo que lo hace una %3$s%4$s%5$s",
+# # For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>
 
-# # # Note: Because The End already has a 'the' in it, this line is exclusively used in "End Milestone"
-"%1$s has completed every advancement in %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s ha conseguido todos los progresos de la pestaña de %2$s, lo que lo hace una %3$s%4$s%5$s",
+"%1$s has completed every advancement in the %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s ha conseguido todos los progresos de la pestaña de %2$s, lo que lo vuelve una %3$s%4$s%5$s",
+
+# # Note: Because The End already has a 'the' in it, this line is exclusively used in 'End Milestone'
+
+"%1$s has completed every advancement in %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s ha conseguido todos los progresos de la pestaña de %2$s, lo que lo vuelve una %3$s%4$s%5$s",
 
 # # Advancement Legend
-"%1$s has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of %2$s%3$s%4$s": "%1$s ha conseguido todos los progresos del paquete de progresos de Blaze y Cave, considerándose ahora una %2$s%3$s%4$s",
+
+"%1$s has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of %2$s%3$s%4$s": "%1$s ha conseguido todos los progresos del paquete de progresos de Blaze y Cave, lo que lo convierte en una %2$s%3$s%4$s",
 
 
 
@@ -4380,18 +4386,18 @@
 
 
 "Click to enable for all players": "Da clic para habilitar para todos los jugadores",
-"Click to enable only for the first player to get an advancement": "Da clic para habilitar el modo \"El primero se lo queda\"",
+"Click to enable only for the first player to get an advancement": "Da clic para habilitar el modo \"El primero que lo consiga\"",
 "Click to disable for all players": "Da clic para deshabilitar para todos los jugadores",
 
 # The syntax for these text strings is e.g. 'Item Rewards All players'
 
-"Item Rewards:": "Recompensas de objetos",
-"Experience Rewards:": "Recompensas de experiencia",
-"Trophies:": "Trofeos",
+"Item Rewards:": "Recompensas de objetos para",
+"Experience Rewards:": "Recompensas de exp. para",
+"Trophies:": "Trofeos para",
 
-"All players": "Todos los jugadores",
-"First player only": "El primero se lo queda",
-"Disabled": "Deshabilitadas/os",
+"All players": "todos los jugadores",
+"First player only": "el primero que lo consiga",
+"Disabled": "deshabilitadas/os",
 
 
 "Advancement Completion Message Settings": "Opciones de mensajes por conseguir progresos",
@@ -4429,7 +4435,9 @@
 
 "Click to set": "Da clic para establecer opción",
 
-"Go back to main config menu": "Da clic para regresar al menú principal"
+"Go back to main config menu": "Da clic para regresar al menú principal",
+
+"tab": "es la pestaña a la que pertenece"
 
 
 

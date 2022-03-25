@@ -1160,5 +1160,11 @@ execute if score blazeandcave:biomes/pretty_in_purple bac_obtained matches 1.. r
 execute if score blazeandcave:biomes/master_spelunker bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/master_spelunker
 execute if score blazeandcave:biomes/terralithic bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/terralithic
 
-
+execute if score blazeandcave:biomes/land_of_icicles bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/land_of_icicles
+execute if score blazeandcave:adventure/castle_of_hrrms bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/castle_of_hrrms
+execute if score blazeandcave:adventure/remote_shelter bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/remote_shelter
+execute if score blazeandcave:adventure/spire_of_ice bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/spire_of_ice
+execute if score blazeandcave:adventure/under_the_ice bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/under_the_ice
+execute if score blazeandcave:adventure/a_journey_begins bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/a_journey_begins
+execute if score blazeandcave:adventure/expedition_of_discovery bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/expedition_of_discovery
 

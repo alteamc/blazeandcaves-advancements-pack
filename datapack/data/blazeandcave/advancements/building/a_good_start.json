@@ -16,16 +16,121 @@
     "function": "bc_rewards:building/a_good_start"
   },
   "criteria": {
-    "logs": {
+    "oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:logs",
+            "items": [
+              "minecraft:oak_log"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_log"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_log"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "jungle_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_log"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "acacia_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_log"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "dark_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_log"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_stem"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_stem"
+            ],
             "count": 64
           }
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "oak_log",
+      "spruce_log",
+      "birch_log",
+      "jungle_log",
+      "acacia_log",
+      "dark_oak_log",
+      "crimson_stem",
+      "warped_stem"
+    ]
+  ]
 }

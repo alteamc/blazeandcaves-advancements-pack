@@ -19,7 +19,21 @@
     "swamp_hut": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "swamp_hut"
+        "feature": "swamp_hut",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

@@ -1242,7 +1242,8 @@
           {
             "items": [
               "minecraft:golden_carrot"
-            ]
+            ],
+            "count": 64
           }
         ]
       }
@@ -1473,7 +1474,8 @@
           {
             "items": [
               "minecraft:iron_nugget"
-            ]
+            ],
+            "count": 64
           }
         ]
       }

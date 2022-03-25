@@ -19,7 +19,21 @@
     "pillager_outpost": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "pillager_outpost"
+        "feature": "pillager_outpost",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

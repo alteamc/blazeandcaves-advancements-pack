@@ -19,34 +19,62 @@
     "jungle": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:jungle"
-      }
-    },
-    "sparse_jungle": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "biome": "minecraft:sparse_jungle"
-      }
-    },
-    "modified_jungle_edge": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "biome": "minecraft:modified_jungle_edge"
-      }
-    },
-    "bamboo_jungle": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "biome": "minecraft:bamboo_jungle"
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biome": "minecraft:jungle"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:sparse_jungle"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:bamboo_jungle"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:modified_jungle_edge"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
-  },
-  "requirements": [
-    [
-      "jungle",
-      "sparse_jungle",
-      "modified_jungle_edge",
-      "bamboo_jungle"
-    ]
-  ]
+  }
 }

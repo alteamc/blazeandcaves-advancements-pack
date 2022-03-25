@@ -19,7 +19,21 @@
     "sunflower_plains": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:sunflower_plains"
+        "biome": "minecraft:sunflower_plains",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

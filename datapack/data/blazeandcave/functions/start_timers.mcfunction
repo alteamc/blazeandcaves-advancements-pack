@@ -8,6 +8,80 @@ scoreboard objectives add bac_settings dummy
 scoreboard objectives add bac_trophy_given dummy
 scoreboard objectives add bac_quit minecraft.custom:minecraft.leave_game
 
+# The following are related to teams
+scoreboard objectives add bac_advancements_team dummy {"text":"Team Advancements"}
+scoreboard objectives add bac_advfirst_team_sum dummy {"text":"Total Team Advancements"}
+scoreboard objectives add bac_advfirst_sum dummy {"text":"Team First Advancements"}
+scoreboard objectives add bac_advfirst_team dummy {"text":"First Advancements in Team"}
+
+scoreboard objectives add bac_obtained_black dummy
+scoreboard objectives add bac_obtained_dark_blue dummy
+scoreboard objectives add bac_obtained_dark_green dummy
+scoreboard objectives add bac_obtained_dark_aqua dummy
+scoreboard objectives add bac_obtained_dark_red dummy
+scoreboard objectives add bac_obtained_dark_purple dummy
+scoreboard objectives add bac_obtained_gold dummy
+scoreboard objectives add bac_obtained_gray dummy
+scoreboard objectives add bac_obtained_dark_gray dummy
+scoreboard objectives add bac_obtained_blue dummy
+scoreboard objectives add bac_obtained_green dummy
+scoreboard objectives add bac_obtained_aqua dummy
+scoreboard objectives add bac_obtained_red dummy
+scoreboard objectives add bac_obtained_light_purple dummy
+scoreboard objectives add bac_obtained_yellow dummy
+scoreboard objectives add bac_obtained_white dummy
+
+team add bac_team_black {"translate":"Black Team"}
+team add bac_team_dark_blue {"translate":"Dark Blue Team"}
+team add bac_team_dark_green {"translate":"Dark Green Team"}
+team add bac_team_dark_aqua {"translate":"Dark Aqua Team"}
+team add bac_team_dark_red {"translate":"Dark Red Team"}
+team add bac_team_dark_purple {"translate":"Dark Purple Team"}
+team add bac_team_gold {"translate":"Gold Team"}
+team add bac_team_gray {"translate":"Gray Team"}
+team add bac_team_dark_gray {"translate":"Dark Gray Team"}
+team add bac_team_blue {"translate":"Blue Team"}
+team add bac_team_green {"translate":"Green Team"}
+team add bac_team_aqua {"translate":"Aqua Team"}
+team add bac_team_red {"translate":"Red Team"}
+team add bac_team_light_purple {"translate":"Light Purple Team"}
+team add bac_team_yellow {"translate":"Yellow Team"}
+team add bac_team_white {"translate":"White Team"}
+
+team modify bac_team_black color black
+team modify bac_team_dark_blue color dark_blue
+team modify bac_team_dark_green color dark_green
+team modify bac_team_dark_aqua color dark_aqua
+team modify bac_team_dark_red color dark_red
+team modify bac_team_dark_purple color dark_purple
+team modify bac_team_gold color gold
+team modify bac_team_gray color gray
+team modify bac_team_dark_gray color dark_gray
+team modify bac_team_blue color blue
+team modify bac_team_green color green
+team modify bac_team_aqua color aqua
+team modify bac_team_red color red
+team modify bac_team_light_purple color light_purple
+team modify bac_team_yellow color yellow
+team modify bac_team_white color white
+
+team join bac_team_black Black_Team
+team join bac_team_dark_blue Dark_Blue_Team
+team join bac_team_dark_green Dark_Green_Team
+team join bac_team_dark_aqua Dark_Aqua_Team
+team join bac_team_dark_red Dark_Red_Team
+team join bac_team_dark_purple Dark_Purple_Team
+team join bac_team_gold Gold_Team
+team join bac_team_gray Gray_Team
+team join bac_team_dark_gray Dark_Gray_Team
+team join bac_team_blue Blue_Team
+team join bac_team_green Green_Team
+team join bac_team_aqua Aqua_Team
+team join bac_team_red Red_Team
+team join bac_team_light_purple Light_Purple_Team
+team join bac_team_yellow Yellow_Team
+team join bac_team_white White_Team
+
 # The following are used for statistical advancements
 scoreboard objectives add bac_day_count dummy
 scoreboard objectives add bac_current_time dummy

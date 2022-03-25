@@ -19,7 +19,21 @@
     "jungle_pyramid": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "jungle_pyramid"
+        "feature": "jungle_pyramid",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

@@ -24,7 +24,21 @@
             "max": 4.5
           }
         },
-        "dimension": "minecraft:overworld"
+        "dimension": "minecraft:overworld",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

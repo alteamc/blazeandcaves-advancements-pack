@@ -2209,6 +2209,23 @@
           ]
         }
       }
+    },
+    "sweet_berry_bush": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:sweet_berry_bush"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
     }
   }
 }

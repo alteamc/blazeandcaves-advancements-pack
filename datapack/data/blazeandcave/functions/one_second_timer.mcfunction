@@ -188,10 +188,10 @@ execute as @a[advancements={blazeandcave:technical/spawn_perfect_one=true},score
 
 # # Riddle Me This
 # For the tenth line, it only starts counting once the player has completed the ninth line
-execute as @a[advancements={blazeandcave:technical/riddle_ninth_line=false}] run scoreboard players set @s bac_1000th_item 0
+execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_line=false}] run scoreboard players set @s bac_1000th_item 0
 
 # Once they have placed 1000 Warped Buttons, the tenth line is complete
-execute as @a[advancements={blazeandcave:technical/riddle_ninth_line=true}] if score @s bac_1000th_item matches 1000.. run advancement grant @s only blazeandcave:technical/riddle_tenth_line
+execute as @a if entity @s[advancements={blazeandcave:technical/riddle_ninth_line=true}] if score @s bac_1000th_item matches 1000.. run advancement grant @s only blazeandcave:technical/riddle_tenth_line
 
 
 

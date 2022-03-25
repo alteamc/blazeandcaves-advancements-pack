@@ -23,16 +23,45 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "vehicle": {
-                "type": "minecraft:boat",
-                "location": {
-                  "feature": "shipwreck"
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "vehicle": {
+                    "type": "minecraft:boat",
+                    "location": {
+                      "feature": "shipwreck"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "vehicle": {
+                    "type": "minecraft:boat",
+                    "location": {
+                      "feature": "shipwreck"
+                    }
+                  }
                 }
               }
-            },
-            "entity": "this"
+            ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
           }
         ]
       }

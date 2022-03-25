@@ -532,6 +532,18 @@
         ]
       }
     },
+    "waxed_oxidized_cut_copper_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:waxed_oxidized_cut_copper_stairs"
+            ]
+          }
+        ]
+      }
+    },
     "cobbled_deepslate_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -626,6 +638,7 @@
       "waxed_cut_copper_stairs",
       "waxed_exposed_cut_copper_stairs",
       "waxed_weathered_cut_copper_stairs",
+      "waxed_oxidized_cut_copper_stairs",
       "cobbled_deepslate_stairs",
       "polished_deepslate_stairs",
       "deepslate_brick_stairs",

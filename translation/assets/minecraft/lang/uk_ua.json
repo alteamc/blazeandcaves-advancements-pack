@@ -9,7 +9,7 @@
 
 # Language: Ukrainian
 # Author: PurpleBear(1.11), Marsik_the_alien (1.12 - 1.13)
-# Pack version supported: 1.12
+# Pack version supported: 1.13.2
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -4328,24 +4328,27 @@
 
 
 # Custom Advancement Completion messages
-# # Has the syntax "<Player> has made the advancement <Advancement's name>"
-"%1$s has made the advancement %2$s%3$s%4$s": "%1$s отримав досягнення %2$s%3$s%4$s",
-"%1$s has reached the goal %2$s%3$s%4$s": "%1$s виконав мету %2$s%3$s%4$s",
-"%1$s has completed the challenge %2$s%3$s%4$s": "%1$s виконав випробування %2$s%3$s%4$s",
-"%1$s has completed the super challenge %2$s%3$s%4$s": "%1$s виконав супер виклик %2$s%3$s%4$s",
-"%1$s has found the hidden advancement %2$s%3$s%4$s": "%1$s отримав приховане досягнення %2$s%3$s%4$s",
 
-# # # There are 5 %1$s's here for the advancement "65 Hours of Walking"
-"%1$s has found the hidden advancement %2$s%3$s%4$s%5$s%6$s": "%1$s отримав приховане досягнення %2$s%3$s%4$s%5$s%6$s",
+# # Has the syntax <Player> has made the advancement <Advancement's name>
 
-# # "For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>"
-"%1$s has completed every advancement in the %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s завершив всі досягнення в %2$s, заробляючи досягнення %3$s%4$s%5$s",
+"has made the advancement": "отримав досягнення",
+"has reached the goal": "виконав мету",
+"has completed the challenge": "виконав випробування",
+"has completed the super challenge": "виконав супер виклик",
+"has found the hidden advancement": "отримав приховане досягнення",
 
-# # # Note: Because The End already has a 'the' in it, this line is exclusively used in "End Milestone"
-"%1$s has completed every advancement in %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s завершив кожне просування у %2$s, заробляючи досягнення %3$s%4$s%5$s",
+# # For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>
+
+"has completed every advancement in the": "завершив всі досягнення в",
+"tab, earning them the advancement": ", заробляючи досягнення",
+
+# # Note: Because The End already has a 'the' in it, this line is exclusively used in 'End Milestone'
+
+"has completed every advancement in": "завершив кожне просування у",
 
 # # Advancement Legend
-"%1$s has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of %2$s%3$s%4$s": "%1$s завершив(ла) всі досягнення в BlazeandCave's Advancements Pack, що принесло йому бажаний титул. %2$s%3$s%4$s",
+
+"has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of": "завершив(ла) всі досягнення в BlazeandCave's Advancements Pack, що принесло йому бажаний титул.",
 
 
 
@@ -4468,7 +4471,71 @@
 
 "Click to set": "Натисніть, щоб вибрати",
 
-"Go back to main config menu": "Повернутися до головного меню конфігурації"
+"Go back to main config menu": "Повернутися до головного меню конфігурації",
+
+# Advancements added in the Terralith version for BACAP 1.13.1
+"A Cliffhanger!": "Кліффхенгер!",
+"Discover every type of cliff biome": "Дослідіть кожен вид горних біомів",
+
+"A Grassy Nature": "Трав'янистая природа",
+"Discover every grasslands biome": "Дослідіть кожен біом луків",
+
+"A E S T H E T I C": "Е С Т Е Т И К А",
+"Discover the Mirage Isles. No, they’re not not real": "Дослідіть Міражі. Ні, вони не справжні",
+
+"Alpha Days": "Дні Альфи",
+"Discover the mythical islands of Alpha": "Дослідіть міфічні острови Альфа",
+
+"Bushranger": "Кущовий розбійник",
+"Discover every shrublands biome": "Дослідіть кожен біом чагарників",
+
+"Choco Mountain": "Шоколадна гора",
+"Discover a White Mesa": "Дослідіть Білі безплідні землі",
+
+"Eruption in the Air": "Обережно: виверження!",
+"Enter a volcano biome": "Ввійдіть в біом вулканів",
+
+"Highlander": "Горець",
+"Discover every highlands biome": "Дослідіть кожен біом високогір'я",
+
+"Master Spelunker": "Майстер-спелеолог",
+"Discover every cave biome": "Дослідіть кожен печерний біом",
+
+"O-Land-o Bloom": "Квітучі землі",
+"Discover a blooming biome": "Дослідіть квітучий біом",
+
+"One Small Steppe For Man": "Степ за степом...",
+"Discover a steppe biome": "Дослідіть біом степів",
+
+"Over the Moon": "Над Місяцем",
+"Discover a moonlight biome": "Дослідіть місячний біом",
+
+"Pretty in Purple": "Красуня у фіолетовому",
+"Discover every biome with trees of purple leaves": "Дослідіть кожен біом пурпурового листя",
+
+"Skylanders": "Дослідники неба",
+"Discover some mysterious lands floating high above the ground": "Дослідіть таємничі землі, що ширяють високо над землею",
+
+"Smarter than the Average Bear": "О, жовті камінчики!",
+"Discover the Yellowstone biome": "Дослідіть біом Жовтокаменю",
+
+"Terralithic": "Terralithic",
+"Discover every Terralith biome": "Дослідіть кожен біом \"Terralith\"",
+
+"The Boreal Deal": "Північна угода",
+"Discover every boreal biome": "Дослідіть коден північний біом",
+
+"The World Is Your Canvas": "Світ - це полотно ",
+"Discover the Painted Mountains": "Дослідіть пофарбовані гори",
+
+# Adjusted descriptions
+"Discover every vanilla surface biome in the Overworld": "Дослідіть кожен ванільний біом у звичайному світі",
+"Discover every vanilla biome from every dimension": "Досліджуйте кожен ванільний біом всіх вимірах",
+
+"Stardust": "Зоряний пил",
+
+"You have explored everything this world has to offer": "Ви дослідили все, що може запропонувати цей світ",
+"But at the end of it all, it is all still made from stardust": "Але в кінці кінців, все ще досі зроблено із зоряного пилу"
 
 
 

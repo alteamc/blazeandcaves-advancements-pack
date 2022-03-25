@@ -16,15 +16,35 @@
     "function": "bc_rewards:nether/stem_research"
   },
   "criteria": {
-    "nether_stems": {
+    "crimson_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:nether_stems"
+            "items": [
+              "minecraft:crimson_stem"
+            ]
+          }
+        ]
+      }
+    },
+    "warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_stem"
+            ]
           }
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "crimson_stem",
+      "warped_stem"
+    ]
+  ]
 }

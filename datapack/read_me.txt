@@ -1,12 +1,12 @@
 BlazeandCave's Advancements Pack
-Version 1.13.1
+Version 1.13.5
 
 By Cavinator1
 
 Thank you for downloading this datapack!
 If you liked or have any ideas for other advancements that could be added to this datapack (or found any issues) feel free to comment.
 
-Please use Minecraft 1.18 or 1.18.1 for this version.
+Please use Minecraft 1.18.2 for this version.
 The datapack may or may not continue to work properly in future versions. Please make a backup of your world before attempting to use in future versions in case of bugs.
 
 --- Installing: ---

@@ -21,61 +21,201 @@
     "stony_shore": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:stony_shore"
+        "biome": "minecraft:stony_shore",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "windswept_hills": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:windswept_hills"
+        "biome": "minecraft:windswept_hills",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "windswept_forest": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:windswept_forest"
+        "biome": "minecraft:windswept_forest",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "windswept_gravelly_hills": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:windswept_gravelly_hills"
+        "biome": "minecraft:windswept_gravelly_hills",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "meadow": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:meadow"
+        "biome": "minecraft:meadow",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "grove": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:grove"
+        "biome": "minecraft:grove",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "snowy_slopes": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:snowy_slopes"
+        "biome": "minecraft:snowy_slopes",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "frozen_peaks": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:frozen_peaks"
+        "biome": "minecraft:frozen_peaks",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "jagged_peaks": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:jagged_peaks"
+        "biome": "minecraft:jagged_peaks",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "stony_peaks": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:stony_peaks"
+        "biome": "minecraft:stony_peaks",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

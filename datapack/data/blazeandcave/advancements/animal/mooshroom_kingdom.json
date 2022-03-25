@@ -19,7 +19,21 @@
     "mushroom_fields": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:mushroom_fields"
+        "biome": "minecraft:mushroom_fields",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

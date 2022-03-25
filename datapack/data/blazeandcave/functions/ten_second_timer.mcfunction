@@ -2,6 +2,7 @@
 
 # Checks if there is a player who has quit and just now rejoined the game. If there is and Cooperative mode is enabled, updates shared advancements
 execute if score coop bac_settings matches 1 if entity @p[scores={bac_quit=1..}] run function blazeandcave:config/coop_update
+execute if score coop bac_settings matches 2 as @a[scores={bac_quit=1..}] run function blazeandcave:config/coop_update_team
 scoreboard players set @a bac_quit 0
 
 # For "An Apple a Day" if an apple is eaten it increases the score. bac_apple_eaten is then set to 100

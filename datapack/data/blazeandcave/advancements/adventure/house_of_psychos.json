@@ -19,7 +19,21 @@
     "mansion": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "mansion"
+        "feature": "mansion",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

@@ -2,7 +2,6 @@
 # Should be run after updating datapack versions or when revoking advancements
 # Display message
 tellraw @s {"color": "green", "translate": "Обновлен счетчик достижений всех онлайн игроков."}
-
 # Set to 0
 scoreboard players set @a bac_advancements 0
 # Go through every advancement, and adds 1 to score if you have obtained that advancement
@@ -1051,8 +1050,17 @@ execute if score terralith_score bac_settings matches 1 as @a[advancements={blaz
 execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:biomes/master_spelunker=true}] run scoreboard players add @s bac_advancements 1
 execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:biomes/terralithic=true}] run scoreboard players add @s bac_advancements 1
 
+execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:biomes/land_of_icicles=true}] run scoreboard players add @s bac_advancements 1
+execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/castle_of_hrrms=true}] run scoreboard players add @s bac_advancements 1
+execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/remote_shelter=true}] run scoreboard players add @s bac_advancements 1
+execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/spire_of_ice=true}] run scoreboard players add @s bac_advancements 1
+execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/under_the_ice=true}] run scoreboard players add @s bac_advancements 1
+execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/a_journey_begins=true}] run scoreboard players add @s bac_advancements 1
+execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/expedition_of_discovery=true}] run scoreboard players add @s bac_advancements 1
 
 
+# Updates team scores
+function bc_rewards:team_score
 
 
 

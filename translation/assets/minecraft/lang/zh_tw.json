@@ -9,7 +9,7 @@
 
 # Language: 繁體中文(Traditional Chinese)
 # Author: TorchGod
-# Pack version supported: 1.11.2
+# Pack version supported: 1.13.2
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -4057,7 +4057,7 @@
 "click here": "按此",
 
 " - Join my discord ": "加入作者DC",
-"here": "按此",
+"here": "這裡",
 
 "Special thanks to my patreon donors: ": "特別感謝贊助者們",
 ## Patreon Donors' names are listed here
@@ -4112,13 +4112,408 @@
 # Grant trophies confirmation message
 "All players have been granted trophies.": "所以玩家已經領取獎盃",
 "Players that have been granted trophies by this function in the past did not receive any now. To manually re-enable trophy granting for them use the command:": "之前已經用此指令領取獎盃的玩家不會獲得任何獎盃，若要手動獲得獎盃請使用此指令",
-"Click to insert command into chat": "按此以發送指令於聊天室"
+"Click to insert command into chat": "按此以發送指令於聊天室",
+
+
+## All advancements added in version 1.13 are here
+"Dripstone Drop": "滴血不漏",
+"Survive a fall of at least 10 blocks onto some Pointed Dripstone": "跌落在高度距離10格以上的鐘乳石上並存活",
+
+"Lucky Break": "極限倖存者",
+"Survive a long fall with just a sliver of health remaining": "",
+
+"Caves & Cliffs": "深淵與天際",
+"Free fall from the top of the world (build limit) to the bottom of the world and survive": "從世界高度限制掉落到積岩層並存活",
+
+"Bottom to Top": "反轉世界",
+"Place every cave block at the very top of the world": "放置所有洞穴方塊至世界的頂端",
+
+
+"A Good Start": "好的開始",
+"Chop down enough trees to collect a full stack of one log type": "砍伐夠多的數以湊及一組原木",
+
+
+"Squid Game": "魷魚遊戲",
+"Hunt enough Squids to collect a stack of Ink Sacs": "獵殺夠多的墨魚以獲得一組墨囊",
+
+
+"Blackberry Market": "黑莓市場",
+"Trade some sweet berries to a Fox with an emerald in their mouth": "用莓果讓咬著綠寶石的狐狸鬆口",
+
+
+"We’re Going on a Bear Hunt": "熊熊獵人",
+"Get hunted by a Polar Bear": "被北極熊獵捕",
+
+"Dive Bomb": "深水炸彈",
+"Dive into water from a cliff at least 50 blocks tall": "跳水距離超過五十格高",
+
+"Captain America": "美國隊長",
+"Get completely frozen inside two blocks of Powder Snow for a loooong time.": "在粉雪中被深度凍結很長一段時間",
+"Big question is: Can you do this all day?": "但最大的問題是：你還能撐多久？",
+
+
+"Map Room": "地圖室",
+"Place a map in an item frame": "放置地圖於物品展示框上",
+
+"Sound the Alarm!": "擊響警報",
+"Ring the bell with a hostile enemy in the village": "在村莊出現敵對生物時敲鐘",
+
+"The Sound of Music": "天籟之音",
+"Make the Meadows come alive with the sound of music from a jukebox": "使用唱片機撥放音樂讓原野變得更加有趣",
+
+
+"Click!": "點擊！",
+"Place and push a button": "放置並按下按鈕",
+
+"Leveraging Synergy": "偕同效應",
+"Flick a lever": "撥動控制桿",
+
+"On A Rail": "一方通行",
+"Travel by Minecart in a straight line to at least 1 km from where you started": "用礦車移動超過一公里的直線距離",
+
+
+"Baron of Blacksmiths": "鐵匠男爵",
+"Get a stack of regular, chipped and damaged Anvils": "獲得一般的、微損的、與耗損的鐵砧各一組",
+
+
+"65": "65",
+"hours of walking": "小時的旅程",
+"Walk 1000km. The statistics tab shall no longer be the grindy super challenges tab": "行走一千公里。統計列表不應該是很農的超級挑戰列表",
+
+
+"Feels Like Home": "家鄉的味道",
+"Take a Strider for a loooong ride on a lava lake in the Overworld": "在主世界的岩漿湖騎乘熾足獸很長一段時間",
+
+"Gilded Miner": "鍍金的礦工",
+"Mine a stack of Gilded Blackstone from Bastion Remnants": "在豬布林堡壘中挖掘一組鑲金黑石",
+
+"Astrobrute": "太空蠻兵",
+"Send a Piglin Brute to the End and kill it there before it zombifies": "傳送一隻豬布林蠻兵至終界並在他殭屍化之前處死他",
+
+"Ludicrous Speed!": "可笑的速度",
+"Achieve an absolutely insane speed by combining the Speed II effect, Dolphin’s Grace, Depth Strider III, Soul Speed III and sprinting": "結合加速II、海豚悠游、深海漫遊III、靈魂疾走III，達到近乎瘋狂的速度",
+
+
+"Stealth Takedown": "暗殺",
+"Dispatch a Creeper at melee range while you are invisible": "在隱形時以近戰方式毀滅一隻苦力怕",
+
+"Dogfight": "空戰",
+"Kill a Skeleton or Stray while both you and it have levitation": "在你與骷髏或流髑都於漂浮狀態下擊殺對方",
+
+"Riddle Me This": "謎語解碼",
+"The first is to smith a compass that vanishes": "一是鍛造一個消失的指南針",
+"The second is to slay a corpse that fishes": "二是殺掉會捕魚的屍體",
+"The third is to travel on an upside-down mount": "三是旅行於一座顛倒的山",
+"The fourth is to take a temple tripwire into account": "四是考慮叢林神廟絆線",
+"The fifth is to be invisible yet be visible everywhere": "第五是成為看不見卻處處可見",
+"The sixth is to return the product of a fowl in mid-air": "六是在空中送回禽製品",
+"The seventh is to allow a child to commit the act of stealing": "七是允許孩子進行偷竊行為",
+"The eighth is to smite a Wither with splash healing": "八是用飛濺治療來打擊凋靈",
+"The ninth is to be a pirate; parrot, spyglass, map, and boat": "第九是成為海盜；鸚鵡、望遠鏡、地圖和船",
+"The tenth, if you can achieve it, you will be the G.O.A.T.": "第十，如果你能達成，你就成為了G.O.A.T.",
+
+# Riddle Me This messages and hints
+"First line complete…": "第一支線完成……",
+"Second line complete…": "第二支線完成……",
+"Third line complete…": "第三支線完成……",
+"Fourth line complete…": "第四支線完成……",
+"Fifth line complete…": "第五支線完成……",
+"Sixth line complete…": "第六支線完成……",
+"Seventh line complete…": "第七支線完成……",
+"Eighth line complete…": "第八支線完成……",
+"Ninth line complete…": "第九支線完成……",
+
+"Tenth Parchment": "第十張羊皮紙",
+"Place Warped Buttons to number a thousand": "放置一千個扭曲按鈕",
+"For this was the thousandth item added to the game": "畢竟這是第一千個加入遊戲的物品",
+"Like how this is the thousandth advancement added to the pack": "也就如同這是第一千個加入成就包的成就",
+
+
+# Renamed advancements and description changes in 1.12
+"All Aboard!": "啟程！",
+"Craft and board a Minecart for railway journeys": "合成並搭乘礦車優遊",
+
+"Star Trader": "星際貿易商",
+"Trade with a villager at the build height limit": "與村民在高度限制上交易",
+
+"High Feet": "高腳丫",
+"Discover every mountain biome": "發現所有高山生態域",
+
+"Natural Sprinter": "山地同胞",
+"Sprint 10km": "衝刺十公里",
+
+"Lichen Subscribe": "按讚訂閱小苔癬",
+
+"Atlantis?": "亞特蘭提斯?",
+
+"Ahoy!": "Ahoy!",
+
+"Foliage": "葉",
+
+"How Did We Get Here?": "我們是怎麼達到這的？",
+
+
+# Description changes
+
+# # Adventuring Time
+"Discover every surface biome in the Overworld": "探索所有主世界的表面生態系",
+
+# # Explorer of Worlds
+"Discover every biome in every dimension": "探索所有緯度的所有生態域",
+
+# # Trampoline
+"Bounce onto a slime block from at least 30 blocks high": "跳向距離至少30格高的史萊姆方塊",
+
+# # Cool Kids
+"Craft and wear a leather jacket": "合成並穿上皮革夾克",
+
+# # Fashion Statement
+"Dye some leather pants with one color, then put them on": "將皮革長褲染色並穿上",
+
+# # Fuel Engine
+"Craft a Minecart with Furnace and use coal or charcoal to send it chugging": "合成一台熔爐礦車並添加煤炭或木炭使其奔馳",
+
+# # Troll Chest
+"Trigger a trapped chest. Good for trolling your friends!": "觸動陷阱儲物箱。這是一個整你朋友的好方法！",
+
+# # Tripping Over
+"Place a line of string between two tripwire hooks, and trigger it": "用線連接兩個絆線鉤，使其觸動",
+
+# # Under Pressure
+"Step on a pressure plate": "踩上一個壓力板",
+
+# # Let It Go!
+"Using Frost Walker boots, walk on frozen water over a deep ocean": "使用冰霜行者在深海上奔馳",
+
+# # Do A Barrel Roll!
+"Use Riptide to give yourself a boost": "使用波濤加速",
+
+# # Kilometre Walk
+"Travel at least 1000 blocks from the centre of the world in any direction.": "從世界中心旅遊至只少一千格遠的地方",
+
+# # Ten Thousand Blocks
+"Travel at least 10,000 blocks from the centre of the world in any direction.": "從世界中心旅遊至只少一萬格遠的地方",
+
+# # Olympic Gold Medallist
+"Swim 50km": "游泳50公里",
+
+# # Global Railway Network
+"Ride 50km in a minecart": "搭乘礦車50公里",
+
+# # Who needs cars?
+"Walk 50km": "走50公里",
+
+# # I enjoy long walks and playing MC
+"Walk 250km": "走250公里",
+
+# # Time to Chop!
+"Use planks and sticks to make an axe": "使用木材與木棒合成一把斧頭",
+
+
+
+# Custom Advancement Completion messages
+# # Has the syntax <Player> has made the advancement <Advancement's name>
+"has made the advancement": "已創建成就",
+"has reached the goal": "已完成成就",
+"has completed the challenge": "已完成挑戰",
+"has completed the super challenge": "已完成超級挑戰",
+"has found the hidden advancement": "已發現隱藏的成就",
+
+# # For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>
+"has completed every advancement in the": "已完成所有位於",
+"tab, earning them the advancement": "列表的成就，將獲得成就：",
+
+# # Note: Because The End already has a 'the' in it, this line is exclusively used in 'End Milestone'
+"has completed every advancement in": "已完成所有成就位於",
+
+# # Advancement Legend
+"has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of": "已完成所有烈焰與洞穴的成就，將獲得頭銜：",
+
+
+
+# Trophies added in 1.13
+"Azalea Parachute": "杜鵑花降落傘",
+"Good thing you didn't need this": "好消息是你從未需要過這個",
+
+"Pyro's Mask": "火槍兵的面罩",
+"One shudders to imagine what inhuman thoughts lie behind that mask": "人們不寒而栗地想像面具背後隱藏著什麼非人的思想",
+
+"Deepslate Emerald Ore": "深板岩綠寶石礦",
+"A rare specimen of emeralds embedded in the deepest of caves": "是鑲嵌在深淵深處最稀有的綠寶石亞種",
+
+"Flex Tape": "Flex Tape",
+"To show the power of Flex Tape, you sawed all the blocks in half!": "為了展現Flex Tape的實力，我們將所有方塊都裁成一半了！",
+"#NotSponsored": "#懇求廠商大大贊助",
+
+"Stairway to Heaven": "通往天堂的階梯",
+"Whatever you do, don't listen to it backwards!": "無論你聽到什麼，不要往後看！",
+
+"Hot Potato": "燒燙燙的鈴鈴薯",
+"Whooo, wiggy wiggy wiggy": "阿燙燙燙燙燙燙~",
+"Gimme that, gimme that, hoo": "快拿手套來啊~燒阿~",
+
+"Captain America's Shield": "美國隊長之盾",
+"Unfortunately there are no circles in Minecraft,": "不幸的是，在麥塊裡沒有圓形",
+"meaning this shield is not very aerodynamic for throwing": "導致這個盾牌在投擲時不是非常符合流體力學",
+
+"Harp String": "豎琴弦",
+"Playing so much must be wearing out your strings...": "長時間的演奏必定耗損了你的弦吧…",
+"Here! Have an extra.": "來！再給你一條！",
+
+"Roller Coaster Cart": "雲霄飛車",
+"Hey Ferb, I know what we're gonna do today!": "嘿小佛，我知道我們今天該做什麼了！",
+
+"Time Machine": "時光機",
+"You'll need it to get back all those hours you spent": "你需要奪回那些逝去的時間",
+
+"Plaid Block": "格紋磚",
+"They've gone to plaid!": "他們需要是格紋的！",
+
+"Stink Bomb": "異臭彈",
+"P.U!": "咻！",
+
+"Amalgamation": "合成獸",
+"The sheer gravitational forces of killing these mobs": "殺死這些暴徒的絕對引力",
+"appears to have morphed them all together": "似乎已經將它們全部幻化在一起了",
+
+"Hubble Space Telescope": "哈勃太空望遠鏡",
+"A telescope orbiting in outer space,": "在外太空運行的望遠鏡",
+"it can see to infinity and beyond": "它可以看到無限遠處",
+
+"Golden Advancement Plaque": "金色成就匾額",
+"Awarded to this datapack for reaching 1000 advancements": "贈給在此成就包中拿到一千個成就的你",
+
+# # The Toilet trophy for 'WHERE'S THE HONEY LEBOWSKI' received a description change
+"WHERE'S THE HONEY?!!!": "蜂蜜呢?!!!",
+
+
+# Configuration menu additions in 1.13
+"Cooperative Mode currently enabled": "合作模式啟用中",
+"Cooperative Mode currently disabled": "合作模式禁用中",
+
+"Cooperative Mode makes it so that whenever a player gets an advancement, that advancement will be shared across all players.": "在合作模式下，當有玩家達成成就時，所有玩家皆會獲得該成就",
+"Everyone's currently-obtained advancements will be shared between all players immediately when turning this setting on.": "當此設定被啟用時，各個玩家目前已經獲得的成就將會被共享",
+"While the mode can be turned off, shared advancements cannot be easily revoked.": "雖然此模式可以被關閉，但已經共享的成就無法輕易撤回",
+
+
+"Click to enable for all players": "按此啟用於所有玩家",
+"Click to enable only for the first player to get an advancement": "按此以啟用於首位完成成就的玩家",
+"Click to disable for all players": "按此已禁用於所有玩家",
+
+# The syntax for these text strings is e.g. 'Item Rewards: All players'
+"Item Rewards:": "物品獎賞",
+"Experience Rewards:": "經驗獎賞",
+"Trophies:": "獎盃",
+
+"All players": "所有玩家",
+"First player only": "本人限定",
+"Disabled": "禁用",
+#
+
+"Advancement Completion Message Settings": "成就完成訊息設定",
+"Advancement Scoreboard Display Settings": "成就記錄板顯示設定",
+
+"Click to view": "按此查閱",
+
+"Display Advancements Scoreboard on tab list": "顯示成就記錄板於連線名單",
+"Display First Advancements Scoreboard on tab list": "顯示首位達成記錄版於連線名單",
+
+"Display Advancements Scoreboard on sidebar": "顯示成就記錄版於右側",
+"Display First Advancements Scoreboard on sidebar": "顯示首位達成記錄版於右側",
+
+"The Advancements Scoreboard keeps track of how many advancements each player has obtained": "成就記錄板會記錄各玩家所達成的成就數目",
+"The First Advancements Scoreboard keeps track of how many advancements each player was the first to obtain": "首位達成記錄板會記錄成就達成時為首位玩家的成就數目",
+"Click to display": "按此顯示",
+"Click to clear": "按此清除",
+
+# The syntax for these text strings is e.g. 'Task Advancements: All players'
+"Task": "任務",
+"Goal": "目標",
+"Challenge": "挑戰",
+"Super Challenges": "超級挑戰",
+"Milestone": "里程碑",
+
+"Advancements:": "成就",
+#
+
+"Turn all messages on": "開啟所有訊息",
+"Turn all messages off": "關閉所有訊息",
+"Set all messages to first-player only (recommended and default for Cooperative Mode)": "設置所有訊息至僅供本人查看(多人模式推薦)",
+"Turn all on except tasks (recommended for large servers)": "開啟所有除了任務的訊息(大型伺服器推薦)",
+"Turn all on except tasks and goals": "開啟所有除了任務與目標的訊息",
+
+"Click to set": "按此設置",
+
+
+"Go back to main config menu": "返回到主選單",
+
+
+# Advancements added in the Terralith version for BACAP 1.13.1
+"A Cliffhanger!": "攀岩者",
+"Discover every type of cliff biome": "發現所有高嶺生態系",
+
+"A Grassy Nature": "自然綠意",
+"Discover every grasslands biome": "發現所有草原生態系",
+
+"A E S T H E T I C": "極致美學",
+"Discover the Mirage Isles. No, they’re not not real": "發現海市蜃樓群島。不，我想他們並非不存在",
+
+"Alpha Days": "阿爾法時光",
+"Discover the mythical islands of Alpha": "發現魔幻的阿爾法群島",
+
+"Bushranger": "叢林遊俠",
+"Discover every shrublands biome": "發現所有灌木生態系",
+
+"Choco Mountain": "巧克山",
+"Discover a White Mesa": "發現懷特梅薩",
+
+"Eruption in the Air": "高空噴發",
+"Enter a volcano biome": "進入火山生態系",
+
+"Highlander": "高原人",
+"Discover every highlands biome": "發現所有高原生態系",
+
+"Master Spelunker": "探險大師",
+"Discover every cave biome": "發現所有洞穴生態系",
+
+"O-Land-o Bloom": "綻放的大地",
+"Discover a blooming biome": "發現綻放生態系",
+
+"One Small Steppe For Man": "我的小小草原",
+"Discover a steppe biome": "發現草原生態系",
+
+"Over the Moon": "月色粼粼",
+"Discover a moonlight biome": "發現月光生態系",
+
+"Pretty in Purple": "萬紫千紅",
+"Discover every biome with trees of purple leaves": "發現所有擁有紫色樹葉的樹的生態系",
+
+"Skylanders": "天際移民",
+"Discover some mysterious lands floating high above the ground": "發現一些懸於天際的神祕空島",
+
+"Smarter than the Average Bear": "比棕熊的平均智商還聰明",
+"Discover the Yellowstone biome": "發現黃石生態系",
+
+"Terralithic": "特拉利斯",
+"Discover every Terralith biome": "發現所有特拉利斯生態系",
+
+"The Boreal Deal": "飄向北方",
+"Discover every boreal biome": "發現所有北域生態系",
+
+"The World Is Your Canvas": "整個世界都是我的畫布",
+"Discover the Painted Mountains": "發現異色山嶺",
+
+# Adjusted descriptions
+"Discover every vanilla surface biome in the Overworld": "發現所有主世界的地表生態系",
+"Discover every vanilla biome from every dimension": "發現所有緯度的原版生態系",
+
+"Stardust": "星塵",
+
+"You have explored everything this world has to offer": "你已經探索了這個世界的所有",
+"But at the end of it all, it is all still made from stardust": "但在旅途的終點，星球的每個部份依然都是由星塵所構"
 
 
 
 
-
-
-
-# All advancements and trophies that get added in versions 1.12 or later will be added down here for easy locating by translators who wish to update their language file
+# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
 }

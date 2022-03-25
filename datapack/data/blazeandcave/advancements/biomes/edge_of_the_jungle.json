@@ -22,7 +22,21 @@
     "modified_jungle_edge": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:modified_jungle_edge"
+        "biome": "minecraft:modified_jungle_edge",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

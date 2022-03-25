@@ -24,7 +24,21 @@
           "x": {
             "min": 750
           }
-        }
+        },
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "outer_pos_z": {
@@ -35,7 +49,21 @@
           "z": {
             "min": 750
           }
-        }
+        },
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "outer_neg_x": {
@@ -46,7 +74,21 @@
           "x": {
             "max": -750
           }
-        }
+        },
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "outer_neg_z": {
@@ -57,7 +99,21 @@
           "z": {
             "max": -750
           }
-        }
+        },
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "end_gateway": {

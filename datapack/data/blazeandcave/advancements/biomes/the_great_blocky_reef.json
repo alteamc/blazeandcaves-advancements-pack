@@ -19,7 +19,21 @@
     "warm_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:warm_ocean"
+        "biome": "minecraft:warm_ocean",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

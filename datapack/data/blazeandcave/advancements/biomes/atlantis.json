@@ -19,7 +19,43 @@
     "ocean_ruin": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "ocean_ruin"
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:ocean_ruin_cold"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:ocean_ruin_warm"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

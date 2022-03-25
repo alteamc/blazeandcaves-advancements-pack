@@ -20,19 +20,37 @@
     "trigger": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": {
-          "player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:time_since_rest",
-                "value": {
-                  "min": 720000
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:time_since_rest",
+                    "value": {
+                      "min": 720000
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
                 }
               }
-            ]
+            }
           }
-        }
+        ]
       }
     }
   }

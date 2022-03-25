@@ -21,31 +21,101 @@
     "swamp": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:swamp"
+        "biome": "minecraft:swamp",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "mushroom_fields": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:mushroom_fields"
+        "biome": "minecraft:mushroom_fields",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "sparse_jungle": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:sparse_jungle"
+        "biome": "minecraft:sparse_jungle",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "jungle": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:jungle"
+        "biome": "minecraft:jungle",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "bamboo_jungle": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:bamboo_jungle"
+        "biome": "minecraft:bamboo_jungle",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

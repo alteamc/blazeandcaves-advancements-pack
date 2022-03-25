@@ -29,7 +29,21 @@
             "max": 127.9999
           }
         },
-        "dimension": "the_nether"
+        "dimension": "the_nether",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

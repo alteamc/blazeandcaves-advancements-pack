@@ -19,7 +19,21 @@
     "mineshaft": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "mineshaft"
+        "feature": "mineshaft",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

@@ -24,9 +24,81 @@
             "blocks": [
               "minecraft:bell"
             ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:village"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:village_desert"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:village_plains"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:village_savanna"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:village_snowy"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "feature": "minecraft:village_taiga"
+                  }
+                }
+              }
+            ]
           },
-          "feature": "village"
-        }
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

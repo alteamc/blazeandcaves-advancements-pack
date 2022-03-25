@@ -1,36 +1,30 @@
 tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
-
 tellraw @s {"color": "gray", "bold": "false", "text": " ", "extra": [{"color": "gray", "bold": "false", "translate": "Настройки отображения табло прогресса"}]}
 
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+
+# Scoreboards
+tellraw @s ["", {"text": "[ »» ]", "color": "green", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_bac_advancements"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Табло достижений отслеживает, сколько достижений получил каждый игрок.", "color": "white"}, {"text": "\n"}, {"translate": "Recommended when NOT using Cooperative Mode", "color": "yellow"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "italic": "true", "color": "gold"}]}}, " ", {"translate": "Advancements Scoreboard"}]
+tellraw @s ["", {"text": "[ »» ]", "color": "yellow", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_bac_advfirst"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Табло первых достижений отслеживает, сколько достижений каждый игрок получил первым", "color": "white"}, {"text": "\n"}, {"translate": "Recommended for Cooperative Mode", "color": "green"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "italic": "true", "color": "gold"}]}}, " ", {"translate": "First Advancements Scoreboard"}]
 
 tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
 
+# Team Scoreboards
+tellraw @s ["", {"text": "[ »» ]", "color": "aqua", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_bac_advancements_team"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team", "color": "white"}, {"text": "\n"}, {"translate": "For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200", "color": "aqua"}, {"text": "\n"}, {"translate": "Recommended when NOT using Cooperative or Team Cooperative Mode", "color": "yellow"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "italic": "true", "color": "gold"}]}}, " ", {"translate": "Team Advancements"}]
+tellraw @s ["", {"text": "[ »» ]", "color": "dark_aqua", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_bac_advfirst_team_sum"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team", "color": "white"}, {"text": "\n"}, {"translate": "For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150", "color": "aqua"}, {"text": "\n"}, {"translate": "Recommended for Team Cooperative Mode", "color": "green"}, {"text": "\n"}, {"translate": "Not recommended for Cooperative Mode", "color": "red"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "italic": "true", "color": "gold"}]}}, " ", {"translate": "Total Team Advancements"}]
+tellraw @s ["", {"text": "[ »» ]", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_bac_advfirst_sum"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team", "color": "white"}, {"text": "\n"}, {"translate": "For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200", "color": "aqua"}, {"text": "\n"}, {"translate": "Recommended for Cooperative or Team Cooperative Mode", "color": "green"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "italic": "true", "color": "gold"}]}}, " ", {"translate": "Team First Advancements"}]
+tellraw @s ["", {"text": "[ »» ]", "color": "dark_blue", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_bac_advfirst_team"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team", "color": "white"}, {"text": "\n"}, {"translate": "For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1", "color": "aqua"}, {"text": "\n"}, {"translate": "Recommended for Team Cooperative Mode", "color": "green"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "italic": "true", "color": "gold"}]}}, " ", {"translate": "First Advancements in Team"}]
 
-# Scoreboard Tab
-tellraw @s ["", {"text": "[ »» ]", "color": "green", "clickEvent": {"action": "run_command", "value": "/scoreboard objectives setdisplay list bac_advancements"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Табло достижений отслеживает, сколько достижений получил каждый игрок.", "color": "white"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "color": "gold"}]}}, " ", {"translate": "Отображение табло достижений в списке вкладок"}]
+tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
 
-tellraw @s ["", {"text": "[ »» ]", "color": "yellow", "clickEvent": {"action": "run_command", "value": "/scoreboard objectives setdisplay list bac_advfirst"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Табло первых достижений отслеживает, сколько достижений каждый игрок получил первым", "color": "white"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "color": "gold"}]}}, " ", {"translate": "Отображение табло первых достижений в списке вкладок"}]
-
+# Clear Scoreboards
 tellraw @s ["", {"text": "[ »» ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/scoreboard objectives setdisplay list"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы очистить", "color": "gold"}]}}, " ", {"translate": "Очистить список во вкладке Tab"}]
-
-
-tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
-
-
-# Scoreboard sidebar
-tellraw @s ["", {"text": "[ »» ]", "color": "green", "clickEvent": {"action": "run_command", "value": "/scoreboard objectives setdisplay sidebar bac_advancements"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Табло достижений отслеживает, сколько достижений получил каждый игрок.", "color": "white"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "color": "gold"}]}}, " ", {"translate": "Отображение табло достижений на боковой панели"}]
-
-tellraw @s ["", {"text": "[ »» ]", "color": "yellow", "clickEvent": {"action": "run_command", "value": "/scoreboard objectives setdisplay sidebar bac_advfirst"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Табло первых достижений отслеживает, сколько достижений каждый игрок получил первым", "color": "white"}, {"text": "\n"}, {"translate": "Нажмите, чтобы отобразить", "color": "gold"}]}}, " ", {"translate": "Отображение табло первых достижений на боковой панели"}]
-
 tellraw @s ["", {"text": "[ »» ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/scoreboard objectives setdisplay sidebar"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы очистить", "color": "gold"}]}}, " ", {"translate": "Очистить список в боковой панели"}]
-
+tellraw @s ["", {"text": "[ »» ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/scoreboard objectives setdisplay belowName"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы очистить", "color": "gold"}]}}, " ", {"translate": "Clear scoreboard from below player names"}]
 
 tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
-
 
 # Go back
 tellraw @s ["", {"text": "[ «« ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы вернуться", "color": "gold"}]}}, " ", {"translate": "Вернуться в главное меню конфигурации"}]
 
-
 tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
-

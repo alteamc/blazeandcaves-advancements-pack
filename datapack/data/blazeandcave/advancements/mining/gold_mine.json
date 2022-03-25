@@ -16,48 +16,25 @@
     "function": "bc_rewards:mining/gold_mine"
   },
   "criteria": {
-    "badlands": {
+    "mineshaft_mesa": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "mineshaft",
-        "biome": "minecraft:badlands",
-        "position": {
-          "y": {
-            "min": 64
+        "feature": "mineshaft_mesa",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
           }
-        }
-      }
-    },
-    "wooded_badlands": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "feature": "mineshaft",
-        "biome": "minecraft:wooded_badlands",
-        "position": {
-          "y": {
-            "min": 64
-          }
-        }
-      }
-    },
-    "eroded_badlands": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "feature": "mineshaft",
-        "biome": "minecraft:eroded_badlands",
-        "position": {
-          "y": {
-            "min": 64
-          }
-        }
+        ]
       }
     }
-  },
-  "requirements": [
-    [
-      "badlands",
-      "wooded_badlands",
-      "eroded_badlands"
-    ]
-  ]
+  }
 }

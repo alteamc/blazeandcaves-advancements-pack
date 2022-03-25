@@ -24,7 +24,21 @@
             "max": 0
           }
         },
-        "dimension": "minecraft:the_end"
+        "dimension": "minecraft:the_end",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

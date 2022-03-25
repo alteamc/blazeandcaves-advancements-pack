@@ -19,7 +19,21 @@
     "desert_pyramid": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "desert_pyramid"
+        "feature": "desert_pyramid",
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }

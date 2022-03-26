@@ -4332,7 +4332,7 @@
 # # Has the syntax <Player> has made the advancement <Advancement's name>
 
 "%1$s has made the advancement %2$s%3$s%4$s": "%1$s получил достижение %2$s%3$s%4$s",
-"%1$s has reached the goal %2$s%3$s%4$s": "%1$s выполнил цель %2$s%3$s%4$sь",
+"%1$s has reached the goal %2$s%3$s%4$s": "%1$s выполнил цель %2$s%3$s%4$s",
 "%1$s has completed the challenge %2$s%3$s%4$s": "%1$s выполнил испытание %2$s%3$s%4$s",
 "%1$s has completed the super challenge %2$s%3$s%4$s": "%1$s выполнил супервызов %2$s%3$s%4$s",
 "%1$s has found the hidden advancement %2$s%3$s%4$s": "%1$s нашёл скрытое достижение %2$s%3$s%4$s",

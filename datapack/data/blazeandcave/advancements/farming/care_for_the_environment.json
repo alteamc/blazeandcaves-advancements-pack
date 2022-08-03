@@ -9,7 +9,7 @@
     "description": {
       "translate": "Посадите саженец"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/root",
   "rewards": {
@@ -51,6 +51,12 @@
       "conditions": {
         "block": "minecraft:dark_oak_sapling"
       }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:mangrove_propagule"
+      }
     }
   },
   "requirements": [
@@ -60,7 +66,8 @@
       "birch_sapling",
       "jungle_sapling",
       "acacia_sapling",
-      "dark_oak_sapling"
+      "dark_oak_sapling",
+      "mangrove_propagule"
     ]
   ]
 }

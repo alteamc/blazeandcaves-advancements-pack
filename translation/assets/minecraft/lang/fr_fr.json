@@ -1,4 +1,4 @@
-{
+﻿{
     # BlazeandCave's Advancements Pack Language File
      
     # How to use: Name and descriptions of advancement to left of : and put translation to right of :, inside the speech marks "" like this: "Advancement Description"
@@ -8,8 +8,8 @@
     # Currently the text that appears with reward functions are not translatable - support for translating the reward functions messages will come in a later update.
     
     # Language: Français (French)
-    # Author: Personnedu59, Zangdarss, Chucky2401, TaeliaDideaux (1.13 update)
-    # Pack version supported: 1.13.0.1
+    # Author: Personnedu59 (1.8, 1.14), Zangdarss (1.8), Chucky2401 (1.10), TaeliaDideaux (1.13)
+    # Pack version supported: 1.14
     
     # All language entries are organised in alphabetical order of file name as of 1.3
     # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -1443,7 +1443,7 @@
     "Craft every item made out of birch wood": "Craftez tous les items à base de bouleau",
     
     "Professor Dark Oak": "Professeur Chen noir",
-    "Craft every item made out of dark oak wood": "Crafter tous les items à base de chêne noir",
+    "Craft every item made out of dark oak wood": "Craftez tous les items à base de chêne noir",
     
     "Professor Oak": "Professeur Chen",
     "Craft every item made out of oak wood": "Craftez tous les items à base de chêne",
@@ -4369,9 +4369,438 @@
     
     "Click to set": "Cliquer pour définir",
     
-    "Go back to main config menu": "Retour au menu de paramètres principaux"
+    "Go back to main config menu": "Retour au menu de paramètres principaux",
     
 
 
-    # All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+# Advancements added in the Terralith version for BACAP 1.13.1
+"A Cliffhanger!": "Canyoning !",
+"Discover every type of cliff biome": "Découvrez tous les biomes falaise",
+
+"A Grassy Nature": "Un champ herbu",
+"Discover every grasslands biome": "Découvrez tous les biomes herbus",
+
+"A E S T H E T I C": "I M A G I N A T I O N",
+"Discover the Mirage Isles. No, they’re not not real": "Découvrez les Îles Mirace. Non, elles ne sont pas irréelles.",
+
+"Alpha Days": "Je suis un mâle ALPHA !",
+"Discover the mythical islands of Alpha": "Découvrez les mythiques îles Alpha",
+
+"Bushranger": "Ecole buissonnière",
+"Discover every shrublands biome": "Séchez les cours pour découvrir tous les biomes buissonniers",
+
+"Choco Mountain": "Montagne en chocolat",
+"Discover a White Mesa": "Découvrez le Mesa Blanc",
+
+"Eruption in the Air": "Une ambiance explosive",
+"Enter a volcano biome": "Entrez dans un biome volcanique",
+
+"Highlander": "Haut plateau",
+"Discover every highlands biome": "Découvrez tous les biomes plateau",
+
+"Master Spelunker": "Maître spéléologue",
+"Discover every cave biome": "Découvrez tous les biomes caverneux",
+
+"O-Land-o Bloom": "O-Land-o Bloom",
+"Discover a blooming biome": "Découvrez tous les blooming biomes",
+
+"One Small Steppe For Man": "Quicksteep Foxtrot Valse !",
+"Discover a steppe biome": "Découvrez un biome steppe",
+
+"Over the Moon": "J’ai demandé à la Lune",
+"Discover a moonlight biome": "Découvrez un biome clair de Lune",
+
+"Pretty in Purple": "Oui, ça avait un goût violet",
+"Discover every biome with trees of purple leaves": "Découvrez tous les biomes avec des arbres aux feuilles violettes",
+
+"Skylanders": "L’homme des cieux",
+"Discover some mysterious lands floating high above the ground": "Découvrez des pays mystérieux flottant au-dessus du monde",
+
+"Smarter than the Average Bear": "Au pays des grizzlys",
+"Discover the Yellowstone biome": "Découvrez un biome Yellowstone",
+
+"Terralithic": "Terralithic",
+"Discover every Terralith biome": "Découvrez tous les biomes de Terralith",
+
+"The Boreal Deal": "Aurore aux doigts de rose",
+"Discover every boreal biome": "Découvrez tous les biomes boréaux",
+
+"The World Is Your Canvas": "Le monde est ta toile",
+"Discover the Painted Mountains": "Découvrez les Montagnes Peintes",
+
+# Adjusted descriptions
+"Discover every vanilla surface biome in the Overworld": "Découvrez tous les biomes de surface normaux dans le monde normal",
+"Discover every vanilla biome from every dimension": "Découvrez tous les biomes normaux de toutes les dimensions",
+
+"Stardust": "Poussière d’étoile",
+
+"You have explored everything this world has to offer": "Tu as explore tout ce que ce monde a à t’offrir",
+"But at the end of it all, it is all still made from stardust": "Mais au final, tout cela n’est que poussière d’étoile",
+
+
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "Premier joueur de chaque équipe",
+"Click to enable for the first player on each team": "Cliquer pour autoriser le premier joueur de chaque équipe",
+
+"Click to enable Cooperative Mode": "Cliquer pour activer le mode Coopératif",
+"Click to disable Cooperative Mode": "Cliquer pour désactiver le mode Coopératif",
+"Click to enable Team Cooperative Mode": "Cliquer pour activer le mode Coopératif par équipe",
+"Team Cooperative Mode currently enabled": "Le mode Coopératif est actuellement activé",
+
+
+
+"Click to view preset options": "Cliquer pour voir les options de base",
+"Message Presets": "Options de messages",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "Mettre tous les messages en premier joueur de chaque équipe seulement (recommandé et par défaut dans le mode Coopératif par équipe",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "Activer les messages normaux (recommandé pour les serveurs qui utilisent des plugins qui tirent des informations de ces messages comme DiscordSRV)",
+
+
+
+"Advancement Scoreboard Display Settings": "Option d’affichage des tableaux de score",
+
+"Advancements Scoreboard": "Tableau des scores des Progrès",
+"First Advancements Scoreboard": "Tableau des scores des Premiers Progrès",
+
+"Team Advancements": "Progrès par équipe",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "Le tableau des scores par équipe liste chaque équipe, et additionne le score de Progrès de chaque membre de chacune",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "Par exemple, si Alex et Steve sont dans l’équipe bleue et ont chacun 100 progrès, l’équipe bleue en comptera 200",
+
+"Total Team Advancements": "Progrès totaux par équipe",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "Le tableau des scores des progrès totaux par équipe liste chaque équipe, et compte combine de progrès uniques ont été obtenus par chacune",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "Par exemple, si Alex et Steve sont dans l’équipe bleue et ont chacun 100 progrès, mais qu’ils en ont 50 en commun, l’équipe bleue aura 150 progrès de comptés",
+
+"Team First Advancements": "Premier progrès par équipe",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "Le tableau des scores du premier progrès par équipe liste chaque équipe, et additionne le score de premier progrès de chaque membre de chacune",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "Par exemple, si Alex et Steve sont dans l’équipe bleue et qu’ils ont chacun été le premier à obtenir 100 progrès, l’équipe bleue aura 200 progrès de comptés",
+
+"First Advancements in Team": "Premier progrès dans l’équipe",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "Le tableau des scores du premier progrès par équipe liste chaque joueur, et compte pour combien de progrès ils étaient les premiers à les réaliser parmi les membres de leur équipe",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "Par exemple, si Alex et Steve sont dans l’équipe bleue, et que Steve est le premier à obtenir le progrès ‘Chasseur de monstre’, Steve verra son score augmenter de 1. Si maintenant Alex obtient ce même progrès, son score n’augmentera pas. En revanche, si Bob, appartenant à l’équipe rouge, obtient ce progrès après Steve, son score augmentera tout de même de 1",
+
+"Recommended for Cooperative Mode": "Recommandé pour le mode Coopératif",
+"Recommended when NOT using Cooperative Mode": "Recommandé quand le mode Coopératif n’est PAS ACTIF",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "Recommandé quand le mode Coopératif ou Coopératif par équipe n’est PAS ACTIF",
+"Recommended for Team Cooperative Mode": "Recommandé pour le mode Coopératif par équipe",
+"Not recommended for Cooperative Mode": "Non recommandé pour le mode Coopératif",
+"Recommended for Cooperative or Team Cooperative Mode": "Recommandé pour le mode Coopératif ou Coopératif par équipe",
+
+"How would you like this scoreboard to be displayed?": "Comment voulez-vous que le tableau des scores soit affiché ?",
+"On tab list": "Dans la liste des joueurs",
+"On sidebar": "Sur le côté de l’écran",
+"Below each player's name": "Sous le pseudo de chaque joueur",
+
+"Clear scoreboard from below player names": "Effacer les noms des joueurs suivants du tableau des scores",
+
+
+
+"Technical Settings": "Options avancées",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "Attention : Certaines des options suivantes peuvent causer des effets secondaires sur votre avancée, et vont causer des pics de lags lorsque utilisées. Ne les utiliser uniquement si vous savez exactement ce que vous faites ! A utiliser avec précautions !",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "Recompte le nombre de progrès de chaque joueur connecté",
+"Should be used if:": "Doit être utilisé si :",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "-Vous avez récemment mis à jour le datapack à une version plus récente, en particulier lors des mises à jour de Minecraft",
+"- You have been using commands to manually revoke the advancements of player(s)": "-Vous avez utilisé des commandes manuellement pour enlever les progrès de certains joueurs",
+
+"Update team scoreboards": "Mettre à jour le tableau des scores par équipe",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "Recalcule les scores de chaque équipe",
+
+"Reset obtained advancements": "Remettre à zero les progrès obtenus",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "Remets à zéro le tableau des scores ‘bac_obtained’. Cela fera que le mode Coopératif ne comptera plus aucun progrès comme acquis et remets tous les progrès éligibles pour être le premier à l’obtenir",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "Cette function va arrêter le comptage du mode Coopératif jusqu’à ce que les progrès soit obtenus de nouveau, et seront de nouveau éligibles pour le tableau des scores du premier à obtenir le progrès",
+"This function should only be used if you intend to turn off Cooperative Mode": "Cette function ne devrait être utilisée que si vous comptez mettre fin au mode Coopératif",
+
+"Refresh Cooperative Mode advancement sharing": "Rafraîchir le partage du mode Coopératif",
+
+"Grant missing trophies": "Donner les trophées manquants",
+"Gives every online player every trophy from advancements they have obtained so far": "Donne à tous les joueurs connectés tous les trophées de progrès qu’ils ont déjà obtenus",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "Cette fonction ne devrait être utilisée que si vous avez un monde créé après la Mise à jour des Trophées (BACAP 1.11) ou si vous voulez vraiment les récupérer de manière simple",
+
+"Revoke all advancements": "Supprimer tous les progrès",
+"Revokes every advancement, including resetting scoreboards": "Supprime tous les progrès, et remets à zéro les tableaux des scores",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "Vous pouvez remettre à zéro pour vous, le joueur le plus proche de vous ou tous les joueurs connectés",
+
+"Once advancements are revoked, they cannot be recovered.": "Une fois les progrès supprimés, ils ne pourront pas être récupérés",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "Certains progrès liés aux Statistiques peuvent revenir instantanément. Si vous voulez que ceux-ci soit également supprimés, vous devrez au préalable supprimer les fichiers de Statistiques des joueurs pour qui vous voulez supprimer ces progrès",
+"Please choose who you would like to revoke advancements from, or to go back": "S’il vous plait, choisissez de qui vous voulez supprimer les progrès",
+"Yourself": "Vous-même",
+"The closest player": "Le joueur le plus proche",
+"EVERYONE!! (who is online)": "TOUT LE MONDE (de connecté)",
+">:)": ">:)",
+
+"All advancements have been revoked from %1$s": "Tous les progrès de %1$s  ont été supprimés",
+"Error: There are no other players online": "Erreur : Il n’y a pas d’autre joueur de connecté",
+
+"Go back": "Revenir en arrière",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "Le voyage commence",
+"Find a Traveller’s Map": "Trouvez une Carte du Voyageur",
+
+"Castle of Hrrms": "Chateau de Hrrms",
+"Enter a Fortified Village": "Entrez dans un village fortifié",
+
+"Expedition of Discovery": "Découvrez ces secrets",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "Entrez dans le biome rare guidé par une Carte du Voyageur et entrez dans ce biome en tenant la carte en main",
+
+"Land of Icicles": "NUT NUT",
+"Discover a Glacial Chasm biome": "Trouvez un biome Gouffre Glacial",
+
+"Remote Shelter": "Un abri frileux",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "Trouvez une Hutte Glaciale profonde dans un Gouffre Glacial",
+
+"Spire of Ice": "Aiguille de glace",
+"Enter the Spire, located in a frigidly cold biome": "Entrez dans une Aiguille, trouvable dans un biome très très froid",
+
+"Under the Ice": "Sous la glace",
+"Delve deep beneath the Spire and open up a loot chest": "Creusez profondément sous une Aiguille et ouvrez un coffre à butin",
+
+
+
+## All advancements added in version 1.14 are here
+"Sneak 100": "Furtivité 100",
+"Sneak near something in the Deep Dark to prevent being heard": "Faufilez-vous près d’un capteur Sculk, d’un hurleur Sculk ou d’un Warden pour l’empêcher de vous entendre",
+
+"It spreads!": "Propagation",
+"Kill a mob near a Sculk Catalyst": "Tuez une creature à proximité d’un catalyseur de Sculk",
+
+"Shriek Forever After": "Hurlement de panique",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "Activez un Hurleur Sculk dans les Abîmes. Arrangez-vous pour ne pas faire cela trop souvent…",
+
+"The Block of Eternal Screaming": "Le bloc du cri éternel",
+"Use Silk Touch to pick up a Sculk Shrieker": "Utilisez Toucher de Soie pour ramasser un Hurleur Sculk",
+
+"Cataclyst": "Cataclysmeur",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "Tuez un Wither près d’un Catalyseur Sculk pour libérer une explosion de Sculk",
+
+"Monstrous Sacrifices": "Sacrifices monstrueux",
+"Kill every hostile monster near a Sculk Catalyst": "Tuez tous les monstres hostiles près d’un Catalyseur Sculk",
+
+"The Incredible Sculk": "L’incroyable Sculk",
+"Collect a stack of all sculk-related blocks": "Collectez une pile de tous les blocs relatés au Sculk",
+
+"Sculker Box": "Boîte de Sculker",
+"Hold a Shulker Box that is completely filled with Sculk": "Tenez une Boîte de Shulker qui est complètement remplie de Sculk",
+
+"Fallen Kingdom": "Un monde perdu",
+"Find and enter an Ancient City deep underground": "Trouvez et entrez dans une Ancienne Cité dans les Abîmes",
+
+"Frigid Diversions": "Une diversion glaciale",
+"Loot a chest inside an ice box in an Ancient City": "Pillez un coffre dans une boîte de glace dans une Ancienne Cité",
+
+"Death Pointer": "Pointeur de mort",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "En utilisant des éclats d’écho trouvés dans des Anciennes Cités, fabriquez une boussole de récupération",
+
+"9 to 5": "9 à 5",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "Collectez assez de fragments de disques pour fabriquer un autre mystérieux producteur de sons",
+
+"Echonomy": "Echonomie",
+"Collect a stack of Echo Shards": "Collectez une pile de fragments d’écho",
+
+"Blind as a Bat": "Myope comme une taupe-souris",
+"Kill a Bat while under the blindness or darkness effect": "Tuez une Chauve-souris pendant que vous êtes sous l’effet obscurité ou cécité",
+
+
+"Stuck in the Mud": "Patogeons dans la gadoue",
+"Use a Water Bottle on some Dirt to turn it into Mud": "Utilisez une fiole d’eau sur un bloc de terre pour le changer en boue",
+
+"Elmer Mudd": "Dou la gadoue la gadoue la gadoue",
+"Craft or obtain all forms of Mud and Mud Brick": "Fabriquez ou obtenez toutes les formes de boue et de briques de boue",
+
+"Mangrove Master": "Maître de la Mangrove",
+"Craft every item made out of mangrove wood": " Craftez tous les items à base de palétuvier",
+
+"Incandescent!": "Incandescent !",
+"Light up the area with all three hues of Froglight": "Eclairez la zone avec les trois variantes de grelampes",
+
+
+"A Mangrove Grove": "Un Bosquet de Palétuvier !",
+"Plant a Mangrove Propagule in a Grove biome": "Plantez une propagule de palétuvier dans un Bosquet",
+
+
+"Frog Family": "Dessous son grand parapluie",
+"Breed two Frogs together using slimeballs": "Créez une famille à la Grenouille",
+
+"Bukkit bukkit": "Adopte un têtard",
+"Catch a Tadpole in a Bucket": "Attrapez un têtard avec un sceau",
+
+"When the Squad Hops into Town": "Les trois moustiquaires",
+"Attach a lead to each variant of Frog": "Tenez chaque variante de grenouille en laisse",
+
+"Ram": "CHARGEEEEEZ !",
+"Obtain a Goat’s Horn by having one ram into a block": "Obtenez une corne de chèvre lorsqu’un ruminant fonce dans un bloc",
+
+"Loud and Proud": "Même pas peur !",
+"Play a Goat Horn in the Deep Dark": "Utilisez une corne de chèvre dans les Abîmes",
+
+"Battle of the Bands": "Bataille royale",
+"Blow into a Goat Horn during a raid": "Soufflez dans une corne de chèvre durant un raid",
+
+"Caprymphony": "Caprimonie",
+"Blow every type of Goat Horn": "Soufflez dans tous les types de corne de chèvre",
+
+"Animal Kingdom": "Le royaume animal",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "Regroupez tous les types d’animaux à un endroit (à une distance maximale de 32 blocs de vous)",
+
+
+"Cargo Carrier": "Navire cargo",
+"Ride a Boat with a Chest in it": "Montez dans un bateau avec un coffre",
+
+"Flipper": "Flipper",
+"Give a Dolphin something to play with": "Donnez à un dauphin de quoi s’amuser",
+
+
+"Allayance": "Allayance",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "Sauvez un Allay d’une tour de Pillards ou d’un Manoir et donnez lui de quoi s’amuser",
+
+"You’ve Got a Friend in Me": "Je suis ton ami",
+"Have an Allay deliver items to you": "Recevez un objet apporté par un Allay",
+
+"Evelyn Evergreen": "Pousse toi de là",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "Ayez un Allay qui vous donne une pousse de sapin pendant que vous abattez quelques arbres",
+
+"Budget Vex": "Vex de Wish",
+"Give an Allay an Iron Sword": "Donnez une épée en fer à un Allay",
+
+"Diagon Allay": "Ange gardien",
+"Have an Allay deliver a potion to you in the Deep Dark": "Ayez un Allay qui vous livre une potion dans les Abîmes",
+
+"Birthday Song": "Chanson d’anniversaire",
+"Have an Allay drop a cake at a note block": "Faites en sorte qu’un Allay jette un gâteau vers un bloc musical",
+
+"Awards Ceremony": "Cérémonie des Oscars",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "Ayez un Allay qui vous donne un trophée obtenu après l’accomplissement d’un des progrès",
+
+
+"Now that's a lot of damage": "J’ai bobo la tête",
+"Succumb to the Warden": "Succombez à un Warden",
+
+"Blind Stare": "Duel de… ah non",
+"Look at a Warden with a Spyglass": "Regardez un Warden dans une longue vue",
+
+"Stealth is Optional": "La fuite n’est pas une option",
+"Overcome a Warden in the deepest and darkest of caves": "Tuez un Warden dans les caverns les plus sombres et profondes",
+
+"Warden Frostbite": "Aurore sonréale",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "Amenez un Warden à la surface d’une plaine enneigée et tuez le",
+
+"Not Afraid of Heights": "Ne regarde pas en bas",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "Amenez un Warden à la hauteur maximale du monde. Il ne peut pas avoir peur du vide s’il ne le voit pas",
+
+"House of Freaks": "En bonne compagnie",
+"Summon five Wardens and have them all be within 16 blocks of the player": "Invoquez 5 Warden dans un espace de 16 blocs autour de vous",
+
+
+"Like a Ninja": "Comme un ninja",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "Trouvez l’enchantement Furtivité Rapide sur un livre enchanté dans une Ancienne Cité",
+
+"Silent But Deadly": "Silence mortel",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "Accroupissez vous en courant sur un Sculk avec Vitesse II pendant que vous avez des jambières enchantées Furtivité Rapide III",
+
+
+"Hung, Drawn and Bartered": "Prince de la mafia",
+"Barter for every possible type of item with Piglins": "Troquez tous les objets possibles avec des Piglins",
+
+
+"The Void Frogs": "La grenouille du néant",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "Faites tomber une Grenouille dans le néant avec une potion de Chute Amortie, puis la tuer pour qu’elle ne fasse qu’un avec le néant",
+
+
+"Farlander": "Fort fort lointain",
+"Travel all the way to the border of the world": "Voyagez jusqu’à la limite du monde",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "Utilisez Toucher de Soie pour obtenir un Capteur Sculk ou en trouver un dans une Ancienne Cité",
+
+# Spelunker
+"Discover every cave biome": "Découvrez tous les biomes carverneux",
+
+# Yay! I got my wood!
+"Collect every type of log": "Collectez tous les types de bûche",
+
+# Stripper
+"Strip the bark off every type of log": "Retirez l’écorce de tous les types de bûche",
+
+# Ecologist
+"Plant down all types of saplings": "Plantez tous les types de pousses",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "Chassez tous les types d’animaux avec votre arc",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "Découvrez tous les types de biomes de surface dans le monde normal",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "onglet",
+
+
+# Trophies added in 1.14
+"Mobbo": "Mobbo",
+"They are your bestest friend!": "Ils sont tes meilleurs amis !",
+
+"The Cataclyst": "Le Catalyseur",
+"When detonated, it kills every single avatar and NPC in the sector": "Quand il détonne, il tue tous les avatars en personnages non joueurs dans le secteur",
+
+"Claptrap": "Claptrap",
+"No, I said “Aaaaaand OPEN!”,": "Non, j’ai dit “Ettttt OUVRE !”",
+"not “Aaaaand close a secondary set of doors!”": "pas “Etttt ferme un lot de portes secondaires !”",
+
+"Pickle Rick": "Rick cornichon",
+"Look Morty, I've turned myself into a pickle!": "Regarde Morty, je me suis transformé en cornichon !",
+
+"Magic Paintbrush": "Pinceau magique",
+"For painting with all the colors of the wind": "Pour peindre avec toutes les couleurs de la palette",
+
+"Very Muddy Boots": "Bottes très crasseuses",
+"The result of too long in muddy fields": "Le résultat d’un trop grand terrain boueux",
+
+"Pride Rock": "Rocher de la fierté",
+"Look, Simba. Everything the light touches is our kingdom": "Regarde Simba, tout ce qui est dans la lumière sera ton royaume",
+
+"Copper Goat Horn": "Corne de chèvre en cuivre",
+"Such a fun and jazzy instrument, sadly not canon": "Un instrument si drôle et jazzy, mais malheureusement pas canon",
+
+"FrogChamp": "Grainouille de champion !",
+"It’s Wednesday, my dudes!": "C’est Mercredi, les gars !",
+
+"Warden Head": "Tête de Warden",
+"Players: How are you meant to kill the Warden?": "Joueurs : Comment es-tu censé tuer le Warden ?",
+"Mojang: That's the neat part - you don't!": "Mojang : C’est le principe, tu ne le tueras pas !",
+"You: Hold my golden carrots": "Toi : Tiens mes carottes dorées quelques secondes",
+
+"The Warden's Sign": "Le panneau du Warden",
+"This sign can’t stop me because I can't see!": "Ce panneau ne peut m’arrêter puisque je ne le vois pas !",
+
+"Reuben the Wither Storm Ender": "Reuben qui termine la tempête de Wither",
+"He was a great pig": "C’était un bon cochon",
+
+"The Trophy Trophy": "Le Trophée Trophée",
+"If an Allay brings you this, you will": "Si un Allay te le livre, tu obtiendras",
+"receive the Trophy Trophy Trophy": "le Trophée Trophée Trophée",
+
+"Spongebob Squarepants": "Bob l’éponge carrée",
+"Who lives in a pineapple under the sea?": "Qui vit dans un ananas dans la mer ?",
+
+"Fence Post": "Poteau de clôture",
+"Look at this luxurious fence post": "Regardez ce Poteau de clôture luxuriant",
+"With its courageously mundane colour": "Avec ces couleurs courageusement banales",
+"And violent corners": "Et ces coints violents",
+"This isn't just any fence post…": "Ce n’est pas n’importe quell poteau",
+"It's my fence post! Seriously, get out!": "C’est mon Poteau ! Alors maintenant, dehors !",
+
+"Stone of the Farlands": "Une pierre lointaine",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "Une relique de pierre préservée d’un pays qui existait avant la Beta 1.8"
+
+
+
+
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
 }
+

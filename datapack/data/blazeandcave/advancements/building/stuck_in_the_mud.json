@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mud"
+    },
+    "title": {
+      "translate": "Застрял в грязи"
+    },
+    "description": {
+      "translate": "Используйте бутылку с водой на земле, чтобы превратить ее в грязь"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:building/classy_glassy",
+  "rewards": {
+    "function": "bc_rewards:building/stuck_in_the_mud"
+  },
+  "criteria": {
+    "mud": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mud"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ]
+        }
+      }
+    }
+  }
+}

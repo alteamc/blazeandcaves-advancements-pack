@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте топор, чтобы счистить воск с медного блока."
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/wax_on",
   "rewards": {

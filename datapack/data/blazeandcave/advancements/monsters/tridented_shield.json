@@ -10,7 +10,7 @@
     "description": {
       "translate": "Отразите трезубец, брошенный утопленником"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/a_watery_grave",
   "rewards": {

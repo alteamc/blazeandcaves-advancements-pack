@@ -9,7 +9,7 @@
     "description": {
       "translate": "Будьте убиты белым медведем"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/barbearian",
   "rewards": {

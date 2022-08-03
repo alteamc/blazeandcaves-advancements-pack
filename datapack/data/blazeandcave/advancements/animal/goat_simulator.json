@@ -18,7 +18,7 @@
         }
       ]
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/billy_the_kid",
   "rewards": {

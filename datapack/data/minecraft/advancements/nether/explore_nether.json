@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Исследуйте все биомы Незера"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:nether/twisted",
@@ -21,15 +21,24 @@
     "nether_wastes": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:nether_wastes",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:nether_wastes"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -41,15 +50,24 @@
     "crimson_forest": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:crimson_forest",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:crimson_forest"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -61,15 +79,24 @@
     "warped_forest": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:warped_forest",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:warped_forest"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -81,15 +108,24 @@
     "soul_sand_valley": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:soul_sand_valley",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:soul_sand_valley"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -101,15 +137,24 @@
     "basalt_deltas": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:basalt_deltas",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:basalt_deltas"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

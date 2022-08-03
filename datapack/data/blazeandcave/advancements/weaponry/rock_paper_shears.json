@@ -9,7 +9,7 @@
     "description": {
       "translate": "Бей зомби камнем, ножницами, бумагой"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/inspector_gadget",
   "rewards": {

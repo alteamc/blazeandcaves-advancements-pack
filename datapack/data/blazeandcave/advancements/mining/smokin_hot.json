@@ -9,7 +9,7 @@
     "description": {
       "translate": "Улучшите свою печь до коптильни при помощи древесины"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/renewable_energy",
   "rewards": {

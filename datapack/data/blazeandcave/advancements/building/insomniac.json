@@ -9,7 +9,7 @@
     "description": {
       "translate": "30 дней без сна"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:building/rainbow_dreams",
@@ -25,7 +25,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "stats": [
                   {
                     "type": "minecraft:custom",
@@ -44,7 +45,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

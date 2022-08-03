@@ -9,7 +9,7 @@
     "description": {
       "translate": "Скрестите лошадь и осла, чтобы получить мула"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/are_we_there_yet",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Обыщите сундук в развалинах бастиона"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/brute_force",
   "rewards": {

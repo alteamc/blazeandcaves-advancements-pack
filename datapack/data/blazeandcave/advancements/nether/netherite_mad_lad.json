@@ -10,7 +10,7 @@
       "color": "light_purple",
       "translate": "Будьте абсолютным безумцем и переплавьте достаточно древних обломков, чтобы собрать стак блоков незерита (это скрыто и не требуется для Легенды сего мира, кстати…)"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge",
     "hidden": "true"
   },

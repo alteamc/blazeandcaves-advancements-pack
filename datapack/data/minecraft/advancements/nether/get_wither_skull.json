@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите череп визер-скелета"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/the_hunt_begins",
   "rewards": {

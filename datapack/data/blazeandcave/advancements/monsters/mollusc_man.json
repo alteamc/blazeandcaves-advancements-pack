@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Победите утопленника, держащего раковину наутилуса"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:monsters/a_watery_grave",
@@ -23,9 +23,36 @@
       "conditions": {
         "entity": {
           "type": "drowned",
-          "nbt": "{HandItems:[{},{id:\"minecraft:nautilus_shell\",Count:1b}]}"
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:nautilus_shell"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "drowned_mainhand": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "drowned",
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:nautilus_shell"
+              ]
+            }
+          }
         }
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "drowned",
+      "drowned_mainhand"
+    ]
+  ]
 }

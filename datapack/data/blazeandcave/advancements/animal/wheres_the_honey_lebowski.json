@@ -10,7 +10,7 @@
     "description": {
       "translate": "Выпейте 100 бутылей мёда"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:adventure/honey_block_slide",
@@ -22,7 +22,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:used",

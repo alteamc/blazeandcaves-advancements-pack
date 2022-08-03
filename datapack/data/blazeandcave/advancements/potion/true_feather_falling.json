@@ -9,7 +9,7 @@
     "description": {
       "translate": "Сварите и выпейте зелье медленного падения"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/the_invisible_player",
   "rewards": {
@@ -23,7 +23,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:slow_falling\"}"
+          "potion": "minecraft:slow_falling"
         }
       }
     },
@@ -34,7 +34,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+          "potion": "minecraft:long_slow_falling"
         }
       }
     }

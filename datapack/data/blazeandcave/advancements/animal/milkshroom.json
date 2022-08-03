@@ -9,7 +9,7 @@
     "description": {
       "translate": "Подоить грибную корову миской, чтобы получить загадочное рагу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/super_mooshroom",
   "rewards": {

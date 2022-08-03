@@ -10,7 +10,7 @@
     "description": {
       "translate": "Удочкой притяните свинью, находящуюся 25 блоками ниже Вас, а затем наблюдайте за результатом"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:weaponry/indiana_jones",

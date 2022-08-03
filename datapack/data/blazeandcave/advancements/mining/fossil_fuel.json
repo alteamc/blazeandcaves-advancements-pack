@@ -9,7 +9,7 @@
     "description": {
       "translate": "Уголь! И остатки мёртвых динозавров!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:story/upgrade_tools",
   "rewards": {

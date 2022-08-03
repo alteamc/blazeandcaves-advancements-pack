@@ -9,7 +9,7 @@
     "description": {
       "translate": "Покормите тортом все типы панд"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:biomes/qinling",

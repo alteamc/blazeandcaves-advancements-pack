@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "Катализатор"
+    },
+    "description": {
+      "translate": "Убейте Визера возле Скал катализатора, чтобы высвободить большой взрыв"
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:mining/the_block_of_eternal_screaming",
+  "rewards": {
+    "function": "bc_rewards:mining/cataclyst"
+  },
+  "criteria": {
+    "kill_mob_near_sculk_catalyst": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    }
+  }
+}

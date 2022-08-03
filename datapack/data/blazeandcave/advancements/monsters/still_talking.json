@@ -9,7 +9,7 @@
     "description": {
       "translate": "Взорвите зомби заряженным крипером, чтобы получить его голову"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/freezing",

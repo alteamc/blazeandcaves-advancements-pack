@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Возведите деревню в измерении Энд, а затем защитите её от рейда"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/root",
@@ -21,13 +21,21 @@
     "start_raid_end": {
       "trigger": "minecraft:voluntary_exile",
       "conditions": {
-        "dimension": "the_end"
+        "player": {
+          "location": {
+            "dimension": "the_end"
+          }
+        }
       }
     },
     "defend_raid_end": {
       "trigger": "minecraft:hero_of_the_village",
       "conditions": {
-        "dimension": "the_end"
+        "player": {
+          "location": {
+            "dimension": "the_end"
+          }
+        }
       }
     }
   }

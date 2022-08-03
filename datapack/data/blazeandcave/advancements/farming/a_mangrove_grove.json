@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mangrove_propagule"
+    },
+    "title": {
+      "translate": "Мангровая роща"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Посадите мангровые деревья в биоме Роща"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:farming/ecologist",
+  "rewards": {
+    "function": "bc_rewards:farming/a_mangrove_grove"
+  },
+  "criteria": {
+    "mangrove_propagule": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:mangrove_propagule",
+        "location": {
+          "biome": "minecraft:grove"
+        }
+      }
+    }
+  }
+}

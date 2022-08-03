@@ -10,7 +10,7 @@
     "description": {
       "translate": "Приручите ламу с силой 5"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:animal/llama_festival",

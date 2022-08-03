@@ -9,7 +9,7 @@
     "description": {
       "translate": "Спровоцируйте рейд"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/voluntary_exile",
   "rewards": {

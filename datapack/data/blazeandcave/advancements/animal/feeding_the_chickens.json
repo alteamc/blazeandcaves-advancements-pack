@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте две курицы семенами пшеницы"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/which_came_first",
   "rewards": {

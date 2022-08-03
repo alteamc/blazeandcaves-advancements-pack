@@ -9,7 +9,7 @@
     "description": {
       "translate": "Перекрасьте кровать в цвет, отличающийся от белого"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/sleep_in_bed",
   "rewards": {

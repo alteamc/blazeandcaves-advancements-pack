@@ -9,7 +9,7 @@
     "description": {
       "translate": "Защитите себя от атаки врага, прикрывшись щитом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/sir_knight",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Соберите немного наростов из Незера"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/obtain_blaze_rod",
   "rewards": {

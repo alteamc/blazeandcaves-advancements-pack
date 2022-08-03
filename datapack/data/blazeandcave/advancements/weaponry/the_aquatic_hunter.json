@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поймайте все виды водных существ при помощи трезубца"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:weaponry/king_of_the_sea",
@@ -168,6 +168,34 @@
         },
         "entity": {
           "type": "glow_squid"
+        }
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "is_projectile": true,
+          "direct_entity": {
+            "type": "minecraft:trident"
+          }
+        },
+        "entity": {
+          "type": "frog"
+        }
+      }
+    },
+    "tadpole": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "is_projectile": true,
+          "direct_entity": {
+            "type": "minecraft:trident"
+          }
+        },
+        "entity": {
+          "type": "tadpole"
         }
       }
     }

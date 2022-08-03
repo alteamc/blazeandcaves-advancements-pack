@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте рельсы с датчиком"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/under_pressure",
   "rewards": {

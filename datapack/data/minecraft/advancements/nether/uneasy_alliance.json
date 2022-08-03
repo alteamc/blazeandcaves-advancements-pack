@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заманите гаста в обычный мир… а затем убейте его"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:nether/ghast_slayer",

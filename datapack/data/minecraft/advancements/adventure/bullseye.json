@@ -9,7 +9,7 @@
     "description": {
       "translate": "Попадите прямо в яблочко мишени с расстояния 30 метров"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:redstone/target_acquired",

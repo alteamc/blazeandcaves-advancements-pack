@@ -9,7 +9,7 @@
     "description": {
       "translate": "Проиграйте пластинку на проигрывателе"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "task"
   },
   "parent": "blazeandcave:adventure/beethoven",

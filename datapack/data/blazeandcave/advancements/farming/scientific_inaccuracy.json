@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте из девяти ломтиков арбуза блок, который, будучи сломанным, не вернёт Вам все девять ломтиков арбуза назад"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/the_melon_the_melon_the_melon",
   "rewards": {

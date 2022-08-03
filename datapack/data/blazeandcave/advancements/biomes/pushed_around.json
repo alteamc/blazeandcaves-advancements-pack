@@ -9,7 +9,7 @@
     "description": {
       "translate": "Войдите в столб пузырей"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/echolocation",
   "rewards": {

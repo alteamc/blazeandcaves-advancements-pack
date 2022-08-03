@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте достаточно золота и создайте стак золотых блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/gold_miner",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Победите вредину, призванного заклинателем"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/heres_johnny",
   "rewards": {

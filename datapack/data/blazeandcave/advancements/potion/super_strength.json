@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приготовьте зелье силы, чтобы сжульничать на соревнованиях по атлетике"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/performance_enhancing_drugs",
   "rewards": {

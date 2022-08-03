@@ -10,7 +10,7 @@
     "description": {
       "translate": "Создайте идеальную кирку со всеми возможными зачарованиями максимального уровня"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/unbreakable",

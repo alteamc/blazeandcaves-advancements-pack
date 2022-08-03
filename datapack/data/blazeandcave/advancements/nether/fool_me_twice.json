@@ -9,7 +9,7 @@
     "description": {
       "translate": "Полностью используйте незеритовую мотыгу. Очевидно, Ваш выбор был… необычен"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:nether/soul_runnings",

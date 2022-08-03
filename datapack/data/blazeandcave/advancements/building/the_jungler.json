@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте все возможные предметы из тропического дерева"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/professor_birch",
@@ -181,6 +181,18 @@
           {
             "items": [
               "minecraft:jungle_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "jungle_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_chest_boat"
             ]
           }
         ]

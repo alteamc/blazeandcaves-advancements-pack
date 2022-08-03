@@ -9,14 +9,14 @@
     "description": {
       "translate": "Атакуйте моба топором"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/root",
   "rewards": {
     "function": "bc_rewards:weaponry/viking"
   },
   "criteria": {
-    "wooden_axe": {
+    "axe": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
@@ -29,116 +29,15 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:wooden_axe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "stone_axe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stone_axe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "iron_axe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:iron_axe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "golden_axe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:golden_axe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "diamond_axe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond_axe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "netherite_axe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:netherite_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "tag": "minecraft:axes"
+                }
+              }
             }
           }
         }
       }
     }
-  },
-  "requirements": [
-    [
-      "wooden_axe",
-      "stone_axe",
-      "iron_axe",
-      "golden_axe",
-      "diamond_axe",
-      "netherite_axe"
-    ]
-  ]
+  }
 }

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Убейте маленьких зомби, зомби-крестьянина, кадавра, утопленника и зомби-пигмена"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:monsters/ooh_baby",
@@ -23,7 +23,9 @@
       "conditions": {
         "entity": {
           "type": "zombie",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     },
@@ -32,7 +34,9 @@
       "conditions": {
         "entity": {
           "type": "zombie_villager",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     },
@@ -41,7 +45,9 @@
       "conditions": {
         "entity": {
           "type": "husk",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     },
@@ -50,7 +56,9 @@
       "conditions": {
         "entity": {
           "type": "zombified_piglin",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     },
@@ -59,7 +67,9 @@
       "conditions": {
         "entity": {
           "type": "drowned",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     }

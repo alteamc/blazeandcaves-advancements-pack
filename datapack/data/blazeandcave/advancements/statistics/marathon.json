@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Пробегите 42.195км"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:statistics/natural_sprinter",
@@ -22,7 +22,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:custom",

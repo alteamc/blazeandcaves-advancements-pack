@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выторгуйте бутылёк с опытом у священника"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/knowledge_is_power",
   "rewards": {

@@ -5,7 +5,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:challenges/root": "true"
             }

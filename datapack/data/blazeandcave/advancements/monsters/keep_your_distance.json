@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте крипера при помощи лука и стрел"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/what_a_creep",
   "rewards": {

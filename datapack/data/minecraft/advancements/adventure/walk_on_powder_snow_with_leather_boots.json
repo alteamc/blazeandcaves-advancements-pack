@@ -10,7 +10,7 @@
     "description": {
       "translate": "Иди по рыхлому снегу… не провалившись в него"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/this_snow_is_snowier",
   "rewards": {
@@ -47,7 +47,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

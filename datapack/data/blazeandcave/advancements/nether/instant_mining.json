@@ -10,7 +10,7 @@
     "description": {
       "translate": "Держите алмазную или незеритовую кирку, зачарованную на «Эффективность V», когда на вас действует эффект «Спешка II»."
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:nether/create_full_beacon",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Ударьте моба каждым видом оружия"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:weaponry/shovel_knight",
@@ -17,7 +17,7 @@
     "function": "bc_rewards:weaponry/multiclassed"
   },
   "criteria": {
-    "wooden_axe": {
+    "axe": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
@@ -30,13 +30,17 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:wooden_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "tag": "minecraft:axes"
+                }
+              }
             }
           }
         }
       }
     },
-    "stone_axe": {
+    "shovel": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
@@ -49,13 +53,17 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stone_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "tag": "minecraft:shovels"
+                }
+              }
             }
           }
         }
       }
     },
-    "iron_axe": {
+    "pickaxe": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
@@ -68,13 +76,17 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:iron_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "tag": "minecraft:pickaxes"
+                }
+              }
             }
           }
         }
       }
     },
-    "golden_axe": {
+    "hoe": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
@@ -87,13 +99,17 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:golden_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "tag": "minecraft:hoes"
+                }
+              }
             }
           }
         }
       }
     },
-    "diamond_axe": {
+    "sword": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
@@ -106,482 +122,11 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond_axe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "netherite_axe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:netherite_axe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "wooden_shovel": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:wooden_shovel\",}}"
-            }
-          }
-        }
-      }
-    },
-    "stone_shovel": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stone_shovel\",}}"
-            }
-          }
-        }
-      }
-    },
-    "iron_shovel": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:iron_shovel\",}}"
-            }
-          }
-        }
-      }
-    },
-    "golden_shovel": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:golden_shovel\",}}"
-            }
-          }
-        }
-      }
-    },
-    "diamond_shovel": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond_shovel\",}}"
-            }
-          }
-        }
-      }
-    },
-    "netherite_shovel": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:netherite_shovel\",}}"
-            }
-          }
-        }
-      }
-    },
-    "wooden_pickaxe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:wooden_pickaxe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "stone_pickaxe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stone_pickaxe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "iron_pickaxe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:iron_pickaxe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "golden_pickaxe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:golden_pickaxe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "diamond_pickaxe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond_pickaxe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "netherite_pickaxe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:netherite_pickaxe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "wooden_hoe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:wooden_hoe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "stone_hoe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stone_hoe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "iron_hoe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:iron_hoe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "golden_hoe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:golden_hoe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "diamond_hoe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond_hoe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "netherite_hoe": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:netherite_hoe\",}}"
-            }
-          }
-        }
-      }
-    },
-    "wooden_sword": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:wooden_sword\",}}"
-            }
-          }
-        }
-      }
-    },
-    "stone_sword": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stone_sword\",}}"
-            }
-          }
-        }
-      }
-    },
-    "iron_sword": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:iron_sword\",}}"
-            }
-          }
-        }
-      }
-    },
-    "golden_sword": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:golden_sword\",}}"
-            }
-          }
-        }
-      }
-    },
-    "diamond_sword": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond_sword\",}}"
-            }
-          }
-        }
-      }
-    },
-    "netherite_sword": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "entity": {
-          "distance": {
-            "absolute": {
-              "max": 5
-            }
-          }
-        },
-        "damage": {
-          "type": {
-            "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:netherite_sword\",}}"
+              "equipment": {
+                "mainhand": {
+                  "tag": "minecraft:swords"
+                }
+              }
             }
           }
         }
@@ -593,7 +138,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:bow\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:bow"
+                  ]
+                }
+              }
             },
             "is_projectile": true,
             "direct_entity": {
@@ -626,7 +177,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:trident\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:trident"
+                  ]
+                }
+              }
             }
           }
         }
@@ -722,44 +279,19 @@
   },
   "requirements": [
     [
-      "wooden_axe",
-      "stone_axe",
-      "iron_axe",
-      "golden_axe",
-      "diamond_axe",
-      "netherite_axe"
+      "axe"
     ],
     [
-      "wooden_shovel",
-      "stone_shovel",
-      "iron_shovel",
-      "golden_shovel",
-      "diamond_shovel",
-      "netherite_shovel"
+      "shovel"
     ],
     [
-      "wooden_pickaxe",
-      "stone_pickaxe",
-      "iron_pickaxe",
-      "golden_pickaxe",
-      "diamond_pickaxe",
-      "netherite_pickaxe"
+      "pickaxe"
     ],
     [
-      "wooden_hoe",
-      "stone_hoe",
-      "iron_hoe",
-      "golden_hoe",
-      "diamond_hoe",
-      "netherite_hoe"
+      "hoe"
     ],
     [
-      "wooden_sword",
-      "stone_sword",
-      "iron_sword",
-      "golden_sword",
-      "diamond_sword",
-      "netherite_sword"
+      "sword"
     ],
     [
       "bow"

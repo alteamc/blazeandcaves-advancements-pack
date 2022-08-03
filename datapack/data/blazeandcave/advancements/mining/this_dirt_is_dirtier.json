@@ -9,9 +9,9 @@
     "description": {
       "translate": "Прокопайте сквозь корнистую землю под азалией и найдите Пышные Пещеры"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/spelunker",
+  "parent": "minecraft:story/mine_stone",
   "rewards": {
     "function": "bc_rewards:mining/this_dirt_is_dirtier"
   },

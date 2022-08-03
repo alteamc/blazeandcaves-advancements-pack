@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте камнерез, используя камни и железо"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/sharpening_station",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Тебе ведь нравится мой меч?"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/iconic_merchandising_prop",
   "rewards": {

@@ -9,7 +9,7 @@
 
 # Language: Korean
 # Author: 원숭이 (1.9), WebCam, Fujiwarano_Kai, ReaLizer (1.11.2), NewDays (1.12-1.13)
-# Pack version supported: 1.13
+# Pack version supported: 1.13.7
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -22,6 +22,14 @@
 
 # 아무래도 상관없지만, '>(다른 원문)' 이 포함된 번역문 텍스트는
 # 업데이트를 거치면서 더 이상 사용되지 않는 것을 편의를 위해 표시해 둔 것입니다.
+
+# ----------------------------------------------
+
+# newdays(seungzoo_)
+# 데이터팩을 사용하는 분들을 위해 의미 혼동을 막기 위해 
+# 한국어 표현을 통일하고자 합니다(예. obtain -> 획득하세요).
+# 맞춤법과 띄어쓰기, 표현의 통일성에 대한 문서입니다.
+# 추후 번역하실 분들은 가급적 기준에 맞춰 번역해주셨으면 좋겠습니다.
 
 # Adventuring tab as of 1.3
 
@@ -315,10 +323,10 @@
 "Kill a husk": "허스크를 죽이세요",
 
 "Dungeon Crawler": "떠돌이 밀렵꾼",
-"Defeat all kinds of mobs from special structures": "특별한 구조물에서 생성되는 모든 몹을 죽이세요",
+"Defeat all kinds of mobs from special structures": "특별한 구조물에서 생성되는 모든 적대적 몹을 죽이세요",
 
 "Egging, Dude!": "악취미",
-"Vandalise something with eggs": "달걀을 던지세요",
+"Vandalise something with eggs": "몹에게 달걀을 던지세요",
 
 "Ender Worm": "엔더 지렁이",
 "Prevent an endermite from maturing": "엔더마이트를 박멸하세요",
@@ -339,7 +347,7 @@
 "Kill a slime": "슬라임을 죽이세요",
 
 "Hell Hunter": "둠가이",
-"Defeat all kinds of Nether mobs": "네더의 모든 몹을 죽이세요",
+"Defeat all kinds of Nether mobs": "네더의 모든 적대적 몹을 죽이세요",
 
 "Iron Belly": "강철 위장",
 "Stop starvation using rotten flesh": "썩은 살점을 먹고 배고픔에서 벗어나세요",
@@ -357,7 +365,7 @@
 "Kill one of every hostile monster": "모든 적대적 몬스터를 하나 이상씩 죽이세요",
 
 "Night Runner": "밤의 지배자",
-"Defeat all kinds of Overworld night mobs": "오버월드의 모든 야행성 몹을 죽이세요",
+"Defeat all kinds of Overworld night mobs": "오버월드의 모든 적대적 몹을 죽이세요",
 
 "Not Today, Thank You": "저희는 그런 것 받지 않습니다",
 "Deflect an arrow with a shield": "방패로 화살을 튕겨내세요",
@@ -396,7 +404,7 @@
 "Kill a witch with a splash potion": "마녀를 투척용 물약으로 죽이세요",
 
 "Tele-Morph": "몸통박치기",
-"Damage a mob by teleporting into it": "엔더 진주를 던져 몹에게 몸통박치기를 날리세요",
+"Damage a mob by teleporting into it": "엔더 진주를 몹에게 던져 몸통박치기를 날리세요",
 
 "Termite Control": "흰개미 박멸",
 "Kill a silverfish": "좀벌레를 죽이세요",
@@ -420,7 +428,7 @@
 "Craft a slime block using slimeballs": "슬라임볼로 슬라임 블록을 만드세요",
 
 "Void Ender": "공허군주",
-"Defeat all kinds of End mobs": "엔드의 모든 몹을 죽이세요",
+"Defeat all kinds of End mobs": "엔드의 모든 적대적 몹을 죽이세요",
 
 "What a creep!": "십년감수",
 "Kill a creeper": "크리퍼를 죽이세요",
@@ -657,7 +665,7 @@
 "Plant down all six types of sapling": "여섯 종류의 묘목을 모두 심으세요",
 
 "Feeling Sheepish": "양꼬치엔 칭따오",
-"You'll get over it": "양고기를 먹으세요",
+"You'll get over it": "익힌 양고기를 먹으세요",
 
 "Getting Into a Stew": "여기 용봉탕은 없어요?",
 "Make and eat some rabbit stew": "토끼 스튜를 먹으세요",
@@ -761,10 +769,10 @@
 # Mining tab as of 1.3
 
 "Acquire Hardware": "철이 철철 넘쳐",
-"Smelt an iron ingot": "철괴를 제련하세요",
+"Smelt an iron ingot": "철 주괴를 제련하세요",
 
 "Bling Bling Gone": "금 버리기 운동",
-"Completely use up a golden pickaxe, and then seriously reevaluate your life choices": "황금 곡괭이를 완전히 사용하고, 지금 내가 무슨 짓을 한 건지 뉘우쳐보세요",
+"Completely use up a golden pickaxe, and then seriously reevaluate your life choices": "금 곡괭이를 완전히 사용하고, 지금 내가 무슨 짓을 한 건지 뉘우쳐보세요",
 
 "Coal Miner": "석탄 부자",
 "Mine a stack of coal": "석탄을 한 뭉치 채굴하세요",
@@ -799,8 +807,8 @@
 "Getting an Upgrade": "더욱 더 좋게",
 "Construct a better pickaxe": "더 좋은 곡괭이를 만드세요",
 
-"Gold Miner": "황금 부자",
-"Mine a stack of gold ore": "금광석을 한 뭉치 채굴하세요",
+"Gold Miner": "금 부자",
+"Mine a stack of gold ore": "금 광석을 한 뭉치 채굴하세요",
 
 "Gold Rush": "이제 난 부자야!",
 "Strike gold and smelt it into a gold ingot": "금괴를 제련하세요",
@@ -1095,7 +1103,7 @@
 "Rock Bottom": "이제 올라갈 일만 남았어",
 "Dig down to the bottom of the world": "세계의 바닥에 다다르세요",
 
-"Spelunker": "동굴 이야기",
+"Spelunker": "동굴 탐험가",
 "Enter a cave": ">Enter an underground cave",
 
 "Stone Age": "석기 시대",
@@ -1210,7 +1218,7 @@
 "Fish out a piece of treasure": "보물을 낚으세요",
 
 "True Cow Tipper": "탈탈 털린 흑우",
-"Collect a stack of raw beef and leather": "익지 않은 소고기와 가죽을 한 뭉치 모으세요",
+"Collect a stack of raw beef and leather": "익히지 않은 소고기와 가죽을 한 뭉치 모으세요",
 
 "Turtle Army": "인갑 수집가",
 "Collect a stack of scutes": "인갑을 한 뭉치 모으세요",
@@ -1235,7 +1243,7 @@
 "Gurgle": "꼬르륵",
 
 "Anti-Air": "신궁",
-"Shoot down a phantom with a bow from 30 blocks away": "팬텀을 30블록 밖에서 쏘아 죽이세요",
+"Shoot down a phantom with a bow from 30 blocks away": "팬텀을 30 블록 밖에서 쏘아 죽이세요",
 
 "Because I'm Aquaman!": "아쿠아맨",
 "Obtain a trident from a Drowned": "드라운드로부터 삼지창을 얻으세요",
@@ -1422,8 +1430,8 @@
 "Master Diamond Miner": "다이아몬드 수집광",
 "Mine enough diamond to make a stack of diamond blocks": "다이아몬드를 충분히 채굴해서 다이아몬드 블록을 한 뭉치 만드세요",
 
-"Master Gold Miner": "황금 수집광",
-"Mine enough gold to make a stack of gold blocks": "황금을 충분히 채굴해서 황금 블록을 한 뭉치 만드세요",
+"Master Gold Miner": "금 수집광",
+"Mine enough gold to make a stack of gold blocks": "금을 충분히 채굴해서 금 블록을 한 뭉치 만드세요",
 
 "Master Iron Miner": "철 수집광",
 "Mine enough iron to make a stack of iron blocks": "철을 충분히 채굴해서 철 블록을 한 뭉치 만드세요",
@@ -1435,7 +1443,7 @@
 "Do you like my sword sword": "다이아몬드 검을 만드세요",
 
 "The Mistake!": "너네는 이런 거 하지 마라",
-"Put Mending on a piece of golden armor and realise what you are doing in life": "아무 금 갑옷에나 수선 마법을 부여하고, 이게 대체 뭐하는 짓거리인지 후회해보세요",
+"Put Mending on a piece of golden armor and realise what you are doing in life": "아무 금 갑옷에다 수선 마법을 부여하고, 이게 대체 뭐하는 짓거리인지 후회해보세요",
 
 "Barking Mad": "통 아저씨",
 "Craft a bark block": "통나무를 만드세요",
@@ -1574,7 +1582,7 @@
 "Craft and place a campfire using some logs, sticks and coal": "원목, 막대기, 석탄을 이용해서 모닥불을 만들어 설치하세요",
 
 "Classic Pocket Edition Block": "돌 깎는 노인",
-"Craft a stonecutter using stone and an iron ingot": "돌과 철괴를 이용해서 석재 절단기를 만드세요",
+"Craft a stonecutter using stone and an iron ingot": "돌과 철 주괴를 이용해서 석재 절단기를 만드세요",
 
 "Its original form": "본모습",
 "Use your furnace to smelt cobblestone back into stone": "조약돌을 제련해서 돌로 만드세요",
@@ -1636,7 +1644,7 @@
 "Slurp every kind of suspicious stew": "모든 종류의 수상한 스튜를 먹으세요",
 
 "Suspicious Looking Stew": "내가 지금 뭘 먹은 거지?",
-"Slurp some suspicious stew and pray you don't suddenly see giant flying eyeballs in the sky": "수상한 스튜를 먹으세요. 설마 죽기밖에 더 하겠어요?",
+"Slurp some suspicious stew and pray you don't suddenly see giant flying eyeballs in the sky": "수상한 스튜를 먹으세요. 설마 죽기라도 하겠어요?",
 
 "The garbage will do!": "재활용",
 "Craft a composter using planks and wooden fences then place it": ">Craft a composter using wooden slabs then place it",
@@ -1752,7 +1760,7 @@
 "Hit a mob using all five types of shovels": "모든 종류의 삽으로 몹을 때리세요>Hit a mob using all six types of shovels",
 
 "Sir Knight": "고기방패 탈출",
-"Use planks and iron to craft a shield": "나무 판자와 철괴를 이용해서 방패를 만드세요",
+"Use planks and iron to craft a shield": "나무 판자와 철 주괴를 이용해서 방패를 만드세요",
 
 "Slapfish": "사람이 말을 하면 쳐다봐야 할 거 아냐",
 "Slap a mob across the face with a fish": "물고기로 몹의 따귀를 때리세요",
@@ -1776,7 +1784,7 @@
 "Give a Pillager a taste of their own medicine": "약탈자에게 똑같은 무기로 앙갚음 해 주세요",
 
 "X-Bow": "석궁이 아니야",
-"Craft a crossbow using stick, spider string, iron and a hook": "막대기, 실, 철괴, 철사 덫 갈고리를 이용해서 쇠뇌를 만드세요",
+"Craft a crossbow using stick, spider string, iron and a hook": "막대기, 실, 철 주괴, 철사 덫 갈고리를 이용해서 쇠뇌를 만드세요",
 
 "King of the Sea": "해신",
 
@@ -1952,7 +1960,7 @@
 "Writer's Block": "드릴 말이 있습니다",
 
 "Chestful of Cobblestone": "더는 안 들어가",
-"Mine 1728 cobblestone, place it in a chest, then stand on it in victory": "1728개의 조약돌을 캐내서 상자를 가득 채우세요",
+"Mine 1728 cobblestone, place it in a chest, then stand on it in victory": "1,728개의 조약돌을 캐내서 상자를 가득 채우세요",
 
 "Bubble, Bubble, Toil and Trouble!": "마녀의 샘",
 "Fill a cauldron using a bucket": "양동이로 가마솥에 물을 채우세요",
@@ -2011,7 +2019,7 @@
 "Breed 500 animals": "동물을 500마리 교배시키세요",
 
 "Did you just run across earth?": "오늘 뛰지 않으면 내일은 없다",
-"Sprint 1000km": "1000km를 달리세요",
+"Sprint 1000km": "1,000km를 달리세요",
 
 "Elderly Enchanter": "장로 마법사",
 "Enchant 250 items": "마법을 250번 부여하세요",
@@ -2029,7 +2037,7 @@
 "Ride 1km on a horse": "말을 타고 1km를 주행하세요",
 
 "I enjoy long walks & playing MC": "걸어서 세계속으로",
-"Walk 1000km": "1000km를 걸으세요",
+"Walk 1000km": "1,000km를 걸으세요",
 
 "I Like Trains": "빨간불에도 멈추지 않아",
 "Ride 10km in a minecart": "광산 수레로 10km를 주행하세요",
@@ -2101,7 +2109,7 @@
 "Ride 1km on a pig": "돼지를 타고 1km를 주행하세요",
 
 "Spring in your step": "가벼운 발걸음",
-"Jump 1000 times": "1000번 점프하세요",
+"Jump 1000 times": "1,000번 점프하세요",
 
 "Supersonic": "날개를 활짝 펴고",
 "Fly 10km with elytra": "겉날개로 10km를 비행하세요",
@@ -2122,7 +2130,7 @@
 "Walk 100km": "100km를 걸으세요",
 
 "XP Grinder": "테라버닝",
-"Reach 1000 experience levels": "1000레벨을 달성하세요>Reach 300 experience levels",
+"Reach 1000 experience levels": "1,000레벨을 달성하세요>Reach 300 experience levels",
 
 "Your legs must be tired": "영원히 고통받는 다리",
 "Sprint 250km": "250km를 달리세요",
@@ -2382,7 +2390,7 @@
 "Hold a stack of every light-emitting block and item" : "모든 조명원 블록을 한 뭉치씩 보관함에 가지세요",
 
 "No Chain, No Gain" : "사슬 하나 사실?",
-"Craft a chain using an iron ingot and iron nuggets" : "철괴와 철 조각을 이용해서 사슬을 만드세요",
+"Craft a chain using an iron ingot and iron nuggets" : "철 주괴와 철 조각을 이용해서 사슬을 만드세요",
 
 "Blackstonehenge" : "새까만 돌탑",
 "Craft or collect all forms of Blackstone, Polished Blackstone and Polished Blackstone Bricks" : "모든 형태의 흑암, 윤나는 흑암, 윤나는 흑암 벽돌을 모으세요",
@@ -2393,10 +2401,10 @@
 "Natural Fertiliser" : "친환경 비료",
 "Fill up a composter" : "퇴비통을 채우세요",
 
-"Combine Harvester" : "콤바인",
+"Combine Harvester" : "내가 너희를 자라게 하리라",
 "Use bone meal on everything that can be grown" : "가능한 모든 식물에 뼛가루를 사용하세요",
 
-"What's new with composting?" : "퇴비 만드는 얘기는 왜?",
+"What's new with composting?" : "야, 그건 우리 저녁이란 말이야!",
 "Compost every type of compostable item in a Composter" : "가능한 모든 아이템을 퇴비통에 넣으세요",
 
 "A Gluttonous Diet" : "게걸스러운 식단",
@@ -2595,7 +2603,7 @@
 "Kill a Zombified Piglin that is riding a Strider and take its steed" : "스트라이더를 타고 있는 좀비화 피글린을 죽이고 그 자리를 차지하세요",
 
 "Oh, Shiny!" : "반짝반짝 눈이 부셔",
-"Distract Piglins with gold" : "황금으로 피글린의 주의를 돌리세요",
+"Distract Piglins with gold" : "금 주괴로 피글린의 주의를 돌리세요",
 
 "Cultural Misunderstandings" : "문화적 차이",
 "Slay a Piglin in battle... or an accidental incursion" : "전투에서 피글린을 죽이세요... 아니면 습격하거나요",
@@ -2636,8 +2644,8 @@
 "Wub wub wub!" : "광란의 댄스 파티",
 "Obtain the Pigstep music disc from a Bastion Remnant" : "보루 잔해에서 Pigstep 음반을 얻으세요",
 
-"Nugget in a Biscuit" : "따끈한 네더랙에 황금 한 조각",
-"Mine Nether Gold Ore for a pile of gold nuggets" : "네더에서 금광석을 채굴해서 황금 조각을 얻으세요",
+"Nugget in a Biscuit" : "따끈한 네더랙에 금 한 조각",
+"Mine Nether Gold Ore for a pile of gold nuggets" : "네더에서 금 광석을 채굴해서 금 조각을 얻으세요",
 
 "Dark Ages" : "암흑시대",
 "Mine Blackstone from a Basalt Deltas biome" : "현무암 삼각주에서 흑암을 캐내세요",
@@ -2760,7 +2768,7 @@
 
 "Reach 300 experience levels" : "300레벨을 달성하세요",
 
-"Fly 1000km with elytra" : "겉날개로 1000km를 비행하세요",
+"Fly 1000km with elytra" : "겉날개로 1,000km를 비행하세요",
 
 "Use a treasure map to find Buried Treasure" : "보물 지도를 보고 땅에 묻힌 보물을 찾아내세요",
 
@@ -2807,7 +2815,7 @@
 "Cook and eat a fish!" : "물고기를 요리해 먹으세요",
 
 "Milkshroom" : "소젖입니다. 그런데 이제 버섯을 곁들인",
-"Milk a mooshroom with a bowl to get mushroom stew" : "그릇을 이용해 무쉬룸에게서 버섯 스튜를 얻으세요",
+"Milk a mooshroom with a bowl to get mushroom stew" : "그릇을 이용해 무시룸에게서 버섯 스튜를 얻으세요",
 
 "Live and Let Dye" : "양떼 물들이기",
 "Dye Sheep with all 16 colors of wool" : "양을 모든 색으로 한 번씩 염색해보세요",
@@ -2837,7 +2845,7 @@
 "Right-click a banner with a map" : "지도를 든 채로 현수막을 우클릭하세요",
 
 "Controlled Detonation" : "나는 감정을 지배할 수 있다!",
-"Persuade a Creeper to blow up using Flint and Steel" : "부싯돌로 크리퍼를 도발해서 폭발시키세요",
+"Persuade a Creeper to blow up using Flint and Steel" : "부싯돌과 부시로 크리퍼를 도발해서 폭발시키세요",
 
 "Miracle Drink" : "기적의 음료",
 "Drink milk or honey to cure poison when on half a heart" : "체력이 반 칸 남은 상태로 우유나 꿀을 마셔서 독을 치료하세요",
@@ -3023,7 +3031,7 @@
 "Should have spoken to the Keaton Mask Soldier" : "잡화점에서 그 키튼 가면 병사 이름을 댔으면",
 "to get a discount at the Bazaar" : "더 싸게 살 수 있었을 텐데...",
 
-"1000-degree knife" : "1000도 칼",
+"1000-degree knife" : "1,000도 칼",
 "(GONE WRONG) (NOT CLICKBAIT)" : "(개쩌는 썸네일) (뿌슝빠슝삐슝)",
 
 "Voyager 1" : "보이저 1호",
@@ -3442,7 +3450,7 @@
 "Whatever Floats Your Goat!": "염소 떴소",
 "Get in a Boat and float with a Goat": "염소와 함께 보트에 타세요",
 
-"Screaming Milk": "이걸 우유라고 해야할까?",
+"Screaming Milk": "이걸 '우유'라고 해야할까?",
 "Milk a screaming Goat": "염소에게서 젖을 짜세요",
 
 "Cephalight": "이쁜 쓰레기",
@@ -3482,7 +3490,7 @@
 "Put a Bundle in a Bundle in a Bundle in a Bundle in a Bundle… 16 layers deep": "꾸러미 안에 꾸러미 안에 꾸러미 안에...",
 
 "Swine Sailing": "굳이 이걸 해야 돼?",
-"Ride a saddled pig in a boat in a minecart": "광산 수레 속 보트를 타고 있는 돼지를 타세요",
+"Ride a saddled pig in a boat in a minecart": "광산 수레 속의 보트를 타고 있는 돼지를 타세요",
 
 "Llama Festival": "전국 라마 자랑",
 "Sit on Llamas with all 16 colors of carpet. Getting off will reset your progress": "16가지 카펫을 등에 얹은 라마들을 모두 타세요",
@@ -3515,13 +3523,13 @@
 "Feed cake to every type of panda": "판다 친구들에게 케이크를 먹이세요",
 
 "Edge of the Jungle": "이거 어떻게 찾은 거지?",
-"Enter a Modified Jungle Edge - the rarest biome in Minecraft": "마인크래프트에서 가장 희귀한 바이옴을 찾으세요",
+"Enter a Modified Jungle Edge - the rarest biome in Minecraft": "마인크래프트에서 가장 희귀한 생물 군계를 찾으세요",
 
 
 
 
 "This Dirt is Dirtier": "흙다운 흙",
-"Trade for some Rooted Dirt from a Wandering Trader": "떠돌이 상인에게 뿌리내린 흙을 거래하세요",
+"Trade for some Rooted Dirt from a Wandering Trader": "뿌리내린 흙을 얻으세요",
 
 "Leaflet Drop": "내려갑니다",
 "Fall through a Big Dripleaf": "큰 흘림잎 위에서 떨어지세요",
@@ -3545,10 +3553,10 @@
 "Slay the elusive Chicken Jockey": "모든 종류의 치킨 조키를 죽이세요",
 
 "Basketblock Championship": "슬랜덩크맨",
-"Kill Endermen that are holding every block that they can hold": "엔더맨을 죽이세요, 그들이 들 수 있는 모든 블록을 집은 엔더맨을요",
+"Kill Endermen that are holding every block that they can hold": "엔더맨을 죽이세요, 그들이 들 수 있는 모든 블록을 집은 엔더맨들을요",
 
 "Pupil Poppers": "특이한 식성",
-"Eat 1000 Spider Eyes": "거미 눈을 1000개 먹으세요",
+"Eat 1000 Spider Eyes": "거미 눈을 1,000개 먹으세요",
 
 
 
@@ -3557,13 +3565,13 @@
 "Kill something using a clock": "시계를 들고 무언가를 죽이세요",
 
 "Inspector Gadget": "너도 멀리 볼래?",
-"Kill a zombie while holding a spyglass": "망원경을 들고 좀비를 죽이세요",
+"Kill a zombie while holding a spyglass": "망원경으로 좀비를 죽이세요",
 
 "Rock, Paper, Shears!": "가위, 바위, 보!",
-"Beat a zombie at rock, paper, shears": "가위, 돌, 종이로 좀비를 죽이세요",
+"Beat a zombie at rock, paper, shears": "좀비와의 가위바위보 내기에서 승리하세요",
 
-"Backfire": "불맛 좀 봐라",
-"Kill a Blaze using a Blaze Rod while both you and it are on fire": "불타고 있는 블레이즈를 블레이즈 막대로 죽이세요",
+"Backfire": "네가 하면, 나도 한다",
+"Kill a Blaze using a Blaze Rod while both you and it are on fire": "불타고 있는 블레이즈를 불에 타고 있는 상태에서 블레이즈 막대로 죽이세요",
 
 
 
@@ -3582,10 +3590,8 @@
 
 
 
-
 "Over-Overkill": "십버킬",
 "Deal sixteen hearts of damage in a single melee blow": "한번의 공격으로 16 대미지를 입히세요",
-
 
 
 
@@ -3597,9 +3603,6 @@
 
 "STONKS!": "호구",
 "Trade with villagers 2500 times": "주민과 2500번 거래하세요",
-
-
-
 
 "Ancient Restoration": "포탈 재건 공사",
 "Rebuild and reactivate a Ruined Portal": "포탈 잔해를 원상 복구시키세요",
@@ -3850,7 +3853,7 @@
 
 
 # Welcome message
-"This world is using ": "이 월드에서는 ",
+"This world is using ": "이 월드에는 ",
 "Blaze": "Blaze",
 "and": "and",
 "Cave": "Cave",
@@ -3987,7 +3990,7 @@
 
 "65": "65",
 "hours of walking": "시간의 걸음",
-"Walk 1000km. The statistics tab shall no longer be the grindy super challenges tab": "1000km를 걸으세요",
+"Walk 1000km. The statistics tab shall no longer be the grindy super challenges tab": "1,000km를 걸으세요",
 
 
 "Feels Like Home": "고향에 온 듯",
@@ -4033,9 +4036,9 @@
 "Ninth line complete…": "아홉번째 수수께끼를 해결했습니다...",
 
 "Tenth Parchment": "수수께끼의 두루마리",
-"Place Warped Buttons to number a thousand": "뒤틀린 버튼을 1000번 설치하세요",
-"For this was the thousandth item added to the game": "이 두루마리는 1000번째로 추가된 아이템입니다",
-"Like how this is the thousandth advancement added to the pack": "또한 이 발전과제는 1000번째로 추가된 발전과제입니다",
+"Place Warped Buttons to number a thousand": "뒤틀린 버튼을 1,000번 설치하세요",
+"For this was the thousandth item added to the game": "이 두루마리는 1,000번째로 추가된 아이템 보상입니다",
+"Like how this is the thousandth advancement added to the pack": "또한 이 발전과제는 1,000번째로 추가된 발전과제입니다",
 
 
 # Renamed advancements and description changes in 1.12
@@ -4057,7 +4060,7 @@
 
 "Ahoy!": "보물선",
 
-"Foliage": "최상급 표본",
+"Foliage": "수동 예초기",
 
 "How Did We Get Here?": "어쩌다 이 지경까지",
 
@@ -4074,7 +4077,7 @@
 "Bounce onto a slime block from at least 30 blocks high": "슬라임 블록에 떨어져 30 블록 이상 튀어오르세요",
 
 # # Cool Kids
-"Craft and wear a leather jacket": "가죽 조끼을 만든 후 입으세요",
+"Craft and wear a leather jacket": "가죽 조끼를 만든 후 입으세요",
 
 # # Fashion Statement
 "Dye some leather pants with one color, then put them on": "가죽 바지를 아무 색으로 염색한 후 입으세요",
@@ -4192,7 +4195,7 @@
 "it can see to infinity and beyond": "우주 너머까지 관찰할 수 있죠",
 
 "Golden Advancement Plaque": "금색 명패",
-"Awarded to this datapack for reaching 1000 advancements": "이 명패는 1000개의 발전과제를 해금한 사람에게만 수여됩니다",
+"Awarded to this datapack for reaching 1000 advancements": "이 명패는 1,000개의 발전과제를 해금한 사람에게만 수여됩니다",
 
 # # The Toilet trophy for 'WHERE'S THE HONEY LEBOWSKI' received a description change
 "WHERE'S THE HONEY?!!!": "꿀 맛있습니까? 그거 독약입니다",
@@ -4232,7 +4235,7 @@
 "Display Advancements Scoreboard on sidebar": "사이드 바에 발전과제 스코어보드를 표시함",
 "Display First Advancements Scoreboard on sidebar": "사이드 바에 발전과제 해금 스코어보드를 표시함",
 
-"The Advancements Scoreboard keeps track of how many advancements each player has obtained": "발전과제 스코어보드는 각 플레이어가 발전과제를 해금할 때마다 올라갑니다",
+"The Advancements Scoreboard keeps track of how many advancements each player has obtained": "총 발전과제 스코어보드는 각 플레이어가 발전과제를 해금할 때마다 올라갑니다",
 "The First Advancements Scoreboard keeps track of how many advancements each player was the first to obtain": "발전과제 해금 스코어보드는 각 플레이어가 발전과제를 처음 해금했을 때 올라갑니다",
 
 "Click to display": "클릭하여 표시하기",
@@ -4261,10 +4264,437 @@
 "Click to set": "클릭하여 설정",
 
 
-"Go back to main config menu": "메인 메뉴로 돌아가기"
+"Go back to main config menu": "메인 메뉴로 돌아가기",
+
+# Advancements added in the Terralith version for BACAP 1.13.1
+"A Cliffhanger!": "떨어질 듯 말 듯",
+"Discover every type of cliff biome": "모든 절벽 생물 군계를 발견하세요",
+
+"A Grassy Nature": "푸르른 풀밭",
+"Discover every grasslands biome": "모든 초원 생물 군계를 발견하세요",
+
+"A E S T H E T I C": "몽환의 숲",
+"Discover the Mirage Isles. No, they’re not not real": "신기루 섬을 발견하세요",
+
+"Alpha Days": "숨겨진 세상",
+"Discover the mythical islands of Alpha": "신비의 섬을 발견하세요",
+
+"Bushranger": "키 작은 나무 이야기",
+"Discover every shrublands biome": "모든 관목지 생물 군계를 발견하세요",
+
+"Choco Mountain": "초콜릿 마운틴",
+"Discover a White Mesa": "백색 악지를 발견하세요",
+
+"Eruption in the Air": "폭발 일 보 직전",
+"Enter a volcano biome": "화산 생물 군계를 발견하세요",
+
+"Highlander": "험난한 산악",
+"Discover every highlands biome": "산악 지대를 발견하세요",
+
+"Master Spelunker": "동굴 탐험의 대가",
+"Discover every cave biome": "모든 동굴 생물 군계를 발견하세요",
+
+"O-Land-o Bloom": "꽃 피워라!",
+"Discover a blooming biome": "모든 꽃 피는 생물 군계를 발견하세요",
+
+"One Small Steppe For Man": "인류를 위한 작은 발견",
+"Discover a steppe biome": "스텝 생물 군계를 발견하세요",
+
+"Over the Moon": "달, 저 너머로",
+"Discover a moonlight biome": "달빛 생물 군계를 발견하세요",
+
+"Pretty in Purple": "마성의 보라색",
+"Discover every biome with trees of purple leaves": "보라색 나뭇잎이 있는 모든 생물 군계를 발견하세요",
+
+"Skylanders": "하늘섬의 비밀",
+"Discover some mysterious lands floating high above the ground": "땅 위에 떠있는 저게 뭘까요?",
+
+"Smarter than the Average Bear": "자연의 위대함",
+"Discover the Yellowstone biome": "옐로스톤 생물 군계를 발견하세요",
+
+"Terralithic": "테라리스",
+"Discover every Terralith biome": "모든 테라리스 생물 군계를 발견하세요",
+
+"The Boreal Deal": "춥지도 덥지도 않은",
+"Discover every boreal biome": "모든 아한대 생물 군계를 발견하세요",
+
+"The World Is Your Canvas": "세상은 큰 도화지",
+"Discover the Painted Mountains": "알록달록한 산을 탐험하세요",
+
+# Adjusted descriptions
+"Discover every vanilla surface biome in the Overworld": "오버월드의 모든 생물 군계를 발견하세요",
+"Discover every vanilla biome from every dimension": "모든 차원의 모든 생물 군계를 발견하세요",
+
+"Stardust": "별가루",
+
+"You have explored everything this world has to offer": "당신은 이 세상의 모든 지역을 탐험했습니다",
+"But at the end of it all, it is all still made from stardust": "하지만 그 끝은 작은 별가루 뿐입니다",
+
+"Dig through some Rooted Dirt beneath an Azalea Tree so you can find a Lush Cave": "뿌리내린 흙을 얻으세요",
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "팀에서 처음 발전과제를 해금한 사람에게 해당",
+"Click to enable for the first player on each team": "팀에서 처음 발전과제를 해금한 사람에게 해당",
+
+"Click to enable Cooperative Mode": "협동 모드 활성화",
+"Click to disable Cooperative Mode": "협동 모드 비활성화",
+"Click to enable Team Cooperative Mode": "팀 협동 모드 활성화",
+"Team Cooperative Mode currently enabled": "팀 협동 모드가 이미 활성화되어 있습니다",
+
+
+
+"Click to view preset options": "프리셋 보기",
+"Message Presets": "메시지 프리셋",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "모든 메시지를 팀에서 발전과제를 처음으로 해금한 사람으로 설정합니다(팀 협동 모드에서 권장합니다)",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "기본 메시지 켜기(DiscordSRV 같은 플러그인을 사용하는 서버에서 권장합니다)",
+
+
+
+"Advancement Scoreboard Display Settings": "발전과제 스코어보드 설정",
+
+"Advancements Scoreboard": "총 발전과제 스코어보드",
+"First Advancements Scoreboard": "발전과제 스코어보드",
+
+"Team Advancements": "팀 총 발전과제 스코어보드",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "팀 총 발전과제 스코어보드는 각 팀들의 모든 구성원의 발전과제 점수를 모두 합산하여 표시합니다",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "예를 들어, 알렉스와 스티브가 같은 팀 내에서 각각 100개의 발전과제를 달성했다면, 스코어보드엔 200으로 표시됩니다",
+
+"Total Team Advancements": "토탈 팀 발전과제 스코어보드",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "토탈 팀 발전과제 스코어보드는 각 팀들의 모든 구성원의 발전과제 점수를 합산하되, 중복된 발전과제는 제외하여 표시합니다",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "예를 들어, 알렉스와 스티브가 같은 팀 내에서 각각 100개의 발전과제를 달성하고 50개의 공통된 발전과제를 해금한 경우, 스코어보드엔 150으로 표시됩니다",
+
+"Team First Advancements": "팀 발전과제 스코어보드",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "팀 발전과제 스코어보드는 각 팀들의 모든 구성원이 처음 해금한 발전과제 점수를 합산하여 표시합니다",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "예를 들어, 알렉스와 스티브가 같은 팀 내에서 각각 100개의 중복되지 않은 발전과제를 처음으로 해금했다면, 스코어보드엔 200으로 표시됩니다",
+
+"First Advancements in Team": "팀원 발전과제 스코어보드",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "팀원 발전과제 스코어보드는 각 팀들의 모든 구성원이 팀 내에서 처음 해금한 발전과제가 얼마나 되는지 표시합니다",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "예를 들어, 알렉스와 스티브가 같은 팀에 있고 스티브가 '몬스터 헌터'를 처음으로 해금했을 때, 스티브는 1점을 얻게 됩니다. 그러나 이후에 알렉스가 해금했을 때 알렉스는 점수를 받지 못합니다. 만약 다른 팀의 플레이어가 '몬스터 헌터'를 해금했을 때, 그것이 스티브가 이미 해금한 뒤라도 그 플레이어는 1점을 얻게 됩니다",
+
+"Recommended for Cooperative Mode": "협동 모드에 권장됩니다",
+"Recommended when NOT using Cooperative Mode": "협동 모드를 사용하지 않을 때 권장됩니다",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "협동 모드나 팀 협동 모드를 사용하지 않을 때 권장됩니다",
+"Recommended for Team Cooperative Mode": "팀 협동 모드에 권장됩니다",
+"Not recommended for Cooperative Mode": "협동 모드에 권장되지 않습니다",
+"Recommended for Cooperative or Team Cooperative Mode": "협동 모드나 팀 협동 모드에 권장됩니다",
+
+"How would you like this scoreboard to be displayed?": "스코어보드를 어디에 표시할까요?",
+"On tab list": "탭 리스트",
+"On sidebar": "사이드바",
+"Below each player's name": "닉네임 아래",
+
+"Clear scoreboard from below player names": "닉네임 아래 스코어보드를 표시하지 않음",
+
+
+
+"Technical Settings": "관리자 설정",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "경고: 몇몇 항목들은 게임 진행에 악영향을 미칠 수 있으며 버그를 발생시킬 수 있습니다. 조심해서 사용하세요!",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "현재 접속 중인 플레이어들의 해금된 발전과제를 다시 검사합니다",
+"Should be used if:": "이럴 때 사용하세요:",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "- 데이터팩의 버전이 새롭게 업데이트 된 경우",
+"- You have been using commands to manually revoke the advancements of player(s)": "- 커맨드를 이용해 플레이어(들)의 발전과제를 초기화한 경우",
+
+"Update team scoreboards": "팀 스코어보드 갱신하기",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "팀 스코어보드의 값을 다시 계산합니다",
+
+"Reset obtained advancements": "bac_obtained 초기화",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "'bac_obtained' 스코어보드를 초기화합니다. 그러면 협동 모드에서 더 이상 발전과제가 공유되지 않으며 모든 발전과제가 발전과제 스코어보드에 맞춰 다시 설정됩니다",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "이 기능은 발전과제가 다시 해금될 때까지 협동 모드의 발전과제 공유를 중지하고, 발전과제 스코어보드에 대해 발전과제를 다시 설정합니다",
+"This function should only be used if you intend to turn off Cooperative Mode": "협동 모드를 해제하려는 경우에 사용하세요",
+
+"Refresh Cooperative Mode advancement sharing": "협동 모드의 발전과제 공유를 새로고침",
+
+"Grant missing trophies": "트로피 재지급",
+"Gives every online player every trophy from advancements they have obtained so far": "현재 접속 중인 플레이어들에게 지금까지 획득한 트로피를 다시 지급합니다",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "이 기능은 트로피 업데이트(BACAP 1.11) 이전에 생성된 월드에서 사용해야 합니다",
+
+"Revoke all advancements": "발전과제 철회",
+"Revokes every advancement, including resetting scoreboards": "모든 발전과제를 철회하고, 스코어보드를 초기화합니다",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "자신 또는 자신과 가장 가까운 플레이어 또는 모든 플레이어를 대상으로 합니다",
+
+"Once advancements are revoked, they cannot be recovered.": "한번 철회된 발전과제는 복구할 수 없습니다",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "몇몇 통계 발전과제는 다시 해금될 수 있습니다. 이것들까지 초기화하길 원한다면 플레이어의 통계 파일을 직접 삭제해야 합니다",
+"Please choose who you would like to revoke advancements from, or to go back": "어떤 플레이어의 발전과제를 철회할 지 선택하세요",
+"Yourself": "자신",
+"The closest player": "자신과 가장 가까운 플레이어",
+"EVERYONE!! (who is online)": "모든 플레이어!! (접속 중인)",
+">:)": ">:)",
+
+"All advancements have been revoked from %1$s": "%1$s에 의해 모든 발전과제가 철회되었습니다",
+"Error: There are no other players online": "에러: 현재 접속 중인 플레이어가 없습니다",
+
+"Go back": "돌아가기",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "여행의 시작",
+"Find a Traveller’s Map": "여행가의 지도를 찾으세요",
+
+"Castle of Hrrms": "징징이의 성",
+"Enter a Fortified Village": "강화된 마을을 찾으세요",
+
+"Expedition of Discovery": "신대륙의 발견",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "여행가의 지도를 보고 희귀한 생물 군계를 탐험하세요",
+
+"Land of Icicles": "빙하 지대",
+"Discover a Glacial Chasm biome": "크레바스 생물 군계를 탐험하세요",
+
+"Remote Shelter": "외딴 곳의 방공호",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "크레바스 생물 군계에서 얼어붙은 오두막을 찾으세요",
+
+"Spire of Ice": "얼음의 첨탑",
+"Enter the Spire, located in a frigidly cold biome": "아주 추운 생물 군계에서 첨탑을 찾으세요",
+
+"Under the Ice": "빙하기의 유물",
+"Delve deep beneath the Spire and open up a loot chest": "첨탑 아래의 전리품 상자를 여세요",
+
+"Team Cooperative Mode makes it so that whenever a player gets an advancement, that advancement will be shared across all players on a team.": "팀 협동 모드는 플레이어가 발전과제를 해금할 때마다 팀의 모든 구성원들과 공유하도록 합니다",
+
+"Everyone's currently-obtained advancements will be shared between all players on their team immediately when turning this setting on.": "이 기능을 설정하면 즉시 팀과 발전과제를 공유하게 됩니다",
+
+"Sneak 100": "은밀하게 위대하게",
+"Sneak near something in the Deep Dark to prevent being heard": "스컬크 감지체나 워든 근처에서 웅크린 채 움직여 당신을 감지하지 못하도록 막으세요",
+
+"It spreads!": "퍼져간다",
+"Kill a mob near a Sculk Catalyst": "스컬크 촉매 근처에서 몹을 죽이세요",
+
+"Shriek Forever After": "사라지지 않는 목소리",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "스컬크 비명체를 활성화시키세요. 너무 많이 자극하진 마세요...",
+
+"The Block of Eternal Screaming": "영원한 비명",
+"Use Silk Touch to pick up a Sculk Shrieker": "스컬크 비명체를 섬세한 손길로 캐내세요",
+
+"Cataclyst": "강력한 제물",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "스컬크 촉매 근처에서 위더를 죽이세요",
+
+"Monstrous Sacrifices": "신성한 제물들",
+"Kill every hostile monster near a Sculk Catalyst": "모든 적대적인 몹들을 스컬크 촉매 근처에서 죽이세요",
+
+"The Incredible Sculk": "스컬크 수집광",
+"Collect a stack of all sculk-related blocks": "모든 종류의 스컬크 블록을 한 뭉치씩 모으세요",
+
+"Sculker Box": "스컬커 상자",
+"Hold a Shulker Box that is completely filled with Sculk": "셜커 상자에 스컬크로 가득 채우세요",
+
+"Fallen Kingdom": "무너져버린 왕국",
+"Find and enter an Ancient City deep underground": "땅 속 고대 도시로 들어가세요",
+
+"Frigid Diversions": "워든의 눈을 돌려라",
+"Loot a chest inside an ice box in an Ancient City": "고대 도시의 눈덩이가 담긴 상자를 여세요",
+
+"Death Pointer": "내가 묻힌 곳",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "메아리 조각과 나침반을 이용해 만회 나침반을 만드세요",
+
+"9 to 5": "마지막 조각",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "음반 조각을 이용해 신비로운 음반을 만드세요",
+
+"Echonomy": "메아리 소리가 들려오는",
+"Collect a stack of Echo Shards": "메아리 조각을 한 뭉치 모으세요",
+
+"Blind as a Bat": "피냐타 대신 박쥐",
+"Kill a Bat while under the blindness or darkness effect": "실명 또는 어둠 효과에 걸린 채로 박쥐를 죽이세요",
+
+
+"Stuck in the Mud": "진흙놀이",
+"Use a Water Bottle on some Dirt to turn it into Mud": "흙에 물병을 부어 진흙으로 만드세요",
+
+"Elmer Mudd": "머드 축제",
+"Craft or obtain all forms of Mud and Mud Brick": "모든 종류의 진흙과 진흙 벽돌 블록을 만드세요",
+
+"Mangrove Master": "맹그로브 나무 장인",
+"Craft every item made out of mangrove wood": "맹그로브 나무로 된 모든 아이템을 만드세요",
+
+"Incandescent!": "눈이 부시게",
+"Light up the area with all three hues of Froglight": "세 종류의 개구리불을 이용해 주변을 밝히세요",
+
+
+"A Mangrove Grove": "맹그로브 그로브",
+"Plant a Mangrove Propagule in a Grove biome": "산림 바이옴에 맹그로브 주아를 심으세요",
+
+
+"Frog Family": "개굴개굴 개구리",
+"Breed two Frogs together using slimeballs": "개구리를 번식시키세요",
+
+"Bukkit bukkit": "양동이에 올챙이 한 마리",
+"Catch a Tadpole in a Bucket": "양동이로 올챙이를 잡으세요",
+
+"When the Squad Hops into Town": "개구리 삼총사 출동!",
+"Attach a lead to each variant of Frog": "모든 종류의 개구리를 끈으로 묶으세요",
+
+"Ram": "들이박기",
+"Obtain a Goat’s Horn by having one ram into a block": "염소 뿔을 얻으세요",
+
+"Loud and Proud": "크고 당당하게",
+"Play a Goat Horn in the Deep Dark": "딥 다크에서 염소 뿔을 부세요",
+
+"Battle of the Bands": "연주 배틀",
+"Blow into a Goat Horn during a raid": "습격 중에 염소 뿔을 부세요",
+
+"Caprymphony": "뿔피리를 불어라!",
+"Blow every type of Goat Horn": "모든 종류의 염소 뿔을 부세요",
+
+"Animal Kingdom": "동물의 왕국",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "모든 종류의 동물들을 한 곳에 모으세요 (모두 32블록 이내로 모으세요)",
+
+
+"Cargo Carrier": "화물선",
+"Ride a Boat with a Chest in it": "상자가 실린 보트에 타세요",
+
+"Flipper": "돌고래 쇼",
+"Give a Dolphin something to play with": "돌고래에게 아이템을 주세요",
+
+
+"Allayance": "알레이의 심부름",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "약탈자 전초기지나 삼림 대저택에서 알레이를 구출한 뒤 아이템을 주세요",
+
+"You’ve Got a Friend in Me": "난 너의 친구야",
+"Have an Allay deliver items to you": "알레이에게 아이템을 건네받으세요",
+
+"Evelyn Evergreen": "묘목 수거반",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "알레이에게 가문비나무 묘목을 줍게 하세요",
+
+"Budget Vex": "벡스 코스프레",
+"Give an Allay an Iron Sword": "알레이에게 철 검을 주세요",
+
+"Diagon Allay": "이게 필요할 것 같은데?",
+"Have an Allay deliver a potion to you in the Deep Dark": "딥 다크에서 알레이에게 물약을 건네받으세요",
+
+"Birthday Song": "생일 축하 노래",
+"Have an Allay drop a cake at a note block": "알레이가 소리 블록에 케이크를 떨구게 하세요",
+
+"Awards Ceremony": "트로피 수여식",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "알레이에게 발전과제 트로피를 건네받으세요",
+
+
+"Now that's a lot of damage": "이 세상 대미지가 아니다!",
+"Succumb to the Warden": "워든에게 죽으세요",
+
+"Blind Stare": "날 못 봤겠지?",
+"Look at a Warden with a Spyglass": "망원경으로 워든을 바라보세요",
+
+"Stealth is Optional": "등 뒤로 접근해서",
+"Overcome a Warden in the deepest and darkest of caves": "가장 깊고 어두운 동굴에서 워든을 죽이세요",
+
+"Warden Frostbite": "냉동 워든",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "눈 덮인 평원 생물 군계에서 워든을 죽이세요",
+
+"Not Afraid of Heights": "눈에 뵈는 게 없구나",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "워든을 세상의 꼭대기까지 데리고 가세요. 앞이 보이지 않으면 높은 곳을 무서워하지 않죠",
+
+"House of Freaks": "그림자 분신술",
+"Summon five Wardens and have them all be within 16 blocks of the player": "워든 5마리를 당신과 16 블록 이내에 소환하세요",
+
+
+"Like a Ninja": "닌자처럼",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "고대 도시에서 신속한 잠행 마법을 얻으세요",
+
+"Silent But Deadly": "느리지만 빠르게",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "신속한 잠행 III 마법과 신속 II 효과를 가진 채로 스컬크 위에서 웅크려 달리세요",
+
+
+"Hung, Drawn and Bartered": "꿀꿀교환",
+"Barter for every possible type of item with Piglins": "피글린과 거래 가능한 모든 아이템을 거래하세요",
+
+
+"The Void Frogs": "우주 개구리",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "느린 낙하 효과를 가진 개구리를 공허로 떨어뜨린 뒤 죽이세요",
+
+
+"Farlander": "파 랜드",
+"Travel all the way to the border of the world": "세계의 경계까지 여행하세요",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "섬세한 손길 마법이나 고대 도시의 상자에서 스컬크를 얻으세요",
+
+# Spelunker
+"Discover every cave biome": "모든 종류의 동굴 바이옴을 탐험하세요",
+
+# Yay! I got my wood!
+"Collect every type of log": "모든 종류의 원목을 모으세요",
+
+# Stripper
+"Strip the bark off every type of log": "모든 종류의 원목의 껍질을 벗기세요",
+
+# Ecologist
+"Plant down all types of saplings": "모든 종류의 묘목을 심으세요",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "활로 모든 종류의 동물을 죽이세요",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "오버월드의 모든 지상 생물 군계를 탐험하세요",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "탭",
+
+
+# Trophies added in 1.14
+"Mobbo": "귀마개",
+"They are your bestest friend!": "당신의 청력을 보호하세요",
+
+"The Cataclyst": "취급 주의",
+"When detonated, it kills every single avatar and NPC in the sector": "터뜨리지 마세요! 당신과 이 세상 모두가 사라지게 될 겁니다.",
+
+"Claptrap": "철저한 보안",
+"No, I said “Aaaaaand OPEN!”,": "침입자다!",
+"not “Aaaaand close a secondary set of doors!”": "어서 셔터를 내려!",
+
+"Pickle Rick": "바다 피클",
+"Look Morty, I've turned myself into a pickle!": "바다의 내음이 담긴 색다른 피클!",
+
+"Magic Paintbrush": "마법의 붓",
+"For painting with all the colors of the wind": "바람의 빛깔로 세상을 물들여라!",
+
+"Very Muddy Boots": "진흙투성이 신발",
+"The result of too long in muddy fields": "진흙밭에서 너무 격하게 놀았나봐요",
+
+"Pride Rock": "프라이드 락",
+"Look, Simba. Everything the light touches is our kingdom": "봐라 심바, 햇빛이 닿는 곳은 전부 우리의 영토란다",
+
+"Copper Goat Horn": "구리 나팔",
+"Such a fun and jazzy instrument, sadly not canon": "이렇게나 매력적이고 재즈에 어울리는 악기라니!",
+
+"FrogChamp": "개구리중사",
+"It’s Wednesday, my dudes!": "우리 앞에 있는 모든 시련들 겁낼 필요 없다",
+
+"Warden Head": "워든의 머리",
+"Players: How are you meant to kill the Warden?": "Q. 워든을 죽일 수 있나요?",
+"Mojang: That's the neat part - you don't!": "모장: 아뇨! 워든은 죽일 수 없습니다!",
+"You: Hold my golden carrots": "당신: (불사의 토템을 꺼내든다)",
+
+"The Warden's Sign": "추락 주의 경고문",
+"This sign can’t stop me because I can't see!": "이걸로 날 막을 순 없어! 난 이 경고문이 안 보이거든!",
+
+"Reuben the Wither Storm Ender": "Rest In Pig",
+"He was a great pig": "그는 좋은 돼지였습니다...",
+
+"The Trophy Trophy": "트로피의 트로피",
+"If an Allay brings you this, you will": "이걸 알레이가 당신에게 가져다준다면",
+"receive the Trophy Trophy Trophy": "아마 트로피의 트로피의 트로피를 받겠네요",
+
+"Spongebob Squarepants": "네모바지 스폰지밥",
+"Who lives in a pineapple under the sea?": "집은 저 바다 속 파인애플",
+
+"Fence Post": "멋진 울타리",
+"Look at this luxurious fence post": "이 근사한 울타리를 좀 보세요",
+"With its courageously mundane colour": "화려한 빛깔과,",
+"And violent corners": "아주 예리한 모서리...",
+"This isn't just any fence post…": "이건 단순한 울타리가 아닙니다",
+"It's my fence post! Seriously, get out!": "그러니까, 당장 여기서 나가세요!",
+
+"Stone of the Farlands": "파 랜드의 돌멩이",
+"A preserved piece of stone from": "이 돌멩이는 아마도",
+"from the lands that existed before Beta 1.8": "베타 1.8 이전에 존재했던 것 같네요"
 
 
 
 
-# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
 }

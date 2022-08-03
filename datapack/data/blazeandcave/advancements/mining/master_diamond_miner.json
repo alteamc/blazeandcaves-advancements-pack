@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте достаточно алмазов и создайте стак алмазных блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/mineral_collection",

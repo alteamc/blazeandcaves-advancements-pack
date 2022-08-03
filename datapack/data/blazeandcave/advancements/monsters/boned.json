@@ -9,7 +9,7 @@
     "description": {
       "translate": "Измельчите кости в костную муку"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/spooky_skeleton",
   "rewards": {

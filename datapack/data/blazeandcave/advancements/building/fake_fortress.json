@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте или соберите все формы обычного и красного незерского кирпича"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/deepslate_conspiracy",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Посадите плод коруса в обычном мире ради науки"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:end/getting_chorus",
   "rewards": {

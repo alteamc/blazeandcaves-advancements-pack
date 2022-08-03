@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте зельеварку для приготовления зелий"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/basis_of_brewing",
   "rewards": {

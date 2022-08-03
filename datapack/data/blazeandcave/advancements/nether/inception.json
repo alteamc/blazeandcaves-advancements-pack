@@ -9,7 +9,7 @@
     "description": {
       "translate": "Постройте машину, которая может пробить дыру в потолке Незера"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:nether/fast_travel",
@@ -20,24 +20,33 @@
     "enter_cave": {
       "trigger": "minecraft:location",
       "conditions": {
-        "block": {
-          "tag": "minecraft:non_underwater_blocks"
-        },
-        "position": {
-          "y": {
-            "min": 127,
-            "max": 127.9999
-          }
-        },
-        "dimension": "the_nether",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "tag": "minecraft:non_underwater_blocks"
+                },
+                "position": {
+                  "y": {
+                    "min": 127,
+                    "max": 127.9999
+                  }
+                },
+                "dimension": "the_nether"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

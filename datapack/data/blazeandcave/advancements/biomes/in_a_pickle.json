@@ -9,7 +9,7 @@
     "description": {
       "translate": "Соберите морской огурец в коралловом рифе"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/the_great_blocky_reef",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Преодолейте расстояние от самой верхней точки до самой нижней и выживите"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/lucky_break",

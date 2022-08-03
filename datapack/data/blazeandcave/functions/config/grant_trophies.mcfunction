@@ -215,6 +215,25 @@ execute as @s[advancements={blazeandcave:challenges/riddle_me_this=true}] run fu
 
 execute as @s[advancements={blazeandcave:biomes/terralithic=true}] run function bc_rewards:trophy/biomes/terralithic
 
+# Trophies added in 1.14
+execute as @s[advancements={blazeandcave:mining/the_block_of_eternal_screaming=true}] run function bc_rewards:trophy/mining/the_block_of_eternal_screaming
+execute as @s[advancements={blazeandcave:mining/cataclyst=true}] run function bc_rewards:trophy/mining/cataclyst
+execute as @s[advancements={blazeandcave:building/and_open=true}] run function bc_rewards:trophy/building/and_open
+execute as @s[advancements={blazeandcave:building/one_pickle_two_pickle_sea_pickle_four=true}] run function bc_rewards:trophy/building/one_pickle_two_pickle_sea_pickle_four
+execute as @s[advancements={blazeandcave:building/colors_of_the_wind=true}] run function bc_rewards:trophy/building/colors_of_the_wind
+execute as @s[advancements={blazeandcave:building/elmer_mudd=true}] run function bc_rewards:trophy/building/elmer_mudd
+execute as @s[advancements={blazeandcave:animal/animal_kingdom=true}] run function bc_rewards:trophy/animal/animal_kingdom
+execute as @s[advancements={blazeandcave:animal/caprymphony=true}] run function bc_rewards:trophy/animal/caprymphony
+execute as @s[advancements={minecraft:husbandry/leash_all_frog_variants=true}] run function bc_rewards:trophy/animal/when_the_squad_hops_into_town
+execute as @s[advancements={blazeandcave:monsters/stealth_is_optional=true}] run function bc_rewards:trophy/monsters/stealth_is_optional
+execute as @s[advancements={blazeandcave:monsters/not_afraid_of_heights=true}] run function bc_rewards:trophy/monsters/not_afraid_of_heights
+execute as @s[advancements={blazeandcave:weaponry/when_pigs_finally_fly=true}] run function bc_rewards:trophy/weaponry/when_pigs_finally_fly
+execute as @s[advancements={blazeandcave:adventure/awards_ceremony=true}] run function bc_rewards:trophy/adventure/awards_ceremony
+execute as @s[advancements={blazeandcave:adventure/sponge_miner=true}] run function bc_rewards:trophy/adventure/sponge_miner
+execute as @s[advancements={blazeandcave:enchanting/a_rather_pointy_fence_post=true}] run function bc_rewards:trophy/enchanting/a_rather_pointy_fence_post
+execute as @s[advancements={blazeandcave:challenges/farlander=true}] run function bc_rewards:trophy/challenges/farlander
+
+
 
 
 

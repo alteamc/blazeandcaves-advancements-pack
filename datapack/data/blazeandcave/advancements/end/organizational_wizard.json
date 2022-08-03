@@ -9,7 +9,7 @@
     "description": {
       "translate": "Назовите шалкеровый ящик «Blocks» для хранения блоков"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:end/portable_storage",
   "rewards": {

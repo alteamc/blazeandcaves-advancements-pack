@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте пузырёк, чтобы собрать мёд из пчелиного улья, под которым находится костёр, чтобы не разозлить пчёл"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/ya_like_jazz",
   "rewards": {

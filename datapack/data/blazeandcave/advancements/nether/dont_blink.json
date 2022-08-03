@@ -9,7 +9,7 @@
     "description": {
       "translate": "Взберитесь на плакучую лозу в багровом лесу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/i_am_root",
   "rewards": {

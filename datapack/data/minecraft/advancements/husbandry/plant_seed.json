@@ -9,7 +9,7 @@
     "description": {
       "translate": "Посадите в землю зерно и дождитесь, пока оно вырастет"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/root",
   "rewards": {

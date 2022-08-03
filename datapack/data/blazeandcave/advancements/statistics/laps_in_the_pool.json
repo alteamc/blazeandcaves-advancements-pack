@@ -10,7 +10,7 @@
     "description": {
       "translate": "Проплывите 1км"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:statistics/root",
   "rewards": {
@@ -21,7 +21,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:custom",

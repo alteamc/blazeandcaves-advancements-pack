@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Пройдите 50 метров на Лавомерке по поверхности лавы"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:nether/ride_strider",

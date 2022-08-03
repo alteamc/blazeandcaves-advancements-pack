@@ -9,9 +9,9 @@
     "description": {
       "translate": "Застряньте в паутине"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/this_is_mine_now",
+  "parent": "blazeandcave:mining/gold_mine",
   "rewards": {
     "function": "bc_rewards:mining/eeuuwww"
   },

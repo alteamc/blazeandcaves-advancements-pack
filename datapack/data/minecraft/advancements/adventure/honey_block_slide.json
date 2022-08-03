@@ -9,7 +9,7 @@
     "description": {
       "translate": "Прыгните в медовый блок, чтобы скользить по нему"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/winnie_the_pooh",
   "rewards": {

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_concrete_powder"
+    },
+    "title": {
+      "translate": "Не боится высоты"
+    },
+    "description": {
+      "translate": "Поднимите надзирателя на самую высокую точку мира. Он не может бояться высоты, если не видит её."
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:monsters/stealth_is_optional",
+  "rewards": {
+    "function": "bc_rewards:monsters/not_afraid_of_heights"
+  },
+  "criteria": {
+    "not_afraid_of_heights": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

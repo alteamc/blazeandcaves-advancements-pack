@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте зажигалку и используйте её, чтобы поджечь землю"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/meet_the_flintstones",
   "rewards": {

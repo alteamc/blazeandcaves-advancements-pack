@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте порох и бумагу для создания фейерверков"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/whos_the_pillager_now",
   "rewards": {

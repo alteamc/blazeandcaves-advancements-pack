@@ -9,7 +9,7 @@
     "description": {
       "translate": "Съешьте немного светящихся ягод"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/leaflet_drop",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Зайдите в город измерения Энд, ведь что тут может случиться?"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:end/enter_end_gateway",
   "rewards": {
@@ -19,15 +19,24 @@
     "in_city": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "endcity",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "end_city"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

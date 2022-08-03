@@ -9,7 +9,7 @@
     "description": {
       "translate": "Одна сотня километров!"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:biomes/ten_thousand_blocks",
@@ -20,19 +20,28 @@
     "outer_pos_x": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "x": {
-            "min": 100000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": 100000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -44,19 +53,28 @@
     "outer_pos_z": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "z": {
-            "min": 100000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "z": {
+                    "min": 100000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -68,19 +86,28 @@
     "outer_neg_x": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "x": {
-            "max": -100000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "max": -100000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -92,19 +119,28 @@
     "outer_neg_z": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "z": {
-            "max": -100000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "z": {
+                    "max": -100000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

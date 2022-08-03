@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте и съешьте золотое яблоко"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/bapple",
   "rewards": {

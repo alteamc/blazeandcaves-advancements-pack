@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Заполучите зачарование «Скорость души» в бастионе или во время обмена с пиглинами"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:enchanting/fiery",

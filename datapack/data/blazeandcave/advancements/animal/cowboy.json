@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приручите лошадь, седлая её снова и снова"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/root",
   "rewards": {

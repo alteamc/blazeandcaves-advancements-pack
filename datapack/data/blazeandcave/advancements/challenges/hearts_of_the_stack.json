@@ -8,9 +8,9 @@
     },
     "description": {
       "color": "#FF2A2A",
-      "translate": "Соберите стак сердец моря"
+      "translate": "\tСоберите стак сердец моря"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/warlock",

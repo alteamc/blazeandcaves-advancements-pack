@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Будьте убиты каждым мобом в игре, который может навредить Вам (игнорируйте в «Хардкор» режиме)"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/immortal",
@@ -367,6 +367,14 @@
       "conditions": {
         "entity": {
           "type": "goat"
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "warden"
         }
       }
     }

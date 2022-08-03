@@ -9,7 +9,7 @@
     "description": {
       "translate": "Получите по стаку обычных, повреждённых и разбитых наковален"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/heavy_metal",

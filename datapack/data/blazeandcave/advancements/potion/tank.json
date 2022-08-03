@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Станьте практически невосприимчивым к урону, используя черепашье зелье"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:potion/true_feather_falling",
@@ -25,7 +25,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:turtle_master\"}"
+          "potion": "minecraft:turtle_master"
         }
       }
     },
@@ -36,7 +36,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+          "potion": "minecraft:strong_turtle_master"
         }
       }
     },
@@ -47,7 +47,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+          "potion": "minecraft:long_turtle_master"
         }
       }
     }

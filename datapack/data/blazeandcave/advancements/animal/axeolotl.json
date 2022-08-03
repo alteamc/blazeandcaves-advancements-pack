@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убить аксолотля топором"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/axolittle",
   "rewards": {

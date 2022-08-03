@@ -9,7 +9,7 @@
     "description": {
       "translate": "Осветите местность факелами и фонарями душ"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/shroom_lightyear",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поплавайте в воде с эффектом «Подводное дыхание»."
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/stayin_frosty",
   "rewards": {
@@ -19,9 +19,6 @@
     "water_breathing": {
       "trigger": "minecraft:location",
       "conditions": {
-        "fluid": {
-          "fluid": "minecraft:water"
-        },
         "player": [
           {
             "condition": "minecraft:entity_properties",
@@ -36,6 +33,11 @@
                     "min": 1
                   }
                 }
+              },
+              "location": {
+                "fluid": {
+                  "fluid": "minecraft:water"
+                }
               }
             }
           },
@@ -45,7 +47,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Получите один стак чёрных свечей"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/setting_up_the_mood",

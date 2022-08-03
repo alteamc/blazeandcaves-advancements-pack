@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "title": {
+      "translate": "Эвелин Эвергрин"
+    },
+    "description": {
+      "translate": "Попросите Эллея доставить вам еловые саженцы во время рубки деревьев"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "minecraft:husbandry/allay_deliver_item_to_player",
+  "rewards": {
+    "function": "bc_rewards:adventure/evelyn_evergreen"
+  },
+  "criteria": {
+    "spruce_sapling": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:allay"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spruce_sapling"
+          ]
+        }
+      }
+    }
+  }
+}

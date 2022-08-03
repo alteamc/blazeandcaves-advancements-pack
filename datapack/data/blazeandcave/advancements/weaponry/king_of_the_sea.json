@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте утопленника с помощью трезубца с расстояния более 30 блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:adventure/throw_trident",

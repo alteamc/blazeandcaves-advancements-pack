@@ -1140,7 +1140,7 @@ execute if score blazeandcave:end/dogfight bac_obtained matches 1.. run advancem
 
 execute if score blazeandcave:challenges/riddle_me_this bac_obtained matches 1.. run advancement grant @a only blazeandcave:challenges/riddle_me_this
 
-# The following advancements are in the Terralith version as of 1.13.1. When running normal BACAP, these commands won't do anything
+# The following advancements are in the Terralith version for 1.13.X. When running normal BACAP, these commands won't do anything
 execute if score blazeandcave:biomes/one_small_steppe_for_man bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/one_small_steppe_for_man
 execute if score blazeandcave:biomes/o_land_o_bloom bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/o_land_o_bloom
 execute if score blazeandcave:biomes/over_the_moon bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/over_the_moon
@@ -1168,3 +1168,62 @@ execute if score blazeandcave:adventure/under_the_ice bac_obtained matches 1.. r
 execute if score blazeandcave:adventure/a_journey_begins bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/a_journey_begins
 execute if score blazeandcave:adventure/expedition_of_discovery bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/expedition_of_discovery
 
+# The following advancements were added in version 1.14
+execute if score minecraft:adventure/avoid_vibration bac_obtained matches 1.. run advancement grant @a only minecraft:adventure/avoid_vibration
+execute if score minecraft:adventure/kill_mob_near_sculk_catalyst bac_obtained matches 1.. run advancement grant @a only minecraft:mining/kill_mob_near_sculk_catalyst
+execute if score blazeandcave:mining/shriek_forever_after bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/shriek_forever_after
+execute if score blazeandcave:mining/the_block_of_eternal_screaming bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/the_block_of_eternal_screaming
+execute if score blazeandcave:mining/cataclyst bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/cataclyst
+execute if score blazeandcave:mining/monstrous_sacrifices bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/monstrous_sacrifices
+execute if score blazeandcave:mining/the_incredible_sculk bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/the_incredible_sculk
+execute if score blazeandcave:mining/sculker_box bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/sculker_box
+execute if score blazeandcave:mining/fallen_kingdom bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/fallen_kingdom
+execute if score blazeandcave:mining/frigid_diversions bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/frigid_diversions
+execute if score blazeandcave:mining/death_pointer bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/death_pointer
+execute if score blazeandcave:mining/9_to_5 bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/9_to_5
+execute if score blazeandcave:mining/echonomy bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/echonomy
+execute if score blazeandcave:mining/blind_as_a_bat bac_obtained matches 1.. run advancement grant @a only blazeandcave:mining/blind_as_a_bat
+
+execute if score blazeandcave:building/stuck_in_the_mud bac_obtained matches 1.. run advancement grant @a only blazeandcave:building/stuck_in_the_mud
+execute if score blazeandcave:building/elmer_mudd bac_obtained matches 1.. run advancement grant @a only blazeandcave:building/elmer_mudd
+execute if score blazeandcave:building/mangrove_master bac_obtained matches 1.. run advancement grant @a only blazeandcave:building/mangrove_master
+execute if score minecraft:husbandry/froglights bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/froglights
+
+execute if score blazeandcave:farming/a_mangrove_grove bac_obtained matches 1.. run advancement grant @a only blazeandcave:farming/a_mangrove_grove
+
+execute if score blazeandcave:animal/frog_family bac_obtained matches 1.. run advancement grant @a only blazeandcave:animal/frog_family
+execute if score minecraft:husbandry/tadpole_in_a_bucket bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/tadpole_in_a_bucket
+execute if score minecraft:husbandry/leash_all_frog_variants bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/leash_all_frog_variants
+execute if score blazeandcave:animal/ram bac_obtained matches 1.. run advancement grant @a only blazeandcave:animal/ram
+execute if score blazeandcave:animal/loud_and_proud bac_obtained matches 1.. run advancement grant @a only blazeandcave:animal/loud_and_proud
+execute if score blazeandcave:animal/battle_of_the_bands bac_obtained matches 1.. run advancement grant @a only blazeandcave:animal/battle_of_the_bands
+execute if score blazeandcave:animal/caprymphony bac_obtained matches 1.. run advancement grant @a only blazeandcave:animal/caprymphony
+execute if score blazeandcave:animal/animal_kingdom bac_obtained matches 1.. run advancement grant @a only blazeandcave:animal/animal_kingdom
+
+execute if score blazeandcave:biomes/cargo_carrier bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/cargo_carrier
+execute if score blazeandcave:biomes/flipper bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/flipper
+
+execute if score blazeandcave:adventure/undying_fandom bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/undying_fandom
+execute if score blazeandcave:adventure/allayance bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/allayance
+execute if score minecraft:husbandry/allay_deliver_item_to_player bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/allay_deliver_item_to_player
+execute if score blazeandcave:adventure/evelyn_evergreen bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/evelyn_evergreen
+execute if score blazeandcave:adventure/budget_vex bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/budget_vex
+execute if score blazeandcave:adventure/diagon_allay bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/diagon_allay
+execute if score minecraft:husbandry/allay_deliver_cake_to_note_block bac_obtained matches 1.. run advancement grant @a only minecraft:husbandry/allay_deliver_cake_to_note_block
+execute if score blazeandcave:adventure/awards_ceremony bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/awards_ceremony
+
+execute if score blazeandcave:monsters/now_thats_a_lot_of_damage bac_obtained matches 1.. run advancement grant @a only blazeandcave:monsters/now_thats_a_lot_of_damage
+execute if score blazeandcave:monsters/blind_stare bac_obtained matches 1.. run advancement grant @a only blazeandcave:monsters/blind_stare
+execute if score blazeandcave:monsters/stealth_is_optional bac_obtained matches 1.. run advancement grant @a only blazeandcave:monsters/stealth_is_optional
+execute if score blazeandcave:monsters/warden_frostbite bac_obtained matches 1.. run advancement grant @a only blazeandcave:monsters/warden_frostbite
+execute if score blazeandcave:monsters/not_afraid_of_heights bac_obtained matches 1.. run advancement grant @a only blazeandcave:monsters/not_afraid_of_heights
+execute if score blazeandcave:monsters/house_of_freaks bac_obtained matches 1.. run advancement grant @a only blazeandcave:monsters/house_of_freaks
+
+execute if score blazeandcave:enchanting/like_a_ninja bac_obtained matches 1.. run advancement grant @a only blazeandcave:enchanting/like_a_ninja
+execute if score blazeandcave:enchanting/silent_but_deadly bac_obtained matches 1.. run advancement grant @a only blazeandcave:enchanting/silent_but_deadly
+
+execute if score blazeandcave:nether/hung_drawn_and_bartered bac_obtained matches 1.. run advancement grant @a only blazeandcave:nether/hung_drawn_and_bartered
+
+execute if score blazeandcave:end/the_void_frogs bac_obtained matches 1.. run advancement grant @a only blazeandcave:end/the_void_frogs
+
+execute if score blazeandcave:challenges/farlander bac_obtained matches 1.. run advancement grant @a only blazeandcave:challenges/farlander

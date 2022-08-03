@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поместите карту в рамку"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/im_not_lost_anymore",
   "rewards": {
@@ -26,11 +26,23 @@
         },
         "entity": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:item_frame"
-            }
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:item_frame"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:glow_item_frame"
+                }
+              }
+            ]
           }
         ]
       }

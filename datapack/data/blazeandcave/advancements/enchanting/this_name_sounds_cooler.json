@@ -9,7 +9,7 @@
     "description": {
       "translate": "Назовите свой алмазный меч «Diamond Edge»"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:enchanting/heavy_metal",
   "rewards": {

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "title": {
+      "translate": "Рэм"
+    },
+    "description": {
+      "translate": "Получите козий рог, если один баран попадет в блок"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:animal/goat_simulator",
+  "rewards": {
+    "function": "bc_rewards:animal/ram"
+  },
+  "criteria": {
+    "goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

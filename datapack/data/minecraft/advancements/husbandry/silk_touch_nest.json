@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Подберите пчелиное гнездо с тремя пчёлами внутри, используя «Шёлковое касание»"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/hive_mind",

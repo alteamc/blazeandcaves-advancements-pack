@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте арбалет, используя палки, нити, железный слиток и крюк"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/root",
   "rewards": {

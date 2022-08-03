@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поставьте свечу на торт"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/setting_up_the_mood",
   "rewards": {

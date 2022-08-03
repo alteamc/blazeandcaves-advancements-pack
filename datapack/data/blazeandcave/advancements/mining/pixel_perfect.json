@@ -9,10 +9,10 @@
     "description": {
       "translate": "Используйте подзорную трубу, чтобы посмотреть на летучую мышь с расстояния не менее 50 блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
-  "parent": "blazeandcave:mining/galileo_figaro",
+  "parent": "blazeandcave:mining/blind_as_a_bat",
   "rewards": {
     "function": "bc_rewards:mining/pixel_perfect"
   },
@@ -24,7 +24,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:bat",
                   "distance": {

@@ -10,7 +10,7 @@
     "description": {
       "translate": "Заполните весь Ваш инвентарь стаками фейерверков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:end/some_breakthrough",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте моба, надев на себя его же голову или череп"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/creepy_heads",
@@ -25,7 +25,13 @@
         },
         "killing_blow": {
           "source_entity": {
-            "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:creeper_head\"}]}"
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:creeper_head"
+                ]
+              }
+            }
           }
         }
       }
@@ -38,7 +44,13 @@
         },
         "killing_blow": {
           "source_entity": {
-            "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:zombie_head\"}]}"
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:zombie_head"
+                ]
+              }
+            }
           }
         }
       }
@@ -51,7 +63,13 @@
         },
         "killing_blow": {
           "source_entity": {
-            "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:skeleton_skull\"}]}"
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:skeleton_skull"
+                ]
+              }
+            }
           }
         }
       }
@@ -64,7 +82,13 @@
         },
         "killing_blow": {
           "source_entity": {
-            "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:wither_skeleton_skull\"}]}"
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:wither_skeleton_skull"
+                ]
+              }
+            }
           }
         }
       }

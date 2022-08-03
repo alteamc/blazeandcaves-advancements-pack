@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выбейте несколько перьев с курицы"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/root",
   "rewards": {

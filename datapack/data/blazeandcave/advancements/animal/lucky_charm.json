@@ -9,7 +9,7 @@
     "description": {
       "translate": "Получите кроличью лапку"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/theyre_breeding_like_rabbits",
   "rewards": {

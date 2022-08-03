@@ -10,7 +10,8 @@
           "vehicle": {
             "nbt": "{CustomName:\"{\\\"text\\\":\\\"Dinnerbone\\\"}\"}"
           },
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_second_line": "true"
             }
@@ -25,7 +26,8 @@
           "vehicle": {
             "nbt": "{CustomName:\"{\\\"text\\\":\\\"Grumm\\\"}\"}"
           },
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_second_line": "true"
             }

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Победите 2500 мобов"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:statistics/mob_hunter",
@@ -22,7 +22,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:custom",

@@ -1,2 +1,2 @@
-give @s minecraft:emerald 64
-tellraw @s {"color": "green", "text": " +64 ", "extra": [{"translate": "item.minecraft.emerald"}]}
+give @s minecraft:emerald 32
+tellraw @s {"color": "green", "text": " +32 ", "extra": [{"translate": "item.minecraft.emerald"}]}

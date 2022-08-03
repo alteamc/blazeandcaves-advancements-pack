@@ -10,7 +10,7 @@
       "color": "yellow",
       "translate": "Завершите ветку достижений «Редстоун»"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:bacap/adventure_milestone",
@@ -22,7 +22,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/bling_plate": "true"
             }
@@ -34,7 +35,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/comparing_comparator": "true"
             }
@@ -46,7 +48,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/fuel_engine": "true"
             }
@@ -58,7 +61,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/dispense_with_this": "true"
             }
@@ -70,7 +74,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/electric_rails": "true"
             }
@@ -82,7 +87,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/engineer": "true"
             }
@@ -94,7 +100,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/master_engineer": "true"
             }
@@ -106,7 +113,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/metal_plate": "true"
             }
@@ -118,7 +126,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/mobile_explosion": "true"
             }
@@ -130,7 +139,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/moving_moving_storage": "true"
             }
@@ -142,7 +152,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/moving_parts": "true"
             }
@@ -154,7 +165,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/moving_storage": "true"
             }
@@ -166,7 +178,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/mozart": "true"
             }
@@ -178,7 +191,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/observer_buddy": "true"
             }
@@ -190,7 +204,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/all_aboard": "true"
             }
@@ -202,7 +217,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/powerful_light": "true"
             }
@@ -214,7 +230,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/pressure_detector": "true"
             }
@@ -226,7 +243,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/quartz_miner": "true"
             }
@@ -238,7 +256,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/quirky_quartz": "true"
             }
@@ -250,7 +269,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/railwayman": "true"
             }
@@ -262,7 +282,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/repeating_repeater": "true"
             }
@@ -274,7 +295,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/root": "true"
             }
@@ -286,7 +308,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/solar_power": "true"
             }
@@ -298,7 +321,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/space_dropper": "true"
             }
@@ -310,7 +334,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/space_hopper": "true"
             }
@@ -322,7 +347,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/sticky_parts": "true"
             }
@@ -334,7 +360,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/tripping_over": "true"
             }
@@ -346,7 +373,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/troll_chest": "true"
             }
@@ -358,7 +386,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/under_pressure": "true"
             }
@@ -370,7 +399,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/target_acquired": "true"
             }
@@ -382,7 +412,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "minecraft:adventure/bullseye": "true"
             }
@@ -394,7 +425,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/target_practise": "true"
             }
@@ -406,7 +438,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/take_notes": "true"
             }
@@ -418,7 +451,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/noteworthy": "true"
             }
@@ -430,7 +464,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/travelling_bard": "true"
             }
@@ -442,7 +477,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/click": "true"
             }
@@ -454,7 +490,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/leveraging_synergy": "true"
             }
@@ -466,7 +503,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:redstone/on_a_rail": "true"
             }

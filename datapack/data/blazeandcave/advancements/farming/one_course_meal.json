@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте костную муку, чтобы вырастить саженец в дерево"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/natural_fertiliser",
   "rewards": {
@@ -30,6 +30,29 @@
           ]
         }
       }
+    },
+    "bone_meal_propagule": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:air"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        }
+      }
     }
-  }
+  },
+  "requirements": [
+    [
+      "bone_meal",
+      "bone_meal_propagule"
+    ]
+  ]
 }

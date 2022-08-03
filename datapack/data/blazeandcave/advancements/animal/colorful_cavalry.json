@@ -11,7 +11,7 @@
       "color": "#75E1FF",
       "translate": "Покрасьте кожаную конскую броню в каждый из 16 цветов"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/horse_armorer",

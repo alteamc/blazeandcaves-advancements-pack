@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите наивысший статус героя деревни"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:adventure/war_is_coming",

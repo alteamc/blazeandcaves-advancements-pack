@@ -11,7 +11,7 @@
       "color": "#75E1FF",
       "translate": "Убейте неуловимого наездника на курице"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:monsters/baby_baby_baby_noo",
@@ -19,39 +19,17 @@
     "function": "bc_rewards:monsters/poultry_boy"
   },
   "criteria": {
-    "chicken_zombie": {
+    "chicken": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "chicken",
-          "nbt": "{Passengers:[{id:\"minecraft:zombie\"}]}"
-        }
-      }
-    },
-    "chicken_husk": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "chicken",
-          "nbt": "{Passengers:[{id:\"minecraft:husk\"}]}"
-        }
-      }
-    },
-    "chicken_zombie_villager": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "chicken",
-          "nbt": "{Passengers:[{id:\"minecraft:zombie_villager\"}]}"
-        }
-      }
-    },
-    "chicken_drowned": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "chicken",
-          "nbt": "{Passengers:[{id:\"minecraft:drowned\"}]}"
+          "passenger": {
+            "tag": "blazeandcave:overworld_zombies",
+            "flags": {
+              "is_baby": "true"
+            }
+          }
         }
       }
     },
@@ -60,6 +38,9 @@
       "conditions": {
         "entity": {
           "tag": "blazeandcave:overworld_zombies",
+          "flags": {
+            "is_baby": "true"
+          },
           "vehicle": {
             "type": "chicken"
           }
@@ -69,10 +50,7 @@
   },
   "requirements": [
     [
-      "chicken_zombie",
-      "chicken_husk",
-      "chicken_zombie_villager",
-      "chicken_drowned",
+      "chicken",
       "zombie"
     ]
   ]

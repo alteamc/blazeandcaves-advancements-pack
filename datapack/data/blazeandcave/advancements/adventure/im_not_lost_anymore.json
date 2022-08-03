@@ -9,7 +9,7 @@
     "description": {
       "translate": "Привязать баннер к карте правой кнопкой мыши"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/mapmakers_table",
   "rewards": {

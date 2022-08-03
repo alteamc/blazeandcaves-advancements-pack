@@ -11,7 +11,7 @@
       "color": "light_purple",
       "translate": "Поместите мешок в мешок в мешок в мешок в мешок… до 16 раз"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge",
     "hidden": "true"
   },

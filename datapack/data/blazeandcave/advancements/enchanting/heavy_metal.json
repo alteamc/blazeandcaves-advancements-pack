@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте наковальню"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:enchanting/root",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Встаньте на обрушившийся гравий"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/heart_of_darkness",
   "rewards": {

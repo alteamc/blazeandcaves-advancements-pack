@@ -9,7 +9,7 @@
     "description": {
       "translate": "Повысьте высоту прыжка при помощи зелья или маяка"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/marine_marauder",
   "rewards": {

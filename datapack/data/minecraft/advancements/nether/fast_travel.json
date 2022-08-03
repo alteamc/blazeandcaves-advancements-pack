@@ -9,7 +9,7 @@
     "description": {
       "translate": "Воспользуйтесь Незером, чтобы переместиться на 7км в обычном мире"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:nether/limbo_walker",

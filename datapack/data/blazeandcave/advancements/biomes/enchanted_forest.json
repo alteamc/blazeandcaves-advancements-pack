@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите цветочный лес"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/theres_a_zombie_on_the_lawn",
   "rewards": {
@@ -19,15 +19,24 @@
     "flower_forest": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:flower_forest",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:flower_forest"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

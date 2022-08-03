@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Убейте всполоха с помощью огненного жезла, пока он и Вы в огне"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:weaponry/a_snowballs_chance_in_hell",

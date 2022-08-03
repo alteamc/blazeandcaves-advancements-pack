@@ -8,11 +8,26 @@
 # Currently the text that appears with reward functions are not translatable - support for translating the reward functions messages will come in a later update.
 
 # Language: 简体中文(Simplified Chinese)
-# Author: Remilias_Scarlet(1.5), tianjr123(1.6-1.9), SleepyAsh#0191(1.10-1.13)
-# Pack version supported: 1.13.2
+# Author: Remilias_Scarlet(1.5), tianjr123(1.6-1.9), SleepyAsh#0191(1.10-1.14)
+# Pack version supported: 1.14
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
+
+
+
+# 烈焰人与洞穴的冒险进度包 简体中文翻译文件
+# 使用方法: 进度的英文名称和描述放在 : 左边, 翻译放在 : 右边, 内部用 "" 括起来
+# 一些进度标题使用了双关语，这些双关语仅适用于英语，但可能不适用于其他语言。 如果您愿意的话，如果您能找到其他的谐音梗，请尽情放飞自我。
+# 此文件将会随数据包版本进行更新。
+# 当前的奖励函数文本不可翻译 - 支持翻译奖励函数消息将来会有一个更新。
+# 语言: 简体中文(Simplified Chinese)
+# 作者: Remilias_Scarlet(1.5), tianjr123(1.6-1.9), SleepyAsh#0191(1.10-1.14)
+# 版本支持: 1.14
+# 从 1.3 开始，所有语言条目都按文件名的字母顺序排列
+# 所有在 1.3 之后的更新（1.4、1.5 等）中添加的新进度都将放在文件的底部，以便翻译人员轻松定位和添加
+# 翻译原则：尽可能遵循原文，若发现比原文更好的翻译，次者优先。部分人名可不翻译。
+# 若您发现翻译中出现错误，请将出现的错误以私信形式发送至现行翻译人员的 Discord: SleepyAsh#0191 或者 哔哩哔哩：舞晗坤(16494399) MCBBS: Nobimaru 反馈一旦接受，将会在之后的版本中进行修复
 
 # Adventuring tab as of 1.3
 
@@ -183,7 +198,7 @@
 "En Garde": "亡羊补牢",
 "Erect some fencing": "建造一些栅栏",
 
-"Expensive!": "极具奢华！",
+"Expensive!": "奢华！",
 "Light up the area with some sea lanterns": "用海晶灯照明",
 
 "Fake fortress": "伪造的下界要塞",
@@ -396,7 +411,7 @@
 "The Ghastly Eyes": "惨白的双眼",
 "Kill an invisible spider": "杀死一只隐形的蜘蛛",
 
-"The Mighty Hunter": "显赫的猎人",
+"The Mighty Hunter": "战果显赫的猎人",
 "Hunt all types of animals with your bow": "用你的弓杀死所有种类的动物",
 
 "The Undead Cavalry": "亡灵骑兵",
@@ -438,7 +453,7 @@
 "Fiery": "炽热炎炎",
 "Obtain every fire related enchantment": "获得所有火焰附魔",
 
-"Fortunate Son": "天选之人",
+"Fortunate Son": "天选之子",
 "Obtain Fortune III": "获得时运III附魔",
 
 "Knocking Your Socks Off": "把你打得满地找牙",
@@ -483,7 +498,7 @@
 "Pick Like Silk": "丝 绸 之 触",
 "Use a Silk Touch enchanted pickaxe to obtain diamond ore as a block": "使用精准采集的镐子获得钻石矿石",
 
-"Enchanting": "附魔师",
+"Enchanting": "附魔",
 "Enchant items to give them magical abilities": "附魔物品来给予它们神奇的能力",
 
 "Scuba Gear": "水肺装备",
@@ -693,7 +708,7 @@
 "Repopulation": "种群恢复",
 "Breed two cows with wheat": "使用小麦繁殖两头牛",
 
-"Farming": "农牧业",
+"Farming": "农业",
 "The world is full of friends and food": "世界无处没有朋友与美食",
 
 "Salmonella Poisoning": "沙门氏菌中毒",
@@ -1255,7 +1270,7 @@
 "Collect a stack of bones": "收集一组骨头",
 
 "Slime Squisher": "史莱姆碾碎者",
-"Collect a stack of slimeballs": "收集一组粘液球",
+"Collect a stack of slimeballs": "收集一组黏液球",
 
 "Spider Smasher": "蜘蛛粉碎者",
 "Collect a stack of string from spiders or cobwebs": "从蜘蛛或蛛网处收集一组线",
@@ -1626,7 +1641,7 @@
 "Craft a grindstone using a stone slab, planks and sticks for repairing tools": "制作一个磨刀石",
 
 "Spawn Camping": "堵家门",
-"Travel close to 0,0 coordinates and place down a campfire": "在0,0处放下一个营火",
+"Travel close to 0,0 coordinates and place down a campfire": "在世界平面中心点处放下一个营火",
 
 "Smokin' Hot": "火热到冒烟",
 "Upgrade your furnace to a smoker using some logs": "制作一个烟熏炉",
@@ -2063,7 +2078,7 @@
 "That was a nice life you had. Shame it had to end at this time time time": "Se~no~(空夏行为)",
 
 "Iskallium Collector": "史莱姆收集器",
-"Collect enough slimeballs to craft a stack of slime blocks": "制作一组粘液块",
+"Collect enough slimeballs to craft a stack of slime blocks": "制作一组黏液块",
 
 "Spider-skeleton": "蜘蛛侠",
 "Does whatever a spider can": "现在还送骷髅",
@@ -3464,7 +3479,7 @@
 "Totem of Immortality" : "无伤图腾",
 "You'll be immortal as long as you don't die" : "你会保持永生直到你死亡",
 
-"Time Stone" : "时间帝",
+"Time Stone" : "时间之石",
 "Perfectly balanced, as all things should be" : "完美的平衡，就如同世间万物",
 
 "Instant Death" : "立即死亡",
@@ -3768,8 +3783,8 @@
 "Travelling Bard": "尘世吟游",
 "Play a Note Block in every type of biome": "在每一种生物群系中演奏音符盒",
 
-"Vibe Check": "震动检查",
-"Obtain a Sculk Sensor": "获得一个潜声传感器",
+"Vibe Check": "震动雷达",
+"Obtain a Sculk Sensor": "获得一个幽匿感测体",
 
 
 
@@ -3811,7 +3826,7 @@
 "Give a total of 500 gold to Piglins during your nether adventures": "在你的下界冒险过程中，总共给了猪灵500块金锭",
 
 "Instant Mining": "快捷挖矿",
-"Hold a Diamond or Netherite Pickaxe enchanted with Efficiency V while under the Haste II effect": "在急迫II的效果下，用效率V的下界合金镐挖取一颗钻石",
+"Hold a Diamond or Netherite Pickaxe enchanted with Efficiency V while under the Haste II effect": "在急迫II的效果下，拿着效率V的钻石镐或者下界合金镐",
 
 "Beacon Overlord": "信标霸主",
 "Acquire every beacon-induced effect at once": "一次性获得信标的所有效果",
@@ -3841,7 +3856,7 @@
 
 
 "The Perfect Run": "完美之举",
-"Summon the Ender Dragon, the Wither, and a Raid within thirty seconds of each other, then defeat all of them without taking damage": "召唤一只末影龙与凋零，并在30秒内让他们互相攻击，然后在不受伤害的情况下打败他们",
+"Summon the Ender Dragon, the Wither, and a Raid within thirty seconds of each other, then defeat all of them without taking damage": "在30秒内召唤一只末影龙、凋灵，还有一场村庄袭击，然后在不受伤害的情况下打败它们",
 
 "Telescopic": "狂热望远镜",
 "Look at every mob using a Spyglass, each from at least 25 blocks away": "在25格开外观察每一种生物",
@@ -3990,11 +4005,11 @@
 "Dab on dem haters": "对他们的黑粉进行点化",
 
 "Wormhole": "虫洞",
-"Is this some kind of portal?": "这是传送门中的一中吗？",
+"Is this some kind of portal?": "这是传送门中的一种吗？",
 "Aaah!..": "啊！...",
 
 "Mario's Hat": "马里奥的帽子",
-"Mario, number one! Yahoo!": "马里奥天下第一，呜呼~",
+"Mario, number one! Yahoo!": "马里奥天下第一，呀呼~",
 
 
 
@@ -4021,7 +4036,7 @@
 
 "You have unlocked the root of the End tab": "您解锁了末地标签页",
 
-"You have unlocked the root of the Farming tab": "您解锁了农场标签页",
+"You have unlocked the root of the Farming tab": "您解锁了农业标签页",
 
 "You have unlocked the root of the Mining tab": "您解锁了采矿标签页",
 
@@ -4127,7 +4142,7 @@
 "Caves & Cliffs": "上天入地",
 "Free fall from the top of the world (build limit) to the bottom of the world and survive": "从世界顶部（建筑高度限制处）自由落体，坠至世界底部并存活下来",
 
-"Bottom to Top": "自下而上",
+"Bottom to Top": "逆世界",
 "Place every cave block at the very top of the world": "将每一种洞穴方块放置在世界的最上面",
 
 
@@ -4353,7 +4368,7 @@
 "#NotSponsored": "#未受赞助",
 
 "Stairway to Heaven": "天国的阶梯",
-"Whatever you do, don't listen to it backwards!": "无论你在做什么，也千万不要把它倒着听！",
+"Whatever you do, don't listen to it backwards!": "无论你在做什么，也千万不要倒放！",
 
 "Hot Potato": "烫手的山芋",
 "Whooo, wiggy wiggy wiggy": "呜，好烫，好烫",
@@ -4415,7 +4430,7 @@
 "All players": "所有玩家",
 "First player only": "仅首次达成玩家",
 "Disabled": "禁用",
-#
+
 
 "Advancement Completion Message Settings": "进度完成消息设置",
 "Advancement Scoreboard Display Settings": "进度计分板显示设置",
@@ -4441,7 +4456,7 @@
 "Milestone": "里程碑",
 
 "Advancements:": ":",
-#
+
 
 "Turn all messages on": "开启所有消息",
 "Turn all messages off": "关闭所有消息",
@@ -4471,7 +4486,7 @@
 "Bushranger": "丛林居民",
 "Discover every shrublands biome": "发现所有灌木丛生物群系",
 
-"Choco Mountain": "巧克力山",
+"Choco Mountain": "巧克山",
 "Discover a White Mesa": "发现白色山脉",
 
 "Eruption in the Air": "空中喷发",
@@ -4492,7 +4507,7 @@
 "Over the Moon": "月亮之上",
 "Discover a moonlight biome": "发现月光生物群系",
 
-"Pretty in Purple": "华丽之紫",
+"Pretty in Purple": "万紫千红总是春",
 "Discover every biome with trees of purple leaves": "发现所有带紫色叶子的生物群系",
 
 "Skylanders": "天空居民",
@@ -4502,7 +4517,7 @@
 "Discover the Yellowstone biome": "发现黄石生物群系",
 
 "Terralithic": "地形勘探家",
-"Discover every Terralith biome": "发现所有 Terralith 生物群系",
+"Discover every Terralith biome": "发现所有泰拉利斯数据包提供的生物群系",
 
 "The Boreal Deal": "北部地区的交易",
 "Discover every boreal biome": "发现所有寒带生物群系",
@@ -4517,13 +4532,376 @@
 "Stardust": "星尘",
 
 "You have explored everything this world has to offer": "你已经探索了这个世界所能提供的一切",
-"But at the end of it all, it is all still made from stardust": "但在这一切的最后，它仍然是由星尘构成的"
+"But at the end of it all, it is all still made from stardust": "但在这一切的最后，它仍然是由星尘所构",
 
 
 
 
 
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "每队的首次达成玩家",
+"Click to enable for the first player on each team": "点击启用每队的首次达成玩家模式",
+
+"Click to enable Cooperative Mode": "点击启用合作模式",
+"Click to disable Cooperative Mode": "点击禁用合作模式",
+"Click to enable Team Cooperative Mode": "点击启用团队合作模式",
+"Team Cooperative Mode currently enabled": "目前已启用团队合作模式",
 
 
-# All advancements and trophies that get added in versions 1.12 or later will be added down here for easy locating by translators who wish to update their language file
+
+"Click to view preset options": "点击查看预设选项",
+"Message Presets": "消息预设",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "将所有信息设置为只针对团队中首次达成玩家（推荐且默认为团队合作模式启用）",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "启用原版信息（推荐在插件服启用，如安装了 DiscordSRV 插件的服务器）",
+
+
+
+"Advancement Scoreboard Display Settings": "进度计分板显示设置",
+
+"Advancements Scoreboard": "进度计分板",
+"First Advancements Scoreboard": "首次进度计分板",
+
+"Team Advancements": "团队进度",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "团队进度记分版列出了每个团队，并将每个团队中每个成员的进度得分相加",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "例如，如果 Alex 和 Steve 在蓝队，并且都有达成了 100 个进度，那么蓝队将被记为 200 分",
+
+"Total Team Advancements": "团队总进度",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "团队总进度计分板列出了每个团队，并计算出每个团队中某些成员获得了多少进度",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "例如，如果 Alex 和 Steve 在蓝队，都达成了 100 个进度，但其中 50 个是他们共同达成的进度，那么蓝队将被记为 150 分",
+
+"Team First Advancements": "团队首次完成进度",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "团队首次完成进度记分板列出了每个团队，并将每个团队中每个成员的首次达成进度得分相加",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "例如，如果 Alex 和 Steve 在蓝队，并且都首次达成了 100 个进度，那么蓝队将被记为 200 分",
+
+"First Advancements in Team": "队内首次完成进度",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "队内首次完成进度计分板列出了每个玩家，并计算他们在团队中每个人首次完成的进度数量",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "例如，如果 Alex 和 Steve 在蓝队，Steve 达成了进度“怪物猎人”，Steve 将会为队内加一分，但当 Alex 达成此进度时，不进行加分。如果 Bob 在红队，并在 Steve 之后达成进度“怪物猎人”，那么红队将加一分。",
+
+"Recommended for Cooperative Mode": "推荐用于合作模式",
+"Recommended when NOT using Cooperative Mode": "推荐在不使用合作模式时使用",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "推荐在不使用合作模式或团队合作模式时使用",
+"Recommended for Team Cooperative Mode": "推荐用于团队合作模式",
+"Not recommended for Cooperative Mode": "不推荐用于合作模式",
+"Recommended for Cooperative or Team Cooperative Mode": "推荐用于合作或团队合作模式",
+
+"How would you like this scoreboard to be displayed?": "你希望怎样显示这个计分板？",
+"On tab list": "在 Tab 列表中",
+"On sidebar": "在侧边栏",
+"Below each player's name": "在每位玩家的名字下面",
+
+"Clear scoreboard from below player names": "清除位于玩家名下面的计分板",
+
+
+
+"Technical Settings": "技术性设置",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "警告：其中一些设置可能会对你的进度造成不利影响，并会在使用时造成卡顿高峰。只有在你完全了解它们的作用时才能使用！请慎用！",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "查看每个在线玩家的每项进度，并计算他们达成了多少进度",
+"Should be used if:": "应在以下情况下使用：",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "你最近更新了数据包，特别是在 Minecraft 大版本更新中",
+"- You have been using commands to manually revoke the advancements of player(s)": "你使用了命令来手动撤销玩家的进度",
+
+"Update team scoreboards": "更新团队计分板",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "重新计算根据玩家的进度数和首次达成进度数从而得出的团队记分板的数值",
+
+"Reset obtained advancements": "重置获得的进度",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "重置 “bac_obtained” 记分板。这将使合作模式不再将任何进度视为完成，因此不会共享任何进度，并且还会将每个进度设置首次完成计分板",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "此功能将在合作模式中停止分享进度，直到再次获得进度，同时也会重新打开每一个进度的首次完成记分板",
+"This function should only be used if you intend to turn off Cooperative Mode": "只有当你打算关闭合作模式时，才应使用此功能",
+
+"Refresh Cooperative Mode advancement sharing": "刷新合作模式进度分享",
+
+"Grant missing trophies": "授予丢失的奖杯",
+"Gives every online player every trophy from advancements they have obtained so far": "给每个在线玩家提供他们迄今为止所获得的每一个进度所代表的奖杯",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "这个功能只能用在奖杯更新（BACAP 1.11）之前创建的世界上，或者如果你真的想用一种简单的方法把它们找回来的话",
+
+"Revoke all advancements": "撤销所有进度",
+"Revokes every advancement, including resetting scoreboards": "撤销每一个进度，包括重新设置计分板",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "你可以选择从你自己、离你最近的玩家或当前在线的所有人那里撤销",
+
+"Once advancements are revoked, they cannot be recovered.": "一旦进度被撤销，将无法恢复",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "一些与统计数据相关的进度可能会自动达成。如果你希望这些也被重置，你将需要在撤销之前删除你想撤销的玩家的统计文件",
+"Please choose who you would like to revoke advancements from, or to go back": "请选择你想撤销谁的进度，或者返回",
+"Yourself": "你自己",
+"The closest player": "离你最近的玩家",
+"EVERYONE!! (who is online)": "所有人！（在线的人）",
+">:)": ">:)",
+
+"All advancements have been revoked from %1$s": "已撤销%1$s的所有进度",
+"Error: There are no other players online": "错误：这里没有人在线",
+
+"Go back": "返回",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "旅途的开始",
+"Find a Traveller’s Map": "寻找旅行者的地图",
+
+"Castle of Hrrms": "Hrrms 的城堡",
+"Enter a Fortified Village": "进入要塞村庄",
+
+"Expedition of Discovery": "探索·发现",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "找到一张通往稀有生物群系的旅行者地图，然后手持地图进入该生物群系",
+
+"Land of Icicles": "冰刺之乡",
+"Discover a Glacial Chasm biome": "发现冰渊生物群系",
+
+"Remote Shelter": "偏僻庇护所",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "在冰渊生物群系深处找到一个冰川小屋",
+
+"Spire of Ice": "冰之尖峰",
+"Enter the Spire, located in a frigidly cold biome": "进入位于极寒生物群系中的尖塔",
+
+"Under the Ice": "冰雪之下",
+"Delve deep beneath the Spire and open up a loot chest": "深入尖塔下方并打开战利品箱",
+
+
+
+
+## All advancements added in version 1.14 are here
+"Sneak 100": "潜行100级",
+"Sneak near something in the Deep Dark to prevent being heard": "在幽匿感测体、幽匿尖啸体或监守者周围潜行以防被它们听到",
+
+"It spreads!": "它蔓延了",
+"Kill a mob near a Sculk Catalyst": "在幽匿催发体附近杀死生物",
+# 双关“怪物史莱克”
+"Shriek Forever After": "尖啸大怪物",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "在深暗之域中触发幽匿尖啸体，可能做过一次之后就不想再做了...",
+
+"The Block of Eternal Screaming": "永远呐喊的方块",
+"Use Silk Touch to pick up a Sculk Shrieker": "用精准采集获取幽匿尖啸体",
+
+"Cataclyst": "幽灾催发体",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "在幽匿催发体附近杀死一个凋灵，以释放幽匿块的大规模蔓延",
+
+"Monstrous Sacrifices": "畸变之祭",
+"Kill every hostile monster near a Sculk Catalyst": "杀死幽匿催发体附近的所有敌对怪物",
+
+"The Incredible Sculk": "不可思议的幽匿块",
+"Collect a stack of all sculk-related blocks": "收集所有与幽匿块相关的方块各一组",
+
+"Sculker Box": "傻瓜盒子",
+"Hold a Shulker Box that is completely filled with Sculk": "拿着一个完全装满幽匿块的潜影盒",
+
+"Fallen Kingdom": "堕落的王国",
+"Find and enter an Ancient City deep underground": "找到并进入地下深处的远古城市",
+
+"Frigid Diversions": "寒冷转移",
+"Loot a chest inside an ice box in an Ancient City": "在远古城市中掠夺冰窖里的箱子",
+
+"Death Pointer": "指亡针",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "利用在远古城市找到的回响碎片合成一个追溯指针",
+
+"9 to 5": "造九完五",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "收集足够的唱片碎片来合成一张发出神秘声响的唱片",
+
+"Echonomy": "回声残响",
+"Collect a stack of Echo Shards": "收集一组回响碎片",
+
+"Blind as a Bat": "有眼无珠",
+"Kill a Bat while under the blindness or darkness effect": "在失明或黑暗的效果下杀死一只蝙蝠",
+
+
+"Stuck in the Mud": "深陷泥潭",
+"Use a Water Bottle on some Dirt to turn it into Mud": "在泥土上使用水瓶，将其变为泥巴",
+# 与 爱发先生 双关
+"Elmer Mudd": "我在东北玩泥巴",
+"Craft or obtain all forms of Mud and Mud Brick": "合成或获得所有形式的泥巴和泥砖",
+
+"Mangrove Master": "红树成精",
+"Craft every item made out of mangrove wood": "合成所有红树木制成的物品",
+
+"Incandescent!": "炽热！",
+"Light up the area with all three hues of Froglight": "用三种颜色的蛙明灯照亮一片区域",
+
+
+"A Mangrove Grove": "红树之森",
+"Plant a Mangrove Propagule in a Grove biome": "在雪林中种植红树胎生苗",
+
+
+"Frog Family": "青蛙家族",
+"Breed two Frogs together using slimeballs": "使用黏液球培育两只青蛙",
+
+"Bukkit bukkit": "蚪到桶里来",
+"Catch a Tadpole in a Bucket": "用桶捕获一只蝌蚪",
+
+"When the Squad Hops into Town": "呱呱队出动",
+"Attach a lead to each variant of Frog": "用拴绳拴住所有种类的青蛙",
+
+"Ram": "山羊冲撞",
+"Obtain a Goat’s Horn by having one ram into a block": "使一只山羊撞进方块中以获得山羊角",
+#没错 是自嚎不是自豪
+"Loud and Proud": "高亢且自嚎",
+"Play a Goat Horn in the Deep Dark": "在深暗之域中演奏山羊角",
+
+"Battle of the Bands": "斗战乐章",
+"Blow into a Goat Horn during a raid": "在袭击中吹响山羊角",
+#原文为 Caprin(山羊，拉丁语) + Symphony(交响乐) 的组合
+"Caprymphony": "山羊“角”响曲",
+"Blow every type of Goat Horn": "吹响所有种类的山羊角",
+
+"Animal Kingdom": "动物王国",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "将每种动物的个体带到同一个地方（让它们都在你附近 32 个方块内）",
+
+
+"Cargo Carrier": "你好！你的快递到了！",
+"Ride a Boat with a Chest in it": "乘坐运输船",
+
+"Flipper": "淘气小海豚",
+"Give a Dolphin something to play with": "给海豚一些玩的东西",
+
+
+"Allayance": "悦灵同盟",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "从掠夺者前哨站或林地府邸营救一只悦灵并给它一些用来玩的东西",
+
+"You’ve Got a Friend in Me": "找到一个好朋友",
+"Have an Allay deliver items to you": "让悦灵向你投掷物品",
+
+"Evelyn Evergreen": "绿树常青",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "在砍伐树木时，让悦灵将云杉树苗送到你面前",
+
+"Budget Vex": "低配版恼鬼",
+"Give an Allay an Iron Sword": "给悦灵一把铁剑",
+
+"Diagon Allay": "转角遇到悦灵",
+"Have an Allay deliver a potion to you in the Deep Dark": "让悦灵在深暗之域中为您送上药水",
+
+"Birthday Song": "生日快乐歌",
+"Have an Allay drop a cake at a note block": "让悦灵向音符盒投掷一块蛋糕",
+
+"Awards Ceremony": "颁奖典礼",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "让悦灵向您赠送你完成其中一项进度所获得的奖杯",
+
+
+"Now that's a lot of damage": "那家伙现在已经满身疮痍了",
+"Succumb to the Warden": "败在监守者之下",
+
+# 原文为音乐组合名 译者将使用旧版原文 If you can't see me, I can't see 的译名
+"Blind Stare": "如果你看不到我，那我也看不到你",
+"Look at a Warden with a Spyglass": "透过望远镜观察监守者",
+
+"Stealth is Optional": "隐身？没必要！",
+"Overcome a Warden in the deepest and darkest of caves": "在最深暗的洞穴中战胜监守者",
+
+"Warden Frostbite": "冻伤监守者",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "将监守者带到雪原生物群系地表并杀死它",
+#出自古诗 张栻《自西园登山》
+"Not Afraid of Heights": "不觉山高几许寻",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "将监守者带到世界最高点，看不见也就不恐高",
+
+"House of Freaks": "怪胎之家",
+"Summon five Wardens and have them all be within 16 blocks of the player": "召唤五个监守者，让它们都位于玩家周围 16 个方块内",
+
+
+"Like a Ninja": "像一名忍者一样",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "在远古城市中找到一本带有迅捷潜行附魔的附魔书",
+
+"Silent But Deadly": "沉默但致命",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "在速度 II 的效果下，穿着带有迅捷潜行 III 的护腿在幽匿块上潜行和冲刺，如果你勇敢的话可以尝试把这条进度的描述以红色有角六倍速的速度快速地复述六次",
+
+
+"Hung, Drawn and Bartered": "五马分赃",
+"Barter for every possible type of item with Piglins": "与猪灵以物易物交换每一种可能的物品",
+
+
+"The Void Frogs": "虚空青蛙",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "使用缓降药水将一只青蛙放入虚空，然后杀死它，使其与虚空融为一体",
+
+
+"Farlander": "边境行者",
+"Travel all the way to the border of the world": "一路旅行到世界的边界",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "用精准采集获取幽匿感测体，或是在远古城市的宝藏中找到",
+
+# Spelunker
+"Discover every cave biome": "发现所有洞穴生物群系",
+
+# Yay! I got my wood!
+"Collect every type of log": "收集所有种类的原木",
+
+# Stripper
+"Strip the bark off every type of log": "给所有种类的原木剥树皮",
+
+# Ecologist
+"Plant down all types of saplings": "种植所有种类的树苗",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "用你的弓杀死所有种类的陆生动物",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "发现所有位于主世界的地表生物群系",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "标签页",
+
+
+# Trophies added in 1.14
+"Mobbo": "Mobbo",
+"They are your bestest friend!": "他们是你最好的朋友",
+
+"The Cataclyst": "催化剂",
+"When detonated, it kills every single avatar and NPC in the sector": "触发后，他会在元宇宙杀死所有的虚拟形象和 NPC 角色",
+
+"Claptrap": "胡说八道",
+"No, I said “Aaaaaand OPEN!”,": "不，我说的是“开门！”",
+"not “Aaaaand close a secondary set of doors!”": "不是叫你“关上第二层门”",
+
+"Pickle Rick": "腌黄瓜瑞克",
+"Look Morty, I've turned myself into a pickle!": "快看啊莫蒂！我把我自己变成腌黄瓜了！",
+
+"Magic Paintbrush": "马良的神笔",
+"For painting with all the colors of the wind": "伴彩风绘之",
+
+"Very Muddy Boots": "泥泞不堪的靴子",
+"The result of too long in muddy fields": "在泥潭里呆得太久的结果",
+
+"Pride Rock": "荣耀之石",
+"Look, Simba. Everything the light touches is our kingdom": "快看，辛巴，光芒所照射的是我们的国度",
+
+"Copper Goat Horn": "铜制号角",
+"Such a fun and jazzy instrument, sadly not canon": "真是个有趣的爵士乐器，只可惜不能当加农炮用",
+
+"FrogChamp": "王冠青蛙",
+"It’s Wednesday, my dudes!": "好兄弟，今天星期三！明天就是疯狂星期四了！",
+
+"Warden Head": "监守者的头颅",
+"Players: How are you meant to kill the Warden?": "玩家：道理我都懂，怎样才能彻底杀死监守者？",
+#到沈阳了 来沈阳把你头套薅一地
+"Mojang: That's the neat part - you don't!": "Mojang：这就是我们所设计最巧妙的部分--因为我不道啊！",
+"You: Hold my golden carrots": "你：拿出40米的长刀",
+
+"The Warden's Sign": "警告牌：监守者出没！",
+"This sign can’t stop me because I can't see!": "它看不见所以没卵用",
+
+"Reuben the Wither Storm Ender": "Reuben：凋灵风暴的终结者",
+"He was a great pig": "他曾是一只伟大的猪",
+
+"The Trophy Trophy": "奖杯的奖杯",
+"If an Allay brings you this, you will": "如果让悦灵把这东西递给你，你将会",
+"receive the Trophy Trophy Trophy": "获得奖杯的奖杯的奖杯",
+
+"Spongebob Squarepants": "海绵宝宝",
+"Who lives in a pineapple under the sea?": "谁住在深海的大菠萝里？",
+
+"Fence Post": "栅栏柱",
+"Look at this luxurious fence post": "看看这个豪华的栅栏柱",
+"With its courageously mundane colour": "以其大胆的平凡色彩",
+"And violent corners": "和狂放的角角落落",
+"This isn't just any fence post…": "这不是普通的栅栏柱...",
+"It's my fence post! Seriously, get out!": "这是我的栅栏杆！明白？现在！马上！立刻！给我滚！",
+
+"Stone of the Farlands": "边境之地的石头",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "这是从自 Beta 1.8 版本之前就存在的土地的一块保存完好的石头"
+
+
+
+
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
 }

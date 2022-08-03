@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте плиту каждого вида"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/stairs_no",
@@ -625,6 +625,30 @@
           {
             "items": [
               "minecraft:deepslate_tile_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_slab"
             ]
           }
         ]

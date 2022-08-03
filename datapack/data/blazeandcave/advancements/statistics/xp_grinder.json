@@ -10,7 +10,7 @@
     "description": {
       "translate": "Заполучите 300 уровень опыта"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:statistics/overlevelling",
@@ -22,7 +22,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "level": {
               "min": 300
             }

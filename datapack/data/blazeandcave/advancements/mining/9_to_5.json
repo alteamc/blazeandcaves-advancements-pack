@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_5"
+    },
+    "title": {
+      "translate": "от 9 до 5"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Соберите достаточное количество фрагментов диска, чтобы создать еще одного производителя таинственных звуков"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:mining/death_pointer",
+  "rewards": {
+    "function": "bc_rewards:mining/9_to_5"
+  },
+  "criteria": {
+    "music_disc_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_5"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

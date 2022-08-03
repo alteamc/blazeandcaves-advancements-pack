@@ -18,8 +18,10 @@
             ]
           }
         ],
-        "player": {
-          "player": {
+        "type_specific": {
+          "type": "player",
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:challenges/root": "true"
             }

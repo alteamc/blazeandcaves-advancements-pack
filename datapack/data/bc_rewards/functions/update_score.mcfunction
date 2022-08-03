@@ -982,7 +982,7 @@ execute as @a[advancements={blazeandcave:weaponry/backfire=true}] run scoreboard
 execute as @a[advancements={blazeandcave:redstone/take_notes=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:redstone/noteworthy=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:redstone/travelling_bard=true}] run scoreboard players add @s bac_advancements 1
-#execute as @a[advancements={blazeandcave:redstone/vibe_check=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/vibe_check=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:enchanting/over_overkill=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:statistics/the_haggler=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:statistics/big_spender=true}] run scoreboard players add @s bac_advancements 1
@@ -1030,7 +1030,7 @@ execute as @a[advancements={blazeandcave:potion/stealth_takedown=true}] run scor
 execute as @a[advancements={blazeandcave:end/dogfight=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={blazeandcave:challenges/riddle_me_this=true}] run scoreboard players add @s bac_advancements 1
 
-# The following advancements were added in the Terralith version as of 1.13.1. When running normal BACAP, these commands won't do anything
+# The following advancements were added in the Terralith version for 1.13.X. When running normal BACAP, these commands won't do anything
 execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:biomes/one_small_steppe_for_man=true}] run scoreboard players add @s bac_advancements 1
 execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:biomes/o_land_o_bloom=true}] run scoreboard players add @s bac_advancements 1
 execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:biomes/over_the_moon=true}] run scoreboard players add @s bac_advancements 1
@@ -1057,6 +1057,66 @@ execute if score terralith_score bac_settings matches 1 as @a[advancements={blaz
 execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/under_the_ice=true}] run scoreboard players add @s bac_advancements 1
 execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/a_journey_begins=true}] run scoreboard players add @s bac_advancements 1
 execute if score terralith_score bac_settings matches 1 as @a[advancements={blazeandcave:adventure/expedition_of_discovery=true}] run scoreboard players add @s bac_advancements 1
+
+# The following advancements were added in version 1.14
+execute as @a[advancements={minecraft:adventure/avoid_vibration=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:adventure/kill_mob_near_sculk_catalyst=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/shriek_forever_after=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/the_block_of_eternal_screaming=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/cataclyst=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/monstrous_sacrifices=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/the_incredible_sculk=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/sculker_box=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/fallen_kingdom=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/frigid_diversions=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/death_pointer=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/9_to_5=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/echonomy=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:mining/blind_as_a_bat=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:building/stuck_in_the_mud=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/elmer_mudd=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:building/mangrove_master=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:husbandry/froglights=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:farming/a_mangrove_grove=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:animal/frog_family=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:husbandry/tadpole_in_a_bucket=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:husbandry/leash_all_frog_variants=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/ram=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/loud_and_proud=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/battle_of_the_bands=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/caprymphony=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:animal/animal_kingdom=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:biomes/cargo_carrier=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:biomes/flipper=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:adventure/undying_fandom=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/allayance=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:husbandry/allay_deliver_item_to_player=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/evelyn_evergreen=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/budget_vex=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:adventure/diagon_allay=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={minecraft:husbandry/allay_deliver_cake_to_note_block=true}] run scoreboard players add @s bac_advancements 1
+#execute as @a[advancements={blazeandcave:adventure/awards_ceremony=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:monsters/now_thats_a_lot_of_damage=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:monsters/blind_stare=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:monsters/stealth_is_optional=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:monsters/warden_frostbite=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:monsters/not_afraid_of_heights=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:monsters/house_of_freaks=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:enchanting/like_a_ninja=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={blazeandcave:enchanting/silent_but_deadly=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:nether/hung_drawn_and_bartered=true}] run scoreboard players add @s bac_advancements 1
+
+execute as @a[advancements={blazeandcave:end/the_void_frogs=true}] run scoreboard players add @s bac_advancements 1
+
+#execute as @a[advancements={blazeandcave:challenges/farlander=true}] run scoreboard players add @s bac_advancements 1
 
 
 # Updates team scores

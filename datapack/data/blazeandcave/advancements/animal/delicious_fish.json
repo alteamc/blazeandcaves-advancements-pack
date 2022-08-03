@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приготовьте и съешьте рыбу!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/fishy_business",
   "rewards": {

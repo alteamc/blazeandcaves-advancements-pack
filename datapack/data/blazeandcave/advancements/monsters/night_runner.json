@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Убейте всех ночных монстров обычного мира"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:adventure/kill_a_mob",

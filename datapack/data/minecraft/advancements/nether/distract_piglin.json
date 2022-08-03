@@ -9,7 +9,7 @@
     "description": {
       "translate": "Отвлеките пиглинов золотом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/what_a_fungi",
   "rewards": {

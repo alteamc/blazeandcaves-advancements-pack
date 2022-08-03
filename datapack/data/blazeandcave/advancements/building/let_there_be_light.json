@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите по стаку каждого блока и предмета, излучающих свет"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:building/fluorescent",
@@ -531,6 +531,45 @@
           {
             "items": [
               "minecraft:black_candle"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "ochre_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ochre_froglight"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "verdant_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:verdant_froglight"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "pearlescent_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pearlescent_froglight"
             ],
             "count": 64
           }

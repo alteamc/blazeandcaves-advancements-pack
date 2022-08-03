@@ -9,7 +9,7 @@
     "description": {
       "translate": "Посмотрите на Эндер-Дракона через подзорную трубу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:end/dragon_shield",
   "rewards": {
@@ -23,7 +23,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:ender_dragon"
                 }

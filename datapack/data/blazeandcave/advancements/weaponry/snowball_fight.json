@@ -9,7 +9,7 @@
     "description": {
       "translate": "Дух Рождества… быстро заглушённый битвой"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/root",
   "rewards": {

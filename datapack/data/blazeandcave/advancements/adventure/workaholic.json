@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте по стаку всех рабочих блоков крестьян"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:adventure/town_planner",

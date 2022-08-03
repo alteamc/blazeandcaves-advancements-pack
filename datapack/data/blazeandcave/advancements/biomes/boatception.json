@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Сядьте в лодку при кораблекрушении"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:biomes/ahoy",
@@ -30,9 +30,9 @@
                 "entity": "this",
                 "predicate": {
                   "vehicle": {
-                    "type": "minecraft:boat",
+                    "type": "#blazeandcave:boats",
                     "location": {
-                      "feature": "shipwreck"
+                      "structure": "shipwreck"
                     }
                   }
                 }
@@ -42,9 +42,9 @@
                 "entity": "this",
                 "predicate": {
                   "vehicle": {
-                    "type": "minecraft:boat",
+                    "type": "#blazeandcave:boats",
                     "location": {
-                      "feature": "shipwreck"
+                      "structure": "shipwreck_beached"
                     }
                   }
                 }
@@ -57,7 +57,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

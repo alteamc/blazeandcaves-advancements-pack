@@ -9,7 +9,7 @@
     "description": {
       "translate": "Застрелите скелета с расстояния более 50 метров"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:weaponry/bow_spammer",

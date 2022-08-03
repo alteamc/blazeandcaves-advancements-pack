@@ -9,7 +9,7 @@
     "description": {
       "translate": "…добытчиком бирки"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/root",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте пять мобов одним выстрелом арбалета"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/shotbow",

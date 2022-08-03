@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Проберитесь сквозь потолок Незера"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:nether/im_in_lava_with_you",
@@ -21,20 +21,29 @@
     "world_height": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_nether",
-        "position": {
-          "y": {
-            "min": 128
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_nether",
+                "position": {
+                  "y": {
+                    "min": 128
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

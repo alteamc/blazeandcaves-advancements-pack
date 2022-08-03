@@ -9,7 +9,7 @@
     "description": {
       "translate": "Станьте на нажимную плиту"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/leveraging_synergy",
   "rewards": {
@@ -117,6 +117,15 @@
           "powered": "true"
         }
       }
+    },
+    "mangrove_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:mangrove_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
     }
   },
   "requirements": [
@@ -132,7 +141,8 @@
       "stone_pressure_plate",
       "light_weighted_pressure_plate",
       "heavy_weighted_pressure_plate",
-      "polished_blackstone_pressure_plate"
+      "polished_blackstone_pressure_plate",
+      "mangrove_pressure_plate"
     ]
   ]
 }

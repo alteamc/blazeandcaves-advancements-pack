@@ -1,7 +1,7 @@
-tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+tellraw @s {"text": "                                             ", "color": "dark_gray", "strikethrough": true}
 tellraw @s {"color": "gray", "bold": "false", "text": " ", "extra": [{"color": "yellow", "bold": "false", "translate": "Blaze"}, {"color": "gray", "bold": "false", "translate": "and"}, {"color": "aqua", "bold": "false", "translate": "Cave"}, {"color": "gray", "bold": "false", "translate": "'s Advancements Pack Настройки"}]}
 
-tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+tellraw @s {"text": "                                             ", "color": "dark_gray", "strikethrough": true}
 
 # Welcome Message
 execute if score intro_msg bac_settings matches 1 run tellraw @s ["",{"text":"[ ✔ ]","color":"green","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/intro_msg_off"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to disable","color":"gold"}]}}," ",{"translate":"Welcome Message currently enabled"}]
@@ -31,12 +31,12 @@ execute if score coop bac_settings matches 2 run tellraw @s ["",{"text":"[✔]",
 execute unless score coop bac_settings matches 1..2 run tellraw @s ["",{"text":"[✔]","color":"gray","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/coop_ru_sure"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to enable Cooperative Mode","color":"gold"}]}}," ",{"text":"[O]","color":"gray","clickEvent":{"action":"run_command","value":"/function blazeandcave:config/coop_ru_sure_team"},"hoverEvent":{"action":"show_text","contents":["",{"translate":"Click to enable Team Cooperative Mode","color":"gold"}]}}," ",{"text":"[❌]","color":"red"}," ",{"translate":"Cooperative Mode currently disabled"}]
 
 
-tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+tellraw @s {"text": "                                             ", "color": "dark_gray", "strikethrough": true}
 # Links to Completion Message, Scoreboard Display and Technical settings
 tellraw @s ["", {"text": "[ »» ]", "color": "blue", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/msg_settings"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы посмотреть", "color": "gold"}]}}, " ", {"translate": "Настройки сообщения о завершении прогреса"}]
-tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
-tellraw @s ["", {"text": "[ »» ]", "color": "gold", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_settings"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы посмотреть", "color": "gold"}]}}, " ", {"translate": "Настройки отображения табло прогресса"}]
-tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
-tellraw @s ["", {"text": "[ »» ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/technical_settings"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы посмотреть", "color": "gold"}]}}, " ", {"translate": "Technical Settings"}]
-tellraw @s {"text": "                                                                                ", "color": "dark_gray", "strikethrough": true}
+tellraw @s {"text": "                                             ", "color": "dark_gray", "strikethrough": true}
+tellraw @s ["", {"text": "[ »» ]", "color": "gold", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/scoreboard_settings"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы посмотреть", "color": "gold"}]}}, " ", {"translate": "Настройки счетчика достижений"}]
+tellraw @s {"text": "                                             ", "color": "dark_gray", "strikethrough": true}
+tellraw @s ["", {"text": "[ »» ]", "color": "red", "clickEvent": {"action": "run_command", "value": "/function blazeandcave:config/technical_settings"}, "hoverEvent": {"action": "show_text", "contents": ["", {"translate": "Нажмите, чтобы посмотреть", "color": "gold"}]}}, " ", {"translate": "Технические настройки"}]
+tellraw @s {"text": "                                             ", "color": "dark_gray", "strikethrough": true}
 

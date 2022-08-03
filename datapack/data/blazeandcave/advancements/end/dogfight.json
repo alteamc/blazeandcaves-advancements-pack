@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте скелета или зимогора, пока у Вас и у него левитация"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:end/levitate",

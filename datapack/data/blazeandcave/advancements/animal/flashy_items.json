@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поместите предмет в светящуюся рамку"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/make_a_sign_glow",
   "rewards": {

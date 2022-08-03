@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте пиглина в битве… или во время случайного вторжения"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/distract_piglin",
   "rewards": {

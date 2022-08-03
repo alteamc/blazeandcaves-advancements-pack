@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте проигрыватель из досок и алмаза"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/i_hereby_dub_thee",
   "rewards": {

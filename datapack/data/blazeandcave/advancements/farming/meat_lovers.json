@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Съешьте всё доступное мясо в игре, даже если оно сырое или это гнилая плоть"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:farming/vegetarian",

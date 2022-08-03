@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте черепаху, чтобы узнать, что с неё не падает её панцирь"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/root",
   "rewards": {

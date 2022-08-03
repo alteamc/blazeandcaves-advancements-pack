@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выгравируйте песчаник с узорами крипера и Визера"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/jailhouse_block",
   "rewards": {

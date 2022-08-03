@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выторгуйте колокол, чтобы основать новую деревню"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/traveller",
   "rewards": {

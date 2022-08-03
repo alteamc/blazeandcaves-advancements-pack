@@ -9,7 +9,7 @@
     "description": {
       "translate": "Проплывите 50км при помощи лодки"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:statistics/pirate_captain",
@@ -21,7 +21,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:custom",

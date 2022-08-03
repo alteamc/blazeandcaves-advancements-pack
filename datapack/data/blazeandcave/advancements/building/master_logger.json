@@ -9,7 +9,7 @@
     "description": {
       "translate": "Срубите по стаку каждого вида древесины"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:building/stripper",
@@ -89,6 +89,19 @@
           {
             "items": [
               "minecraft:dark_oak_log"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "mangrove_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_log"
             ],
             "count": 64
           }

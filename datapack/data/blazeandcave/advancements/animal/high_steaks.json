@@ -9,7 +9,7 @@
     "description": {
       "translate": "Стейки очень нужны для этого достижения!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/cow_tipper",
   "rewards": {

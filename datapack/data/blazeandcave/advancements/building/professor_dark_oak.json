@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте все возможные предметы из тёмного дуба"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/the_acacia_king",
@@ -181,6 +181,18 @@
           {
             "items": [
               "minecraft:dark_oak_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "dark_oak_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_chest_boat"
             ]
           }
         ]

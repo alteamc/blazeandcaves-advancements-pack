@@ -9,7 +9,7 @@
     "description": {
       "translate": "Предотвратите созревание эндермита"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/the_ender_of_ender",
   "rewards": {

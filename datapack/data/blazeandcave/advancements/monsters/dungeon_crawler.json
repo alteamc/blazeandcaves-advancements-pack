@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Победите всех мобов, встречающихся в данжах"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:monsters/void_ender",
@@ -106,6 +106,22 @@
       "conditions": {
         "entity": {
           "type": "shulker"
+        }
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "piglin_brute"
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "warden"
         }
       }
     }

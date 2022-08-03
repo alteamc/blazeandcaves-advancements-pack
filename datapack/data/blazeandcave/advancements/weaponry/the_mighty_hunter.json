@@ -7,9 +7,9 @@
       "translate": "Выдающийся охотник"
     },
     "description": {
-      "translate": "Убейте животное каждого вида при помощи лука"
+      "translate": "Убейте с лука на представителей всех видов наземных животных"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:adventure/sniper_duel",
@@ -364,6 +364,20 @@
         },
         "entity": {
           "type": "goat"
+        }
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "is_projectile": true,
+          "direct_entity": {
+            "type": "minecraft:arrow"
+          }
+        },
+        "entity": {
+          "type": "frog"
         }
       }
     }

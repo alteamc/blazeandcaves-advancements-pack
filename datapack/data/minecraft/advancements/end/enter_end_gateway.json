@@ -9,7 +9,7 @@
     "description": {
       "translate": "Покиньте остров"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:end/kill_dragon",
   "rewards": {
@@ -19,20 +19,29 @@
     "outer_pos_x": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "minecraft:the_end",
-        "position": {
-          "x": {
-            "min": 750
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                  "x": {
+                    "min": 750
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -44,20 +53,29 @@
     "outer_pos_z": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "minecraft:the_end",
-        "position": {
-          "z": {
-            "min": 750
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                  "z": {
+                    "min": 750
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -69,20 +87,29 @@
     "outer_neg_x": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "minecraft:the_end",
-        "position": {
-          "x": {
-            "max": -750
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                  "x": {
+                    "max": -750
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -94,20 +121,29 @@
     "outer_neg_z": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "minecraft:the_end",
-        "position": {
-          "z": {
-            "max": -750
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                  "z": {
+                    "max": -750
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

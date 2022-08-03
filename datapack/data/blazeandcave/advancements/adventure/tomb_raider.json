@@ -9,7 +9,7 @@
     "description": {
       "translate": "Войдите в тропический храм"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/grave_robber",
   "rewards": {
@@ -19,15 +19,24 @@
     "jungle_pyramid": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "jungle_pyramid",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "jungle_pyramid"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

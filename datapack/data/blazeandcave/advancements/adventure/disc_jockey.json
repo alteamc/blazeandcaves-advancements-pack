@@ -9,7 +9,7 @@
     "description": {
       "translate": "Прослушайте все пластинки"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:adventure/play_jukebox_in_meadows",
@@ -293,6 +293,26 @@
         "item": {
           "items": [
             "minecraft:music_disc_otherside"
+          ]
+        }
+      }
+    },
+    "music_disc_5": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ],
+            "state": {
+              "has_record": "true"
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:music_disc_5"
           ]
         }
       }

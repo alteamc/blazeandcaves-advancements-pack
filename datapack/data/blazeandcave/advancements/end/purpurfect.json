@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте или соберите пурпурный блок, плиту, ступеньки и пилон"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:end/extrabiologist",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Попробуйте всё съестное, даже если это не пойдёт Вам на пользу"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:farming/meat_lovers",

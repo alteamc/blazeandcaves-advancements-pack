@@ -10,7 +10,7 @@
     "description": {
       "translate": "Создайте по стреле с эффектом зелья каждого типа"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:potion/poison_dart",

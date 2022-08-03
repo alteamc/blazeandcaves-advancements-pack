@@ -10,7 +10,7 @@
     "description": {
       "translate": "Умрите дважды за десять секунд"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/its_time_consuming",
   "rewards": {

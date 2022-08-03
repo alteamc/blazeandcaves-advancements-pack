@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Полный комплект алмазной брони спасает даже больше жизней"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:story/shiny_gear",

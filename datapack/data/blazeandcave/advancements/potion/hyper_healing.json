@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приготовьте и выпейте зелье регенерации"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/medic",
   "rewards": {
@@ -23,7 +23,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:regeneration\"}"
+          "potion": "minecraft:regeneration"
         }
       }
     },
@@ -34,7 +34,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+          "potion": "minecraft:strong_regeneration"
         }
       }
     },
@@ -45,7 +45,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+          "potion": "minecraft:long_regeneration"
         }
       }
     }

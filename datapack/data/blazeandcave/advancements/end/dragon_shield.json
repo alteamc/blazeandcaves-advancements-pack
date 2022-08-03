@@ -10,7 +10,7 @@
     "description": {
       "translate": "Попытайтесь отразить атаку дракона, прикрывшись щитом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:end/root",
   "rewards": {

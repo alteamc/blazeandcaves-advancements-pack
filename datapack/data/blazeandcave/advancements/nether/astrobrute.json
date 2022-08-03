@@ -9,7 +9,7 @@
     "description": {
       "translate": "Отправьте Брутального Пиглина в Энд и убейте эго до того, как он зомбифицируеться"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:nether/et_tu_brute",

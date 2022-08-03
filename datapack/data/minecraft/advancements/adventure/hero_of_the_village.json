@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Триумф от победы над рейдом впервые"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:adventure/feeling_ill",

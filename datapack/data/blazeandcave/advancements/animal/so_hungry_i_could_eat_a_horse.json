@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Кормите лошадь всеми типами еды, которую она может съесть"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/foal_play",

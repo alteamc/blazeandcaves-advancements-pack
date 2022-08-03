@@ -9,7 +9,7 @@
     "description": {
       "translate": "Пролевитируйте вверх на 50 блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:end/shulker_breaker",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Съешьте сырую рыбу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/delicious_fish",
   "rewards": {

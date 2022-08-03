@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Поторгуйтесь с болотным торговцем"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:adventure/the_tribal_villagers",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Сломайте каждую часть брони в игре"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/weve_broken_our_last_shovel",

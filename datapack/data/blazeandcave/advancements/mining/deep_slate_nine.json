@@ -9,9 +9,9 @@
     "description": {
       "translate": "Шахта достаточно глубокая, чтобы потемнел камень"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/spelunker",
+  "parent": "blazeandcave:mining/heart_of_darkness",
   "rewards": {
     "function": "bc_rewards:mining/deep_slate_nine"
   },
@@ -19,12 +19,6 @@
     "deepslate_level": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "y": {
-            "max": 4.5
-          }
-        },
-        "dimension": "minecraft:overworld",
         "player": [
           {
             "condition": "minecraft:inverted",
@@ -32,9 +26,24 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": 4.5
+                  }
+                },
+                "dimension": "minecraft:overworld"
               }
             }
           }

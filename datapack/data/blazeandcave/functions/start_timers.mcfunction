@@ -116,6 +116,7 @@ scoreboard objectives add bac_pr_dmga minecraft.custom:minecraft.damage_absorbed
 scoreboard objectives add bac_pr_dmgr minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add bac_pigling dummy
 scoreboard objectives add bac_captain_america dummy
+scoreboard objectives add bac_warden_count dummy
 scoreboard objectives add bac_oar_start_x dummy
 scoreboard objectives add bac_oar_start_z dummy
 scoreboard objectives add bac_oar_current_x dummy
@@ -131,6 +132,14 @@ execute unless score goal bac_settings matches ..1000 run scoreboard players set
 execute unless score challenge bac_settings matches ..1000 run scoreboard players set challenge bac_settings 1
 execute unless score super_challenge bac_settings matches ..1000 run scoreboard players set super_challenge bac_settings 1
 execute unless score milestone bac_settings matches ..1000 run scoreboard players set milestone bac_settings 1
+
+
+# If a setting is set to anything other than off, /gamerule announceAdvancements is set to false
+execute unless score task bac_settings matches 0 run gamerule announceAdvancements false
+execute unless score goal bac_settings matches 0 run gamerule announceAdvancements false
+execute unless score challenge bac_settings matches 0 run gamerule announceAdvancements false
+execute unless score super_challenge bac_settings matches 0 run gamerule announceAdvancements false
+execute unless score milestone bac_settings matches 0 run gamerule announceAdvancements false
 
 
 # # Starts timers

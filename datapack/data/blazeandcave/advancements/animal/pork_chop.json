@@ -9,7 +9,7 @@
     "description": {
       "translate": "Ты знаешь кунг-фу, но как насчёт свиной отбивной?"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/bacon",
   "rewards": {

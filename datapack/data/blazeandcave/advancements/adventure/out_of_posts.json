@@ -9,7 +9,7 @@
     "description": {
       "translate": "Войдите в аванпост разбойников"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/root",
   "rewards": {
@@ -19,15 +19,24 @@
     "pillager_outpost": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "pillager_outpost",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "pillager_outpost"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Плавайте в лаве с эффектом «Огнестойкости»"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/root",
   "rewards": {
@@ -19,11 +19,6 @@
     "fire_resistance": {
       "trigger": "minecraft:location",
       "conditions": {
-        "block": {
-          "blocks": [
-            "minecraft:lava"
-          ]
-        },
         "player": [
           {
             "condition": "minecraft:entity_properties",
@@ -38,6 +33,11 @@
                     "min": 1
                   }
                 }
+              },
+              "location": {
+                "fluid": {
+                  "fluid": "minecraft:lava"
+                }
               }
             }
           },
@@ -47,7 +47,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

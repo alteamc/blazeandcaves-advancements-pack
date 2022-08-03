@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите каждое зачарование, доступное в игре"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/gotta_go_fast",
@@ -1080,6 +1080,34 @@
           }
         ]
       }
+    },
+    "swift_sneak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "swift_sneak_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1234,6 +1262,10 @@
     [
       "soul_speed",
       "soul_speed_book"
+    ],
+    [
+      "swift_sneak",
+      "swift_sneak_book"
     ]
   ]
 }

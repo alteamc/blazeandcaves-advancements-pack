@@ -9,7 +9,7 @@
     "description": {
       "translate": "Получите плевок от одной из лам странствующего торговца"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/rebuilding_the_oceans",
   "rewards": {

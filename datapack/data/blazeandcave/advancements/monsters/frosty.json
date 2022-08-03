@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте зимогора"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:story/deflect_arrow",
   "rewards": {

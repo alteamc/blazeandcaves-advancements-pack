@@ -9,7 +9,7 @@
     "description": {
       "translate": "Съешьте тушёного кролика, а затем не питайтесь в течение трёх игровых дней"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:animal/going_down_the_rabbit_hole",

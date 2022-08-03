@@ -9,7 +9,7 @@
     "description": {
       "translate": "Достаточно, чтобы создать часы!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/the_way_to_spawn",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Съешьте стак плодов хоруса за один раз"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:end/purpurfect",

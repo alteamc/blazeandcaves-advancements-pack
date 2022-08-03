@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Сломайте все шесть видов топоров"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:weaponry/viking",
@@ -31,7 +31,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:wooden_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_axe"
+                  ]
+                }
+              }
             }
           }
         }
@@ -50,7 +56,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stone_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:stone_axe"
+                  ]
+                }
+              }
             }
           }
         }
@@ -69,7 +81,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:iron_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:iron_axe"
+                  ]
+                }
+              }
             }
           }
         }
@@ -88,7 +106,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:golden_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:golden_axe"
+                  ]
+                }
+              }
             }
           }
         }
@@ -107,7 +131,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond_axe"
+                  ]
+                }
+              }
             }
           }
         }
@@ -126,7 +156,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:netherite_axe\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:netherite_axe"
+                  ]
+                }
+              }
             }
           }
         }

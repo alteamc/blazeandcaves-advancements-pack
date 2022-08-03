@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поймать аксолотля в ведро"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/tactical_fishing",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте маленького зомби"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/dead_dont_die",
   "rewards": {
@@ -21,7 +21,9 @@
       "conditions": {
         "entity": {
           "type": "zombie",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     },
@@ -30,7 +32,9 @@
       "conditions": {
         "entity": {
           "type": "zombie_villager",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     },
@@ -39,7 +43,9 @@
       "conditions": {
         "entity": {
           "type": "husk",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     },
@@ -48,7 +54,9 @@
       "conditions": {
         "entity": {
           "type": "zombified_piglin",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     },
@@ -57,7 +65,9 @@
       "conditions": {
         "entity": {
           "type": "drowned",
-          "nbt": "{IsBaby:1b}"
+          "flags": {
+            "is_baby": "true"
+          }
         }
       }
     }

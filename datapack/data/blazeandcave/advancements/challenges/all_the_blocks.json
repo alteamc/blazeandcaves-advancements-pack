@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Заполучите все возможные блоки!"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/root",
@@ -8905,6 +8905,390 @@
           {
             "items": [
               "minecraft:deepslate_copper_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "ochre_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ochre_froglight"
+            ]
+          }
+        ]
+      }
+    },
+    "verdant_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:verdant_froglight"
+            ]
+          }
+        ]
+      }
+    },
+    "pearlescent_froglight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pearlescent_froglight"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_leaves"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_log"
+            ]
+          }
+        ]
+      }
+    },
+    "stripped_mangrove_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_mangrove_log"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_pressure_plate"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_fence"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_trapdoor"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_fence_gate"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_stairs"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_button"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_door"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_sign"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_propagule"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_roots"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_wood"
+            ]
+          }
+        ]
+      }
+    },
+    "stripped_mangrove_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_mangrove_wood"
+            ]
+          }
+        ]
+      }
+    },
+    "mud": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud"
+            ]
+          }
+        ]
+      }
+    },
+    "packed_mud": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:packed_mud"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_stairs"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_brick_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_wall"
+            ]
+          }
+        ]
+      }
+    },
+    "muddy_mangrove_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:muddy_mangrove_roots"
+            ]
+          }
+        ]
+      }
+    },
+    "sculk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk"
+            ]
+          }
+        ]
+      }
+    },
+    "sculk_catalyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_catalyst"
+            ]
+          }
+        ]
+      }
+    },
+    "sculk_sensor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_sensor"
+            ]
+          }
+        ]
+      }
+    },
+    "sculk_shrieker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_shrieker"
+            ]
+          }
+        ]
+      }
+    },
+    "sculk_vein": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_vein"
             ]
           }
         ]

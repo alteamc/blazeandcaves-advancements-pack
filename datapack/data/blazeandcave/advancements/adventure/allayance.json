@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:allay_spawn_egg"
+    },
+    "title": {
+      "translate": "Аллаянс"
+    },
+    "description": {
+      "translate": "Спасите Эллея от мародеров или в лесном поместье и дайте ему что-то для игры"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:adventure/out_of_posts",
+  "rewards": {
+    "function": "bc_rewards:adventure/allayance"
+  },
+  "criteria": {
+    "allay": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:allay"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}

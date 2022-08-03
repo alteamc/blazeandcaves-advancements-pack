@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите аметистовую жеоду и добудьте кластер аметиста."
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:story/iron_tools",
   "rewards": {

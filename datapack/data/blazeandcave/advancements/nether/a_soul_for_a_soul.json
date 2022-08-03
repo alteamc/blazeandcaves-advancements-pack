@@ -9,7 +9,7 @@
     "description": {
       "translate": "Разместите костёр душ"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/burnt_right_into_your_soul",
   "rewards": {

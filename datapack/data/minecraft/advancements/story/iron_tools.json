@@ -9,7 +9,7 @@
     "description": {
       "translate": "Обновите свою кирку"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:story/smelt_iron",
   "rewards": {

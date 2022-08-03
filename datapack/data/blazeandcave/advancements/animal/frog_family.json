@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:frogspawn"
+    },
+    "title": {
+      "translate": "Семья лягушек"
+    },
+    "description": {
+      "translate": "Скрестить двух лягушек вместе, используя слизь"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "minecraft:husbandry/root",
+  "rewards": {
+    "function": "bc_rewards:animal/frog_family"
+  },
+  "criteria": {
+    "frog": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:frog"
+        },
+        "partner": {
+          "type": "minecraft:frog"
+        }
+      }
+    }
+  }
+}

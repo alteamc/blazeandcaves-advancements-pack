@@ -9,7 +9,7 @@
     "description": {
       "translate": "Случайно ударьте летучую мышь"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/my_work_here_is_done",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте пещерного паука"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/ew_ew_ew",
   "rewards": {

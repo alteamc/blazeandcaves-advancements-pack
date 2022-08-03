@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите азалию"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/moss_maker",
   "rewards": {

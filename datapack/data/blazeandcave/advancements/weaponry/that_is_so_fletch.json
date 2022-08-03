@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте стол лучника"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/shoot_arrow",
   "rewards": {

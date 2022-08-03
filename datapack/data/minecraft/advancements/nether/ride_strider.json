@@ -9,7 +9,7 @@
     "description": {
       "translate": "Прокатитесь на лавомерке, управляя ею с помощью удочки с искажённым грибом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/hot_reels",
   "rewards": {

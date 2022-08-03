@@ -9,7 +9,7 @@
     "description": {
       "translate": "Переплавить древесину при помощи древесного угля для получения древесного угля"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/hot_topic",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Соберите коралл из кораллового рифа"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/in_a_pickle",
   "rewards": {

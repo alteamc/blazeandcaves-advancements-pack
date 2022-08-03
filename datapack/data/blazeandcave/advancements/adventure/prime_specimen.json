@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Найдите высокую траву или раскидистый папоротник в деревенском сундуке"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:adventure/do_you_want_to_trade",

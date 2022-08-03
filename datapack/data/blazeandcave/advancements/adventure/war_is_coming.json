@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте достаточное количество лидеров разбойничьих патрулей, чтобы заполучить наивысший уровень эффекта «Дурного знамения»"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:adventure/buy_low_sell_high",

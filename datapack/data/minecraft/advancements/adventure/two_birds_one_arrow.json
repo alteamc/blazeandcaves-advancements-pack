@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте двух фантомов при помощи одной стрелы"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/anti_air",

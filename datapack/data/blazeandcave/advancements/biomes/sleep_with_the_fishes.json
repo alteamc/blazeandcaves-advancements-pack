@@ -9,7 +9,7 @@
     "description": {
       "translate": "Проведите под водой сутки"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:biomes/free_diver",

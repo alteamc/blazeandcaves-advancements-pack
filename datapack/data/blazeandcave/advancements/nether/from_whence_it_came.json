@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите сломанный портал в Незере"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/root",
   "rewards": {
@@ -19,7 +19,6 @@
     "ruined_portal": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_nether",
         "player": [
           {
             "condition": "minecraft:alternative",
@@ -29,7 +28,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal"
+                    "structure": "minecraft:ruined_portal",
+                    "dimension": "the_nether"
                   }
                 }
               },
@@ -38,7 +38,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_desert"
+                    "structure": "minecraft:ruined_portal_desert",
+                    "dimension": "the_nether"
                   }
                 }
               },
@@ -47,7 +48,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_jungle"
+                    "structure": "minecraft:ruined_portal_jungle",
+                    "dimension": "the_nether"
                   }
                 }
               },
@@ -56,7 +58,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_mountain"
+                    "structure": "minecraft:ruined_portal_mountain",
+                    "dimension": "the_nether"
                   }
                 }
               },
@@ -65,7 +68,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_nether"
+                    "structure": "minecraft:ruined_portal_nether",
+                    "dimension": "the_nether"
                   }
                 }
               },
@@ -74,7 +78,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_ocean"
+                    "structure": "minecraft:ruined_portal_ocean",
+                    "dimension": "the_nether"
                   }
                 }
               },
@@ -83,7 +88,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_swamp"
+                    "structure": "minecraft:ruined_portal_swamp",
+                    "dimension": "the_nether"
                   }
                 }
               }
@@ -95,7 +101,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

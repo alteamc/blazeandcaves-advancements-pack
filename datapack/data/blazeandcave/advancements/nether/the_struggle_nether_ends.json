@@ -9,7 +9,7 @@
     "description": {
       "translate": "Установите каждый вариант незерского блока в измерении Энд"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:nether/spreading_corruption",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Просто съешьте яблоко…"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/care_for_the_environment",
   "rewards": {

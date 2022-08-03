@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте две упрямые грибные коровы пшеницей"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/mooshroom_kingdom",
   "rewards": {

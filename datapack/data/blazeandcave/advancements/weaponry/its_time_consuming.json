@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убить что-нибудь или кого-нибудь с помощью часов"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/diemonds",
   "rewards": {

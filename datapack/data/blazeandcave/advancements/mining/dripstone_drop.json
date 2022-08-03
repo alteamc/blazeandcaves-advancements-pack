@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Выжить при падении, как минимум 10 блоков на какой-нибудь заостренный капельник"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:mining/thats_the_point",

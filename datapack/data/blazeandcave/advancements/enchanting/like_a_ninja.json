@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk"
+    },
+    "title": {
+      "translate": "Как ниндзя"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Найдите зачарование проворство на зачарованной книге в Древнем городе"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:enchanting/fiery",
+  "rewards": {
+    "function": "bc_rewards:enchanting/like_a_ninja"
+  },
+  "criteria": {
+    "swift_sneak_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "swift_sneak_book"
+    ]
+  ]
+}

@@ -9,7 +9,7 @@
 
 # Language: German / Deutsch (Deutschland)
 # Author: Puddingpapst / Enucius
-# Pack version supported: 1.13
+# Pack version supported: 1.14
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -4428,14 +4428,14 @@
 
 "Click to view": "Klicke zum Zeigen",
 
-"Display Advancements Scoreboard on tab list": "Zeige das Erfolgs-Scoreboard in der Tabliste an",
-"Display First Advancements Scoreboard on tab list": "Zeige das 'Erster'-Erfolgs-Scoreboard in der Tabliste an",
+"Display Advancements Scoreboard on tab list": "Zeige das Erfolg-Scoreboard in der Tabliste an",
+"Display First Advancements Scoreboard on tab list": "Zeige das 'Erster'-Erfolg-Scoreboard in der Tabliste an",
 
-"Display Advancements Scoreboard on sidebar": "Zeige das Erfolgs-Scoreboard in der Seitenleiste an",
-"Display First Advancements Scoreboard on sidebar": "Zeige das 'Erster'-Erfolgs-Scoreboard in der Seitenleiste an",
+"Display Advancements Scoreboard on sidebar": "Zeige das Erfolg-Scoreboard in der Seitenleiste an",
+"Display First Advancements Scoreboard on sidebar": "Zeige das 'Erster'-Erfolg-Scoreboard in der Seitenleiste an",
 
-"The Advancements Scoreboard keeps track of how many advancements each player has obtained": "Das Erfolgs-Scoreboard zeigt an, wie viele Erfolge jeder Spieler erhalten hat",
-"The First Advancements Scoreboard keeps track of how many advancements each player was the first to obtain": "Das 'Erster'-Erfolgs-Scoreboard zeigt an, wie viele Erfolge jeder Spieler als Erstes erhalten hat",
+"The Advancements Scoreboard keeps track of how many advancements each player has obtained": "Das Erfolg-Scoreboard zeigt an, wie viele Erfolge jeder Spieler erhalten hat",
+"The First Advancements Scoreboard keeps track of how many advancements each player was the first to obtain": "Das 'Erster'-Erfolg-Scoreboard zeigt an, wie viele Erfolge jeder Spieler als Erstes erhalten hat",
 "Click to display": "Klicke zum Anzeigen",
 "Click to clear": "Klicke zum Löschen",
 
@@ -4458,10 +4458,436 @@
 "Click to set": "Klicke zum Einstellen",
 
 
-"Go back to main config menu": "Zurück zum Hauptkonfigurationsmenü"
+"Go back to main config menu": "Zurück zum Hauptkonfigurationsmenü",
+
+
+# Advancements added in the Terralith version for BACAP 1.13.1
+"A Cliffhanger!": "Ein Cliffhanger!",
+"Discover every type of cliff biome": "Entdecke jedes Klippen-Biom",
+
+"A Grassy Nature": "Eine grasige Natur",
+"Discover every grasslands biome": "Entdecke jedes Grasland-Biom",
+
+"A E S T H E T I C": "Ä S T H E T I S C H",
+"Discover the Mirage Isles. No, they’re not not real": "Entdecke die Wunderinseln. Nein, sie sind nicht real",
+
+"Alpha Days": "Alpha-Tage",
+"Discover the mythical islands of Alpha": "Entdecke die mythischen Alpha-Inseln",
+
+"Bushranger": "Busch-Ranger",
+"Discover every shrublands biome": "Entdecke jedes Buschland-Biom",
+
+"Choco Mountain": "Schokoberge",
+"Discover a White Mesa": "Entdecke ein weißes Mesa-Biom",
+
+"Eruption in the Air": "Ausbruch in der Luft",
+"Enter a volcano biome": "Betrete ein Vulkan-Biom",
+
+"Highlander": "Highlander",
+"Discover every highlands biome": "Entdecke jedes Hochland-Biom",
+
+"Master Spelunker": "Meister-Höhlenforscher",
+"Discover every cave biome": "Entdecke jedes Höhlen-Biom",
+
+"O-Land-o Bloom": "O-Land-o Bloom",
+"Discover a blooming biome": "Entdecke ein blühendes Biom",
+
+"One Small Steppe For Man": "Ein Kleiner Stepp Für Einen Mann",
+"Discover a steppe biome": "Entdecke ein Steppen-Biom",
+
+"Over the Moon": "Über den Mond",
+"Discover a moonlight biome": "Entdecke ein Mondlicht-Biom",
+
+"Pretty in Purple": "Hübsch in Lila",
+"Discover every biome with trees of purple leaves": "Entdecke jedes Biom mit Bäumen mit lilafarbenen Blättern",
+
+"Skylanders": "Skylanders",
+"Discover some mysterious lands floating high above the ground": "Entdecke mysteriöse Gebiete, welche weit über dem Boden schweben",
+
+"Smarter than the Average Bear": "Schlauer als der Durchschnitts-Bär",
+"Discover the Yellowstone biome": "Entdecke das Yellowstone-Biom",
+
+"Terralithic": "Terralithtisch",
+"Discover every Terralith biome": "Entdecke jedes Terralith-Biom",
+
+"The Boreal Deal": "Der Boreale Deal",
+"Discover every boreal biome": "Entdecke jedes boreale Biom",
+
+"The World Is Your Canvas": "Die Welt Ist Deine Leinwand",
+"Discover the Painted Mountains": "Entdecke das Painted Mountains-Biom",
+
+# Adjusted descriptions
+"Discover every vanilla surface biome in the Overworld": "Entdecke jedes Vanilla-Öberflächen-Biom in der Oberwelt",
+"Discover every vanilla biome from every dimension": "Entdecke jedes Vanilla-Biom in der Dimension",
+
+"Stardust": "Sternenstaub",
+
+"You have explored everything this world has to offer": "Du hast alles erkundet, was diese Welt zu bieten hat,",
+"But at the end of it all, it is all still made from stardust": "Doch am Ende besteht alles aus Sternenstaub",
+
+
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "Erster Spieler eines Team",
+"Click to enable for the first player on each team": "Klicken, um 'Erster Spieler eines Teams' zu aktivieren ",
+
+"Click to enable Cooperative Mode": "Klicken, um den Koop-Modus zu aktivieren",
+"Click to disable Cooperative Mode": "Klicken, um den Koop-Modus zu deaktivieren",
+"Click to enable Team Cooperative Mode": "Klicken, um den Team Koop-Modus zu aktivieren",
+"Team Cooperative Mode currently enabled": "Team Cooperative-Modus aktuell aktiviert",
+
+
+
+"Click to view preset options": "Klicken, um Preset-Optionen anzuzeigen",
+"Message Presets": "Nachrichten-Presets",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "Stelle alle Nachrichten auf 'Nur erster Spieler eines Teams' (empfohlen und standardmäßig eingestellt für den Team-Koop-Modus)",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "Schalte Vanilla-Nachrichten an (empfohlen für Server, die Plugins wie DiscordSRV nutzen)",
+
+
+
+"Advancement Scoreboard Display Settings": "Einstellungen für die Anzeige des Erfolg-Scoreboards",
+
+"Advancements Scoreboard": "Erfolg-Scoreboards",
+"First Advancements Scoreboard": "Erster Erfolg-Scoreboard",
+
+"Team Advancements": "Team-Erfolge",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "Das Team Erfolg-Scoreboard listet alle Teams auf und zählt die gesammelten Erfolge von den Mitgliedern jedes Teams zusammen",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "Wenn beispielsweise Alex und Steve im blauen Team sind und beide jeweils 100 Erfolge gesammelt haben, würde das blaue Team mit 200 Erfolgen aufgeführt werden",
+
+"Total Team Advancements": "Gesamte Team-Erfolge",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "Das Scoreboard für die gesamten Team-Erfolge listet alle Teams aus und zählt alle Erfolge zusammen, die von jedem Mitglied eines Teams gesammelt wurden",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "Wenn beispielsweise Alex und Steve im blauen Team sind und beide jeweils 100 Erfolge gesammelt haben, aber 50 davon jeweils von beiden gesammelt wurden, würde das blaue Team mit 150 Erfolgen aufgeführt werden",
+
+"Team First Advancements": "Team-'Erster'-Erfolge",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "Das Team-'Erster'-Erfolg-Scoreboard listet alle Teams auf und zählt alle 'Erster'-Erfolge aller Miglieder eines Teams zusammen",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "Wenn beispielsweise Alex und Steve im blauen Team sind und bei jeweils 100 Erfolgen die Ersten waren, die den Erfolg erzielt haben, würde das blaue Team mit 200 Erfolgen aufgeführt werden",
+
+"First Advancements in Team": "'Erster'-Erfolge im Team",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "Das Scoreboard der 'Erster'-Erfolge im Team listet alle Spieler auf und zählt die gesammelten Erfolge auf, die sie aus ihrem Team als Erster erzielt haben",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "Wenn beispielsweise Alex und Steve im blauen Team sind und Steve den Erfolg 'Monster-Hunter' erzielt, wird sich die Punktzahl von Steve um eins erhöhen, bei Alex jedoch nicht, wenn sie den Erfolg im Anschluss ebenfalls erzielt",
+
+"Recommended for Cooperative Mode": "Empfohlen für den Koop-Modus",
+"Recommended when NOT using Cooperative Mode": "Empfohlen, wenn der Koop-Modus nicht genutzt wird",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "Empfohlen, wenn Koop-Modus und Team Koop-Modus nicht genutzt werden",
+"Recommended for Team Cooperative Mode": "Empfohlen für den Team Koop-Modus",
+"Not recommended for Cooperative Mode": "Nicht für den Koop-Modus empfohlen",
+"Recommended for Cooperative or Team Cooperative Mode": "Empfohlen für Koop-Modus und Team Koop-Modus",
+
+"How would you like this scoreboard to be displayed?": "Wie soll das Scoreboard angezeigt werden?",
+"On tab list": "In der Tab-Liste",
+"On sidebar": "In der Seitenleiste",
+"Below each player's name": "Unterhalb der Spielernamen",
+
+"Clear scoreboard from below player names": "Leere das Scoreboard von unterhalb der Spielernamen",
+
+
+
+"Technical Settings": "Technische Einstellungen",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "Warnung: Einige dieser Einstellungen könnten sich nachteilig auf deinen Fortschritt auswirken und Lag-Spitzen auslösen, wenn sie genutzt werden. Nutze sie nur, wenn du genau weißt, was du tust! Benutze sie mit Vorsicht!",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "Geht jeden Erfolg bei jedem Spieler durch, der aktuell online ist, und überprüft erneut, wie viele Erfolge sie jeweils haben",
+"Should be used if:": "Soll ausgeführt werden, wenn:",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "- Du kürzlich auf eine neuere Version des Datenpaket gewechselt hast, vor allem bei einem neuen Minecraft-Update",
+"- You have been using commands to manually revoke the advancements of player(s)": "- Du Befehle genutzt hast, um Spielern manuell Erfolge zu entziehen",
+
+"Update team scoreboards": "Update Team-Scoreboards",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "Aktualisiert die Werte der Team-Scoreboards, welche anzeigen, wie viele Erfolge und 'Erster'-Erfolge Spieler erzielt haben",
+
+"Reset obtained advancements": "Setze die erhaltenen Erfolge zurück",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "Setzt das 'bac_obtained'-Scoreboard zurück. Dies bewirkt, dass der Koop-Modus keine Erfolge mehr als erzielt ansieht und deshalb nicht mit den anderen Spielern teilt. Außerdem können alle Erfolge im Anschluss wieder als 'Erster'-Erfolge für das entsprechende Scoreboard erzielt werden",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "Diese Funktion bewirkt, dass Erfolge vom Koop-Modus so lange nicht mehr geteilt werden, bis sie erneut erzielt wurden. Außerdem wird bewirkt, dass alle Erfolge wieder für das 'Erster'-Erfolg-Scoreboard verfügbar sind",
+"This function should only be used if you intend to turn off Cooperative Mode": "Diese Funktion sollte nur genutzt werden, wenn der Koop-Modus deaktiviert werden soll",
+
+"Refresh Cooperative Mode advancement sharing": "Aktualisiere das Teilen von Erfolgen durch den Koop-Modus",
+
+"Grant missing trophies": "Gewähre fehlende Trophäen",
+"Gives every online player every trophy from advancements they have obtained so far": "Gibt allen Spielern, die aktuell online sind, jede Trophäe für die Erfolge, die sie bisher erzielt haben",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "Diese Funktion sollte nur für Welten genutzt werden, die vor dem Trophäen-Update (BACAP 1.11) erstellt wurden, oder wenn wirklich ein schneller Weg gefunden werden soll, die Trophäen zurückzuerhalten",
+
+"Revoke all advancements": "Entziehe alle Erfolge",
+"Revokes every advancement, including resetting scoreboards": "Entzieht alle Erfolge und setzt die Scoreboards zurück",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "Du kannst wählen zwischen dir selbst, dem Spieler, der dir am nächsten ist, oder allen Spielern, die aktuell online sind",
+
+"Once advancements are revoked, they cannot be recovered.": "Sobald die Erfolge einmal entzogen wurden, können sie nicht wiederhergestellt werden.",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "Einige Erfolge aus dem Statistics-Tab erscheinen unter Umständen automatisch wieder. Falls diese auch zurückgesetzt werden sollen, muss vor dem Enziehen der Erfolge die Statistik-Datei des jeweiligen Spielers gelöscht werden.",
+"Please choose who you would like to revoke advancements from, or to go back": "Bitte entscheide, wem du Erfolge entziehen möchtest, oder gehe zurück",
+"Yourself": "Dir selbst",
+"The closest player": "Dem Spieler, der dir am nächsten ist",
+"EVERYONE!! (who is online)": "JEDEM!! (der online ist)",
+">:)": ">:)",
+
+"All advancements have been revoked from %1$s": "Die Erfolge von %1$s wurden entzogen",
+"Error: There are no other players online": "Fehler: Es sind keine anderen Spieler online",
+
+"Go back": "Gehe zurück",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "Eine Reise Beginnt",
+"Find a Traveller’s Map": "Fine eine Reisenden-Karte",
+
+"Castle of Hrrms": "Schloss der Hrrms",
+"Enter a Fortified Village": "Betrete ein befestigtes Dorf",
+
+"Expedition of Discovery": "Expedition der Entdeckung",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "Finde eine Reisenden-Karte, die zu einem seltenen Biom führt, und betrete dieses Biom dann, während du die Karte in der Hand hältst",
+
+"Land of Icicles": "Land der Eiszapfen",
+"Discover a Glacial Chasm biome": "Entdecke ein Glacial-Chasm-Biom",
+
+"Remote Shelter": "Entlegene Zuflucht",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "Finde einen Glacial Hut tief in einem Glacial Chasm-Biom",
+
+"Spire of Ice": "Turm aus Eis",
+"Enter the Spire, located in a frigidly cold biome": "Betrete den Turm, gelegen in einem kalt-kühlen Biom",
+
+"Under the Ice": "Unter dem Eis",
+"Delve deep beneath the Spire and open up a loot chest": "Begib dich tief unter den Turm und öffne eine Loot-Kiste",
+
+
+
+## All advancements added in version 1.14 are here
+"Sneak 100": "Schleichen 100",
+"Sneak near something in the Deep Dark to prevent being heard": "Schleiche neben etwas im Dunkle Tiefen-Biom, um nicht gehört zu werden",
+
+"It spreads!": "Es breitet sich aus!",
+"Kill a mob near a Sculk Catalyst": "Töte eine Kreatur in der Nähe eines Sculk-Katalysators",
+
+"Shriek Forever After": "Für Immer Shriek",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "Löse einen Sculk-Kreischer im Dunkle Tiefen-Biom aus. Das will man vielleicht nicht unbedingt öfter machen…",
+
+"The Block of Eternal Screaming": "Der Block des Unendlichen Schreiens",
+"Use Silk Touch to pick up a Sculk Shrieker": "Benutze Behutsamkeit, um einen Sculk-Kreischer aufzuheben",
+
+"Cataclyst": "Kataklyst",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "Töte einen Wither in der Nähe eines Sculk-Katalysators, um eine große Explosion an Sculk freizusetzen",
+
+"Monstrous Sacrifices": "Monströse Opfergaben",
+"Kill every hostile monster near a Sculk Catalyst": "Töte jede feindliche Kreatur in der Nähe eines Sculk-Katalysators",
+
+"The Incredible Sculk": "Der Unglaubliche Sculk",
+"Collect a stack of all sculk-related blocks": "Sammle einen kompletten Stack von allen Blöcken, die mit Sculk zu tun haben",
+
+"Sculker Box": "Sculker-Kiste",
+"Hold a Shulker Box that is completely filled with Sculk": "Halte eine Shulkerkiste in der Hand, die komplett mit Sculk gefüllt ist",
+
+"Fallen Kingdom": "Gefallenes Königreich",
+"Find and enter an Ancient City deep underground": "Finde und betritt eine Antike Stadt tief im Untergrund",
+
+"Frigid Diversions": "Kalte Umleitungen",
+"Loot a chest inside an ice box in an Ancient City": "Loote eine Kiste in einer Eisbox in einer Antiken Stadt",
+
+"Death Pointer": "Todeszeiger",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "Benutze Echoscherben aus einer Antiken Stadt, um einen Bergungskompass herzustellen",
+
+"9 to 5": "Von 9 bis 5",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "Sammle genügend Plattenbruchstücke, um einen weiteren Produzenten von mysteriösen Geräuschen herzustellen",
+
+"Echonomy": "Echonomy",
+"Collect a stack of Echo Shards": "Sammle einen Stack voll Echoscherben",
+
+"Blind as a Bat": "Blind wie eine Fledermaus",
+"Kill a Bat while under the blindness or darkness effect": "Töte eine Fledermaus, während du den Blindheit- oder Dunkelheit-Effekt hast",
+
+
+"Stuck in the Mud": "Im Schlamm feststecken",
+"Use a Water Bottle on some Dirt to turn it into Mud": "Benutze eine Wasserflasche auf einem Erdblock, um ihn in Schlamm zu verwandeln",
+
+"Elmer Mudd": "Elmer Mudd",
+"Craft or obtain all forms of Mud and Mud Brick": "Erhalte oder stelle alle Varianten von Schlamm und Schlammziegeln her",
+
+"Mangrove Master": "Mangroven-Master",
+"Craft every item made out of mangrove wood": "Stelle jeden Gegenstand aus Mangrovenholz her",
+
+"Incandescent!": "Weißglühend!",
+"Light up the area with all three hues of Froglight": "Erhelle die Umgebung mithilfe von allen drei Farbtönen der Froschlichter",
+
+
+"A Mangrove Grove": "Ein Mangroven-Hain",
+"Plant a Mangrove Propagule in a Grove biome": "Pflanze einen Mangroven-Keimling in einem Berghain-Biom",
+
+
+"Frog Family": "Froschfamilie",
+"Breed two Frogs together using slimeballs": "Paare zwei Frösche mithilfe von Schleimbällen",
+
+"Bukkit bukkit": "Bukkit bukkit",
+"Catch a Tadpole in a Bucket": "Fange eine Kaulquappe in einem Eimer",
+
+"When the Squad Hops into Town": "Wenn das Squad in die Stadt Hüpft",
+"Attach a lead to each variant of Frog": "Leine jede Froschvariante an",
+
+"Ram": "Rammbock",
+"Obtain a Goat’s Horn by having one ram into a block": "Erhalte ein Ziegenhorn, indem eine Ziege einen Block rammt",
+
+"Loud and Proud": "Laut und Stolz",
+"Play a Goat Horn in the Deep Dark": "Benutze ein Ziegenhorn im Dunkle Tiefen-Biom",
+
+"Battle of the Bands": "Kampf der Bands",
+"Blow into a Goat Horn during a raid": "Puste in ein Ziegenhorn während eines Raids",
+
+"Caprymphony": "Caprymphonie",
+"Blow every type of Goat Horn": "Puste in jede Art von Ziegenhorn",
+
+"Animal Kingdom": "Tierreich",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "Bringe ein Exemplar von allen Tierarten an einen Ort (sie müssen sich in einem Umkreis von 32 Blöcken von dir befinden)",
+
+
+"Cargo Carrier": "Frachttransporteur",
+"Ride a Boat with a Chest in it": "Befinde dich in einem Boot, welches eine Kiste enthält",
+
+"Flipper": "Flipper",
+"Give a Dolphin something to play with": "Gib einem Delfin etwas zum Spielen",
+
+
+"Allayance": "Allayanz",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "Befreie einen Hilfsgeist aus einem Pillager-Außenposten oder einem Waldanwesen und gib ihm etwas zum Spielen",
+
+"You’ve Got a Friend in Me": "Du hast einen Freund in mir gefunden",
+"Have an Allay deliver items to you": "Lasse einen Hilfsgeist Items zu dir bringen",
+
+"Evelyn Evergreen": "Evelyn Immergrün",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "Lasse dir von einem Hilfsgeist Fichtensetzlinge bringen, während du Bäume fällst",
+
+"Budget Vex": "Budget-Vex",
+"Give an Allay an Iron Sword": "Gib einem Hilfsgeist ein Eisenschwert",
+
+"Diagon Allay": "Diagonaler Hilfsgeist",
+"Have an Allay deliver a potion to you in the Deep Dark": "Lass dir von einem Hilfsgeist einen Trank ins Dunkle Tiefen-Biom bringen",
+
+"Birthday Song": "Geburtstagslied",
+"Have an Allay drop a cake at a note block": "Lass einen Hilfsgeist einen Kuchen an einen Notenblock werfen",
+
+"Awards Ceremony": "Preiszeremonie",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "Lass dir von einem Hilfsgeist eine Trophäe überreichen, die du für das Erreichen eines Erfolgs bekommen hast",
+
+
+"Now that's a lot of damage": "Das ist jetzt aber mal viel Schaden",
+"Succumb to the Warden": "Unterliege dem Wärter",
+
+"Blind Stare": "Blinder Blick",
+"Look at a Warden with a Spyglass": "Schaue einen Wärter durch ein Fernrohr an",
+
+"Stealth is Optional": "Heimlichkeit ist Optional",
+"Overcome a Warden in the deepest and darkest of caves": "Überwältige einen Wärter in den tiefsten und dunkelsten Höhlen",
+
+"Warden Frostbite": "Wärter-Frostbeule",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "Bringe einen Wärter auf die Oberfläche eines Verschneite Ebene-Bioms und töte ihn dort",
+
+"Not Afraid of Heights": "Keine Höhenangst",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "Bringe einen Wärter zur maximalen Bauhöhe. Er kann keine Höhenangst haben, wenn er nichts sieht",
+
+"House of Freaks": "Haus der Freaks",
+"Summon five Wardens and have them all be within 16 blocks of the player": "Rufe fünf Wärter herbei und schaffe es, dass diese sich alle auf einmal maximal 16 Blöcke von dir entfernt befinden",
+
+
+"Like a Ninja": "Wie ein Ninja",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "Finde ein Verzaubertes Buch mit der Huschen-Verzauberung in einer Antiken Stadt",
+
+"Silent But Deadly": "Leise, aber Tödlich",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "Schleiche und sprinte auf Sculk-Blöcken mit dem Effekt Schnelligkeit II, während du Stiefel trägst, die mit Huschen III verzaubert sind. Versuche, dies sechs mal hintereinander schnell auszusprechen",
+
+
+"Hung, Drawn and Bartered": "Erhängt, Ausgeweidet und Getauscht",
+"Barter for every possible type of item with Piglins": "Ertausche alle erhältlichen Items von Piglins",
+
+
+"The Void Frogs": "Die Void-Frösche",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "Lasse einen Frosch mithilfe eines Tranks des sanften Falls hinunter in die Leere und töte ihn dann, damit er Eins mit der Leere wird",
+
+
+"Farlander": "Farlander",
+"Travel all the way to the border of the world": "Reise bis hin zur Barriere der Welt",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "Benutze Behutsamkeit, um einen Sculk-Sensor einzusammeln, oder finde einen in einer Kiste in einer Antiken Stadt",
+
+# Spelunker
+"Discover every cave biome": "Entdecke jedes Höhlen-Biom",
+
+# Yay! I got my wood!
+"Collect every type of log": "Sammle alle Holzstamm-Arten",
+
+# Stripper
+"Strip the bark off every type of log": "Schäle die Rinde von jeder Holzstamm-Art",
+
+# Ecologist
+"Plant down all types of saplings": "Pflanze alle Arten von Setzlingen",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "Jage alle Arten von Landtieren mit deinem Bogen",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "Entdecke alle Oberflächenbiome in der Oberwelt",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "Tab",
+
+
+# Trophies added in 1.14
+"Mobbo": "Mobbo",
+"They are your bestest friend!": "Er ist dein bestester Freund!",
+
+"The Cataclyst": "Kataklysator",
+"When detonated, it kills every single avatar and NPC in the sector": "Wenn man ihn zündet, tötet er jeden einzelnen Avatar und NPC im Sektor",
+
+"Claptrap": "Klatschfalle",
+"No, I said “Aaaaaand OPEN!”,": "Nein, ich sagte “Uuuuuund OFFEN!”,",
+"not “Aaaaand close a secondary set of doors!”": "nicht “Uuuuund mach noch eine Tür zu!”,",
+
+"Pickle Rick": "Pickle-Rick",
+"Look Morty, I've turned myself into a pickle!": "Schau Morty, ich habe mich in eine Essiggurke verwandelt!",
+
+"Magic Paintbrush": "Magischer Pinsel",
+"For painting with all the colors of the wind": "Um mit allen Farben des Windes zu malen",
+
+"Very Muddy Boots": "Sehr schlammige Stiefel",
+"The result of too long in muddy fields": "Das Ergebnis eines zu langen Aufenthaltes in schlammigen Feldern",
+
+"Pride Rock": "Pride-Rock",
+"Look, Simba. Everything the light touches is our kingdom": "Schau Simba. Alles, was das Licht berührt, ist unser Königreich",
+
+"Copper Goat Horn": "Kupfer-Ziegenhorn",
+"Such a fun and jazzy instrument, sadly not canon": "So ein amüsantes und poppiges Instrument, leider nicht kirchlich",
+
+"FrogChamp": "FrogChamp",
+"It’s Wednesday, my dudes!": "Es ist wieder Mittwoch, meine Leute!",
+
+"Warden Head": "Wärterkopf",
+"Players: How are you meant to kill the Warden?": "Spieler: Wie soll man den Wärter töten?",
+"Mojang: That's the neat part - you don't!": "Mojang: Das ist der elegante Teil - gar nicht!",
+"You: Hold my golden carrots": "Du: Halt meine goldenen Karotten",
+
+"The Warden's Sign": "Das Schild vom Wärter",
+"This sign can’t stop me because I can't see!": "Dieses Schild kann mich nicht aufhalten, weil ich nichts sehen kann!",
+
+"Reuben the Wither Storm Ender": "Reuben, der Wither-Storm-Ender",
+"He was a great pig": "Er war ein großes Schwein",
+
+"The Trophy Trophy": "Die Trophäen-Trophäe",
+"If an Allay brings you this, you will": "Wenn sie dir ein Hilfsgeist bringt, wirst du",
+"receive the Trophy Trophy Trophy": "die Trophäen-Trophäen-Trophäe erhalten",
+
+"Spongebob Squarepants": "Spongebob Schwammkopf",
+"Who lives in a pineapple under the sea?": "Wer wohnt in ´ner Ananas ganz tief im Meer?",
+
+"Fence Post": "Zaunpfahl",
+"Look at this luxurious fence post": "Schau dir diesen luxuriösen Zaunpfahl an",
+"With its courageously mundane colour": "Mit seiner mutig banalen Farbe",
+"And violent corners": "Und heftigen Ecken",
+"This isn't just any fence post…": "Das ist nicht einfach nur ein Zaunpfahl…",
+"It's my fence post! Seriously, get out!": "Das ist mein Zaunpfahl! Ernsthaft, raus hier!",
+
+"Stone of the Farlands": "Stein der Farlands",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "Ein konserviertes Stück Stein der Länder, die vor der Beta 1.8 existierten"
 
 
 
 
-# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
 }

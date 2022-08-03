@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите плачущий обсидиан в руинах портала или во время обмена с пиглинами"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/from_whence_it_came",
   "rewards": {

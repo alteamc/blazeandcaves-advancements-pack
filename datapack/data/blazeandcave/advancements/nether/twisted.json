@@ -9,7 +9,7 @@
     "description": {
       "translate": "Взберитесь на вьющуюся лозу в искажённом лесу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/dont_blink",
   "rewards": {

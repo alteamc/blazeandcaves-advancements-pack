@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте или собирите все формы обычных, потрескавшихся, замшелых и резных каменных кирпичей."
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/rock_polish",
   "rewards": {

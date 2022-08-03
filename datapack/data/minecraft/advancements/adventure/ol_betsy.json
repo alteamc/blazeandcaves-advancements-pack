@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выстрелите из арбалета"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/x_bow",
   "rewards": {

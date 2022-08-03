@@ -9,7 +9,7 @@
     "description": {
       "translate": "Настройте нотный блок через каждую возможную ноту"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/mozart",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Покачайтесь на лозе"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/the_mighty_jungle",
   "rewards": {

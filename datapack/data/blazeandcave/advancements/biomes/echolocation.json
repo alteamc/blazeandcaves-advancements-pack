@@ -9,7 +9,7 @@
     "description": {
       "translate": "Покормите дельфинов рыбой, чтобы они привели вас к сокровищам"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/dolphin_dasher",
   "rewards": {

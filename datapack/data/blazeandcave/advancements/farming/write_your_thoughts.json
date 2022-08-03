@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте книгу, чернильный мешок и перо для создания книги и пера"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/its_full_of_ink",
   "rewards": {

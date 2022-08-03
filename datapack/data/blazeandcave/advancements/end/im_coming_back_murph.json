@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Пропутешествуйте очень далеко, находясь в измерении Энд"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:end/in_your_face_neil_armstrong",
@@ -21,20 +21,29 @@
     "outer_pos_x": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_end",
-        "position": {
-          "x": {
-            "min": 10000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "x": {
+                    "min": 10000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -46,20 +55,29 @@
     "outer_pos_z": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_end",
-        "position": {
-          "z": {
-            "min": 10000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "z": {
+                    "min": 10000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -71,20 +89,29 @@
     "outer_neg_x": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_end",
-        "position": {
-          "x": {
-            "max": -10000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "x": {
+                    "max": -10000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -96,20 +123,29 @@
     "outer_neg_z": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_end",
-        "position": {
-          "z": {
-            "max": -10000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "z": {
+                    "max": -10000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

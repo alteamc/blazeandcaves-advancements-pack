@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте овечку, чтобы получить её шерсть"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/root",
   "rewards": {

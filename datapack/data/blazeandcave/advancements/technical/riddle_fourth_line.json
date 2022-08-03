@@ -12,9 +12,10 @@
         },
         "player": {
           "location": {
-            "feature": "jungle_pyramid"
+            "structure": "jungle_pyramid"
           },
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_third_line": "true"
             }
@@ -41,7 +42,8 @@
               ]
             }
           },
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_third_line": "true"
             }
@@ -68,7 +70,8 @@
               ]
             }
           },
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_third_line": "true"
             }
@@ -95,7 +98,8 @@
               ]
             }
           },
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_third_line": "true"
             }

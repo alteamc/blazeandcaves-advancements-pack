@@ -9,7 +9,7 @@
     "description": {
       "translate": "Победите утопленника, держащего раковину наутилуса и трезубец одновременно"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/mollusc_man",
@@ -22,7 +22,18 @@
       "conditions": {
         "entity": {
           "type": "drowned",
-          "nbt": "{HandItems:[{id:\"minecraft:trident\",Count:1b},{id:\"minecraft:nautilus_shell\",Count:1b}]}"
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:trident"
+              ]
+            },
+            "offhand": {
+              "items": [
+                "minecraft:nautilus_shell"
+              ]
+            }
+          }
         }
       }
     }

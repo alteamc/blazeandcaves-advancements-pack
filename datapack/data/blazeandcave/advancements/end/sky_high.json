@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Преодолейте максимальную высоту мира"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:end/elytra",
@@ -21,19 +21,28 @@
     "world_height": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "y": {
-            "min": 325
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 325
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Ударьте грибную корову молнией, а затем посмотрите, что получится"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:animal/milkshroom",

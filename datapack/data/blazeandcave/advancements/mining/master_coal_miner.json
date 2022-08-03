@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте достаточно угля и создайте стак угольных блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/coal_miner",

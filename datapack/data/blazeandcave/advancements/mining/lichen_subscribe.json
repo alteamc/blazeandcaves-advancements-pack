@@ -9,9 +9,9 @@
     "description": {
       "translate": "Используйте ножницы для получения светящегося лишайника в подземной пещеры"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/spelunker",
+  "parent": "blazeandcave:mining/heart_of_darkness",
   "rewards": {
     "function": "bc_rewards:mining/lichen_subscribe"
   },

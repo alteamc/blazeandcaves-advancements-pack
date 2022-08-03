@@ -9,7 +9,7 @@
     "description": {
       "translate": "Примените костную муку везде, где возможно"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:farming/one_course_meal",
@@ -573,6 +573,41 @@
           "block": {
             "blocks": [
               "minecraft:flowering_azalea"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        }
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_propagule",
+              "minecraft:air"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        }
+      }
+    },
+    "mangrove_leaves": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_leaves"
             ]
           }
         },

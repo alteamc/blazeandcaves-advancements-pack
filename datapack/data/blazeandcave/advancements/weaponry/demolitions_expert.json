@@ -9,7 +9,7 @@
     "description": {
       "translate": "Взорвите каждого враждебного моба при помощи динамита"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:weaponry/revenge",
@@ -352,6 +352,17 @@
       "conditions": {
         "entity": {
           "type": "minecraft:piglin_brute"
+        },
+        "killing_blow": {
+          "is_explosion": "true"
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:warden"
         },
         "killing_blow": {
           "is_explosion": "true"

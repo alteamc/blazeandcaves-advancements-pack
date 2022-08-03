@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте алмазную мотыгу, пока она не сломается, а потом попробуйте переосмыслить свою жизнь"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:farming/come_to_the_countryside",

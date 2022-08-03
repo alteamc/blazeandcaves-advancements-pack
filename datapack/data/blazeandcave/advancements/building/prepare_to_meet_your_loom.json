@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте ткацкий станок из досок и нитей для создания флагов"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/raise_the_flag",
   "rewards": {

@@ -10,7 +10,7 @@
       "color": "light_purple",
       "translate": "Создайте мешок, используя кроличьи шкурки и нитки"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "hidden": "true"
   },
   "parent": "blazeandcave:animal/bunny_lover",

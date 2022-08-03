@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте зомби-крестьянина"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/dead_dont_die",
   "rewards": {

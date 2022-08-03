@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Играйте на всех возможных инструментах на нотном блоке"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:redstone/take_notes",

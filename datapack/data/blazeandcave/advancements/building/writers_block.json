@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте кафедру из деревянных плит и книжной палки, а затем разместите её"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/barrel_rider",
   "rewards": {

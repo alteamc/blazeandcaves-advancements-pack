@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Вскрик навеки"
+    },
+    "description": {
+      "translate": "Задеть Скалк Крикуна в глубокой темноте. Возможно, не стоит делать это слишком часто..."
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
+  "rewards": {
+    "function": "bc_rewards:mining/shriek_forever_after"
+  },
+  "criteria": {
+    "darkness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:darkness": {}
+        }
+      }
+    }
+  }
+}

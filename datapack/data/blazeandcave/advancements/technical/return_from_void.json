@@ -3,20 +3,29 @@
     "return_from_void": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "y": {
-            "min": 0
-          }
-        },
-        "dimension": "the_end",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 0
+                  }
+                },
+                "dimension": "the_end"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

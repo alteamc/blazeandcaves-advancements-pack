@@ -9,7 +9,7 @@
     "description": {
       "translate": "Войдите в песчаную пирамиду"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/now_youre_thinking_with_portals",
   "rewards": {
@@ -19,15 +19,24 @@
     "desert_pyramid": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "desert_pyramid",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:desert_pyramid"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

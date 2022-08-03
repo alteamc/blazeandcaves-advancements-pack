@@ -10,7 +10,7 @@
     "description": {
       "translate": "Ударьте моба палкой"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/root",
   "rewards": {
@@ -30,7 +30,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stick\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:stick"
+                  ]
+                }
+              }
             }
           }
         }

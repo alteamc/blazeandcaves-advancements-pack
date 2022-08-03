@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Используйте подзорную трубу, чтобы посмотреть на двух жителей деревни, сидящих в лодке, по крайней мере, с расстояния 50 блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:adventure/trade",
@@ -25,7 +25,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:boat",
                   "nbt": "{Passengers:[{id:\"minecraft:villager\"},{id:\"minecraft:villager\"}]}",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Сломайте все шесть видов лопат"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/bling_bling_gone",

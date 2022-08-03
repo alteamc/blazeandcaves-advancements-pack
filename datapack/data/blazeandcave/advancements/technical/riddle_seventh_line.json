@@ -22,7 +22,8 @@
           }
         ],
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_sixth_line": "true"
             }
@@ -49,7 +50,8 @@
           }
         ],
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_sixth_line": "true"
             }

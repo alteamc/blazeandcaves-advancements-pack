@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте всё, что связано с редстоуном"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:redstone/sticky_parts",
@@ -865,6 +865,78 @@
           {
             "items": [
               "minecraft:honey_block"
+            ]
+          }
+        ]
+      }
+    },
+    "sculk_sensor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_sensor"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_button"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_pressure_plate"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_door"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_trapdoor"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_fence_gate"
             ]
           }
         ]

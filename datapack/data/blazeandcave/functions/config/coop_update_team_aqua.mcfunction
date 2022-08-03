@@ -1160,12 +1160,70 @@ execute if score blazeandcave:biomes/pretty_in_purple bac_obtained_aqua matches 
 execute if score blazeandcave:biomes/master_spelunker bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:biomes/master_spelunker
 execute if score blazeandcave:biomes/terralithic bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:biomes/terralithic
 
-execute if score blazeandcave:biomes/land_of_icicles bac_obtained matches 1.. run advancement grant @a only blazeandcave:biomes/land_of_icicles
-execute if score blazeandcave:adventure/castle_of_hrrms bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/castle_of_hrrms
-execute if score blazeandcave:adventure/remote_shelter bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/remote_shelter
-execute if score blazeandcave:adventure/spire_of_ice bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/spire_of_ice
-execute if score blazeandcave:adventure/under_the_ice bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/under_the_ice
-execute if score blazeandcave:adventure/a_journey_begins bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/a_journey_begins
-execute if score blazeandcave:adventure/expedition_of_discovery bac_obtained matches 1.. run advancement grant @a only blazeandcave:adventure/expedition_of_discovery
+execute if score blazeandcave:biomes/land_of_icicles bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:biomes/land_of_icicles
+execute if score blazeandcave:adventure/castle_of_hrrms bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/castle_of_hrrms
+execute if score blazeandcave:adventure/remote_shelter bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/remote_shelter
+execute if score blazeandcave:adventure/spire_of_ice bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/spire_of_ice
+execute if score blazeandcave:adventure/under_the_ice bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/under_the_ice
+execute if score blazeandcave:adventure/a_journey_begins bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/a_journey_begins
+execute if score blazeandcave:adventure/expedition_of_discovery bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/expedition_of_discovery
 
+# The following advancements were added in version 1.14
+execute if score minecraft:adventure/avoid_vibration bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:adventure/avoid_vibration
+execute if score minecraft:adventure/kill_mob_near_sculk_catalyst bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:mining/kill_mob_near_sculk_catalyst
+execute if score blazeandcave:mining/shriek_forever_after bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/shriek_forever_after
+execute if score blazeandcave:mining/the_block_of_eternal_screaming bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/the_block_of_eternal_screaming
+execute if score blazeandcave:mining/cataclyst bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/cataclyst
+execute if score blazeandcave:mining/monstrous_sacrifices bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/monstrous_sacrifices
+execute if score blazeandcave:mining/the_incredible_sculk bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/the_incredible_sculk
+execute if score blazeandcave:mining/sculker_box bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/sculker_box
+execute if score blazeandcave:mining/fallen_kingdom bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/fallen_kingdom
+execute if score blazeandcave:mining/frigid_diversions bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/frigid_diversions
+execute if score blazeandcave:mining/death_pointer bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/death_pointer
+execute if score blazeandcave:mining/9_to_5 bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/9_to_5
+execute if score blazeandcave:mining/echonomy bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/echonomy
+execute if score blazeandcave:mining/blind_as_a_bat bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:mining/blind_as_a_bat
 
+execute if score blazeandcave:building/stuck_in_the_mud bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:building/stuck_in_the_mud
+execute if score blazeandcave:building/elmer_mudd bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:building/elmer_mudd
+execute if score blazeandcave:building/mangrove_master bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:building/mangrove_master
+execute if score minecraft:husbandry/froglights bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:husbandry/froglights
+
+execute if score blazeandcave:farming/a_mangrove_grove bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:farming/a_mangrove_grove
+
+execute if score blazeandcave:animal/frog_family bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:animal/frog_family
+execute if score minecraft:husbandry/tadpole_in_a_bucket bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:husbandry/tadpole_in_a_bucket
+execute if score minecraft:husbandry/leash_all_frog_variants bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:husbandry/leash_all_frog_variants
+execute if score blazeandcave:animal/ram bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:animal/ram
+execute if score blazeandcave:animal/loud_and_proud bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:animal/loud_and_proud
+execute if score blazeandcave:animal/battle_of_the_bands bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:animal/battle_of_the_bands
+execute if score blazeandcave:animal/caprymphony bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:animal/caprymphony
+execute if score blazeandcave:animal/animal_kingdom bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:animal/animal_kingdom
+
+execute if score blazeandcave:biomes/cargo_carrier bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:biomes/cargo_carrier
+execute if score blazeandcave:biomes/flipper bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:biomes/flipper
+
+execute if score blazeandcave:adventure/undying_fandom bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/undying_fandom
+execute if score blazeandcave:adventure/allayance bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/allayance
+execute if score minecraft:husbandry/allay_deliver_item_to_player bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:husbandry/allay_deliver_item_to_player
+execute if score blazeandcave:adventure/evelyn_evergreen bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/evelyn_evergreen
+execute if score blazeandcave:adventure/budget_vex bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/budget_vex
+execute if score blazeandcave:adventure/diagon_allay bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/diagon_allay
+execute if score minecraft:husbandry/allay_deliver_cake_to_note_block bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only minecraft:husbandry/allay_deliver_cake_to_note_block
+execute if score blazeandcave:adventure/awards_ceremony bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:adventure/awards_ceremony
+
+execute if score blazeandcave:monsters/now_thats_a_lot_of_damage bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:monsters/now_thats_a_lot_of_damage
+execute if score blazeandcave:monsters/blind_stare bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:monsters/blind_stare
+execute if score blazeandcave:monsters/stealth_is_optional bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:monsters/stealth_is_optional
+execute if score blazeandcave:monsters/warden_frostbite bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:monsters/warden_frostbite
+execute if score blazeandcave:monsters/not_afraid_of_heights bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:monsters/not_afraid_of_heights
+execute if score blazeandcave:monsters/house_of_freaks bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:monsters/house_of_freaks
+
+execute if score blazeandcave:enchanting/like_a_ninja bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:enchanting/like_a_ninja
+execute if score blazeandcave:enchanting/silent_but_deadly bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:enchanting/silent_but_deadly
+
+execute if score blazeandcave:nether/hung_drawn_and_bartered bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:nether/hung_drawn_and_bartered
+
+execute if score blazeandcave:end/the_void_frogs bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:end/the_void_frogs
+
+execute if score blazeandcave:challenges/farlander bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only blazeandcave:challenges/farlander

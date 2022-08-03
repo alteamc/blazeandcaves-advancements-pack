@@ -1,12 +1,12 @@
 BlazeandCave's Advancements Pack
-Version 1.13.5
+Version 1.14.5
 
 By Cavinator1
 
 Thank you for downloading this datapack!
 If you liked or have any ideas for other advancements that could be added to this datapack (or found any issues) feel free to comment.
 
-Please use Minecraft 1.18.2 for this version.
+Please use Minecraft 1.19 or 1.19.1 for this version.
 The datapack may or may not continue to work properly in future versions. Please make a backup of your world before attempting to use in future versions in case of bugs.
 
 --- Installing: ---
@@ -33,12 +33,12 @@ Using the config menu you can:
 
 
 --- For more information, including troubleshooting, please read the PMC page ---
-https://www.planetminecraft.com/data-pack/blazeandcave-s-advancements-pack-1-12/
+https://bit.ly/3u9BXTr
 
 
 --- List of advancements: ---
-I challenge you to get all 1000 advancements. :) Or at least as many as you can.
+I challenge you to get all 1047 advancements. :) Or at least as many as you can.
 
 View the list of advancements here:
-https://docs.google.com/spreadsheets/d/17bkOL7Pkzk-JYIP5SSIzn3ZptV2VtQCdvTeafL9biB4/edit?usp=sharing
+https://bit.ly/3kg80g5
 

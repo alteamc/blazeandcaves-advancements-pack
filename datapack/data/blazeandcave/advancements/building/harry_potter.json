@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поместите все виды растений в цветочный горшок"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:building/pot_planter",
@@ -540,6 +540,23 @@
         "item": {
           "items": [
             "minecraft:flowering_azalea"
+          ]
+        }
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:potted_mangrove_propagule"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:mangrove_propagule"
           ]
         }
       }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте печь, чтобы переплавить булыжник обратно в камень"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/rock_collection",
   "rewards": {

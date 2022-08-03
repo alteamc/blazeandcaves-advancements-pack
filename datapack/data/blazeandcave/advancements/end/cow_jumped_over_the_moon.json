@@ -9,7 +9,7 @@
     "description": {
       "translate": "Переместите корову в измерение Энд и убейте её там"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:end/the_point_of_no_return",

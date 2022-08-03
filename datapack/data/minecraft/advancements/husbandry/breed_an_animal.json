@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте двух коров пшеницей"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/high_steaks",
   "rewards": {

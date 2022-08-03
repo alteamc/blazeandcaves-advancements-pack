@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте немного ступенек"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/cut_in_half",
   "rewards": {
@@ -591,6 +591,30 @@
           }
         ]
       }
+    },
+    "mangrove_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_stairs"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_stairs"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -642,7 +666,9 @@
       "cobbled_deepslate_stairs",
       "polished_deepslate_stairs",
       "deepslate_brick_stairs",
-      "deepslate_tile_stairs"
+      "deepslate_tile_stairs",
+      "mangrove_stairs",
+      "mud_brick_stairs"
     ]
   ]
 }

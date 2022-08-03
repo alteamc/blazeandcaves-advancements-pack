@@ -11,7 +11,7 @@
       "color": "#75E1FF",
       "translate": "Заполучите 100 уровень опыта"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:statistics/level_up",
@@ -23,7 +23,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "level": {
               "min": 100
             }

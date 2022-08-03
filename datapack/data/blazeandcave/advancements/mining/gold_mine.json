@@ -9,9 +9,9 @@
     "description": {
       "translate": "Найдите заброшенную шахту на поверхности столовых гор"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/eeuuwww",
+  "parent": "blazeandcave:mining/this_is_mine_now",
   "rewards": {
     "function": "bc_rewards:mining/gold_mine"
   },
@@ -19,15 +19,24 @@
     "mineshaft_mesa": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "mineshaft_mesa",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mineshaft_mesa"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

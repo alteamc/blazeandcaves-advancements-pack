@@ -9,7 +9,7 @@
     "description": {
       "translate": "Осветите местность грибосветом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/glowing",
   "rewards": {

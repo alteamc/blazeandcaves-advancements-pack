@@ -7,9 +7,10 @@
       "translate": "Радужные сны"
     },
     "description": {
+      "color": "#75E1FF",
       "translate": "Создайте кровать каждого цвета"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/change_of_sheets",

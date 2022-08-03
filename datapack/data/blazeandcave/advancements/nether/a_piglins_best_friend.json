@@ -9,10 +9,10 @@
     "description": {
       "translate": "Дайте в общей сложности 500 золотых пиглинам во время ваших приключений в Незере"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
-  "parent": "blazeandcave:nether/when_piglins_fly",
+  "parent": "blazeandcave:nether/hung_drawn_and_bartered",
   "rewards": {
     "function": "bc_rewards:nether/a_piglins_best_friend"
   },

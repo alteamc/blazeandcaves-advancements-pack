@@ -9,9 +9,9 @@
     "description": {
       "translate": "Погрузитесь в кромешную темноту"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/spelunker",
+  "parent": "minecraft:story/mine_stone",
   "rewards": {
     "function": "bc_rewards:mining/heart_of_darkness"
   },
@@ -19,19 +19,37 @@
     "enter_cave": {
       "trigger": "minecraft:location",
       "conditions": {
-        "light": {
-          "light": {
-            "max": 0
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "light": {
+                  "light": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "light": {
+                "light": 0
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

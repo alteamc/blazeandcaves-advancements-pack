@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поспите на кровати, чтобы изменить точку возрождения"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/your_door_was_locked",
   "rewards": {

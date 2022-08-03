@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте каждый вид стены, доступный в игре"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/the_walls",
@@ -265,6 +265,18 @@
           {
             "items": [
               "minecraft:deepslate_tile_wall"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_brick_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_wall"
             ]
           }
         ]

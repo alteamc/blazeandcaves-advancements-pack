@@ -11,7 +11,7 @@
       "color": "#FF2A2A",
       "translate": "Вызовите Эндер-Дракона, Иссушителя и Рейд в течение тридцати секунд друг от друга, а затем победите их всех, не получив урона"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/dragon_vs_wither_the_pre_sequel",
@@ -26,7 +26,8 @@
           "type": "ender_dragon"
         },
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/spawn_perfect_one": "true"
             }
@@ -41,7 +42,8 @@
           "type": "wither"
         },
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/spawn_perfect_one": "true"
             }
@@ -53,7 +55,8 @@
       "trigger": "minecraft:hero_of_the_village",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/spawn_perfect_one": "true"
             }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выторгуйте что-нибудь у крестьян"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/do_you_want_to_trade",
   "rewards": {

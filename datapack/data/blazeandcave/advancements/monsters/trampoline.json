@@ -9,7 +9,7 @@
     "description": {
       "translate": "Прыгните на блок слизи с высоты не менее 30 блоков"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/gelatinous_cube",
   "rewards": {

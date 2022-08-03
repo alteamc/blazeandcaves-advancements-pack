@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Приведите пиглина в обычный мир и избавьте его от дальнейшей зомбификации"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:nether/cultural_misunderstandings",

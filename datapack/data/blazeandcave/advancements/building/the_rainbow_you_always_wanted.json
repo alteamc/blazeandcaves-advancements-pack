@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте все 16 видов цветного бетона"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/concrete_evidence",

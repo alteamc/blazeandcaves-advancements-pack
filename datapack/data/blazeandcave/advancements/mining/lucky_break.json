@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Выжить при падении с высоты 15 метров и более, с максимум 2 очками здоровья"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:mining/dripstone_drop",

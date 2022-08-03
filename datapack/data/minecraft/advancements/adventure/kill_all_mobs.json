@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте враждебного моба каждого вида"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/dungeon_crawler",
@@ -286,6 +286,14 @@
       "conditions": {
         "entity": {
           "type": "minecraft:piglin_brute"
+        }
+      }
+    },
+    "minecraft:warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:warden"
         }
       }
     }

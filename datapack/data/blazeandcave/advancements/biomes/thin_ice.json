@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте кирку с шёлковым касанием, чтобы добыть немного льда"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/powder_full",
   "rewards": {

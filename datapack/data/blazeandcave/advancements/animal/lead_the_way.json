@@ -9,7 +9,7 @@
     "description": {
       "translate": "Сделайте поводок из веревки и шара слизи, затем привяжите его к мобу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/root",
   "rewards": {

@@ -8,12 +8,12 @@
     },
     "description": {
       "color": "#75E1FF",
-      "translate": "Посадите все шесть видов саженцев"
+      "translate": "Посадите саженцы всех типов"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
-  "parent": "blazeandcave:farming/ultra_hardcore",
+  "parent": "blazeandcave:farming/bapple",
   "rewards": {
     "function": "bc_rewards:farming/ecologist"
   },
@@ -52,6 +52,24 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "block": "minecraft:dark_oak_sapling"
+      }
+    },
+    "azalea": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:azalea"
+      }
+    },
+    "flowering_azalea": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:flowering_azalea"
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:mangrove_propagule"
       }
     }
   }

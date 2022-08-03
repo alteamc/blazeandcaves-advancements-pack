@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте железный слиток, чтобы починить железного голема"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/summon_iron_golem",
   "rewards": {

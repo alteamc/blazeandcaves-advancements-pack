@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте поборника в лесном особняке"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/house_of_psychos",
   "rewards": {
@@ -22,7 +22,7 @@
         "entity": {
           "type": "vindicator",
           "location": {
-            "feature": "mansion"
+            "structure": "mansion"
           }
         }
       }

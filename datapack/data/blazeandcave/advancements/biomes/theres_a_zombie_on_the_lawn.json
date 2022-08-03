@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите подсолнечное поле"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/for_you_my_sweet",
   "rewards": {
@@ -19,15 +19,24 @@
     "sunflower_plains": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:sunflower_plains",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:sunflower_plains"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

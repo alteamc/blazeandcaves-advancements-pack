@@ -9,7 +9,7 @@
     "description": {
       "translate": "Установите каждый вариант незерского блока в обычном мире"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:nether/hell_botanist",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте двух лавомерок при помощи искажённого гриба"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/ride_strider",
   "rewards": {

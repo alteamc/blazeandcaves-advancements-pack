@@ -3,12 +3,22 @@
     "below_void": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "y": {
-            "max": -64
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -64
+                  }
+                },
+                "dimension": "minecraft:the_end"
+              }
+            }
           }
-        },
-        "dimension": "minecraft:the_end"
+        ]
       }
     }
   }

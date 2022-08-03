@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте эндермена при помощи стрелы"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/plane_walker",
@@ -30,7 +30,13 @@
         },
         "killing_blow": {
           "source_entity": {
-            "nbt": "{SelectedItem:{id:\"minecraft:arrow\",}}"
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:arrow"
+                ]
+              }
+            }
           }
         }
       }

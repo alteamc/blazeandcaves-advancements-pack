@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте двух волков костями, чтобы получить щенка!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/tame_an_animal",
   "rewards": {

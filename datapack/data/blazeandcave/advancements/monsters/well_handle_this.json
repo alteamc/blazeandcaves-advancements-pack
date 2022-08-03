@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заманите фантома в Незер и убейте его"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:adventure/two_birds_one_arrow",

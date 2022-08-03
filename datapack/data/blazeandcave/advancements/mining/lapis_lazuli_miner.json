@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Добудьте достаточно лазурита и создайте стак лазуритовых блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:mining/diam_oh_wait_no",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Пропрыгайте 100,000 раз"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:statistics/boing_boing",
@@ -21,7 +21,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:custom",

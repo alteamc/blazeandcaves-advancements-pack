@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите мёртвый куст, потому что Вы — нуб"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/foliage",
   "rewards": {

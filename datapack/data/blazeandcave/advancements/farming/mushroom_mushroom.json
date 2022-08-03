@@ -9,7 +9,7 @@
     "description": {
       "translate": "Испытайте на вкус грибной суп"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/shrooms",
   "rewards": {

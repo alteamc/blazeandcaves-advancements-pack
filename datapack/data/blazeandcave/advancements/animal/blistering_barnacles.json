@@ -9,7 +9,7 @@
     "description": {
       "translate": "Пусть Вас оплюёт лама"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/so_i_got_that_going_for_me",
   "rewards": {

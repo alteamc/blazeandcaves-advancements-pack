@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Прыгните в портал измерения Энд"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:story/follow_ender_eye",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Соберите немного рыхлого снега в ведро"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/this_snow_is_snowier",
   "rewards": {

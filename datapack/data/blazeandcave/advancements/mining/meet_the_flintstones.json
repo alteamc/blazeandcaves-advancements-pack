@@ -9,9 +9,9 @@
     "description": {
       "translate": "Получите кремень из гравия"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/moar_tools",
+  "parent": "blazeandcave:mining/my_work_here_is_done",
   "rewards": {
     "function": "bc_rewards:mining/meet_the_flintstones"
   },

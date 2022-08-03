@@ -10,7 +10,7 @@
     "description": {
       "translate": "Отразите стрелу, выпущенную разбойником из арбалета"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/out_of_posts",
   "rewards": {

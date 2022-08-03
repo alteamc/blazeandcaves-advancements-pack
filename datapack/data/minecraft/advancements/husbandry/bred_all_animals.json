@@ -9,7 +9,7 @@
     "description": {
       "translate": "Вырастите животное каждого вида!"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:animal/milkshroom",
@@ -190,6 +190,14 @@
       "conditions": {
         "child": {
           "type": "minecraft:mule"
+        }
+      }
+    },
+    "minecraft:frog": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:frog"
         }
       }
     }

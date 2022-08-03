@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте крипера в ближнем бою, пока Вы невидимы"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/the_invisible_player",
   "rewards": {

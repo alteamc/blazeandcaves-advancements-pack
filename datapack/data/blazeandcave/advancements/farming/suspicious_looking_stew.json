@@ -9,7 +9,7 @@
     "description": {
       "translate": "Испробуйте подозрительный суп на вкус, надеясь, что не увидите гигантские летающие глаза в небе"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/mushroom_mushroom",
   "rewards": {

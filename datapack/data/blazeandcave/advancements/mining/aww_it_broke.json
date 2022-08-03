@@ -9,9 +9,9 @@
     "description": {
       "translate": "Сломайте первый инструмент"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "minecraft:story/mine_stone",
+  "parent": "blazeandcave:mining/moar_tools",
   "rewards": {
     "function": "bc_rewards:mining/aww_it_broke"
   },

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Пораньтесь об куст сладких ягод"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/berry_nice",
   "rewards": {

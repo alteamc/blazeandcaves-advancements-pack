@@ -11,7 +11,7 @@
       "color": "#75E1FF",
       "translate": "Нырнуть в воду со скалы, высотой не менее 50 блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:biomes/boaty_mcboatface",

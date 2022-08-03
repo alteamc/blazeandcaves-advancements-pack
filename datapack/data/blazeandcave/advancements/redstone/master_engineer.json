@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте по стаку всего, что связано с редстоуном"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:redstone/engineer",
@@ -934,6 +934,84 @@
           {
             "items": [
               "minecraft:honey_block"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "sculk_sensor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_sensor"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "mangrove_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_button"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "mangrove_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_pressure_plate"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "mangrove_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_door"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "mangrove_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_trapdoor"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "mangrove_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_fence_gate"
             ],
             "count": 64
           }

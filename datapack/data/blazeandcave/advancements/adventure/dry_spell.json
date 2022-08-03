@@ -9,7 +9,7 @@
     "description": {
       "translate": "Высушите губку при помощи печи"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/the_deep_end",
   "rewards": {

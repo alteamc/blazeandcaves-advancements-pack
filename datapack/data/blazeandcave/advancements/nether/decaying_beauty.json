@@ -9,7 +9,7 @@
     "description": {
       "translate": "Подберите несколько роз визера"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/summon_wither",
   "rewards": {

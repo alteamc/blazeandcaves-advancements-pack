@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выловите во время рыбалки сокровище"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/what_a_piece_of_junk",
   "rewards": {

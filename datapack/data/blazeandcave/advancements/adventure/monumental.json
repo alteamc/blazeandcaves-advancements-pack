@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите подводную крепость"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/treasure_map",
   "rewards": {
@@ -19,15 +19,24 @@
     "monument": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "monument",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "monument"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

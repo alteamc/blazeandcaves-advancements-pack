@@ -9,7 +9,7 @@
     "description": {
       "translate": "Вы проваливаетесь в него и двигаетесь, словно в грязи"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/nugget_in_a_biscuit",
   "rewards": {

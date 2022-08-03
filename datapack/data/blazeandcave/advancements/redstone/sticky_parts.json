@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте липкий поршень"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/moving_parts",
   "rewards": {

@@ -9,10 +9,10 @@
     "description": {
       "translate": "Подожгите каждый легковоспламеняющийся блок"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
-  "parent": "blazeandcave:mining/strike_a_light",
+  "parent": "blazeandcave:mining/flint_miner",
   "rewards": {
     "function": "bc_rewards:mining/bonfire_night"
   },
@@ -2217,6 +2217,193 @@
           "block": {
             "blocks": [
               "minecraft:sweet_berry_bush"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_log": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_log"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "stripped_mangrove_log": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:stripped_mangrove_log"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_wood": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_wood"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "stripped_mangrove_wood": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:stripped_mangrove_wood"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_planks": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_planks"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_slab"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_fence_gate": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_fence_gate"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_fence": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_fence"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_stairs"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_leaves": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_leaves"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "mangrove_roots": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mangrove_roots"
             ]
           }
         },

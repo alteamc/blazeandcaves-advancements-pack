@@ -10,7 +10,7 @@
     "description": {
       "translate": "Покрасьте кожаные штаны и наденьте их"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/cool_kids",
   "rewards": {

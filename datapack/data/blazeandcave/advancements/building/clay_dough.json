@@ -9,7 +9,7 @@
     "description": {
       "translate": "Накопайте немного глины в одном из водоёмов"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/i_dont_like_sand",
   "rewards": {

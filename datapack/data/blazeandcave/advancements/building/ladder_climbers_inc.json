@@ -9,7 +9,7 @@
     "description": {
       "translate": "С уважением, Корпорация Лазанья по Лестницам"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/your_door_was_locked",
   "rewards": {

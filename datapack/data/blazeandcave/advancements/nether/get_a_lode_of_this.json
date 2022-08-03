@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте магнетит при помощи резных каменных кирпичей и незеритового слитка"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/diamonds_are_not_forever",
   "rewards": {

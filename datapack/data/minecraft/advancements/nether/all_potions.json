@@ -9,7 +9,7 @@
     "description": {
       "translate": "Испытайте эффекты всех возможных зелий одновременно"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:potion/hopping_mad",

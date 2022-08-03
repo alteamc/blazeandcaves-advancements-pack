@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поторгуйтесь с крестьянином каждого вида, выторговав что-то на максимальном уровне"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:adventure/lilypad_hatter",

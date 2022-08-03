@@ -9,7 +9,7 @@
     "description": {
       "translate": "Ворвитесь в незерскую крепость"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/root",
   "rewards": {
@@ -19,15 +19,24 @@
     "fortress": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "fortress",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "fortress"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

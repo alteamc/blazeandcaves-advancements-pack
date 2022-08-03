@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убить зомби, держа в руках подзорную трубу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/diemonds",
   "rewards": {

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Соберите стак курятины и перьев"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/feeding_the_chickens",

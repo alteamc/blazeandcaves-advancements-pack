@@ -9,9 +9,9 @@
     "description": {
       "translate": "Откройте сундук в сокровищнице глубоко под поверхностью"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/spelunker",
+  "parent": "blazeandcave:mining/heart_of_darkness",
   "rewards": {
     "function": "bc_rewards:mining/dungeons_and_spawners"
   },

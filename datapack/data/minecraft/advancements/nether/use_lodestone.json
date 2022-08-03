@@ -10,7 +10,7 @@
     "description": {
       "translate": "Настройте компас на магнетит"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/get_a_lode_of_this",
   "rewards": {

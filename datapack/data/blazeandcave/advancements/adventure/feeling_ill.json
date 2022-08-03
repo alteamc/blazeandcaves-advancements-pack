@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Победите каждого моба из грабителей во время рейда"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:adventure/its_so_beast_like",

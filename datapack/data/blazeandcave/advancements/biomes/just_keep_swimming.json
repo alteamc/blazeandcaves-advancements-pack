@@ -9,7 +9,7 @@
     "description": {
       "translate": "Просто продолжайте плыть по течению"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/root",
   "rewards": {

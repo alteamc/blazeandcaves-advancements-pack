@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Поторгуйте с крестьянином на самой высокой точке мира"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:adventure/lilypad_hatter",

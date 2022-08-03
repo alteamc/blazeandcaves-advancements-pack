@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте или соберите все формы чернита, включая полированный и кирпичный варианты"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/no_chain_no_gain",
   "rewards": {

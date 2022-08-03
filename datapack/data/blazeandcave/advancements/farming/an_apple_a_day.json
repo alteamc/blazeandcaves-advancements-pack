@@ -9,10 +9,10 @@
     "description": {
       "translate": "Ешьте яблоко каждый день на протяжении 30 игровых дней."
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
-  "parent": "blazeandcave:farming/ecologist",
+  "parent": "blazeandcave:farming/ultra_hardcore",
   "rewards": {
     "function": "bc_rewards:farming/an_apple_a_day"
   },

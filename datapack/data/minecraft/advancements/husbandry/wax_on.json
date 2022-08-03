@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте пчелиные соты для обработки медного блока, чтобы предотвратить его окисление."
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/dont_come_a_copper",
   "rewards": {

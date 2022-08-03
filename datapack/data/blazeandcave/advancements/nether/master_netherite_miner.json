@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте достаточно древних обломков, чтобы сделать стак слитков незерита (не волнуйтесь, добычи стака блоков незерита необязательна в этом пакете данных, я не такой злой…)"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:nether/netherite_miner",

@@ -10,7 +10,7 @@
       "color": "light_purple",
       "translate": "Убейте маленькую черепаху, ведьму, фантома, древнего стража и брутального пиглина одной пронзающей стрелой в Энде"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge",
     "hidden": "true"
   },

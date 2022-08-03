@@ -9,7 +9,7 @@
     "description": {
       "translate": "Съешьте 1000 паучьих глаз"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/the_ghastly_eyes",
@@ -21,7 +21,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:used",

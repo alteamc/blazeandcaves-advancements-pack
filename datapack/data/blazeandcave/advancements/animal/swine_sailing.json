@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Оседлать свинью, находящуюся в лодке, которая находится на вагонетке"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/pig_slaughterer",

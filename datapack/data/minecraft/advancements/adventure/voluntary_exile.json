@@ -10,7 +10,7 @@
     "description": {
       "translate": "Убейте главаря рейда. И может стоит держаться подальше от деревень…"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/riot_shield",
   "rewards": {

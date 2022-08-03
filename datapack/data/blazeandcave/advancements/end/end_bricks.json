@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте кирпичи из эндерняка"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:end/enter_end_gateway",
   "rewards": {

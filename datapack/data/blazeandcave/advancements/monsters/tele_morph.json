@@ -9,7 +9,7 @@
     "description": {
       "translate": "Нанесите урон мобу, телепортировавшись в него"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/ender_worm",
   "rewards": {

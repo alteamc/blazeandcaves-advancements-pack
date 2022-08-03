@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Добудьте 1728 булыжника, поместите его в сундук, а затем взберитесь на него с чувством победы"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:mining/moar_tools",
@@ -43,7 +43,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите яблоко Нотча"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:adventure/disc_jockey",

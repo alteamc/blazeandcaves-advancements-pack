@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте доски и палки для создания мотыги"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:bacap/time_to_dig",
   "rewards": {

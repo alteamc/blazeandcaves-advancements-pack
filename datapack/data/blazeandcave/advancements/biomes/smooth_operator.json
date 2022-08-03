@@ -9,7 +9,7 @@
     "description": {
       "translate": "Проскользните и скользите по льду"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/root",
   "rewards": {
@@ -37,7 +37,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте вагонетку с печью и используйте уголь или древесный уголь, чтобы заставить её пыхтеть"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/all_aboard",
   "rewards": {

@@ -10,7 +10,7 @@
     "description": {
       "translate": "Отразите огненные снаряды всполоха, прикрывшись щитом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/obtain_blaze_rod",
   "rewards": {

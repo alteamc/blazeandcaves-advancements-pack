@@ -9,7 +9,7 @@
     "description": {
       "translate": "Дайте зомби полный алмазный сет брони и алмазный меч… затем убейте его"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/freezing",
@@ -22,7 +22,33 @@
       "conditions": {
         "entity": {
           "type": "zombie",
-          "nbt": "{HandItems:[{id:\"minecraft:diamond_sword\",Count:1b}],ArmorItems:[{id:\"minecraft:diamond_boots\",Count:1b},{id:\"minecraft:diamond_leggings\",Count:1b},{id:\"minecraft:diamond_chestplate\",Count:1b},{id:\"minecraft:diamond_helmet\",Count:1b}]}"
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:diamond_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:diamond_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:diamond_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:diamond_boots"
+              ]
+            },
+            "mainhand": {
+              "items": [
+                "minecraft:diamond_sword"
+              ]
+            }
+          }
         }
       }
     }

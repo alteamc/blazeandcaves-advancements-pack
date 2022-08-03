@@ -11,7 +11,7 @@
       "color": "#FF2A2A",
       "translate": "Заполучите каждое зачарование всех возможных уровней"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/root",
@@ -3318,6 +3318,96 @@
           }
         ]
       }
+    },
+    "swift_sneak1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "swift_sneak2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "swift_sneak3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "swift_sneak1_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "swift_sneak2_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "swift_sneak3_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -3760,6 +3850,18 @@
     [
       "soul_speed3",
       "soul_speed3_book"
+    ],
+    [
+      "swift_sneak1",
+      "swift_sneak1_book"
+    ],
+    [
+      "swift_sneak2",
+      "swift_sneak2_book"
+    ],
+    [
+      "swift_sneak3",
+      "swift_sneak3_book"
     ]
   ]
 }

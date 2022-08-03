@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте немного кальцита в оболочке аметистовой жеоды"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/gi_geode",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте каменную кирку, топор, лопату и мотыгу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:story/upgrade_tools",
   "rewards": {

@@ -8,8 +8,8 @@
 # Currently the text that appears with reward functions are not translatable - support for translating the reward functions messages will come in a later update.
 
 # Language: Russian
-# Author: SoSeDiK (1.4-1.10), vlad8599 (1.10), KorS1z (1.11-1.12), Marsik_the_alien(1.12 - 1.13)
-# Pack version supported: 1.13.2
+# Author: SoSeDiK (1.4-1.10), vlad8599 (1.10), KorS1z (1.11-1.12), Marsik_the_alien(1.12 - 1.13), _InGloriouS_ (1.13.7)
+# Pack version supported: 1.13.7
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -1245,7 +1245,7 @@
 "Phantom Slayer": "Убийца фантомов",
 "Collect a stack of phantom membranes": "Соберите стак мембран фантома",
 
-"Poseidon vs. Hades": "Посейдон против Аида",
+"Poseidon vs Hades": "Посейдон против Аида",
 "Hunt all types of nether creatures with your trident": "Убейте всех незерских существ при помощи трезубца",
 
 "Ricochet Swoop": "Сон мне не помеха",
@@ -2861,7 +2861,7 @@
 "Collect 64 nether stars" : "Соберите стак звёзд Незера",
 
 "Hearts of the Stack" : "Сердечный стак",
-"Collect 64 Hearts of the Sea" : "Соберите стак сердец моря",
+"Collect 64 Hearts of the Sea" : "\tСоберите стак сердец моря",
 
 "The Devil's Distance" : "Расстояние дьявола",
 "Use the Nether to travel 666km in the Overworld" : "Используйте Незер, чтобы переместиться на 666км в обычном мире",
@@ -4331,26 +4331,24 @@
 
 # # Has the syntax <Player> has made the advancement <Advancement's name>
 
-"%1$s has made the advancement %2$s%3$s%4$s": "%1$s получил достижение %2$s%3$s%4$s",
-"%1$s has reached the goal %2$s%3$s%4$s": "%1$s выполнил цель %2$s%3$s%4$s",
-"%1$s has completed the challenge %2$s%3$s%4$s": "%1$s выполнил испытание %2$s%3$s%4$s",
-"%1$s has completed the super challenge %2$s%3$s%4$s": "%1$s выполнил супервызов %2$s%3$s%4$s",
-"%1$s has found the hidden advancement %2$s%3$s%4$s": "%1$s нашёл скрытое достижение %2$s%3$s%4$s",
-
-# # # There are 5 %1$s's here for the advancement "65 Hours of Walking"
-"%1$s has found the hidden advancement %2$s%3$s%4$s%5$s%6$s": "%1$s нашёл скрытое достижение %2$s%3$s%4$s%5$s%6$s",
+"has made the advancement": "получил достижение",
+"has reached the goal": "выполнил цель",
+"has completed the challenge": "выполнил испытание",
+"has completed the super challenge": "выполнил сверх вызов",
+"has found the hidden advancement": "получил скрытое достижение",
 
 # # For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>
 
-"%1$s has completed every advancement in the %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s завершил все достижения в %2$s, зарабатывая достижения %3$s%4$s%5$s",
+"has completed every advancement in the": "завершил все достижения в",
+"tab, earning them the advancement": ", зарабатывая достижения",
 
 # # Note: Because The End already has a 'the' in it, this line is exclusively used in 'End Milestone'
 
-"%1$s has completed every advancement in %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s завершил все достижения в %2$s, earning them the advancement %3$s%4$s%5$s",
+"has completed every advancement in": "завершил каждое продвижение в",
 
 # # Advancement Legend
 
-"%1$s has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of %2$s%3$s%4$s": "%1$s завершил(ла) все улучшения в BlazeandCave's Advancements Pack, что принесло ему(ей) желанный титул %2$s%3$s%4$s",
+"has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of": "завершил(ла) все улучшения в BlazeandCave's Advancements Pack, что принесло ему(ей) желанный титул",
 
 
 
@@ -4540,10 +4538,371 @@
 "But at the end of it all, it is all still made from stardust": "Но, в конце концов, все это все еще сделано из звездной пыли.",
 
 
-# # The dirt is Dirtier
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "Первый игрок в команде",
+"Click to enable for the first player on each team": "Нажмите, чтобы включить для игроков, которые первыми получили достижение в команде",
+
+"Click to enable Cooperative Mode": "Нажмите, чтобы включить кооперативный режим",
+"Click to disable Cooperative Mode": "Нажмите, чтобы отключить кооперативный режим",
+"Click to enable Team Cooperative Mode": "Нажмите, чтобы включить кооперативный режим по командам",
+"Team Cooperative Mode currently enabled": "Выбран кооперативный режим по командам",
+
+
+
+"Click to view preset options": "Нажмите для настройки отображения",
+"Message Presets": "Шаблоны отображения",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "Установить все сообщения только для первого игрока в команде (рекомендуется и по умолчанию для кооперативного режима по командам)",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "Включить ванильные сообщения (рекомендуется для сервером с плагинами, которые используют ванильное отображение, — например, DiscordSRV)",
+
+
+
+"Advancement Scoreboard Display Settings": "Настройки счетчика достижений",
+
+"Advancements Scoreboard": "Счетчик достижений",
+"First Advancements Scoreboard": "Счетчик первых достижений",
+
+"Team Advancements": "Общее количество достижений команд",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "Этот счётчик отображает суммарное количество достижений в каждой команде.",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "Например, если у Стива и Алекс по 100 достижений, и они в одной команде, то количество достижений их команды будет отображаться как 200.",
+
+"Total Team Advancements": "Количество уникальных достижений команд",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "Этот счётчик отображает суммарное количество неповторяющихся достижений в каждой команде.",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "Например, если у Стива и Алекс по 100 достижений, 50 из которых получили и Стив, и Алекс, и они в одной команде, то количество достижений их команды будет отображаться как 150.",
+
+"Team First Advancements": "Общее количество первых достижений",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "Этот счётчик отображает суммарное количество первых достижений в каждой команде.",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "Например, если и Стив, и Алекс первыми получили 100 достижений каждый, и они в одной команде, то количество достижений их команды будет отображаться как 200.",
+
+"First Advancements in Team": "Первые достижения в командах",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "Этот счётчик отображает персональное количество первых достижений каждого игрока.",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "Например, если Стив и Алекс в одной команде, и Стив получает достижение 'Охотник на монстров', его счёт увеличится на 1 достижение. Однако если Алекс получит это достижение, её счет не изменится. Если же Боб, игрок другой команды, получит 'Охотник на монстров' после Стива, то его счёт тоже увеличится на 1.",
+
+"Recommended for Cooperative Mode": "Рекомендуется для кооперативного режима",
+"Recommended when NOT using Cooperative Mode": "Рекомендуется для использования ВНЕ кооперативного режима",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "Рекомендуется для использования ВНЕ кооперативного режима или кооперативного режима по командам",
+"Recommended for Team Cooperative Mode": "Рекомендуется для кооперативного режима по командам",
+"Not recommended for Cooperative Mode": "Не рекомендуется для кооперативного режима",
+"Recommended for Cooperative or Team Cooperative Mode": "Рекомендуется для кооперативного режима или кооперативного режима по командам",
+
+"How would you like this scoreboard to be displayed?": "Где бы Вы хотели отображать счетчик достижений? ",
+"On tab list": "В списке игроков",
+"On sidebar": "На боковой панели",
+"Below each player's name": "Под никнеймами игроков",
+
+"Clear scoreboard from below player names": "Перестать отображать достижения под никнеймами игроков ",
+
+
+
+"Technical Settings": "Технические настройки",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "Предупреждение: некоторые из следующих настроек могут повредить Ваш игровой прогресс, и вызовут лаги в процессе настройки. Используйте с осторожностью!",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "Перерасчитывает количество достижений для всех игроков в сети.",
+"Should be used if:": "Стоит использовать, если",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "1) ...Вы недавно обновили датапак до новой версии, особенно если это сопровождается обновлением Майнкрафта.",
+"- You have been using commands to manually revoke the advancements of player(s)": "2) ...Вы использовали команды для ручного отзыва достижений у игроков.",
+
+"Update team scoreboards": "Обновить счётчики команд",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "Перерасчитывает значения счётчиков команд количества всех достижений и количества первых достижений.",
+
+"Reset obtained advancements": "Сброс полученных достижений",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "Сбрасывает ССИС 'bac_obtained'. В кооперативном режиме достижения не будут рассматриваться как выполненные и поэтому не будут распределяться между игроками.",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "Функция также сбросит счётчик первых достижений!",
+"This function should only be used if you intend to turn off Cooperative Mode": "Эту функцию следут использовать, только если Вы хотите отключить кооперативный режим.",
+
+"Refresh Cooperative Mode advancement sharing": "Обновить распределение достижений между игроками в кооперативном режиме",
+
+"Grant missing trophies": "Выдать недостающие трофеи",
+"Gives every online player every trophy from advancements they have obtained so far": "Выдаёт каждому игроку в сети трофеи за достижения, выполненные ими.",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "Эту функцию следует использовать только в мирах, в которых использовался датапак перед трофейным обновлением (1.11), или при очень сильном желании получить потерянные трофеи назад. :)",
+
+"Revoke all advancements": "Отозвать все достижения",
+"Revokes every advancement, including resetting scoreboards": "Отзывает каждое достижение у выбранных игроков, сбрасывая счетчик достижений.",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "Вы можете сбросить достижения себе, ближайшему игроку к Вам или всем игрокам в сети.",
+
+"Once advancements are revoked, they cannot be recovered.": "Вы не сможете восстановить прогресс достижений после отзыва.",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "Некоторые достижения статистики могут снова засчитаться после отзыва автоматически. Если Вы хотите отозвать и их тоже, перед процедурой удалите файлы статистики игроков, достижения которых Вы отзываете.",
+"Please choose who you would like to revoke advancements from, or to go back": "Кому Вы хотите отозвать достижения?",
+"Yourself": "Только себе",
+"The closest player": "Ближайшему игроку",
+"EVERYONE!! (who is online)": "Всем игрокам в сети",
+">:)": ">:D",
+
+"All advancements have been revoked from %1$s": "Все достижения были отозваны у %1$s",
+"Error: There are no other players online": "Ошибка: в сети нету других игроков",
+
+"Go back": "Вернуться назад",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "Одиссея",
+"Find a Traveller’s Map": "Найдите карту путешественника",
+
+"Castle of Hrrms": "Крепость носатых",
+"Enter a Fortified Village": "Посетите укреплённую деревню крестьян",
+
+"Expedition of Discovery": "Поход для открытий",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "Посетите редкий биом, держа в руках карту путешественника, ведущую в этот биом",
+
+"Land of Icicles": "Края сосулек",
+"Discover a Glacial Chasm biome": "Исследуйте ледяную расщелину",
+
+"Remote Shelter": "Захолустное жильё",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "Найдите ледяную хижину в биоме ледяной расщелины",
+
+"Spire of Ice": "Льдяной шпиль",
+"Enter the Spire, located in a frigidly cold biome": "Войдите в шпиль, расположенный в могильно холодном биоме",
+
+"Under the Ice": "Подо льдами",
+"Delve deep beneath the Spire and open up a loot chest": "Погрузитесь в глубины шпиля и откройте сундук с добычей",
+
+
+
+
+## All advancements added in version 1.14 are here
+"Sneak 100": "Пронести 100",
+"Sneak near something in the Deep Dark to prevent being heard": "Прокрадитесь рядом с чем-нибудь в кромешной тьме, чтобы не быть услышанным",
+
+"It spreads!": "Оно распространяется!",
+"Kill a mob near a Sculk Catalyst": "Убейте моба возле Скалк катализатора",
+
+"Shriek Forever After": "Вскрик навеки",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "Задеть Скалк Крикуна в глубокой темноте. Возможно, не стоит делать это слишком часто...",
+
+"The Block of Eternal Screaming": "Блок вечного крика",
+"Use Silk Touch to pick up a Sculk Shrieker": "Используйте Шелковое касание, чтобы собрать Скалк Крикуна",
+
+"Cataclyst": "Катализатор",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "Убейте Визера возле Скал катализатора, чтобы высвободить большой взрыв",
+
+"Monstrous Sacrifices": "Чудовищные жертвоприношения",
+"Kill every hostile monster near a Sculk Catalyst": "Убейте каждого враждебного монстра рядом с Скалк катализатором",
+
+"The Incredible Sculk": "Невероятный Скалк",
+"Collect a stack of all sculk-related blocks": "Соберите стак из всех блоков, связанных со скалком",
+
+"Sculker Box": "Шалкер",
+"Hold a Shulker Box that is completely filled with Sculk": "Возмите в руку ящик Шаклкера, который полностью заполнен Скалком",
+
+"Fallen Kingdom": "Павшее королевство",
+"Find and enter an Ancient City deep underground": "Найдите и войдите в Древний город глубоко под землей",
+
+"Frigid Diversions": "Морозные диверсии",
+"Loot a chest inside an ice box in an Ancient City": "Ограбьте сундук со льдом в Древнем городе",
+
+"Death Pointer": "Указатель смерти",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "Используя осколки эха, найденные в древних городах, для создания Компаса восстановления",
+
+"9 to 5": "от 9 до 5",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "Соберите достаточное количество фрагментов диска, чтобы создать еще одного производителя таинственных звуков",
+
+"Echonomy": "Эхономика",
+"Collect a stack of Echo Shards": "Соберите стак осколков Эхо",
+
+"Blind as a Bat": "Слепой как летучая мышь",
+"Kill a Bat while under the blindness or darkness effect": "Убейте летучую мышь, находясь под действием эффекта слепоты или темноты",
+
+
+"Stuck in the Mud": "Застрял в грязи",
+"Use a Water Bottle on some Dirt to turn it into Mud": "Используйте бутылку с водой на земле, чтобы превратить ее в грязь",
+
+"Elmer Mudd": "Элмер Мадд",
+"Craft or obtain all forms of Mud and Mud Brick": "Создайте или получите все формы грязи и грязевого кирпича",
+
+"Mangrove Master": "Мангровый мастер",
+"Craft every item made out of mangrove wood": "Изготовление каждого предмета из мангрового дерева",
+
+"Incandescent!": "Накаливание!",
+"Light up the area with all three hues of Froglight": "Осветите территорию всеми тремя оттенками фроглайта",
+
+
+"A Mangrove Grove": "Мангровая роща",
+"Plant a Mangrove Propagule in a Grove biome": "Посадите мангровые деревья в биоме Роща",
+
+
+"Frog Family": "Семья лягушек",
+"Breed two Frogs together using slimeballs": "Скрестить двух лягушек вместе, используя слизь",
+
+"Bukkit bukkit": "Буккит буккит",
+"Catch a Tadpole in a Bucket": "Поймать головастика в ведро",
+
+"When the Squad Hops into Town": "Когда отряд прибывает в город",
+"Attach a lead to each variant of Frog": "Прикрепите бирку к каждому виду лягушек",
+
+"Ram": "Рэм",
+"Obtain a Goat’s Horn by having one ram into a block": "Получите козий рог, если один баран попадет в блок",
+
+"Loud and Proud": "Громко и гордо",
+"Play a Goat Horn in the Deep Dark": "Сыграйте на козьем роге в кромешной тьме",
+
+"Battle of the Bands": "Битва оркестров",
+"Blow into a Goat Horn during a raid": "Дуньте в козий рог во время рейда",
+
+"Caprymphony": "Капримфония",
+"Blow every type of Goat Horn": "Дунте в козлиный рог любого типа",
+
+"Animal Kingdom": "Царство животных",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "Приведите по одному животному каждого вида в одно место (пусть все они будут в пределах 32 блоков от вас)",
+
+
+"Cargo Carrier": "Грузоперевозчик",
+"Ride a Boat with a Chest in it": "Прокатитесь на лодке с сундуком внутри",
+
+"Flipper": "Ласты",
+"Give a Dolphin something to play with": "Подарите дельфину что-то для игры",
+
+
+"Allayance": "Аллаянс",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "Спасите Эллея от мародеров или в лесном поместье и дайте ему что-то для игры",
+
+"You’ve Got a Friend in Me": "У тебя есть друг во мне",
+"Have an Allay deliver items to you": "Поручить Аллею доставить вам вещи",
+
+"Evelyn Evergreen": "Эвелин Эвергрин",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "Попросите Эллея доставить вам еловые саженцы во время рубки деревьев",
+
+"Budget Vex": "Бюджетный Векс",
+"Give an Allay an Iron Sword": "Дайте Эллею железный меч",
+
+"Diagon Allay": "Диагональ Эллея",
+"Have an Allay deliver a potion to you in the Deep Dark": "Попросите аллея доставить вам зелье в Глубокой тьме.",
+
+"Birthday Song": "Песня на день рождения",
+"Have an Allay drop a cake at a note block": "Пусть Эллей бросит торт на нотный блок",
+
+"Awards Ceremony": "Церемония награждения",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "Пусть Эллей вручит вам трофей, полученный за выполнение одного из достижений.",
+
+
+"Now that's a lot of damage": "Это большой ущерб",
+"Succumb to the Warden": "Поддаться Вардену",
+
+"Blind Stare": "Слепой взгляд",
+"Look at a Warden with a Spyglass": "Посмотрите на Вардена в подзорную трубу",
+
+"Stealth is Optional": "Скрытность необязательна",
+"Overcome a Warden in the deepest and darkest of caves": "Победите Вардена в самой глубокой и темной пещере",
+
+"Warden Frostbite": "Обморожение надзирателя",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "Выведите Вардена на поверхность биома снежных равнин и убейте его",
+
+"Not Afraid of Heights": "Не боится высоты",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "Поднимите надзирателя на самую высокую точку мира. Он не может бояться высоты, если не видит её.",
+
+"House of Freaks": "Дом уродов",
+"Summon five Wardens and have them all be within 16 blocks of the player": "Вызовите пять надзирателей, и пусть все они находятся в пределах 16 блоков от игрока",
+
+
+"Like a Ninja": "Как ниндзя",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "Найдите зачарование проворство на зачарованной книге в Древнем городе",
+
+"Silent But Deadly": "Тихий, но смертельный",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "Подкрадывайтесь и бегайте по Скалку со скоростью II, надев поножи на Проворство III. Попробуйте произнести это шесть раз быстро",
+
+
+"Hung, Drawn and Bartered": "Венчание, рисование и бартер",
+"Barter for every possible type of item with Piglins": "Поторгуйтесь на все возможные виды товаров с Пиглином",
+
+
+"The Void Frogs": "Лягушки пустоты",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "Опустите лягушку в пустоту с помощью зелья замедленного падения, затем убейте ее, чтобы она стала единым целым с пустотой",
+
+
+"Farlander": "Фарлендер",
+"Travel all the way to the border of the world": "Пропутешествуйте до самой границы мира",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "Используйте Шелковое касание, чтобы собрать Скалк Сенсор или найти его среди сокровищ Древнего города",
+
+# Spelunker
+"Discover every cave biome": "Откройте для себя каждый пещерный биом",
+
+# Yay! I got my wood!
+"Collect every type of log": "Собирите все виды брёвен",
+
+# Stripper
+"Strip the bark off every type of log": "Снимите кору с каждого вида бревен",
+
+# Ecologist
+"Plant down all types of saplings": "Посадите саженцы всех типов",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "Убейте с лука на представителей всех видов наземных животных",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "Откройте для себя каждый тип биома в обычном мире",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "вкладка",
+
+
+# Trophies added in 1.14
+"Mobbo": "Моббо",
+"They are your bestest friend!": "Они ваши лучшие друзья!",
+
+"The Cataclyst": "Катаклизм",
+"When detonated, it kills every single avatar and NPC in the sector": "При взрыве, убить всех сущностей рядом",
+
+"Железяка": "",
+"No, I said “Aaaaaand OPEN!”,": "Нет, Я сказал “Aaaaaa ОТКРОЙТЕ”",
+"not “Aaaaand close a secondary set of doors!С": "Неееет! “ЗАКРОЙТЕ ЗАДНЮЮ ДВЕРЬ!”",
+
+"Pickle Rick": "Огурец рик",
+"Look Morty, I've turned myself into a pickle!": "Смотри, Морти, я превратил себя в огурец!",
+
+"Magic Paintbrush": "Волшебная кисточка",
+"For painting with all the colors of the wind": "Для рисования всеми красками ветра",
+
+"Very Muddy Boots": "Очень грязные сапоги",
+"The result of too long in muddy fields": "Результат слишком долгого пребывания на грязных полях",
+
+"Pride Rock": "Скала Прайда",
+"Look, Simba. Everything the light touches is our kingdom": "Смотри, Симба. Все, к чему прикасается свет, - наше королевство",
+
+"Copper Goat Horn": "Медный козий рог",
+"Such a fun and jazzy instrument, sadly not canon": "Такой веселый и джазовый инструмент, к сожалению, не в каноне.",
+
+"FrogChamp": "ЛягушачийЧемпион",
+"It’s Wednesday, my dudes!": "Сегодня среда, чуваки!",
+
+"Warden Head": "Варден ГЛАВНЫЙ!",
+"Players: How are you meant to kill the Warden?": "Игроки: Как мы должны убить Вардена?",
+"Mojang: That's the neat part - you don't!": "Mojang: В том-то и дело, что ни как!",
+"You: Hold my golden carrots": "Ты: Держи мою золотую морковку",
+
+"The Warden's Sign": "Знак Вардена",
+"This sign can’t stop me because I can't see!": "Это не может остановить меня, потому что я не его вижу!",
+
+"Reuben the Wither Storm Ender": "Рубен, исушённый шторм Энда",
+"He was a great pig": "Он был отличной свиньей",
+
+"The Trophy Trophy": "Трофейный трофей",
+"If an Allay brings you this, you will": "Если Эллей принесет вам это, вы будете счастливы",
+"receive the Trophy Trophy Trophy": "получить Трофейный Трофей Трофея",
+
+"Spongebob Squarepants": "Губка Боб Квадратные Штаны",
+"Who lives in a pineapple under the sea?": "Кто проживает на дне океана?",
+
+"Fence Post": "Оградка",
+"Look at this luxurious fence post": "Посмотрите на эту роскошнуюю оградку",
+"With its courageously mundane colour": "С его смело обыденным цветом",
+"And violent corners": "И жестокие уголки",
+"This isn't just any fence post…": "Это не просто оградка...",
+"It's my fence post! Seriously, get out!": "Это моя ограда! Убирайся!",
+
+"Stone of the Farlands": "Камень Фарланда",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "Сохраненный кусок камня из земли, существовавших до Beta 1.8",
+
 "Dig through some Rooted Dirt beneath an Azalea Tree so you can find a Lush Cave": "Прокопайте сквозь корнистую землю под азалией и найдите Пышные Пещеры",
 
 
-
-# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
+"Undying Fandom": "Бессмертная слава",
+"Receive every type of gift from Villagers as a Hero of the Village": "Как Герой деревени, получите все виды подарков от жителей за их защиту."
 }

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Добудьте достаточно редстоуна и создайте стак блоков редстоуна"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:mining/whats_the_time_mr_wolf",

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Возродите Эндер-дракона"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:end/the_start_of_something",

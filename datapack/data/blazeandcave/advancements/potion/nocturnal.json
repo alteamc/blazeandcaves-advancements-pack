@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приготовьте и выпейте зелье ночного зрения"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/hyper_healing",
   "rewards": {
@@ -23,7 +23,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:night_vision\"}"
+          "potion": "minecraft:night_vision"
         }
       }
     },
@@ -34,7 +34,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{Potion:\"minecraft:long_night_vision\"}"
+          "potion": "minecraft:long_night_vision"
         }
       }
     }

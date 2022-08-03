@@ -11,7 +11,7 @@
       "color": "#FF2A2A",
       "translate": "Убейте каждого моба в игре при помощи взрывных зелий"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/endergeddon",
@@ -948,6 +948,62 @@
       "conditions": {
         "entity": {
           "type": "goat"
+        },
+        "killing_blow": {
+          "is_magic": "true",
+          "direct_entity": {
+            "type": "minecraft:potion"
+          }
+        }
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "frog"
+        },
+        "killing_blow": {
+          "is_magic": "true",
+          "direct_entity": {
+            "type": "minecraft:potion"
+          }
+        }
+      }
+    },
+    "tadpole": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "tadpole"
+        },
+        "killing_blow": {
+          "is_magic": "true",
+          "direct_entity": {
+            "type": "minecraft:potion"
+          }
+        }
+      }
+    },
+    "allay": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "allay"
+        },
+        "killing_blow": {
+          "is_magic": "true",
+          "direct_entity": {
+            "type": "minecraft:potion"
+          }
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "warden"
         },
         "killing_blow": {
           "is_magic": "true",

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Постройте, зажгите и войдите в портал измерения Незер"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:story/form_obsidian",

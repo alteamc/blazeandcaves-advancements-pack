@@ -10,7 +10,7 @@
     "description": {
       "translate": "Создайте идеальный комплект брони со всеми возможными зачарованиями максимального уровня"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/master_arbalist",
@@ -276,6 +276,10 @@
               {
                 "enchantment": "minecraft:mending",
                 "levels": 1
+              },
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 3
               }
             ]
           }
@@ -300,6 +304,10 @@
               {
                 "enchantment": "minecraft:mending",
                 "levels": 1
+              },
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 3
               }
             ]
           }
@@ -324,6 +332,10 @@
               {
                 "enchantment": "minecraft:mending",
                 "levels": 1
+              },
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 3
               }
             ]
           }
@@ -348,6 +360,10 @@
               {
                 "enchantment": "minecraft:mending",
                 "levels": 1
+              },
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 3
               }
             ]
           }

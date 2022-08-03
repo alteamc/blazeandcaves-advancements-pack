@@ -9,7 +9,7 @@
     "description": {
       "translate": "Проведите нитку между двумя крючками и нажмите на нее"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/under_pressure",
   "rewards": {

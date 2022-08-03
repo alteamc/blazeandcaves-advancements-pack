@@ -10,7 +10,7 @@
     "description": {
       "translate": "Дайте разбойнику испробовать на вкус его же лекарства"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/ol_betsy",
   "rewards": {

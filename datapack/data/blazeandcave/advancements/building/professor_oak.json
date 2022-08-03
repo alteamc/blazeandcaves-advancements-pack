@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте все возможные предметы из дуба"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/lost_its_bark",
@@ -181,6 +181,18 @@
           {
             "items": [
               "minecraft:oak_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "oak_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_chest_boat"
             ]
           }
         ]

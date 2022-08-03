@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выторгуйте предмет из кольчужного сета брони у крестьянина"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/trade",
   "rewards": {

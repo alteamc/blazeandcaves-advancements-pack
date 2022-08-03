@@ -9,7 +9,7 @@
     "description": {
       "translate": "Позвоните в колокол когда в деревне враг"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/were_being_attacked",
   "rewards": {

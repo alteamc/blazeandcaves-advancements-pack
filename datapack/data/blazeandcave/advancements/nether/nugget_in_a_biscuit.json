@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте незерскую золотую руду ради получения золотых самородков"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/root",
   "rewards": {
@@ -20,7 +20,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:mined",

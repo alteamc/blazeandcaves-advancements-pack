@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите все особые узоры флагов"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:building/prepare_to_meet_your_loom",

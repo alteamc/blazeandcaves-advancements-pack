@@ -8,8 +8,8 @@
 # Currently the text that appears with reward functions are not translatable - support for translating the reward functions messages will come in a later update.
 
 # Language: Vietnamese
-# Author: quank6 (and FehnLmao lol)
-# Pack version supported: 1.13
+# Author: Quin (and FehnLmao lol)
+# Pack version supported: 1.14
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -4120,7 +4120,7 @@
 
 ## All advancements added in version 1.13 are here
 "Dripstone Drop": "Cú nhảy Nhũ đá",
-"Survive a fall of at least 10 blocks onto some Pointed Dripstone": "Sống sót khỏi một cú rơi ít nhất 10 khối vào Nhũ đá",
+"Survive a fall of at least 10 blocks onto some Pointed Dripstone": "Sống sót khỏi một cú rơi thấp nhất 10 khối vào Nhũ đá",
 
 "Lucky Break": "Trời độ",
 "Survive a long fall with just a sliver of health remaining": "Sống sót một cú rơi dài với một chút máu còn lại",
@@ -4147,12 +4147,12 @@
 "We’re Going on a Bear Hunt": "Chúng ta sẽ đi Săn Gấu",
 "Get hunted by a Polar Bear": "Bị săn bởi một con Gấu Bắc cực",
 
-"Dive Bomb": "Đại Bác",
+"Dive Bomb": "Cú lao Bùng nổ",
 "Dive into water from a cliff at least 50 blocks tall": "Lao xuống nước từ một vách đá cao ít nhất 50 khối",
 
 "Captain America": "Đội trưởng Mỹ",
-"Get completely frozen inside two blocks of Powder Snow for a loooong time.": "Bị đóng băng hoàn toàn trong hai khối Bột Tuyết trong một khoảng thời gian siêuuuuu dài",
-"Big question is: Can you do this all day?": "Vấn đề là: Bạn có thể làm việc này cả ngày không?",
+"Get completely frozen inside two blocks of Powder Snow for a loooong time.": "Bị đóng băng hoàn toàn trong hai khối Bột Tuyết trong một khoảng thời gian dàiiii",
+"Big question is: Can you do this all day?": "Vấn đề lớn là: Bạn có thể làm việc này cả ngày không?",
 
 
 "Map Room": "Phòng Bản đồ",
@@ -4165,8 +4165,8 @@
 "Make the Meadows come alive with the sound of music from a jukebox": "Làm cho Đồng cỏ sống dậy với âm thanh của âm nhạc từ một cái hộp chơi nhạc",
 
 
-"Click!": "Bấm Nút!",
-"Place and push a button": "Đặt và bấm một cái nút",
+"Click!": "Nhấp!",
+"Place and push a button": "Đặt vào bấm một cái nút",
 
 "Leveraging Synergy": "Tận dụng Đòn bẩy",
 "Flick a lever": "Gạt một cái cần gạt",
@@ -4181,7 +4181,7 @@
 
 "65": "65",
 "hours of walking": "giờ đi bộ",
-"Walk 1000km. The statistics tab shall no longer be the grindy super challenges tab": "Đi bộ 1000km. Mục số liệu sẽ không còn là mục siêu thử thách",
+"Walk 1000km. The statistics tab shall no longer be the grindy super challenges tab": "Đi bộ 1000km Mục số liệu sẽ không là mục siêu thử thách",
 
 
 "Feels Like Home": "Cảm giác Như Ở nhà",
@@ -4191,7 +4191,7 @@
 "Mine a stack of Gilded Blackstone from Bastion Remnants": "Khai thác một stack Đá đen mạ vàng từ Tàn tích Pháo đài",
 
 "Astrobrute": "Phi hành gia hung bạo",
-"Send a Piglin Brute to the End and kill it there before it zombifies": "Đưa một con Piglin Brute đến the End và giết nó ở đó trước khi nó bị hóa thây ma",
+"Send a Piglin Brute to the End and kill it there before it zombifies": "Đưa một con Piglin tàn bạo đến the End và giết nó ở đó trước khi nó bị hóa thây ma",
 
 "Ludicrous Speed!": "Tốc độ Bàn thờ!",
 "Achieve an absolutely insane speed by combining the Speed II effect, Dolphin’s Grace, Depth Strider III, Soul Speed III and sprinting": "Đạt được tốc độ tuyệt đối bằng cách kết hợp hiệu ứng Tốc độ II, Vinh dự của Cá heo, Sải bước dưới nước III, Tốc độ linh hồn III và chạy",
@@ -4203,15 +4203,15 @@
 "Dogfight": "Không chiến",
 "Kill a Skeleton or Stray while both you and it have levitation": "Giết một con Bộ xương hoặc Quái lang thang khi cả bạn và nó đều có lơ lửng",
 
-"Riddle Me This": "Câu Hỏi Hóc Búa",
-"The first is to smith a compass that vanishes": "Đầu tiên là rèn một chiếc la bàn bị biến mất",
-"The second is to slay a corpse that fishes": "Thứ hai là giết một xác chết đang câu cá",
+"Riddle Me This": "Đố Tôi Cái này",
+"The first is to smith a compass that vanishes": "Đầu tiên là rèn một chiếc la bàn biến mất",
+"The second is to slay a corpse that fishes": "Thứ hai là giết một xác chết câu cá",
 "The third is to travel on an upside-down mount": "Thứ ba là đi trên một con thú cưỡi bị lộn ngược",
-"The fourth is to take a temple tripwire into account": "Thứ tư là phải chú ý đến móc dây bẫy trong đền",
-"The fifth is to be invisible yet be visible everywhere": "Thứ năm là trở thành vô hình nhưng lại hiện hình ở mọi nơi",
+"The fourth is to take a temple tripwire into account": "Thứ tư là phải tính đến móc dây bẫy trong đền",
+"The fifth is to be invisible yet be visible everywhere": "Thứ năm là vô hình nhưng có thể nhìn thấy ở mọi nơi",
 "The sixth is to return the product of a fowl in mid-air": "Thứ sáu là trả lại sản phẩm của một con gà trong không trung",
-"The seventh is to allow a child to commit the act of stealing": "Thứ bảy là để một đứa trẻ con thực hiện hành vi ăn trộm.",
-"The eighth is to smite a Wither with splash healing": "Thứ tám là kết liễu một con Khô héo bằng cách lọ thuốc",
+"The seventh is to allow a child to commit the act of stealing": "Thứ bảy là để trẻ thực hiện hành vi ăn trộm.",
+"The eighth is to smite a Wither with splash healing": "Thứ tám là kết liễu một con Khô héo bằng cách lọ thuốc hồi máu ném được",
 "The ninth is to be a pirate; parrot, spyglass, map, and boat": "Thứ chín là làm cướp biển; con vẹt, ống nhòm, bản đồ và thuyền",
 "The tenth, if you can achieve it, you will be the G.O.A.T.": "Thứ mười, nếu bạn có thể đạt được nó, bạn sẽ là Người vĩ đại nhất của mọi thời đại",
 
@@ -4226,14 +4226,14 @@
 "Eighth line complete…": "Dòng thứ tám hoàn thành...",
 "Ninth line complete…": "Dòng thứ chín hoàn thành...",
 
-"Tenth Parchment": "Thập Da Chỉ",
-"Place Warped Buttons to number a thousand": "Đặt các Nút Kì dị lên đến con số hàng nghìn",
+"Tenth Parchment": "Giấy da Thứ mười",
+"Place Warped Buttons to number a thousand": "Đặt các Nút Kì dị lên đến con số một nghìn",
 "For this was the thousandth item added to the game": "Vì đây là vật phẩm thứ một nghìn được thêm vào trò chơi",
-"Like how this is the thousandth advancement added to the pack": "Giống như cách đây là tiến trình thứ một nghìn được thêm vào gói dữ liệu này",
+"Like how this is the thousandth advancement added to the pack": "Giống như cách đây là tiến trình thứ một nghìn được thêm vào gói",
 
 
 # Renamed advancements and description changes in 1.12
-"All Aboard!": "Tất cả Lên tàu!",
+"All Aboard!": "Tất cả Trên tàu!",
 "Craft and board a Minecart for railway journeys": "Chế tạo và lên một cái xe mỏ cho một chuyến đi đường sắt",
 
 "Star Trader": "Người trao đổi Tinh tú",
@@ -4245,7 +4245,7 @@
 "Natural Sprinter": "Người chạy nước rút Tự nhiên",
 "Sprint 10km": "Chạy 10km",
 
-"Lichen Subscribe": "Ký đầu Địa y",
+"Lichen Subscribe": "Đăng kí Địa y",
 
 "Atlantis?": "Át-lan-tíc?",
 
@@ -4253,7 +4253,7 @@
 
 "Foliage": "Tán lá",
 
-"How Did We Get Here?": "Ông Hoàng Pha Thuốc, Chúa Tể Hiệu Ứng, Thần Đồng Pha Chế",
+"How Did We Get Here?": "Chúng ta Tới Đây Bằng cách nào nhỉ?",
 
 
 # Description changes
@@ -4286,10 +4286,10 @@
 "Step on a pressure plate": "Dẫm lên một tấm áp lực",
 
 # # Let It Go!
-"Using Frost Walker boots, walk on frozen water over a deep ocean": "Dùng một đôi giày có phù phép Chân lạnh, đi trên nước đóng băng qua một đại dương sâu thẳm",
+"Using Frost Walker boots, walk on frozen water over a deep ocean": "Dùng một đôi dài Chân lạnh, đi trên nước đóng băng qua một đại dương sâu thẳm",
 
 # # Do A Barrel Roll!
-"Use Riptide to give yourself a boost": "Dùng phù phép Sóng dữ để tăng tốc cho bạn",
+"Use Riptide to give yourself a boost": "Dùng Sóng dữ để tăng tốc cho bạn",
 
 # # Kilometre Walk
 "Travel at least 1000 blocks from the centre of the world in any direction.": "Đi ít nhất 1000 khối từ trung tâm của thế giới theo mọi hướng",
@@ -4315,24 +4315,22 @@
 
 
 # Custom Advancement Completion messages
-# # Has the syntax "<Player> has made the advancement <Advancement's name>"
-"%1$s has made the advancement %2$s%3$s%4$s": "%1$s đã đạt được tiến trình %2$s%3$s%4$s",
-"%1$s has reached the goal %2$s%3$s%4$s": "%1$s đã đạt được mục tiêu %2$s%3$s%4$s",
-"%1$s has completed the challenge %2$s%3$s%4$s": "%1$s đã hoàn thành thử thách %2$s%3$s%4$s",
-"%1$s has completed the super challenge %2$s%3$s%4$s": "%1$s đã hoàn thành siêu thử thách %2$s%3$s%4$s",
-"%1$s has found the hidden advancement %2$s%3$s%4$s": "%1$s đã tìm thấy tiến trình ẩn %2$s%3$s%4$s",
+# # Has the syntax <Player> has made the advancement <Advancement's name>
+"has made the advancement": "đã đạt được tiến trình",
+"has reached the goal": "đã đạt được mục tiêu",
+"has completed the challenge": "đã hoàn thành thử thách",
+"has completed the super challenge": "đã hoàn thành siêu thử thách",
+"has found the hidden advancement": "đã tìm thấy tiến trình ẩn",
 
-# # # There are 5 %1$s's here for the advancement "65 Hours of Walking"
-"%1$s has found the hidden advancement %2$s%3$s%4$s%5$s%6$s": "%1$s đã tìm thấy tiến trình ẩn %2$s%3$s%4$s%5$s%6$s",
+# # For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>
+"has completed every advancement in the": "đã hoàn thành mọi tiến trình trong mục",
+"tab, earning them the advancement": ", kiếm cho họ sự tiến trình",
 
-# # "For milestones, it goes <Player> has completed every advancement in the <Tab name> tab, earning them the advancement <Milestone's name>"
-"%1$s has completed every advancement in the %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s đã hoàn thành mọi tiến trình trong mục %2$s, đã cho họ tiến trình %3$s%4$s%5$s",
-
-# # # Note: Because The End already has a 'the' in it, this line is exclusively used in "End Milestone"
-"%1$s has completed every advancement in %2$s tab, earning them the advancement %3$s%4$s%5$s": "%1$s đã hoàn thành mọi tiến trình ở mục %2$s, đã cho họ tiến trình %3$s%4$s%5$s",
+# # Note: Because The End already has a 'the' in it, this line is exclusively used in 'End Milestone'
+"has completed every advancement in": "đã hoàn thành mọi tiến trình ở mục",
 
 # # Advancement Legend
-"%1$s has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of %2$s%3$s%4$s": "%1$s đã hoàn thành mọi tiến trình ở trong Gói Tiến Trình của BlazeandCave, đã cho họ danh hiệu %2$s%3$s%4$s",
+"has completed every advancement in BlazeandCave's Advancements Pack, earning them the coveted title of": "đã hoàn thành mọi tiến trình ở trong Gói Tiến Trình của BlazeandCave, kiếm cho họ danh hiệu",
 
 
 
@@ -4344,29 +4342,29 @@
 "One shudders to imagine what inhuman thoughts lie behind that mask": "Người ta rùng mình khi tưởng tượng những suy nghĩ phi nhân tính ẩn sau chiếc mặt nạ đó là gì",
 
 "Deepslate Emerald Ore": "Quặng Ngọc lục bảo Bảng sâu",
-"A rare specimen of emeralds embedded in the deepest of caves": "Một mẫu ngọc lục bảo quý hiếm ẩn mình ở nơi sâu nhất quả đất",
+"A rare specimen of emeralds embedded in the deepest of caves": "Một mẫu ngọc lục bảo quý hiếm ẩn mình trong hang động sâu nhất",
 
 "Flex Tape": "Băng dính Flex",
 "To show the power of Flex Tape, you sawed all the blocks in half!": "Để thể hiện sức mạnh của Băng dính Flex, bạn đã cưa tất cả các khối thành một nửa!",
-"#NotSponsored": "(Không được tài trợ)",
+"#NotSponsored": "#NotSponsored",
 
-"Stairway to Heaven": "Cầu thang tới Thiên đàng",
-"Whatever you do, don't listen to it backwards!": "Làm gì cũng được, nhưng đừng lật ngược nó lại!",
+"Stairway to Heaven": "Cầu thang tời Thiên đàng",
+"Whatever you do, don't listen to it backwards!": "Làm gì cũng được, đừng nghe ngược!",
 
 "Hot Potato": "Khoai tây Nóng nảy",
 "Whooo, wiggy wiggy wiggy": "Gu, ghe ghe ghe",
-"Gimme that, gimme that, hoo": "Đưa tôi cái đó, đưa tôi cái đó, wuu",
+"Gimme that, gimme that, hoo": "Đưa tôi cái đó, đưa tôi cái đó, hu",
 
 "Captain America's Shield": "Khiên của Đội trưởng Mĩ",
 "Unfortunately there are no circles in Minecraft,": "Không may là không có hình tròn trong Minecraft",
-"meaning this shield is not very aerodynamic for throwing": "nên là tấm khiên này không thể ném được",
+"meaning this shield is not very aerodynamic for throwing": "nghĩa là tấm khiên này không mang tính khí động học cho việc ném",
 
 "Harp String": "Dây Đàn hạc",
 "Playing so much must be wearing out your strings...": "Chơi nhiều như vậy chắc chắn sợi dây sẽ bị hao mòn ...",
 "Here! Have an extra.": "Đây! Một cái nữa",
 
 "Roller Coaster Cart": "Xe Tàu lượn Siêu tốc",
-"Hey Ferb, I know what we're gonna do today!": "Này Phát, tôi biết hôm nay chúng ta sẽ làm gì rồi!",
+"Hey Ferb, I know what we're gonna do today!": "Này Ferb, tôi biết hôm nay chúng ta sẽ làm gì rồi!",
 
 "Time Machine": "Cỗ máy Thời gian",
 "You'll need it to get back all those hours you spent": "Bạn sẽ cần nó để lấy lại tất cả những thì giờ bạn đã bỏ ra",
@@ -4381,15 +4379,15 @@
 "The sheer gravitational forces of killing these mobs": "Lực hấp dẫn tuyệt đối giết chết những con mob này",
 "appears to have morphed them all together": "dường như đã kết hợp tất cả chúng lại với nhau",
 
-"Hubble Space Telescope": "Kính viễn vọng Hubble",
-"A telescope orbiting in outer space,": "Một cái kính thiên văn quay quanh không gian vũ trụ,",
+"Hubble Space Telescope": "Kính viễn vọng không gian Hubble",
+"A telescope orbiting in outer space,": "Một cáiính thiên văn quay quanh không gian vũ trụ,",
 "it can see to infinity and beyond": "nó có thể nhìn thấy vô tận và xa hơn nữa",
 
 "Golden Advancement Plaque": "Huân chương Tiến trình Vàng",
 "Awarded to this datapack for reaching 1000 advancements": "Được trao cho gói dữ liệu này vì đã đạt được 1000 tiến trình",
 
 # # The Toilet trophy for 'WHERE'S THE HONEY LEBOWSKI' received a description change
-"WHERE'S THE HONEY?!!!": "MẬT CỦA TÔI ĐÂU?!!!",
+"WHERE'S THE HONEY?!!!": "MẬT ONG Ở ĐÂU?!!!",
 
 
 # Configuration menu additions in 1.13
@@ -4398,7 +4396,7 @@
 
 "Cooperative Mode makes it so that whenever a player gets an advancement, that advancement will be shared across all players.": "Chế độ Hợp tác làm cho bất cứ khi nào người chơi được tiến trình, tiến trình đó sẽ được chia sẻ cho tất cả người chơi.",
 "Everyone's currently-obtained advancements will be shared between all players immediately when turning this setting on.": "Những tiến trình hiện có được của mọi người sẽ được chia sẻ giữa tất cả người chơi ngay lập tức khi bật cài đặt này.",
-"While the mode can be turned off, shared advancements cannot be easily revoked.": "Mặc dù có thể tắt chế độ này, Nó không dễ dàng để thu hồi các tiến trình đã được chia sẻ.",
+"While the mode can be turned off, shared advancements cannot be easily revoked.": "Mặc dù có thể tắt chế độ này, nhưng không thể dễ dàng thu hồi các tiến trình đã chia sẻ.",
 
 
 "Click to enable for all players": "Nhấp để bật cho tất cả người chơi",
@@ -4450,10 +4448,437 @@
 "Click to set": "Nhấp để đặt",
 
 
-"Go back to main config menu": "Quay lại menu cấu hình chính"
+"Go back to main config menu": "Quay lại menu cấu hình chính",
+
+
+# Advancements added in the Terralith version for BACAP 1.13.1
+"A Cliffhanger!": "Một Tập phim hay về vách đá!",
+"Discover every type of cliff biome": "Khám phá tất cả các loại quần xã vách đá",
+
+"A Grassy Nature": "Một Thiên nhiên Đầy rẫy cỏ xanh",
+"Discover every grasslands biome": "Khám phá tất cả các loại quần xã đồng cỏ",
+
+"A E S T H E T I C": "K I Ệ T  T Á C",
+"Discover the Mirage Isles. No, they’re not not real": "Khám phá Cù lao Ảo ảnh (Mirage Isles). Không, chúng không không có thật",
+
+"Alpha Days": "Những ngày An-pha",
+"Discover the mythical islands of Alpha": "Khám phá hòn đảo huyền bí của An-pha",
+
+"Bushranger": "Kiểm lâm bụi rậm",
+"Discover every shrublands biome": "Khám phá tất cả các loại quần xã cây bụi (Shrublands)",
+
+"Choco Mountain": "Núi Sô-cô-la",
+"Discover a White Mesa": "Khám phá một vùi Mesa Trắng (White Mesa)",
+
+"Eruption in the Air": "Phun trào ở trên không",
+"Enter a volcano biome": "Tiến vào một quần xã núi lửa (Volcano)",
+
+"Highlander": "Người vùng cao",
+"Discover every highlands biome": "Khám phá tất cả các loại quần xã cao nguyên (Highlands)",
+
+"Master Spelunker": "Bậc thầy Khảo sát hang động",
+"Discover every cave biome": "Khám phá tất cả các loại quần xã hang động",
+
+"O-Land-o Bloom": "Vùng đất nở rộ",
+"Discover a blooming biome": "Khám phá một quần xã nở rộ (Blooming)",
+
+"One Small Steppe For Man": "Một Thảo Nguyên Nhỏ Bé Cho Người Đàn Ông",
+"Discover a steppe biome": "Khám phá một quần xã thảo nguyên (Steppe)",
+
+"Over the Moon": "Trên cả tuyệt vời",
+"Discover a moonlight biome": "Khám phá một vùng quần xã ánh trăng (Moonlight)",
+
+"Pretty in Purple": "Nổi bật trong sắc Tím",
+"Discover every biome with trees of purple leaves": "Khám phá tất cả các loại quần xã có cây có lá màu tím",
+
+"Skylanders": "Cư dân bầu trời",
+"Discover some mysterious lands floating high above the ground": "Khám phá một số vùng đất lơ lửng huyền bí trên cao",
+
+"Smarter than the Average Bear": "Thông thái hơn cả loài Gấu",
+"Discover the Yellowstone biome": "Khám phá quần xã Đá vàng (Yellowstone)",
+
+"Terralithic": "Thiên nhiên hùng vĩ",
+"Discover every Terralith biome": "Khám phá tất cả các loại quần xã của Terralith",
+
+"The Boreal Deal": "Thỏa thuận Cận cực",
+"Discover every boreal biome": "Khám phá tất cả các loại quần xã cận cực",
+
+"The World Is Your Canvas": "Thế giới Là Bức tranh rực rỡ",
+"Discover the Painted Mountains": "Khám phá vùng Núi được sơn (Painted Mountains)",
+
+# Adjusted descriptions
+"Discover every vanilla surface biome in the Overworld": "Khám phá mọi quần xã bình thường trên bề mặt trong Overworld",
+"Discover every vanilla biome from every dimension": "Khám phá mọi quần xã bình thường của tất cả các chiều không gian",
+
+"Stardust": "Tinh Vân",
+
+"You have explored everything this world has to offer": "Bạn đã khám phá mọi thứ mà thế giới này đưa ra",
+"But at the end of it all, it is all still made from stardust": "Nhưng cuối cùng, tất cả vẫn được hình thành từ tinh vân",
+
+
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "Người chơi đầu tiên của mỗi đội",
+"Click to enable for the first player on each team": "Nhấp để kích hoạt Chế độ người chơi đầu tiên trong mỗi đội",
+
+"Click to enable Cooperative Mode": "Nhấp để bật Chế độ hợp tác",
+"Click to disable Cooperative Mode": "Nhấp để tắt Chế độ hợp tác",
+"Click to enable Team Cooperative Mode": "Nhấp để bật Chế độ hợp tác nhóm",
+"Team Cooperative Mode currently enabled": "Chế độ hợp tác nhóm hiện đang được bật",
+
+
+
+"Click to view preset options": "Nhấp để xem các tùy chọn đặt trước",
+"Message Presets": "Cài đặt trước tin nhắn",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "Đặt tất cả các tin nhắn thành chỉ dành cho người chơi thứ nhất trong đội (được khuyến nghị và mặc định cho Chế độ hợp tác nhóm)",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "Bật thông báo chat (được khuyến nghị cho các máy chủ sử dụng các plugin liên quan đến chat, chẳng hạn như DiscordSRV)",
+
+
+
+"Advancement Scoreboard Display Settings": "Cài đặt hiển thị bảng điểm tiến trình",
+
+"Advancements Scoreboard": "Bảng điểm tiến trình",
+"First Advancements Scoreboard": "Bảng điểm tiến trình đầu tiên",
+
+"Team Advancements": "Tiến trình của đội",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "Bảng điểm tiến trình của đội liệt kê mọi đội và cộng điểm tiến trình của mọi thành viên trong mỗi đội",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "Ví dụ, nếu Alex và Steve ở trong đội Xanh dương và cả hai đều có 100 tiến trình, thì đội Xanh dương sẽ được liệt kê là 200",
+
+"Total Team Advancements": "Tổng tiến trình của đội",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "Bảng điểm tiến trình của đội liệt kê mọi đội, và đếm số thành viên trong mỗi đội đã đạt được bao nhiêu tiến trình",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "Ví dụ, nếu Alex và Steve ở trong đội Xanh dương và cả hai đều có 100 tiến trình, nhưng 50 trong số đó là số tiến trình mà cả hai đều có, thì đội Xanh dương sẽ được liệt kê là 150",
+
+"Team First Advancements": "Tiến trình đầu tiên toàn đội",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "Bảng điểm tiến trình đầu tiên toàn đội liệt kê mọi đội, và cộng điểm cho những tiến trình đầu tiên của mọi thành viên trong mỗi đội",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "Ví dụ, nếu Alex và Steve ở trong đội Xanh dương và cả hai đều là những người đầu tiên có 100 tiến trình, thì đội Xanh dương sẽ được liệt kê là 200",
+
+"First Advancements in Team": "Tiến trình đầu tiên trong đội",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "Bảng điểm tiến trình đầu tiên trong đội liệt kê mọi người chơi và đếm xem họ là người đầu tiên nhận được bao nhiêu tiến trình trong số mọi người trong đội của mình",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "Ví dụ, nếu Alex và Steve ở trong đội Xanh dương và Steve nhận được 'Thợ săn quái vật', Steve sẽ có số điểm này tăng lên 1, nhưng khi Alex nhận được thì họ sẽ không được cộng điểm. Nếu Bob ở trong đội Đỏ và nhận được 'Thợ săn quái vật' sau khi Steve làm, họ sẽ có số điểm này tăng thêm 1",
+
+"Recommended for Cooperative Mode": "Khuyến khích cho Chế độ nhiều người",
+"Recommended when NOT using Cooperative Mode": "Khuyến khích khi KHÔNG sử dụng Chế độ nhiều người",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "Khuyến khích khi KHÔNG sử dụng Chế độ nhiều người và Chế độ đội",
+"Recommended for Team Cooperative Mode": "Khuyến khích cho Chế độ đội",
+"Not recommended for Cooperative Mode": "Không khuyến khích cho Chế độ nhiều người",
+"Recommended for Cooperative or Team Cooperative Mode": "Khuyến khích cho Chế độ nhiều người và Chế độ đội",
+
+"How would you like this scoreboard to be displayed?": "Bạn muốn cái bảng điểm này hiển thị như thế nào?",
+"On tab list": "Trên danh sách tab",
+"On sidebar": "Trên thanh bên",
+"Below each player's name": "Dưới mỗi tên người chơi",
+
+"Clear scoreboard from below player names": "Xóa bảng điểm bên dưới tên người chơi",
+
+
+
+"Technical Settings": "Cài đặt kỹ thuật",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "Cảnh báo: Một số cài đặt này có thể gây ảnh hưởng xấu đến tiến trình của bạn và sẽ gây ra hiện tượng giật lag khi sử dụng. Chỉ sử dụng nếu bạn hoàn toàn biết chúng làm gì! Hãy sử dụng cẩn thận!",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "Xem qua mọi tiến trình cho mỗi người chơi trực tuyến và đếm lại số lượng tiến trình mà họ có",
+"Should be used if:": "Nên được sử dụng nếu",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "- Gần đây, bạn đã cập nhật lên phiên bản gói dữ liệu mới, đặc biệt là trên bản cập nhật Minecraft mới",
+"- You have been using commands to manually revoke the advancements of player(s)": "- Bạn đã sử dụng các lệnh để thu hồi thủ công các tiến trình của (các) người chơi",
+
+"Update team scoreboards": "Cập nhật bảng điểm của đội",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "Tính toán lại giá trị của bảng điểm đội dựa trên điểm tiến trình và điểm tiến trình đầu tiên của người chơi ",
+
+"Reset obtained advancements": "Đặt lại các tiến trình đã đạt được",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "Đặt lại bảng điểm 'bac_obtained'. Điều này sẽ làm cho Chế độ nhiều người sẽ không còn thấy bất kỳ tiến trình nào là hoàn chỉnh và do đó không chia sẻ bất kỳ tiến trình nào, đồng thời thiết lập mọi tiến trình sao lưu để lấy bảng điểm Tiến trình đầu tiên",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "Chức năng này sẽ ngừng chia sẻ các tiến trình trong Chế độ nhiều người cho đến khi chúng được nhận lại và cũng mở lại mọi tiến trình cho bảng điểm Tiến trình đầu tiên",
+"This function should only be used if you intend to turn off Cooperative Mode": "Chỉ nên sử dụng chức năng này nếu bạn định tắt Chế độ nhiều người",
+
+"Refresh Cooperative Mode advancement sharing": "Làm mới chia sẻ tiến trình Chế độ nhiều người",
+
+"Grant missing trophies": "Trao lại các danh hiệu còn thiếu",
+"Gives every online player every trophy from advancements they have obtained so far": "Cung cấp cho mọi người chơi trực tuyến mọi danh hiệu từ những tiến trình mà họ đã đạt được cho đến nay",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "Chức năng này chỉ nên được sử dụng trên các thế giới được tạo trước Bản cập nhật Danh hiệu (BACAP 1.11) hoặc nếu bạn thực sự muốn một cách dễ dàng để lấy lại chúng",
+
+"Revoke all advancements": "Thu hồi tất cả các tiến trình",
+"Revokes every advancement, including resetting scoreboards": "Thu hồi tất cả các tiến trình, bao gồm cả đặt lại các bảng điểm",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "Bạn có thể chọn thu hồi từ chính mình, người chơi gần nhất với bạn hoặc từ tất cả mọi người hiện đang trực tuyến",
+
+"Once advancements are revoked, they cannot be recovered.": "Sau khi các tiến trình bị thu hồi, chúng sẽ không thể được phục hồi.",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "Một số tiến trình Số liệu có thể tự động quay trở lại. Nếu bạn cũng muốn những thứ này được đặt lại, bạn sẽ cần xóa tệp số liệu của những người chơi mà bạn muốn thu hồi trước khi thu hồi",
+"Please choose who you would like to revoke advancements from, or to go back": "Vui lòng chọn người bạn muốn thu hồi các tiến trình, hoặc quay lại",
+"Yourself": "Bản thân bạn",
+"The closest player": "Người chơi gần nhất",
+"EVERYONE!! (who is online)": "TẤT CẢ MỌI NGƯỜI!! (những người đang trực tuyến)",
+">:)": ">:)",
+
+"All advancements have been revoked from %1$s": "Tất cả các tiến trình đã được thu hồi từ %1$s",
+"Error: There are no other players online": "Lỗi: Không còn người chơi nào khác trực tuyến",
+
+"Go back": "Quay lại",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "Một hành trình bắt đầu",
+"Find a Traveller’s Map": "Tìm thấy một cái bản đồ lữ khách",
+
+"Castle of Hrrms": "Lâu đài Hrrms",
+"Enter a Fortified Village": "Vào một Ngôi làng được gia cố",
+
+"Expedition of Discovery": "Sự chinh phạt của sự khám phá",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "Tìm một cái Bản đồ lữ khách dẫn đến một quần xã quý hiếm, sau đó đi vào quần xã đó với bản đồ trên tay của bạn",
+
+"Land of Icicles": "Vùng đất nhũ băng",
+"Discover a Glacial Chasm biome": "Khám phá quần xã Vực thẳm băng giá",
+
+"Remote Shelter": "Nơi trú ẩn hoang vu",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "Tìm thấy một cái Lều băng ở một quần xã Vực thẳm băng giá",
+
+"Spire of Ice": "Băng xoắn",
+"Enter the Spire, located in a frigidly cold biome": "Đi vào Vòng xoắn, ở nơi quần xã lạnh lẽo đến rợn người",
+
+"Under the Ice": "Bên dưới lớp băng",
+"Delve deep beneath the Spire and open up a loot chest": "Đi sâu bên dưới Vòng xoắn và mở một rương chiến lợi phẩm",
 
 
 
 
-# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+## All advancements added in version 1.14 are here
+"Sneak 100": "Lén lút",
+"Sneak near something in the Deep Dark to prevent being heard": "Đi rón rén gần một thứ gì đó ở vùng đát Tối Sau để tránh bị nghe thấy",
+
+"It spreads!": "Nó lan ra!",
+"Kill a mob near a Sculk Catalyst": "Giết một con mob gần một khối xúc tác Sculk",
+
+"Shriek Forever After": "Hét lên mãi mãi về sau",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "Kích hoạt một khối Sculk la hét ở trong vùng đát Tối Sâu. Có thể bạn không muốn làm điều đó quá nhiều lần nữa…",
+
+"The Block of Eternal Screaming": "Khối Của Những Tiếng Hét Vĩnh Cửu",
+"Use Silk Touch to pick up a Sculk Shrieker": "Dùng Mềm mại để nhặt một khối Sculk la hét",
+
+"Cataclyst": "Chất xúc tác",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "Giết một con Khô héo gần một khối xúc tác Sculk để gây ra một vụ nổ sculk lớn",
+
+"Monstrous Sacrifices": "Hiến tế dị thể",
+"Kill every hostile monster near a Sculk Catalyst": "Giết tất cả các loại quái vật gần một khối nguồn phát triển Sculk",
+
+"The Incredible Sculk": "Sculk đáng kinh ngạc",
+"Collect a stack of all sculk-related blocks": "Thu thập một stack của tất cả các khối liên quan tới sculk",
+
+"Sculker Box": "Hộp Sculker",
+"Hold a Shulker Box that is completely filled with Sculk": "Cầm một Hộp Shulker bên trong chất đầy khối Sculk",
+
+"Fallen Kingdom": "Cố đô",
+"Find and enter an Ancient City deep underground": "Tìm thấy và tiến vào một Thành Phố Cổ Đại nằm sâu dưới lòng đất",
+
+"Frigid Diversions": "Lạnh thấu xương tủy",
+"Loot a chest inside an ice box in an Ancient City": "Mở một cái rương bên trong một hộp băng ở Thành Phố Cổ Đại",
+
+"Death Pointer": "Mũi chỉ tử thần",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "Sử dụng Mảnh âm vang tìm thấy trong Thành Phố Cổ Đại, chế tạo một cái La bàn phục hồi",
+
+"9 to 5": "Cửu hợp Ngũ",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "Thu thập đủ Mảnh vỡ đĩa nhạc để chế tạo một nhà sản xuất âm thanh bí ẩn khác",
+
+"Echonomy": "Nền kinh tế âm vang",
+"Collect a stack of Echo Shards": "Thu thập một stack Mảnh âm vang",
+
+"Blind as a Bat": "Mù như một con Dơi",
+"Kill a Bat while under the blindness or darkness effect": "Giết một con Dơi khi đang có hiệu ứng mù quáng hoặc bóng tối",
+
+
+"Stuck in the Mud": "Mắc kẹt trong vũng bùn",
+"Use a Water Bottle on some Dirt to turn it into Mud": "Sử dụng một Chai nước vào một vài khối Đất để biến nó thành bùn",
+
+"Elmer Mudd": "Bùn Elmer Fudd",
+"Craft or obtain all forms of Mud and Mud Brick": "Chế tạo hoặc thu thập tất cả các dạng của Bùn và Gạch bùn",
+
+"Mangrove Master": "Bậc thầy cây đước",
+"Craft every item made out of mangrove wood": "Chế tạo tất cả các vật phẩm làm từ gỗ đước",
+
+"Incandescent!": "Chói sáng!",
+"Light up the area with all three hues of Froglight": "Thắp sáng khu vực với tất cả ba màu của Đèn ếch",
+
+
+"A Mangrove Grove": "Một khu rừng ngập mặn",
+"Plant a Mangrove Propagule in a Grove biome": "Trồng một Chồi cây đước ở trong một vùng quần xã rừng đước",
+
+
+"Frog Family": "Gia đình ếch ộp",
+"Breed two Frogs together using slimeballs": "Nhân giống hai con Ếch bằng bóng chất nhờn",
+
+"Bukkit bukkit": "Bukkit bukkit",
+"Catch a Tadpole in a Bucket": "Bắt một con Nòng nọc trong một cái Xô",
+
+"When the Squad Hops into Town": "Khi biệt đội nhảy vào thị trấn",
+"Attach a lead to each variant of Frog": "Móc dây dẫn vào mỗi loại Ếch",
+
+"Ram": "Lao vào",
+"Obtain a Goat’s Horn by having one ram into a block": "Thu thập một cái Sừng dê bằng cách cho một con lao vào một khối",
+
+"Loud and Proud": "Tự hào lên tiếng",
+"Play a Goat Horn in the Deep Dark": "Thổi một cái Sừng dê ở Tối Sâu",
+
+"Battle of the Bands": "Cuộc chiến của những ban nhạc",
+"Blow into a Goat Horn during a raid": "Thổi một cái Sừng dê trong một cuộc cướp làng",
+
+"Caprymphony": "Giai điệu sừng dê",
+"Blow every type of Goat Horn": "Thổi tất cả các loại Sừng dê",
+
+"Animal Kingdom": "Vương quốc động vật",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "Mang tất cả các loại động vật mỗi loài ít nhất một con đến một nơi (có tất cả chúng trong vòng 32 khối từ bạn)",
+
+
+"Cargo Carrier": "Người vận chuyển hàng hóa",
+"Ride a Boat with a Chest in it": "Chèo một con Thuyền với rương bên trong",
+
+"Flipper": "Chân chèo",
+"Give a Dolphin something to play with": "Cho một con Cá heo thứ gì đó để chơi cùng",
+
+
+"Allayance": "Liên minh Allay",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "Giải cứu một con Allay khỏi Đồn kẻ cướp hoặc Biệt thự trong rừng và cho nó thứ gì đó để chơi cùng",
+
+"You’ve Got a Friend in Me": "You’ve Got a Friend in Me",
+"Have an Allay deliver items to you": "Có một con Allay vận chuyển đồ cho bạn",
+
+"Evelyn Evergreen": "Evelyn Evergreen",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "Nhờ một con Allay vận chuyển Chồi cây vân sam cho bạn trong khi chặt cây",
+
+"Budget Vex": "Vex chợ Đồng Xuân",
+"Give an Allay an Iron Sword": "Cho một con Allay một Thanh kiếm sắt",
+
+"Diagon Allay": "Diagon Allay",
+"Have an Allay deliver a potion to you in the Deep Dark": "Nhờ một con Allay vận chuyển cho bạn một lọ thuốc ở trong vùng đất Sâu Tối",
+
+"Birthday Song": "Bài hát sinh nhật",
+"Have an Allay drop a cake at a note block": "Nhờ một con Allay thả một cái bánh ở một cái khối nốt nhạc",
+
+"Awards Ceremony": "Nghi lễ trao thưởng",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "Nhờ một con Allay trao cho bạn một cái cúp từ việc hoàn thành một trong những thành tựu",
+
+
+"Now that's a lot of damage": "Now that's a lot of damage",
+"Succumb to the Warden": "Bị đè bẹp bở Kẻ cai ngục",
+
+"Blind Stare": "Ánh nhìn mù quáng",
+"Look at a Warden with a Spyglass": "Nhìn một con Kẻ cai ngục qua một cái Ống nhòm",
+
+"Stealth is Optional": "Tàng hình là tùy chọn",
+"Overcome a Warden in the deepest and darkest of caves": "Vượt qua một Kẻ cai ngục trong hang động sâu và tối tăm nhất",
+
+"Warden Frostbite": "Kẻ cai ngục tê cóng",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "Mang một con Kẻ cai ngục lên mặt đất của một vùng quần xã đồng bằng tuyết và giết nó",
+
+"Not Afraid of Heights": "Không sợ độ cao",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "Mang một con Kẻ cai ngục lên độ cao thế giới. Nó có thể không sợ độ cao nếu nó không nhìn thấy",
+
+"House of Freaks": "Ngôi nhà quái đản",
+"Summon five Wardens and have them all be within 16 blocks of the player": "Triệu hồi năm Kẻ cai ngục và để tất cả chúng ở trong phạm vi 16 khối từ người chơi",
+
+
+"Like a Ninja": "Như một Ninja",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "Tìm thấy phù phép Rón rén nhanh ở trên một Quyển sách phù phép ở trong Thành Phố Cổ Đại",
+
+"Silent But Deadly": "Sự yên lặng chết chóc",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "Đi rón rén và chạy trên khối sculk với Tốc độ II khi đang mặc quần phù phép Rón rén nhanh III",
+
+
+"Hung, Drawn and Bartered": "Khó chịu, Hấp dẫn và Trao đổi",
+"Barter for every possible type of item with Piglins": "Trao đổi mọi vật phẩm có thể với Piglin",
+
+
+"The Void Frogs": "Ếch hư vô",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "Hạ một con ếch vào khoảng không bằng cách sử dụng một lọ thuốc Rơi chậm, sau đó giết nó để nó trở thành một trong khoảng sâu đó",
+
+
+"Farlander": "Người dân Farland",
+"Travel all the way to the border of the world": "Du lịch đến tận ranh giới của thế giới",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "Dùng Mềm mại để đào một cái Cảm biến sculk hoặc tìm một cái trong kho báu của Thành Phố Cổ Đại",
+
+# Spelunker
+"Discover every cave biome": "Khám phá mọi quần xã hang động",
+
+# Yay! I got my wood!
+"Collect every type of log": "Thu thập tất cả các loại gỗ",
+
+# Stripper
+"Strip the bark off every type of log": "Cạo vỏ của tất cả các loại gỗ",
+
+# Ecologist
+"Plant down all types of saplings": "Trồng tất cả các loại chồi cây",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "Săn tất cả các loài động vật trên cạn với cây cung của bạn",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "Khám phá tất cả các quần xã trên bề mặt ở Overworld",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "mục",
+
+
+# Trophies added in 1.14
+"Mobbo": "Mobbo",
+"They are your bestest friend!": "Chúng là người bạn đỉnh của chóp của bạn",
+
+"The Cataclyst": "Người xúc tác",
+"When detonated, it kills every single avatar and NPC in the sector": "Khi được kích hoạt, nó sẽ giết mọi avatar và NPC trong khu vực",
+
+"Claptrap": "Claptrap",
+"No, I said “Aaaaaand OPEN!”,": "Không, ý tôi là 'MỞ ra điiiiii!',",
+"not “Aaaaand close a secondary set of doors!”": "không phải là 'Đóng thêm một đống cửa khác lại!'",
+
+"Pickle Rick": "Rick Dưa chuột muối",
+"Look Morty, I've turned myself into a pickle!": "Nhìn này Morty, tôi đã biến thành một quả dưa chuột muối!",
+
+"Magic Paintbrush": "Cây chổi vẽ kì diệu",
+"For painting with all the colors of the wind": "Dành cho việc vẽ với tất cả màu sắc của gió",
+
+"Very Muddy Boots": "Đôi giày dính đầy bùn",
+"The result of too long in muddy fields": "Kết quả của việc ở quá lâu trong một vũng bùn",
+
+"Pride Rock": "Hòn đá tự hào",
+"Look, Simba. Everything the light touches is our kingdom": "Nhìn kìa, Simba. Mọi thứ ánh sáng chạm vào là vương quốc của chúng ta",
+
+"Copper Goat Horn": "Sừng dê đồng",
+"Such a fun and jazzy instrument, sadly not canon": "Thật là một nhạc cụ vui vẻ và nhộn nhịp, thật đáng buồn không phải là lặp âm",
+
+"FrogChamp": "Nhà vô địch ếch",
+"It’s Wednesday, my dudes!": "Hôm nay là thứ Tư, anh bạn ạ!",
+
+"Warden Head": "Đầu Kẻ cai ngục",
+"Players: How are you meant to kill the Warden?": "Người chơi: Làm thế nào bạn có ý định giết Kẻ cai ngục?",
+"Mojang: That's the neat part - you don't!": "Mojang: Đó là phần phụ - bạn không cần!",
+"You: Hold my golden carrots": "Bạn: Cầm cà rốt vàng của tôi",
+
+"The Warden's Sign": "Tấm biển của Kẻ cai ngục",
+"This sign can’t stop me because I can't see!": "Tấm biển này không thể cản bước được tôi bởi vì tôi không thể nhìn thấy!",
+
+"Reuben the Wither Storm Ender": "Reuben chú lợn rồng bão khô héo",
+"He was a great pig": "Anh ta là một chú lợn vĩ đại",
+
+"The Trophy Trophy": "Chiếc cúp của cúp",
+"If an Allay brings you this, you will": "Nếu một con Allay mang cho bạn cái này, bạn sẽ",
+"receive the Trophy Trophy Trophy": "nhận được chiếc cúp của cúp của cúp",
+
+"Spongebob Squarepants": "Chiếc quần vuông của Spongebob",
+"Who lives in a pineapple under the sea?": "Ai sống trong một quả dứa ở dưới biến?",
+
+"Fence Post": "Cọc hàng rào",
+"Look at this luxurious fence post": "Nhìn cái cọc hàng rào sang trọng này đi",
+"With its courageously mundane colour": "Với màu kem lẫm liệt của nó",
+"And violent corners": "Và với góc độ bạo lưc",
+"This isn't just any fence post…": "Nó không chỉ là một cái cọc hàng rào…",
+"It's my fence post! Seriously, get out!": "Đó là cọc hàng rào của tôi! Nghiêm túc đấy, tránh ra!",
+
+"Stone of the Farlands": "Hòn đá của Farlands",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "Một mảnh đá được bảo tồn từ những vùng đất tồn tại trước bản Beta 1.8"
+
+
+
+
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
 }

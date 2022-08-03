@@ -9,7 +9,7 @@
     "description": {
       "translate": "Ударьте моба алмазом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/slapfish",
   "rewards": {
@@ -29,7 +29,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond"
+                  ]
+                }
+              }
             }
           }
         }

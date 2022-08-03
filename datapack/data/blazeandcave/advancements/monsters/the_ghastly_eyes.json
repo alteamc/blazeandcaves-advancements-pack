@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте невидимого паука"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/spider_skeleton",

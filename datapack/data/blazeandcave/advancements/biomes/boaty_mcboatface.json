@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте и управляйте лодкой, чтобы плыть в открытом море"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/the_sea_calls_you",
   "rewards": {
@@ -24,7 +24,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "vehicle": {
-                "type": "minecraft:boat"
+                "type": "#blazeandcave:boats"
               }
             },
             "entity": "this"

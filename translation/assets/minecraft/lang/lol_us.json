@@ -9,7 +9,7 @@
 
 # Language: LOLCAT (Kingdom of Cats)
 # Author: Cavinator1
-# Pack version supported: 1.11
+# Pack version supported: 1.13.7
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (including the 1.4 update) will be put at the bottom of the file for easy locating and adding by translators
@@ -4508,10 +4508,370 @@
 "Stardust": "Starbux",
 
 "You have explored everything this world has to offer": "U have sleepi in all of da world",
-"But at the end of it all, it is all still made from stardust": "But at da end ov it all, it is all starbux"
+"But at the end of it all, it is all still made from stardust": "But at da end ov it all, it is all starbux",
+
+
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "1st cat on each team",
+"Click to enable for the first player on each team": "Clik 2 enabel only 4 da 1st cat on eech team to get an advnzmnt",
+
+"Click to enable Cooperative Mode": "Clik 2 enabel Coop Mode",
+"Click to disable Cooperative Mode": "Klick 2 disabel Coop Mode",
+"Click to enable Team Cooperative Mode": "Klik 2 enabel Team Coop Mode",
+"Team Cooperative Mode currently enabled": "Team Coop Mode enabeld",
+
+
+
+"Click to view preset options": "Clik 2 veiw preset opshuns",
+"Message Presets": "Msg Presets",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "Set all msgs 2 1st-cat-on-team only (recomndd & defult 4 team coop mode)",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "Turn vanila ice creem msgs on (remocend 4 servrs that yuze plugins liek DiscrodSRV",
+
+
+
+"Advancement Scoreboard Display Settings": "Advnzmnt Scorebored disply settings",
+
+"Advancements Scoreboard": "Advnzmnt Scorebored",
+"First Advancements Scoreboard": "First Advnsmnt Scoarbored",
+
+"Team Advancements": "Team Advnazmnts",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "Da Team Advnazmnts Scorebored lists evri team & ads up da Advnazmnts scoar of evri cat in each team",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "4 example if Garfield and Arlene are on Red team & both have 100 advnazmnts, Red team haz 200 cuz 100+100=200",
+
+"Total Team Advancements": "Totul Team Advnanzdmts",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "Da Totul Team Advnanzdmts Scoarboard listz evri team & counts how many advnanzdmts haz been got by any cat in each team",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "4 example if Garfield and Arlene are on Red team & both have 100 advnanzdmts, but 50 they both haz, Red team haz 150",
+
+"Team First Advancements": "Team 1st Advanzemnts",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "Da Team 1st Advanzemnts Scroebored lizts everi team & +'s the 1st Advanzemnts scroe of everi cat in each team",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "4 example if Garfield and Arlene R on Red team & both were da 1st 2 get 100 advs, Red Team haz 200",
+
+"First Advancements in Team": "1st Advnamzents in Team",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "Da 1st Advnamzents in Team scorebored listz everee cat & counts da advnamzents they were the 1st 2 get out of all cats on their team",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "4 example if Garfield and Arlene are on Red Team and Garfield gets 'Is it a Birb?', Garfield haz his score +1, but when Arlene getz it she won't. If Nermal is on Blue Team & gets 'Is it a Birb?' after Garfield did, he haz this score +1",
+
+"Recommended for Cooperative Mode": "Recomnded in Coop Mode",
+"Recommended when NOT using Cooperative Mode": "Recomdned when NOT using Coop Mode",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "Recomdned when NOT usin Coop Mode or Team Coop Mode",
+"Recommended for Team Cooperative Mode": "Recomendd 4 Team Coop Mode",
+"Not recommended for Cooperative Mode": "Not recomended 4 Coop Mode",
+"Recommended for Cooperative or Team Cooperative Mode": "Recomended in Coop Mode or Team Coop Mode",
+
+"How would you like this scoreboard to be displayed?": "How would u liek dis scorebored 2 B displaed?",
+"On tab list": "On tab list",
+"On sidebar": "On sidbar",
+"Below each player's name": "Below each cat's name",
+
+"Clear scoreboard from below player names": "Clear scorebored from below cat names",
+
+
+
+"Technical Settings": "Human Settings",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "Warning: Some of these settings may cause adverse effects on ur comfort & maybe Schrodinger's Cat. Only use if ur smart as a hooman!",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "Goez thru evri advnamsent 4 evre cat online & recounts how many they haz",
+"Should be used if:": "Shuld B used if:",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "- U resently updated 2 a new datapak version, espshully across a new Miencraft udpate",
+"- You have been using commands to manually revoke the advancements of player(s)": "- U haz been naughty & uzed HAKS 2 revoke advnzemnts of cat(s)",
+
+"Update team scoreboards": "Updaet team scoreboreds",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "Re-cowculates da valu of team scoreboreds that draw from cats' advancemtns & firzt advancemnt scores",
+
+"Reset obtained advancements": "Reset obtained advs",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "Resets teh 'bac_obtained' scorebored. This maeks it so dat Coop Mode will nu longer C any advs as compleet & hense not shair any & also set evri adv back up 4 grabz wit da 1st advs scorebored",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "This funkshun will stoop shairing of advs in Coop Moed until they R obtayned again & also reopen evri adv for da 1st Advandmcents scoarboard",
+"This function should only be used if you intend to turn off Cooperative Mode": "This funkshun shuld only be uzed if u intend 2 turn off Coop Mode",
+
+"Refresh Cooperative Mode advancement sharing": "Refresh Coop Mode advnzemnt sharing",
+
+"Grant missing trophies": "Grant missing trohfys",
+"Gives every online player every trophy from advancements they have obtained so far": "Givez evri online plaeyr evri trofi in advancments they haz so far",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "Shuld only B used in wurlds creatd B4 da Trophy Update (BACAP 1.11) or if u rly want an EZ way ov gtting tehm back",
+
+"Revoke all advancements": "REEEE-voke all davancmnetns",
+"Revokes every advancement, including resetting scoreboards": "REEE-vokes all advanmnets, including REEE-setting scoarboardz",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "U may chuuze 2 REEEE-voke frum either urself, da closest cat 2 u, or every cat in da house",
+
+"Once advancements are revoked, they cannot be recovered.": "1nce advancments r REEEE-vokd, they cannot be REEEE-covered",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "Sum catistics advancments may come back ottomaticly. If u wish 4 these 2 REEEE-set 2, u wll need 2 delete da catistics file of cats u want to REEEE-voke prior 2 REEEE-voking",
+"Please choose who you would like to revoke advancements from, or to go back": "Pls choose who u wuld liek 2 REEEE-voke advs from or 2 go bak",
+"Yourself": "Urself",
+"The closest player": "Da closest cat",
+"EVERYONE!! (who is online)": "EVERY CAT!! (who is in da house)",
+">:)": ">:3",
+
+"All advancements have been revoked from %1$s": "All advs haz been REEEE-voked frum %1$s",
+"Error: There are no other players online": "Error: There are no other kittehs in da house",
+
+"Go back": "Go bak",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "A Jurknee beginz",
+"Find a Traveller’s Map": "Find a travelers map",
+
+"Castle of Hrrms": "Cassel of Meows",
+"Enter a Fortified Village": "Enter a 4-tified villaj",
+
+"Expedition of Discovery": "Expedishun of Discuvery",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "Find a Travelers Map dat leeds 2 a rare bium & enter dat bium wit the map in ur paw",
+
+"Land of Icicles": "Land ov Isikles",
+"Discover a Glacial Chasm biome": "Discuver a Glasial Kazum bioum",
+
+"Remote Shelter": "Remote Control Shelter",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "Locate a Glasial Hut deep in a Glasial Kazum bium",
+
+"Spire of Ice": "Spier of Ice",
+"Enter the Spire, located in a frigidly cold biome": "Enter da Spier, located in a supa cold house",
+
+"Under the Ice": "Under da Ice",
+"Delve deep beneath the Spire and open up a loot chest": "Dig deep beneeth da Spier & open up looty",
+
+
+
+## All advancements added in version 1.14 are here
+"Sneak 100": "crouch walk 100,000,000",
+"Sneak near something in the Deep Dark to prevent being heard": "crouch walk near sumthin in deep DARK 2 igner it from detektin u",
+
+"It spreads!": "Can it spread?",
+"Kill a mob near a Sculk Catalyst": "Meak a mob died near Kat Cat-alist :(",
+
+"Shriek Forever After": "Shrek 4ever Arftr",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "TRIGGERED a Kat Yeller in da deep DARK. Mite nut wunt 2 du dat 2 meny moar tiezms",
+
+"The Block of Eternal Screaming": "Da Bluk ov Eaternul Screeming",
+"Use Silk Touch to pick up a Sculk Shrieker": "Uze Smooth Diggin' 2 pik up a Kat Yeller",
+
+"Cataclyst": "Cat-aklist",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "Kill a Wither near a Kat Cat-alist 2 unleesh an EXPLOSIION of sculk",
+
+"Monstrous Sacrifices": "Monstrus Sakrifaces",
+"Kill every hostile monster near a Sculk Catalyst": "Scratch evri monstah neer Kat Cat-alist :(",
+
+"The Incredible Sculk": "SCULK SMASH!",
+"Collect a stack of all sculk-related blocks": "Collekt a stak ov all sculk-related bluks",
+
+"Sculker Box": "Sculker Bux",
+"Hold a Shulker Box that is completely filled with Sculk": "Hold a Shulker Bux dat is filled up with weird blue stuff",
+
+"Fallen Kingdom": "Fullen Kingdumb",
+"Find and enter an Ancient City deep underground": "Fiend & entr an Anshent Sitty deep underground",
+
+"Frigid Diversions": "Kold Kitties",
+"Loot a chest inside an ice box in an Ancient City": "Luut a chest inside an ice box in an Ainshunt City",
+
+"Death Pointer": "Die-Die-Pointer",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "Usin Boomerang Sund Pieces, kraft a Deth finder v1.0™",
+
+"9 to 5": "925",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "Collekt enuff pieces ov loud things 2 maek a loud thing no pls y u do dis its loud no",
+
+"Echonomy": "Boomer Economy",
+"Collect a stack of Echo Shards": "Kullect a stak ov Boomerang Sund Pieces",
+
+"Blind as a Bat": "Blind as a Cat",
+"Kill a Bat while under the blindness or darkness effect": "Catch a bat while cant see anything or in black fog",
+
+
+"Stuck in the Mud": "Stuk in da Mud",
+"Use a Water Bottle on some Dirt to turn it into Mud": "Uze a watur buttle on sum Durt 2 turn it into Durty Watur",
+
+"Elmer Mudd": "Durty Elmur",
+"Craft or obtain all forms of Mud and Mud Brick": "Kraft or obtayn all forms ov dirty water bluks",
+
+"Mangrove Master": "Mangroff Mastur",
+"Craft every item made out of mangrove wood": "Maek mangroff stuffz",
+
+"Incandescent!": "2gether we meoww!",
+"Light up the area with all three hues of Froglight": "lite up em all Toadshines",
+
+
+"A Mangrove Grove": "A mangroff groff",
+"Plant a Mangrove Propagule in a Grove biome": "plant a baby mangroff in a groff bium",
+
+
+"Frog Family": "Toad Tribe",
+"Breed two Frogs together using slimeballs": "Brid 2 froggies 2gethur with boogerz",
+
+"Bukkit bukkit": "Bukkit²",
+"Catch a Tadpole in a Bucket": "Katch a kute smol toad in a bukkit",
+
+"When the Squad Hops into Town": "United State of Toadz",
+"Attach a lead to each variant of Frog": "Git evvy Toad on a Leesh",
+
+"Ram": "WHAM BAM KA-PLAM!",
+"Obtain a Goat’s Horn by having one ram into a block": "Get a monten shep shap thing when it WHAMs into a bluk",
+
+"Loud and Proud": "Loud & Proud",
+"Play a Goat Horn in the Deep Dark": "Play a shap thing in da deep DARK",
+
+"Battle of the Bands": "Battle ov da Bans",
+"Blow into a Goat Horn during a raid": "Blow into a shap thing during a rade",
+
+"Caprymphony": "Ka-prim-phony",
+"Blow every type of Goat Horn": "Blow all da gote horns",
+
+"Animal Kingdom": "Animul Kingdumb",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "Bring 1 ov evri taip ov animal in2 ur house (all within 32m of u)",
+
+
+"Cargo Carrier": "Car-go Carriur",
+"Ride a Boat with a Chest in it": "Ride in a watr car wit a cat box in it",
+
+"Flipper": "Flippur",
+"Give a Dolphin something to play with": "Gif a doolfin sumthin 2 plae with",
+
+
+"Allayance": "Ellayans",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "Resku a flyin blu mob frum a pillagur's house or a wOoDlAnD mAnSiOn & gif it sumthin 2 pallay with",
+
+"You’ve Got a Friend in Me": "U Got a Cat in Mi",
+"Have an Allay deliver items to you": "hev an Flyin Blu Mob delyvex ytem tu u",
+
+"Evelyn Evergreen": "Everlin Evahgween",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "Haf a flyin blu moB delivur baby spruces 2 u",
+
+"Budget Vex": "budget ghosty thingies",
+"Give an Allay an Iron Sword": "Gif a flyin blU mob an irun sord",
+
+"Diagon Allay": "Die-a-gon alley",
+"Have an Allay deliver a potion to you in the Deep Dark": "Haf a flyiN blu mob gif a poshun 2 u in da deep DARK",
+
+"Birthday Song": "Happi Birfday!! (づ^･ω･^)づ",
+"Have an Allay drop a cake at a note block": "hev anz Flyin Blu Mob dzop a cek az nout bluk",
+
+"Awards Ceremony": "Awords Seremoney",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "hav an blu flyin mob present 2 u a trophie aworded frum 1 of da advs",
+
+
+"Now that's a lot of damage": "Now dats a lut uf dmg",
+"Succumb to the Warden": "Sukumb 2 blu shrek",
+
+"Blind Stare": "blind staer",
+"Look at a Warden with a Spyglass": "I C BLU SHREK",
+
+"Stealth is Optional": "Stelth iz opshunl",
+"Overcome a Warden in the deepest and darkest of caves": "Kill blu shrek & maek blu fiona sad",
+
+"Warden Frostbite": "Frostbiet Shrek",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "Bring blu shrek 2 da surface ov a snowy planes bium & scratch it",
+
+"Not Afraid of Heights": "Nut Afrade ov Hights",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "Bring blu shrek 2 wrld hight. It cant be scaredy-cat cuz it cant see",
+
+"House of Freaks": "House ov Freeks",
+"Summon five Wardens and have them all be within 16 blocks of the player": "Meet 5 blu shreks & have them all B 16 bluks from u",
+
+
+"Like a Ninja": "LIEK NINJA",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "Find da swift sneek inch on a shineh magic book in an anshent city",
+
+"Silent But Deadly": "S.B.D.",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "Snek & sprint on sculk wit spede 2 wile waring Snek sPiDrAn 3 legs. Try saying dat 6 tiems swiftli",
+
+"Hung, Drawn and Bartered": "Hung Drawn & 1/4'd",
+"Barter for every possible type of item with Piglins": "Butter 4 evri posibel taip ov item frum clevr pics",
+
+
+"The Void Frogs": "stiffle & Q",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "Lowr a froggie in2 da void wit slowmo fall & kill it",
+
+
+"Farlander": "Furrlandurr",
+"Travel all the way to the border of the world": "Twavel all da way 2 da border of da wrld",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "Uze smooth diggin' 2 pik up a Kat Detektor or find 1 amog anshunt city treasure",
+
+# Spelunker
+"Discover every cave biome": "Diskuvah evri caev bium",
+
+# Yay! I got my wood!
+"Collect every type of log": "Get all types of logz",
+
+# Stripper
+"Strip the bark off every type of log": "S Trip Dog Noise off all logz",
+
+# Ecologist
+"Plant down all types of saplings": "Plant duwn all da baby trees",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "Scratch all da animals wit bowz & errowz den uplode it to Youtub",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "Disccover evry type ov sufase baium in da ovrworld",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "teb",
+
+
+# Trophies added in 1.14
+"Mobbo": "Mobbo",
+"They are your bestest friend!": "They R ur bested fwend!",
+
+"The Cataclyst": "Da Cat-aclyst",
+"When detonated, it kills every single avatar and NPC in the sector": "When explode-anated, it killz evri single cat & kitten in da house",
+
+"Claptrap": "Cwaptwap",
+"No, I said “Aaaaaand OPEN!”,": "Nu, I sed “Aaaaaand OPEN!”,",
+"not “Aaaaand close a secondary set of doors!”": "nut “Aaaaand shut a 2ndary set ov duurs!”",
+
+"Pickle Rick": "Pikl Rik",
+"Look Morty, I've turned myself into a pickle!": "Luuk Murty, ive turned meh in2 a pikl! IM PICKLE RICK!",
+
+"Magic Paintbrush": "Majik Panet brush",
+"For painting with all the colors of the wind": "4 paneting with all da colors of da wind",
+
+"Very Muddy Boots": "Vry Mdy Bts",
+"The result of too long in muddy fields": "da result of 2 long in muddy feelds",
+
+"Pride Rock": "Pwide Wock",
+"Look, Simba. Everything the light touches is our kingdom": "Luuk, Simba. Everything da light tuches is our kingdom",
+
+"Copper Goat Horn": "Coppur Gote Horn",
+"Such a fun and jazzy instrument, sadly not canon": "Such a fun an jazzy plaything, sadly not real",
+
+"FrogChamp": "FrogChamp",
+"It’s Wednesday, my dudes!": "Its Wednesday, me dudes!",
+
+"Warden Head": "Blu Shrek Head",
+"Players: How are you meant to kill the Warden?": "Players: How are u meant 2 kill Blu Shrek?",
+"Mojang: That's the neat part - you don't!": "Dreamworks: Dats da neat part - u dont!",
+"You: Hold my golden carrots": "Me: Hold meh catnip",
+
+"The Warden's Sign": "Blu Shrek's Sign",
+"This sign can’t stop me because I can't see!": "Dis sign cant stop meh cuz i cant read!",
+
+"Reuben the Wither Storm Ender": "Ruben da Wither Sturm Endr",
+"He was a great pig": "He wuz a grate oinkey",
+
+"The Trophy Trophy": "Da Twophy Twophy",
+"If an Allay brings you this, you will": "If a flyin blu mob brings u this, u will",
+"receive the Trophy Trophy Trophy": "get da Twophy Twophy Twophy",
+
+"Spongebob Squarepants": "Spangblob Squaerpantz",
+"Who lives in a pineapple under the sea?": "Who lives in a pinapel under da sea?",
+
+"Fence Post": "Scratchen-post",
+"Look at this luxurious fence post": "Luuk at dis luksurius scratchen-post",
+"With its courageously mundane colour": "Wif its curagusly mundayn culur",
+"And violent corners": "And viulent curners",
+"This isn't just any fence post…": "Dis isnt just any scratchen-post…",
+"It's my fence post! Seriously, get out!": "It's meh scratchen-post! Stay away or me scratchen-you!",
+
+"Stone of the Farlands": "Rock ov da Farlands",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "A pweserved peese ov rock frum da lands dat eggzisted B4 β1.8"
 
 
 
 
-# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
 }

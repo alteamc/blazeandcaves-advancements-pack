@@ -10,7 +10,7 @@
     "description": {
       "translate": "Используйте драконье дыхание для приготовления туманного зелья"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:end/dragon_breath",
   "rewards": {

@@ -34,7 +34,8 @@
                 }
               },
               "nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}",
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "blazeandcave:technical/riddle_eighth_line": "true"
                 }
@@ -76,7 +77,8 @@
                 }
               },
               "nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}",
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "blazeandcave:technical/riddle_eighth_line": "true"
                 }
@@ -118,7 +120,8 @@
                 }
               },
               "nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}",
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "blazeandcave:technical/riddle_eighth_line": "true"
                 }
@@ -160,7 +163,8 @@
                 }
               },
               "nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}",
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "blazeandcave:technical/riddle_eighth_line": "true"
                 }

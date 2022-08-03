@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Используйте стол кузнеца, чтобы улучшить алмазную броню до незеритовой"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:nether/moar_upgraded_tools",

@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Поторгуйтесь с крестьянином каждой профессии каждого биома"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/ultimate_enchanter",

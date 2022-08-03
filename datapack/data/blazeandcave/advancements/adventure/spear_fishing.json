@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте стража при помощи лука и стрел"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/laser_sharks",
   "rewards": {

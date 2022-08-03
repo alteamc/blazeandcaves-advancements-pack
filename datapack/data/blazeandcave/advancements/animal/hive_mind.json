@@ -9,7 +9,7 @@
     "description": {
       "translate": "Разместите улей, создав его из досок и пчелиных сот"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/safely_harvest_honey",
   "rewards": {

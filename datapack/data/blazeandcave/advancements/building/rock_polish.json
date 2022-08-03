@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте каждый тип полированного блока"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/rock_collection",
   "rewards": {

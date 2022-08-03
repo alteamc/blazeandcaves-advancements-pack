@@ -8,8 +8,8 @@
 # Currently the text that appears with reward functions are not translatable - support for translating the reward functions messages will come in a later update.
 
 # Language: Ukrainian
-# Author: PurpleBear(1.11), Marsik_the_alien (1.12 - 1.13)
-# Pack version supported: 1.13.2
+# Author: PurpleBear(1.11), Marsik_the_alien (1.12 - 1.14)
+# Pack version supported: 1.14
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -4535,10 +4535,371 @@
 "Stardust": "Зоряний пил",
 
 "You have explored everything this world has to offer": "Ви дослідили все, що може запропонувати цей світ",
-"But at the end of it all, it is all still made from stardust": "Але в кінці кінців, все ще досі зроблено із зоряного пилу"
+"But at the end of it all, it is all still made from stardust": "Але в кінці кінців, все ще досі зроблено із зоряного пилу",
+
+
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "Перший гравець кожної команди",
+"Click to enable for the first player on each team": "Натисніть, щоб увімкнути для першого гравця кожної команди",
+
+"Click to enable Cooperative Mode": "Натисніть, щоб увімкнути кооперативний режим",
+"Click to disable Cooperative Mode": "Натисніть, щоб вимкнути кооперативний режим",
+"Click to enable Team Cooperative Mode": "Натисніть, щоб увімкнути командний кооперативний режим",
+"Team Cooperative Mode currently enabled": "Наразі ввімкнено комадний кооперативний режим",
+
+
+
+"Click to view preset options": "Натисніть, щоб переглянути попередньо встановлені параметри",
+"Message Presets": "Попередні налаштування повідомлень",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "Налаштувати всі повідомлення лише для першого гравця в команді (рекомендовано та стоїть за замовчуванням в режимі командного кооперативу",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "Увімкніть звичайні повідомлення (рекомендовано для серверів, які використовують плагіни, що беруть дані з повідомлень, наприклад DiscordSRV)",
+
+
+
+"Advancement Scoreboard Display Settings": "Налаштування відображення табло досягнень",
+
+"Advancements Scoreboard": "Табло досягнень",
+"First Advancements Scoreboard": "Табло перших досягнень",
+
+"Team Advancements": "Командні досягнення",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "Табло досягнень команди містить у собі перелік досягнень кожної команди та підсумовує результати кожного з його членів",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "Наприклад, якщо Алекс і Стів знаходяться в Синій команді, і вони обидва мають по 100 досягненнь, на табло буде вказано, що команда Синіх має 200 досягнень",
+
+"Total Team Advancements": "Загальні досягнення команди",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "Табло загальних досягнень команди перераховує кожну команду та підраховує, скільки досягнень було досягнуто будь-яким членом кожної команди.",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "Наприклад, якщо Алекс і Стів знаходяться в команді Синіх, і вони обидва мають по 100 досягенень, але 50 з них є спільними для обох, то на табло буде вказано, що команда Синіх має 150 досягнень",
+
+"Team First Advancements": "«Перші» командні досягнення",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "Табло перших командних досягнень підсумовує всі «перші» досягнення кожного члена кожної команди",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "Наприклад, якщо Алекс і Стів знаходятьсяв команді Синіх і обидва були першими, хто отримав 100 унікальних, «перших» досягнень, на табло буде вказано, що команда Синіх має 200 досягнень",
+
+"First Advancements in Team": "«Перші» досягнення в команді",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "Табло «перших» досягнень в команді підраховує скільки досягнень вони отримали першими у своїй команді",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "Наприклад, якщо Алекс і Стів знаходяться в команді Синіх, а Стів отримує «Мисливець на монстрів», цей показник у Стіва збільшиться на 1, а коли те ж саме досягненнь після нього отримає Алекс, то значення для Алекс не збільшиться. Якщо Боб буде в команді червоних і отримає «Мисливець на монстрів» після Стіва, для нього цей показник збільшиться на 1",
+
+"Recommended for Cooperative Mode": "Рекомендовано для кооперативного режиму",
+"Recommended when NOT using Cooperative Mode": "Рекомендується, коли НЕ використовується кооперативний режим",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "Рекомендується, коли НЕ використовується кооперативний режим або командний кооперативний режим",
+"Recommended for Team Cooperative Mode": "Рекомендовано для командного кооперативного режиму",
+"Not recommended for Cooperative Mode": "Не рекомендовано для кооперативного режиму",
+"Recommended for Cooperative or Team Cooperative Mode": "Рекомендовано для кооперативного або командного кооперативного режиму",
+
+"How would you like this scoreboard to be displayed?": "Як би ви хотіли, щоб це табло відображалося?",
+"On tab list": "У списку вкладок (TAB)",
+"On sidebar": "На бічній панелі",
+"Below each player's name": "Під іменем кожного гравця",
+
+"Clear scoreboard from below player names": "Очистіть табло з-під імен гравців",
+
+
+
+"Technical Settings": "Технічні налаштування",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "Попередження: деякі з цих налаштувань можуть негативно вплинути на ваш прогрес і призвести до лагів і негараздів під час використання. Використовуйте, лише якщо ви точно знаєте, що вони роблять! Будьте обережні!",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "Переглядає всі досягнення кожного гравця, що перебуває онлайн та показує, скільки досягнень у них є",
+"Should be used if:": "Слід використовувати, якщо:",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "- Ви нещодавно оновилися до нової версії пакета даних, особливо в новому оновленні Minecraft",
+"- You have been using commands to manually revoke the advancements of player(s)": "- Ви використовували команди, щоб вручну скасувати досягнення гравця(ів)",
+
+"Update team scoreboards": "Оновлення табло досягнень",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "Повторно обчислює значення командних табло, які ґрунтуються на досягненнях гравців та їх «перших» досягненнях",
+
+"Reset obtained advancements": "Скинути отримані досягнення",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "Скидає табло «bac_obtained». Це зробить так, що кооперативний режим більше не розглядатиме жодні досягнення як завершені, а отже, не ділитися ними. Також воно впливає на табло «перших» досягнень",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "Ця функція припинить спільний доступ до досягнень у кооперативному режимі, доки вони не будуть отримані знову, а також знову відкриє кожне досягнення для табло «перших» досягнень",
+"This function should only be used if you intend to turn off Cooperative Mode": "Цю функцію слід використовувати, лише якщо ви маєте намір вимкнути кооперативний режим",
+
+"Refresh Cooperative Mode advancement sharing": "Оновити поширення досягнень в кооперативному режимі",
+
+"Grant missing trophies": "Надати відсутні трофеї",
+"Gives every online player every trophy from advancements they have obtained so far": "Дає кожному онлайн-гравця кожен трофей за досягнення, які вони отримали",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "Цю функцію слід використовувати лише у світах, створених до оновлення Trophy (BACAP 1.11) або якщо ви дійсно хочете отримати простий спосіб їх повернення",
+
+"Revoke all advancements": "Скасуйте всі досягнення",
+"Revokes every advancement, including resetting scoreboards": "Скасує всі досягнення, включаючи скидання табло",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "Ви можете обрати скасування досягнень для себе, для найближчого гравця, або для всіх, хто зараз онлайн",
+
+"Once advancements are revoked, they cannot be recovered.": "Після скасування досягнень вони не можуть бути відновлені.",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "Деякі досягнення статистики можуть повертатися автоматично. Якщо ви хочете, щоб вони також були скинуті, вам потрібно буде видалити файл статистики гравців, досягнення яких ви хочете відкликати",
+"Please choose who you would like to revoke advancements from, or to go back": "Будь ласка, оберіть, у кого Ви хочете скасувати досягнення або повернути назад",
+"Yourself": "Для себе",
+"The closest player": "Для найближчого гравця",
+"EVERYONE!! (who is online)": "УСІМ!! (хто онлайн)",
+">:)": ">:)",
+
+"All advancements have been revoked from %1$s": "Усі досягення скасовано в %1$s",
+"Error: There are no other players online": "Помилка: інших гравців у мережі немає",
+
+"Go back": "Повернутись",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "Розпочнемо подорож!",
+"Find a Traveller’s Map": "Знайдіть карту мандрівника",
+
+"Castle of Hrrms": "Замок «ХМММММ»",
+"Enter a Fortified Village": "Увійдіть в укріплене село",
+
+"Expedition of Discovery": "Експедиція відкриттів",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "Знайдіть карту мандрівника, яка веде до рідкісного біому, а потім ввійдіть в цей біом із картою в руці",
+
+"Land of Icicles": "Земля бурульок",
+"Discover a Glacial Chasm biome": "Відкрийте для себе біом Льодовикової прірви",
+
+"Remote Shelter": "Віддалений притулок",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "Знайдіть льодовикову хатину глибоко в біомі льодовикової прірви",
+
+"Spire of Ice": "Крижаний шпиль",
+"Enter the Spire, located in a frigidly cold biome": "Увійдіть у Шпиль, розташований у холодному біомі",
+
+"Under the Ice": "Під льодом",
+"Delve deep beneath the Spire and open up a loot chest": "Пориньте глибоко під Шпиль і відкрийте скриню з здобиччю",
+
+
+
+## All advancements added in version 1.14 are here
+"Sneak 100": "Крадучість - 100",
+"Sneak near something in the Deep Dark to prevent being heard": "Підкрадайтесь до чогось у біоми Темних глибин, щоб вас не почули",
+
+"It spreads!": "ВОНО ЖИВЕ!",
+"Kill a mob near a Sculk Catalyst": "Убийте моба поблизу Скалкового каталізатора",
+
+"Shriek Forever After": "ААА, КРИК ПОВСЮДИ!",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "Спровокуйте Скалкового крикуна у Глибокій темряві. Можливо, не захочеться робити це більше одногоо разу…",
+
+"The Block of Eternal Screaming": "Блок вічного крику",
+"Use Silk Touch to pick up a Sculk Shrieker": "Використайте «Шовковий дотик», щоб підібрати Скалкового крикуна",
+
+"Cataclyst": "Катаклізм",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "Вбийте Висушувача біля Скалкового каталізатора, щоб спровокувати великий вибух скулка",
+
+"Monstrous Sacrifices": "Потворні жертви",
+"Kill every hostile monster near a Sculk Catalyst": "Вбийте всіх ворожих монстрів біля Скалкового каталізатора",
+
+"The Incredible Sculk": "Стук блуків скулку",
+"Collect a stack of all sculk-related blocks": "Зберіть стак всіх блоків, пов’язаних із скалком",
+
+"Sculker Box": "Коробка Скулкера",
+"Hold a Shulker Box that is completely filled with Sculk": "Тримайте коробку шалкера, повністю заповнену Скалком",
+
+"Fallen Kingdom": "Занепале королівство",
+"Find and enter an Ancient City deep underground": "Знайдіть і увійдіть у стародавнє місто глибоко під землею",
+
+"Frigid Diversions": "Крижані скарби",
+"Loot a chest inside an ice box in an Ancient City": "Відкрийте скриню вкриту льодом у стародавньому місті",
+
+"Death Pointer": "Точка смерті",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "Використовуючи Уламки відлуння, знайдені в староданіх містах, створіть Компас відновлення",
+
+"9 to 5": "9 в 5",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "Зберіть достатню кількість фрагментів платівки, щоб зустріти ще одного автора таємничих звуків",
+
+"Echonomy": "ЕХО-Ехо-ехо",
+"Collect a stack of Echo Shards": "Зберіть стак Уламків відлуння",
+
+"Blind as a Bat": "Сліпий. мов кажан",
+"Kill a Bat while under the blindness or darkness effect": "Вбийте кажана, перебуваючи під дією ефекта сліпоти або темряви",
+
+
+"Stuck in the Mud": "Застряг у багнюці",
+"Use a Water Bottle on some Dirt to turn it into Mud": "Використайте Пляшку з водою на Ґрунті, щоб перетворити його на Лимпач",
+
+"Elmer Mudd": "Землянка, чи «брудянка»?!",
+"Craft or obtain all forms of Mud and Mud Brick": "Зробіть або отримайте всі види лимпачу та лимпачевої цегли",
+
+"Mangrove Master": "Мангровий майстер",
+"Craft every item made out of mangrove wood": "Виготовте кожен предмет з мангрового дерева",
+
+"Incandescent!": "Жаб’ячі вогні, дайте мені сил!",
+"Light up the area with all three hues of Froglight": "Освітліть територію усіма трьома відтінками Жаб'ячого світла",
+
+
+"A Mangrove Grove": "Мангровий гай",
+"Plant a Mangrove Propagule in a Grove biome": "Посадіть мангрове дерево в біомі Мангрового гаю",
+
+
+"Frog Family": "Сім'я жабок",
+"Breed two Frogs together using slimeballs": "Розведіть двох жаб, використовуючи слизові кульки",
+
+"Bukkit bukkit": "Чудова кумпанія",
+"Catch a Tadpole in a Bucket": "Спіймати пуголовка у відро",
+
+"When the Squad Hops into Town": "Коли загін стрибає в місто",
+"Attach a lead to each variant of Frog": "Прикріпіть поводок до кожного варіанту Жаби",
+
+"Ram": "Овен",
+"Obtain a Goat’s Horn by having one ram into a block": "Отримайте козячий ріг, вдаривши барана в блок",
+
+"Loud and Proud": "Гучний і безстрашний",
+"Play a Goat Horn in the Deep Dark": "Зіграйте в козиний ріг у біомі Глибокої темряві",
+
+"Battle of the Bands": "Битва оркестрів",
+"Blow into a Goat Horn during a raid": "Подуй у козячий ріг під час рейду",
+
+"Caprymphony": "Репетиція духовиків",
+"Blow every type of Goat Horn": "Подуйте в кожен тип козячого рогу",
+
+"Animal Kingdom": "Звірине царство",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "Приведіть тварину кожного типу в одне місце (розмістіть їх усіх в межах 32 блоків від вас)",
+
+
+"Cargo Carrier": "О, прицеп",
+"Ride a Boat with a Chest in it": "Покатайтесь на човні з скринькою",
+
+"Flipper": "Дресировка дельфінів",
+"Give a Dolphin something to play with": "Подаруйте Дельфіну, з чим пограти",
+
+
+"Allayance": "Альянс",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "Врятуйте Збирика з форпосту грабіжників або особняка в лісовому масиві та дайте йому щось для гри",
+
+"You’ve Got a Friend in Me": "Я твій навіки друг",
+"Have an Allay deliver items to you": "Отримайте предмет від Збирика",
+
+"Evelyn Evergreen": "Помічник лісника",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "Попросіть Збирика доставляти Вам саджанці смереки під час рубання дерев",
+
+"Budget Vex": "Бюджетний Бісик",
+"Give an Allay an Iron Sword": "Дайте Збирику залізний меч",
+
+"Diagon Allay": "Підмайстер алхіміка",
+"Have an Allay deliver a potion to you in the Deep Dark": "Нехай Збирик доставить вам зілля в Темних глубинах",
+
+"Birthday Song": "Щастя та здоров’я",
+"Have an Allay drop a cake at a note block": "Зробіть так, щоб Збирик скинув торт на нотний блок",
+
+"Awards Ceremony": "Церемонія нагородження",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "Попросіть Збирика подарувати вам трофей, отриманий за виконання одного з досягнень",
+
+
+"Now that's a lot of damage": "АЙ, це вже занадто",
+"Succumb to the Warden": "Загиньте від рук Боронителя",
+
+"Blind Stare": "Сліпий погляд",
+"Look at a Warden with a Spyglass": "Подивіться на Боронителя через підзорну трубу",
+
+"Stealth is Optional": "Скритність необов'язкова",
+"Overcome a Warden in the deepest and darkest of caves": "Поборіть Боронителя в самих темних і глубоких печерах ",
+
+"Warden Frostbite": "Боронильне охолодження",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "Відведіть Боронителя на поверхню біому засніжених рівнин та вбийте його",
+
+"Not Afraid of Heights": "Не боїться висоти",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "Відведіть Боронителя на саму вищу точку світу. Воно не зможе боятися, якщо нічого не побачить",
+
+"House of Freaks": "Будинок виродків",
+"Summon five Wardens and have them all be within 16 blocks of the player": "Викличте п'ятьох Боронителів, щоб вони була в межах 16 блоків від гравця",
+
+
+"Like a Ninja": "Наче ніндзя",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "Знайдіть зачаровану книгу «Біг крадькома» у стародавньому місті",
+
+"Silent But Deadly": "Тихо,але смертельно",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "Підкрадайся та бігай на скалку зі Швидкістю II, вдягнувши наголінники на «Біг крадькома» III",
+
+
+"Hung, Drawn and Bartered": "Я пам'ятаю все, що ти дав",
+"Barter for every possible type of item with Piglins": "Обміняйтесь на всі можливі типи товару з Піґлінами",
+
+
+"The Void Frogs": "Жаби порожнечі",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "Опустіть жабу в порожнечу, використовуючи зілля повільного падіння, а потім вбийте її, щоб вона стала єдиною з пустотою",
+
+
+"Farlander": "Далекомандрівник",
+"Travel all the way to the border of the world": "Проподорожуйте аж до межі світу",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "Використайте «Шовковий дотик», щоб отримати скалковий сенсор, або знайдіть його в стародавньому місті",
+
+# Spelunker
+"Discover every cave biome": "Дослідіть кожен біом печер",
+
+# Yay! I got my wood!
+"Collect every type of log": "Зберіть усі види деревини",
+
+# Stripper
+"Strip the bark off every type of log": "Зніміть кору з усіх видів колод",
+
+# Ecologist
+"Plant down all types of saplings": "Посадіть всі види саджанців",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "Полюйте на всі види наземних тварин за допомогою лука",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "Відкрийте для себе кожен тип поверхневого біома у Верхньому світі",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "вкладка",
+
+
+# Trophies added in 1.14
+"Mobbo": "Мобо",
+"They are your bestest friend!": "Воно - твій найкращий друг!",
+
+"The Cataclyst": "Катаклізм",
+"When detonated, it kills every single avatar and NPC in the sector": "При підриві він вбиває всіх гравців і NPC в секторі",
+
+"Claptrap": "Дешевий трюк",
+"No, I said “Aaaaaand OPEN!”,": "Ні, я сказав «Ааааа і ВІДКРИЙТЕ!»,",
+"not “Aaaaand close a secondary set of doors!”": "а не «Аааа, зачиніть інші двері!»",
+
+"Pickle Rick": "Огірочок Рік",
+"Look Morty, I've turned myself into a pickle!": "Дивись, Морті, я перетворився на солоного огірка!",
+
+"Magic Paintbrush": "Чарівна кисть",
+"For painting with all the colors of the wind": "Для малювання усіма кольорами вітру",
+
+"Very Muddy Boots": "Дуже брудні чоботи",
+"The result of too long in muddy fields": "Результат занадто довгого перебування в брудних полях",
+
+"Pride Rock": "Скеля гордості",
+"Look, Simba. Everything the light touches is our kingdom": "Дивись, Сімба. Все, до чого торкається світло, це наше королівство",
+
+"Copper Goat Horn": "Мідний козячий ріг",
+"Such a fun and jazzy instrument, sadly not canon": "Такий веселий і джазовий інструмент, на жаль, не канон",
+
+"FrogChamp": "Фрогчамп",
+"It’s Wednesday, my dudes!": "Сьогодні середа, хлопці!",
+
+"Warden Head": "Голова Боронителя",
+"Players: How are you meant to kill the Warden?": "Гравці: Як нам вбивати Боронителя?",
+"Mojang: That's the neat part - you don't!": "Mojang: Це найкраща частина - ви і не повинні!",
+"You: Hold my golden carrots": "Ти: Потримай мою золоту морквину...",
+
+"The Warden's Sign": "Знак Боронителя",
+"This sign can’t stop me because I can't see!": "Цей знак не може зупинити мене, тому що я не бачу!",
+
+"Reuben the Wither Storm Ender": "Рубен - Висушуючий шторм Ендеру",
+"He was a great pig": "Він був чудовою свинкою",
+
+"The Trophy Trophy": "Трофейний трофей",
+"If an Allay brings you this, you will": "Якщо Збирик принесе Вам це, ви отримаєте",
+"receive the Trophy Trophy Trophy": "Трофейно-трофейний трофей",
+
+"Spongebob Squarepants": "Губка Боб Квадратні Штани",
+"Who lives in a pineapple under the sea?": "Хто живе в ананасі на дні?",
+
+"Fence Post": "Огородження",
+"Look at this luxurious fence post": "Подивіться на цей розкішний стовп для огорожі",
+"With its courageously mundane colour": "З його мужнім буденним кольором",
+"And violent corners": "І гострими кутами",
+"This isn't just any fence post…": "Це не просто огорожа…",
+"It's my fence post! Seriously, get out!": "Це мій стовпчик для паркану! Серйозно, виходь!",
+
+"Stone of the Farlands": "Камінь далекомандрівників",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "Збережений шматок каменю із земель, які існували до Beta 1.8"
 
 
 
 
-# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
 }

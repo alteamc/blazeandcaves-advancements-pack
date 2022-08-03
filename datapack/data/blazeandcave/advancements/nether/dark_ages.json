@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте чернит в биоме базальтовые дельты"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/stepping_on_legos",
   "rewards": {

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Объединитесь с аксолотлем в подводной крепости, чтобы помочь снять проклятие древних стражей"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:husbandry/kill_axolotl_target",
@@ -27,7 +27,7 @@
             "predicate": {
               "type": "minecraft:axolotl",
               "location": {
-                "feature": "monument"
+                "structure": "monument"
               }
             },
             "entity": "this"
@@ -38,7 +38,7 @@
           "entity": "this",
           "predicate": {
             "location": {
-              "feature": "monument"
+              "structure": "monument"
             }
           }
         }

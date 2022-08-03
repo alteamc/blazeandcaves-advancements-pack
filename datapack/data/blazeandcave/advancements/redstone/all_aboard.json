@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте и сядьте на вагонетку для путешествий по железной дороге"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/root",
   "rewards": {

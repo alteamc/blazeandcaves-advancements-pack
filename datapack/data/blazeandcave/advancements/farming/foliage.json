@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте ножницы, чтобы добыть траву или папоротник"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/trimming_the_treetops",
   "rewards": {

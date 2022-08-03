@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Заполучите стак черепов"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/zombie_apocalypse",

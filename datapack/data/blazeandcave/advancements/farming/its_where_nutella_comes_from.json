@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите немного какао-бобов с тропических деревьев"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/bake_bread",
   "rewards": {

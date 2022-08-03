@@ -9,7 +9,7 @@
     "description": {
       "translate": "Притяните монстра, используя удочку"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/pig_fishing_tournament",
   "rewards": {
@@ -271,6 +271,14 @@
           "type": "minecraft:piglin_brute"
         }
       }
+    },
+    "warden": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:warden"
+        }
+      }
     }
   },
   "requirements": [
@@ -306,7 +314,8 @@
       "piglin",
       "hoglin",
       "zoglin",
-      "piglin_brute"
+      "piglin_brute",
+      "warden"
     ]
   ]
 }

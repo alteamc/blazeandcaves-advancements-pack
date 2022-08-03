@@ -9,7 +9,7 @@
     "description": {
       "translate": "Пропутешествуйте на вагонетке по прямой, не менее чем на 1 км"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:redstone/railwayman",

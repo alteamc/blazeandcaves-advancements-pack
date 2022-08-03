@@ -9,7 +9,7 @@
     "description": {
       "translate": "Переплавьте древние обломки в незеритовый лом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/obtain_ancient_debris",
   "rewards": {

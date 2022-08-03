@@ -9,7 +9,7 @@
     "description": {
       "translate": "Преодолейте 100м на лавомерке"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "task"
   },
   "parent": "blazeandcave:statistics/root",
@@ -21,7 +21,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:custom",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте тонированное стекло из стекла и осколков аметиста, и используйте его, чтобы блокировать свет."
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/galileo_figaro",
   "rewards": {

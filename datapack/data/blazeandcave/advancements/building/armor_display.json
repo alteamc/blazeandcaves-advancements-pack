@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поместите все шесть комплектов брони на шесть разных подставок для брони"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:building/mannequin",

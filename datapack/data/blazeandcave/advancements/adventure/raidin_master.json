@@ -9,7 +9,7 @@
     "description": {
       "translate": "Исследуйте по структуре каждого типа"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:adventure/secret_of_the_igloo",
@@ -26,15 +26,24 @@
     "igloo": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "igloo",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "igloo"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -46,15 +55,24 @@
     "desert_pyramid": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "desert_pyramid",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "desert_pyramid"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -66,15 +84,24 @@
     "jungle_pyramid": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "jungle_pyramid",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "jungle_pyramid"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -86,15 +113,24 @@
     "swamp_hut": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "swamp_hut",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "swamp_hut"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -106,15 +142,24 @@
     "village_desert": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "village_desert",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "village_desert"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -126,15 +171,24 @@
     "village_plains": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "village_plains",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "village_plains"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -146,15 +200,24 @@
     "village_savanna": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "village_savanna",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "village_savanna"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -166,15 +229,24 @@
     "village_snowy": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "village_snowy",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "village_snowy"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -186,15 +258,24 @@
     "village_taiga": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "village_taiga",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "village_taiga"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -206,15 +287,24 @@
     "mineshaft": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "mineshaft",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mineshaft"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -226,15 +316,24 @@
     "mineshaft_mesa": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "mineshaft_mesa",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mineshaft_mesa"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -246,15 +345,24 @@
     "stronghold": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "stronghold",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "stronghold"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -266,15 +374,24 @@
     "fortress": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "fortress",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "fortress"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -286,15 +403,24 @@
     "end_city": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "endcity",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "end_city"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -306,15 +432,24 @@
     "monument": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "monument",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "monument"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -326,15 +461,24 @@
     "mansion": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "mansion",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mansion"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -346,15 +490,24 @@
     "ocean_ruin_cold": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "ocean_ruin_cold",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "ocean_ruin_cold"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -366,15 +519,24 @@
     "ocean_ruin_warm": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "ocean_ruin_warm",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "ocean_ruin_warm"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -395,7 +557,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:shipwreck"
+                    "structure": "minecraft:shipwreck"
                   }
                 }
               },
@@ -404,7 +566,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:shipwreck_beached"
+                    "structure": "minecraft:shipwreck_beached"
                   }
                 }
               }
@@ -416,7 +578,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -434,15 +597,24 @@
     "pillager_outpost": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "pillager_outpost",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "pillager_outpost"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -463,7 +635,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal"
+                    "structure": "minecraft:ruined_portal"
                   }
                 }
               },
@@ -472,7 +644,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_desert"
+                    "structure": "minecraft:ruined_portal_desert"
                   }
                 }
               },
@@ -481,7 +653,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_jungle"
+                    "structure": "minecraft:ruined_portal_jungle"
                   }
                 }
               },
@@ -490,7 +662,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_mountain"
+                    "structure": "minecraft:ruined_portal_mountain"
                   }
                 }
               },
@@ -499,7 +671,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_nether"
+                    "structure": "minecraft:ruined_portal_nether"
                   }
                 }
               },
@@ -508,7 +680,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_ocean"
+                    "structure": "minecraft:ruined_portal_ocean"
                   }
                 }
               },
@@ -517,7 +689,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:ruined_portal_swamp"
+                    "structure": "minecraft:ruined_portal_swamp"
                   }
                 }
               }
@@ -529,7 +701,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -541,15 +714,53 @@
     "bastion_remnant": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "bastion_remnant",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "bastion_remnant"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ancient_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "ancient_city"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

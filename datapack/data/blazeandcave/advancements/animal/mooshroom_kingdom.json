@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите грибных коров на грибном острове"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/true_cow_tipper",
   "rewards": {
@@ -19,15 +19,24 @@
     "mushroom_fields": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:mushroom_fields",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:mushroom_fields"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

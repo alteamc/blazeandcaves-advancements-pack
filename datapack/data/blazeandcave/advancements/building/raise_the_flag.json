@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте и поставьте флаг"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/display_your_items_for_all_to_see",
   "rewards": {

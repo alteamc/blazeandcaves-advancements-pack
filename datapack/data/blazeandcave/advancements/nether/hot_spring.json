@@ -9,7 +9,7 @@
     "description": {
       "translate": "Сядьте в воду в Незере"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/hells_bells",
   "rewards": {

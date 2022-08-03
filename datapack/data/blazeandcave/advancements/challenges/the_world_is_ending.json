@@ -11,7 +11,7 @@
       "color": "#FF2A2A",
       "translate": "Вызовите десять Визеров за раз"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/i_am_loot",

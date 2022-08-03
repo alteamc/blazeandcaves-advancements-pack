@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Катапультируйте яйцо прямо в голову зомби"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:weaponry/egging_dude",

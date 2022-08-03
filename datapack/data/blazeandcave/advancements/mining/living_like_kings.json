@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заставьте себя сиять в золотом наряде"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/gold_rush",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приобретите все эффекты, полученные маяком, сразу"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:nether/create_full_beacon",

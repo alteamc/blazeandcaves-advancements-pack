@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выторгуйте чародейскую книгу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/trade",
   "rewards": {

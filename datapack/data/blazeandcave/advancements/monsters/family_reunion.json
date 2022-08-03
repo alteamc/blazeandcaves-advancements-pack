@@ -10,7 +10,7 @@
     "description": {
       "translate": "Соберите в одном месте все варианты зомби, включая маленьких"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/freezing",

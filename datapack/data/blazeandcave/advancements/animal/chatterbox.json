@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приручите попугая, используя семена пшеницы. ПРЕДУПРЕЖДЕНИЕ: Не кормите его печеньем!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/feeding_the_chickens",
   "rewards": {

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Заполучите зачарование «Бесконечность» для лука"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:enchanting/bow_down_to_me",

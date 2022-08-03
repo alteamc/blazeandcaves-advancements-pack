@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте зомби-пигмена"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/root",
   "rewards": {

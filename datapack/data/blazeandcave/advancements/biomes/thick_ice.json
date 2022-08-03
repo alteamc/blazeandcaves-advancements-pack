@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте или добудьте с айсберга синий лёд"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/spike_ice",
   "rewards": {

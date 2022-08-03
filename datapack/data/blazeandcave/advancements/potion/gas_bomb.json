@@ -9,7 +9,7 @@
     "description": {
       "translate": "Подожгите крипера со всеми возможными эффектами, используя зажигалку"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:potion/a_furious_test_subject",

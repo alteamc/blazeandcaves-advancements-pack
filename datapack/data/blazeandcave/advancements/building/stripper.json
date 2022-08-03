@@ -6,11 +6,11 @@
     "title": {
       "translate": "Короненавистник"
     },
+    "announce_to_chat": "true",
     "description": {
       "color": "#75E1FF",
-      "translate": "Снимите кору из всех шести типов брёвен"
+      "translate": "Снимите кору с каждого вида бревен"
     },
-    "announce_to_chat": false,
     "frame": "goal"
   },
   "parent": "blazeandcave:building/yay_i_got_my_wood",
@@ -100,6 +100,21 @@
           "block": {
             "blocks": [
               "minecraft:stripped_dark_oak_log"
+            ]
+          }
+        },
+        "item": {
+          "tag": "minecraft:axes"
+        }
+      }
+    },
+    "stripped_mangrove_log": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:stripped_mangrove_log"
             ]
           }
         },

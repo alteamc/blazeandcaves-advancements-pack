@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте повторитель"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/powerful_light",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Побегите прямо в кактус"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/its_a_cactus",
   "rewards": {

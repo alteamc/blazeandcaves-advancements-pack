@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполучите спороцвет"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/a_shiny_treat",
   "rewards": {

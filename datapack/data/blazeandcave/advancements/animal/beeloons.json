@@ -9,7 +9,7 @@
     "description": {
       "translate": "Привяжите поводок к пчеле"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/lead_the_way",
   "rewards": {

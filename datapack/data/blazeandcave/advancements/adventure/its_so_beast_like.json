@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Убейте разорителя во время рейда"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:adventure/were_being_attacked",

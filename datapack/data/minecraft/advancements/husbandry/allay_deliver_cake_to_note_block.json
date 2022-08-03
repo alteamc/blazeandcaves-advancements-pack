@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "Песня на день рождения"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Пусть Эллей бросит торт на нотный блок"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:adventure/evelyn_evergreen",
+  "rewards": {
+    "function": "bc_rewards:adventure/birthday_song"
+  },
+  "criteria": {
+    "allay_deliver_cake_to_note_block": {
+      "trigger": "minecraft:allay_drop_item_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:note_block"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:cake"
+          ]
+        }
+      }
+    }
+  }
+}

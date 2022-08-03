@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте якорь возрождения из плачущего обсидиана и светокамня, после чего установите его"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "task"
   },
   "parent": "minecraft:nether/obtain_crying_obsidian",

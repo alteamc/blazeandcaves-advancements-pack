@@ -9,7 +9,7 @@
     "description": {
       "translate": "Взорвите скелета заряженным крипером, чтобы получить его череп"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/melting",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Ну, он всё ещё пригоден для зачарований…"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:story/iron_tools",
   "rewards": {

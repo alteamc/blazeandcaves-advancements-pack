@@ -9,7 +9,7 @@
     "description": {
       "translate": "Бейте хорус, пока он не разрушится"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:end/end_bricks",
   "rewards": {

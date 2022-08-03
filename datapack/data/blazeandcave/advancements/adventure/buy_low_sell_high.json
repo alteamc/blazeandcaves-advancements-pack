@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Торгуйте с деревенским жителем, находясь под действием эффекта «Героя деревни»"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:adventure/hero_of_the_village",

@@ -10,7 +10,7 @@
     "description": {
       "translate": "Убейте моба взрывным зельем"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/root",
   "rewards": {

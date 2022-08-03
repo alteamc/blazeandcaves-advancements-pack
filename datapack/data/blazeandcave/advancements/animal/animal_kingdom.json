@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mangrove_fence"
+    },
+    "title": {
+      "translate": "Царство животных"
+    },
+    "description": {
+      "translate": "Приведите по одному животному каждого вида в одно место (пусть все они будут в пределах 32 блоков от вас)"
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "minecraft:husbandry/bred_all_animals",
+  "rewards": {
+    "function": "bc_rewards:animal/animal_kingdom"
+  },
+  "criteria": {
+    "animal_kingdom": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

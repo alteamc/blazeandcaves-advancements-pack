@@ -9,7 +9,7 @@
     "description": {
       "translate": "Ньян~Ньян~Ньян~Ньян…"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/whats_up_doc",
   "rewards": {

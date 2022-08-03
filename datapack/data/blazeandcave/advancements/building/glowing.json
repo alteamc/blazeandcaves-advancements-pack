@@ -9,7 +9,7 @@
     "description": {
       "translate": "Осветите территорию светокамнем"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/festival_of_lights",
   "rewards": {

@@ -10,7 +10,7 @@
     "description": {
       "translate": "Зарядите арбалет фейерверком"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/fireworks_display",
   "rewards": {

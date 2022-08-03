@@ -9,7 +9,7 @@
     "description": {
       "translate": "Посетите развалины бастиона"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/cultural_misunderstandings",
   "rewards": {
@@ -19,15 +19,24 @@
     "bastion_remnant": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "bastion_remnant",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "bastion_remnant"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

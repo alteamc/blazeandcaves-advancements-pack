@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Откройте все типы сундуков с добычей"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/root",
@@ -250,6 +250,18 @@
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "loot_table": "minecraft:chests/village/village_weaponsmith"
+      }
+    },
+    "ancient_city": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/ancient_city"
+      }
+    },
+    "ancient_city_ice_box": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/ancient_city_ice_box"
       }
     }
   }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте или создайте стак необработанных железных, медных и золотых блоков"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/mineral_collection",

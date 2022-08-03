@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте двух аксолотлей, используя тропическую рыбу"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/kill_axolotl_target",
   "rewards": {

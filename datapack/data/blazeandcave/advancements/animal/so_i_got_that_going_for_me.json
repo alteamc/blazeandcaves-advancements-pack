@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте двух лам сеном"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/stay_calmer",
   "rewards": {

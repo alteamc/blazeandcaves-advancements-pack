@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Дом уродов"
+    },
+    "description": {
+      "translate": "Вызовите пять надзирателей, и пусть все они находятся в пределах 16 блоков от игрока"
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:monsters/not_afraid_of_heights",
+  "rewards": {
+    "function": "bc_rewards:monsters/house_of_freaks"
+  },
+  "criteria": {
+    "house_of_freaks": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

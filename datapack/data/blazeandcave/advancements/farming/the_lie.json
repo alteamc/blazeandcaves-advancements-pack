@@ -9,7 +9,7 @@
     "description": {
       "translate": "Пшеница, сахар, молоко и яйца!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/bake_bread",
   "rewards": {

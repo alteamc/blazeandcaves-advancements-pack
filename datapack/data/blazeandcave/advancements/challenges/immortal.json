@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Заполните весь Ваш инвентарь тотемами бессмертия"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/the_world_is_ending",

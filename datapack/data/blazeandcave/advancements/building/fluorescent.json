@@ -9,7 +9,7 @@
     "description": {
       "translate": "Осветите территорию стержнями Энда"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/expensive",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте золотые слитки и незеритовый лом для создания незеритового слитка"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/holy_scrap",
   "rewards": {

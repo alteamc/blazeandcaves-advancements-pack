@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поставьте свечу и зажгите ее, используя зажигалку, чтобы поднять настроение"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/one_pickle_two_pickle_sea_pickle_four",
   "rewards": {

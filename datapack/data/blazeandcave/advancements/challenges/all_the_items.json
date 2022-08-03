@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Заполучите все возможные предметы!"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/all_the_blocks",
@@ -3169,6 +3169,174 @@
           {
             "items": [
               "minecraft:music_disc_otherside"
+            ]
+          }
+        ]
+      }
+    },
+    "tadpole_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tadpole_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "disc_fragment_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:disc_fragment_5"
+            ]
+          }
+        ]
+      }
+    },
+    "echo_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:echo_shard"
+            ]
+          }
+        ]
+      }
+    },
+    "goat_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "music_disc_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_5"
+            ]
+          }
+        ]
+      }
+    },
+    "recovery_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:recovery_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "oak_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_chest_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "spruce_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spruce_chest_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "birch_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_chest_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "jungle_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_chest_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "acacia_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_chest_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "dark_oak_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_chest_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_chest_boat"
             ]
           }
         ]

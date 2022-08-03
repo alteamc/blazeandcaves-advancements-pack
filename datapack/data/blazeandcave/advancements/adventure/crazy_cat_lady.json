@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приручите бездомного кота в деревне"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/trade",
   "rewards": {

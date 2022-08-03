@@ -10,7 +10,7 @@
     "description": {
       "translate": "Убейте каждого типа разбойника одной стрелой из арбалета"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:adventure/superhero_of_the_village",

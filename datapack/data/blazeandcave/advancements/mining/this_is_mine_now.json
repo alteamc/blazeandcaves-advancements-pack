@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите заброшенную шахту"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/dungeons_and_spawners",
   "rewards": {
@@ -19,15 +19,24 @@
     "mineshaft": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "mineshaft",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mineshaft"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

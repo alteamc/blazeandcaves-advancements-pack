@@ -9,7 +9,7 @@
     "description": {
       "translate": "Вырастите пшеницу и приготовьте хлеб"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/plant_seed",
   "rewards": {

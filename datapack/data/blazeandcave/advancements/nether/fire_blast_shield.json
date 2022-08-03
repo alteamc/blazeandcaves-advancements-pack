@@ -10,7 +10,7 @@
     "description": {
       "translate": "Защититесь от огненного шара гаста, прикрывшись щитом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/giant_floating_jellyfish",
   "rewards": {

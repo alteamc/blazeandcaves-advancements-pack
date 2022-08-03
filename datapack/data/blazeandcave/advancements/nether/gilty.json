@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте золочёный чернит в развалинах бастиона"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/loot_bastion",
   "rewards": {

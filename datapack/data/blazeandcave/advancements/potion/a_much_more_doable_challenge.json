@@ -9,7 +9,7 @@
     "description": {
       "translate": "Испытайте единожды каждый эффект зелья"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:nether/all_potions",
@@ -230,6 +230,14 @@
       "conditions": {
         "effects": {
           "minecraft:hero_of_the_village": {}
+        }
+      }
+    },
+    "darkness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:darkness": {}
         }
       }
     }

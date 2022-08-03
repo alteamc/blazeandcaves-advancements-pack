@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Победите Эндер-дракона, надев при этом голову дракона… и не касаясь земли"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/were_in_the_endgame_now",

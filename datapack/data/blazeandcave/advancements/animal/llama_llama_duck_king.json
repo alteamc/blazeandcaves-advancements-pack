@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Приручите лам всех видов"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/so_i_got_that_going_for_me",

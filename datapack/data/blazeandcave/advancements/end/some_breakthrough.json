@@ -10,7 +10,7 @@
     "description": {
       "translate": "Сломайте свои элитры"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:end/elytra",

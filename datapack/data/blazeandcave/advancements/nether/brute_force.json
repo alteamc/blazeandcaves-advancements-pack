@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте брутально пиглина в бастионе"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/find_bastion",
   "rewards": {

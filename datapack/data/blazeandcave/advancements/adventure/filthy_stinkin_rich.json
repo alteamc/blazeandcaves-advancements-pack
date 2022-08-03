@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте 64 изумрудных блока"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:adventure/filthy_rich",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Активируйте сундук-ловушку. Неплохо для троллинга друзей!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/tripping_over",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте цепь из железного слитка и самородков"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/greek_art_decor",
   "rewards": {

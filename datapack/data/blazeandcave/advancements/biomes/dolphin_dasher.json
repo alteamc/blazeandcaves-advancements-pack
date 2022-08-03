@@ -9,9 +9,9 @@
     "description": {
       "translate": "Получите ускорение от дружелюбных подводных компаньонов"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:biomes/boaty_mcboatface",
+  "parent": "blazeandcave:biomes/flipper",
   "rewards": {
     "function": "bc_rewards:biomes/dolphin_dasher"
   },

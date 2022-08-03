@@ -9,7 +9,7 @@
     "description": {
       "translate": "Перенесите шалкера в обычный мир и получите эффект «Левитации»"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:end/levitate",

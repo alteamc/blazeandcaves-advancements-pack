@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте компостницу, используя деревянные плиты, а затем поставьте её"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:husbandry/plant_seed",
   "rewards": {

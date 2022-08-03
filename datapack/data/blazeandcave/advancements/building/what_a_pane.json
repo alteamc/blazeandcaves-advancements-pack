@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте стеклянные панели"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/classy_glassy",
   "rewards": {

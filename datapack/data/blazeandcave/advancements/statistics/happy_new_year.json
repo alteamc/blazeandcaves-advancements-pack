@@ -9,7 +9,7 @@
     "description": {
       "translate": "Играйте на протяжении целого года"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:statistics/passing_the_time",

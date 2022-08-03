@@ -10,7 +10,7 @@
     "description": {
       "translate": "Выловите во время рыбалки всё, что только можно!"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:animal/someones_been_here_before",

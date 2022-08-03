@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте и разместите рабочую станцию каждого вида"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:adventure/village_settler",

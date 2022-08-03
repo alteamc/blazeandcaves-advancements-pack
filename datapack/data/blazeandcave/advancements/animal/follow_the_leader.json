@@ -9,7 +9,7 @@
     "description": {
       "translate": "Привяжите поводок к каждому мобу, которого можно привязать"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:animal/you_lead_ill_follow",
@@ -563,6 +563,44 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:glow_squid"
+            }
+          }
+        ]
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:frog"
+            }
+          }
+        ]
+      }
+    },
+    "allay": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:allay"
             }
           }
         ]

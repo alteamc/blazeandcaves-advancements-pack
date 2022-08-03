@@ -10,7 +10,7 @@
     "description": {
       "translate": "Отразите налёт фантома, прикрывшись щитом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/the_phantom_menace",
   "rewards": {

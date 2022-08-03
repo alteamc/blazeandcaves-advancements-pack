@@ -9,7 +9,7 @@
     "description": {
       "translate": "Киньте алмазы в другого игрока или моба"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/diamond_miner",
   "rewards": {

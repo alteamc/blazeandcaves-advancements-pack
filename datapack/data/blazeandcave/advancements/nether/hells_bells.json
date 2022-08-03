@@ -9,7 +9,7 @@
     "description": {
       "translate": "Позвоните в колокол в Незере"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/root",
   "rewards": {

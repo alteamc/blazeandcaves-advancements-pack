@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Пробудьте под водой на протяжении двух минут"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:biomes/dive_bomb",

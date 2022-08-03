@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте двух котов рыбой, чтобы получить котика!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/crazy_cat_lady",
   "rewards": {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приручите осла"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/a_horse_in_shining_armor",
   "rewards": {

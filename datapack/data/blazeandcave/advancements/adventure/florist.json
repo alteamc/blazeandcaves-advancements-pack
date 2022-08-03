@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выторгуйте цветок у странствующего торговца"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/travelling_merchant",
   "rewards": {

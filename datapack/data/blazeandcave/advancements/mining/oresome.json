@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте по стаку каждой руды"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/emerald_miner",

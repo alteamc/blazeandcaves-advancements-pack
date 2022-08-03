@@ -9,7 +9,7 @@
     "description": {
       "translate": "Упадите в пропасть"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:end/the_actual_end",
   "rewards": {
@@ -19,20 +19,29 @@
     "world_height": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "y": {
-            "max": 0
-          }
-        },
-        "dimension": "minecraft:the_end",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                  "y": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

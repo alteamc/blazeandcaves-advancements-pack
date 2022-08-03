@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Используйте карту сокровищ, чтобы найти спрятанный клад"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:biomes/ahoy",

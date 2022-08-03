@@ -9,7 +9,7 @@
     "description": {
       "translate": "Остановите голод при помощи гнилой плоти"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/there_has_to_be_another_way",
   "rewards": {

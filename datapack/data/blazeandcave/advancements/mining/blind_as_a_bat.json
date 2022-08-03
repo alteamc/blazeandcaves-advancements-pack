@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_wool"
+    },
+    "title": {
+      "translate": "Слепой как летучая мышь"
+    },
+    "description": {
+      "translate": "Убейте летучую мышь, находясь под действием эффекта слепоты или темноты"
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:mining/nananananananana",
+  "rewards": {
+    "function": "bc_rewards:mining/blind_as_a_bat"
+  },
+  "criteria": {
+    "blind_as_a_bat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bat"
+        },
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:blindness": {
+                      "amplifier": {
+                        "min": 0
+                      },
+                      "duration": {
+                        "min": 1
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:darkness": {
+                      "amplifier": {
+                        "min": 0
+                      },
+                      "duration": {
+                        "min": 1
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

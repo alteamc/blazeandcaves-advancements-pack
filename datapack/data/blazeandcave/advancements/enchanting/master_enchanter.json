@@ -10,7 +10,7 @@
     "description": {
       "translate": "Заполучите каждое зачарование максимального уровня, доступное в игре"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/complete_enchanter",
@@ -1157,6 +1157,36 @@
           }
         ]
       }
+    },
+    "swift_sneak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "swift_sneak_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1311,6 +1341,10 @@
     [
       "soul_speed",
       "soul_speed_book"
+    ],
+    [
+      "swift_sneak",
+      "swift_sneak_book"
     ]
   ]
 }

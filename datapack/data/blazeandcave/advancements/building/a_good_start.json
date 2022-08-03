@@ -9,7 +9,7 @@
     "description": {
       "translate": "Срубите достаточно деревьев, чтобы собрать стак бревен одного типа"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/root",
   "rewards": {
@@ -22,7 +22,10 @@
         "items": [
           {
             "items": [
-              "minecraft:oak_log"
+              "minecraft:oak_log",
+              "minecraft:stripped_oak_log",
+              "minecraft:oak_wood",
+              "minecraft:stripped_oak_wood"
             ],
             "count": 64
           }
@@ -35,7 +38,10 @@
         "items": [
           {
             "items": [
-              "minecraft:spruce_log"
+              "minecraft:spruce_log",
+              "minecraft:stripped_spruce_log",
+              "minecraft:spruce_wood",
+              "minecraft:stripped_spruce_wood"
             ],
             "count": 64
           }
@@ -48,7 +54,10 @@
         "items": [
           {
             "items": [
-              "minecraft:birch_log"
+              "minecraft:birch_log",
+              "minecraft:stripped_birch_log",
+              "minecraft:birch_wood",
+              "minecraft:stripped_birch_wood"
             ],
             "count": 64
           }
@@ -61,7 +70,10 @@
         "items": [
           {
             "items": [
-              "minecraft:jungle_log"
+              "minecraft:jungle_log",
+              "minecraft:stripped_jungle_log",
+              "minecraft:jungle_wood",
+              "minecraft:stripped_jungle_wood"
             ],
             "count": 64
           }
@@ -74,7 +86,10 @@
         "items": [
           {
             "items": [
-              "minecraft:acacia_log"
+              "minecraft:acacia_log",
+              "minecraft:stripped_acacia_log",
+              "minecraft:acacia_wood",
+              "minecraft:stripped_acacia_wood"
             ],
             "count": 64
           }
@@ -87,7 +102,10 @@
         "items": [
           {
             "items": [
-              "minecraft:dark_oak_log"
+              "minecraft:dark_oak_log",
+              "minecraft:stripped_dark_oak_log",
+              "minecraft:dark_oak_wood",
+              "minecraft:stripped_dark_oak_wood"
             ],
             "count": 64
           }
@@ -100,7 +118,10 @@
         "items": [
           {
             "items": [
-              "minecraft:crimson_stem"
+              "minecraft:crimson_stem",
+              "minecraft:stripped_crimson_stem",
+              "minecraft:crimson_hyphae",
+              "minecraft:stripped_crimson_hyphae"
             ],
             "count": 64
           }
@@ -113,7 +134,26 @@
         "items": [
           {
             "items": [
-              "minecraft:warped_stem"
+              "minecraft:warped_stem",
+              "minecraft:stripped_warped_stem",
+              "minecraft:warped_hyphae",
+              "minecraft:stripped_warped_hyphae"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "mangrove_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_log",
+              "minecraft:stripped_mangrove_log",
+              "minecraft:mangrove_wood",
+              "minecraft:stripped_mangrove_wood"
             ],
             "count": 64
           }
@@ -130,7 +170,8 @@
       "acacia_log",
       "dark_oak_log",
       "crimson_stem",
-      "warped_stem"
+      "warped_stem",
+      "mangrove_log"
     ]
   ]
 }

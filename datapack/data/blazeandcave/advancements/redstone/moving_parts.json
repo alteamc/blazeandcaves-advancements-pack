@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте поршень, чтобы двигать блоки"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/root",
   "rewards": {

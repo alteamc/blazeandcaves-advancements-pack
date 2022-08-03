@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приведите зимогора в пустынный биом и убейте его"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/the_undead_cavalry",

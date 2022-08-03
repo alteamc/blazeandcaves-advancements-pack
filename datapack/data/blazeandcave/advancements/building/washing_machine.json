@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Используйте котёл для очистки кожаной брони, флага и шалкерового ящика"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/bubble_bubble_toil_and_trouble",

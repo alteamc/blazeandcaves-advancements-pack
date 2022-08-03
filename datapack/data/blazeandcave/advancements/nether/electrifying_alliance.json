@@ -9,7 +9,7 @@
     "description": {
       "translate": "Поразите гаста молнией из небес обычного мира"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:nether/uneasy_alliance",

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создавайте все формы глубокого сланца, полированного глубокого сланца, кирпичей из глубокого сланца и плитки из глубокого сланца."
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/fake_stronghold",
   "rewards": {

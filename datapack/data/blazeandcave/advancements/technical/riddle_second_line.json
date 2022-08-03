@@ -17,7 +17,8 @@
           }
         },
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_first_line": "true"
             }
@@ -33,7 +34,8 @@
           "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
         },
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_first_line": "true"
             }

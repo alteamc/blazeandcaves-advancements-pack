@@ -9,7 +9,7 @@
     "description": {
       "translate": "Взорвите крипера при помощи динамита"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/bombs_away",
   "rewards": {

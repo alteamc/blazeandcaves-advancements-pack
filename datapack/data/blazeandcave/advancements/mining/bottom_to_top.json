@@ -9,7 +9,7 @@
     "description": {
       "translate": "Разместите каждый пещерный блок на самой верхней части мира"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/rock_bottom",
@@ -22,11 +22,11 @@
       "conditions": {
         "block": "minecraft:stone",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -36,11 +36,11 @@
       "conditions": {
         "block": "minecraft:granite",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -50,11 +50,11 @@
       "conditions": {
         "block": "minecraft:andesite",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -64,11 +64,11 @@
       "conditions": {
         "block": "minecraft:diorite",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -78,11 +78,11 @@
       "conditions": {
         "block": "minecraft:gravel",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -92,11 +92,11 @@
       "conditions": {
         "block": "minecraft:dirt",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -106,11 +106,11 @@
       "conditions": {
         "block": "minecraft:deepslate",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -120,11 +120,11 @@
       "conditions": {
         "block": "minecraft:tuff",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -134,11 +134,11 @@
       "conditions": {
         "block": "minecraft:moss_block",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -148,11 +148,11 @@
       "conditions": {
         "block": "minecraft:moss_carpet",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -162,11 +162,11 @@
       "conditions": {
         "block": "minecraft:clay",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -176,11 +176,11 @@
       "conditions": {
         "block": "minecraft:dripstone_block",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -190,11 +190,25 @@
       "conditions": {
         "block": "minecraft:pointed_dripstone",
         "location": {
+          "dimension": "minecraft:overworld",
           "position": {
             "y": {
               "min": 319
-            },
-            "dimension": "minecraft:overworld"
+            }
+          }
+        }
+      }
+    },
+    "sculk": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:sculk",
+        "location": {
+          "dimension": "minecraft:overworld",
+          "position": {
+            "y": {
+              "min": 319
+            }
           }
         }
       }

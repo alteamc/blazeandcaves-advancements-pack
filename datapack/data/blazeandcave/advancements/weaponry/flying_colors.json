@@ -10,7 +10,7 @@
     "description": {
       "translate": "Наложите флаг (без узоров) на свой щит"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:weaponry/shield_luck",
   "rewards": {

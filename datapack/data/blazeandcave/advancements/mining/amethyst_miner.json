@@ -9,7 +9,7 @@
     "description": {
       "translate": "Соберите по стаку блоков аметиста, кластеров аметиста и бутоны аметиста любого размера."
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/blackout",

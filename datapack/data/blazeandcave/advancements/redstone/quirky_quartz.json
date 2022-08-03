@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добудьте кварц в Незере"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/repeating_repeater",
   "rewards": {

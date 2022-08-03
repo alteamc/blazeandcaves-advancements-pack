@@ -9,7 +9,7 @@
     "description": {
       "translate": "Рубите огромные незерские грибки, пока не выпадет стебель"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:nether/root",
   "rewards": {
@@ -22,7 +22,10 @@
         "items": [
           {
             "items": [
-              "minecraft:crimson_stem"
+              "minecraft:crimson_stem",
+              "minecraft:stripped_crimson_stem",
+              "minecraft:crimson_hyphae",
+              "minecraft:stripped_crimson_hyphae"
             ]
           }
         ]
@@ -34,7 +37,10 @@
         "items": [
           {
             "items": [
-              "minecraft:warped_stem"
+              "minecraft:warped_stem",
+              "minecraft:stripped_warped_stem",
+              "minecraft:warped_hyphae",
+              "minecraft:stripped_warped_hyphae"
             ]
           }
         ]

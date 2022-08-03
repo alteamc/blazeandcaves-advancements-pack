@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заполните котёл ведром с водой"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/agent_smithing_table",
   "rewards": {

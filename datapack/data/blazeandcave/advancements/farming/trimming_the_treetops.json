@@ -9,120 +9,22 @@
     "description": {
       "translate": "Используйте ножницы, чтобы получить блоки листвы"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:farming/bapple",
   "rewards": {
     "function": "bc_rewards:farming/trimming_the_treetops"
   },
   "criteria": {
-    "oak_leaves": {
+    "leaves": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:oak_leaves"
-            ]
-          }
-        ]
-      }
-    },
-    "spruce_leaves": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:spruce_leaves"
-            ]
-          }
-        ]
-      }
-    },
-    "birch_leaves": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:birch_leaves"
-            ]
-          }
-        ]
-      }
-    },
-    "jungle_leaves": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_leaves"
-            ]
-          }
-        ]
-      }
-    },
-    "acacia_leaves": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:acacia_leaves"
-            ]
-          }
-        ]
-      }
-    },
-    "dark_oak_leaves": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dark_oak_leaves"
-            ]
-          }
-        ]
-      }
-    },
-    "azalea_leaves": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:azalea_leaves"
-            ]
-          }
-        ]
-      }
-    },
-    "flowering_azalea_leaves": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:flowering_azalea_leaves"
-            ]
+            "tag": "minecraft:leaves"
           }
         ]
       }
     }
-  },
-  "requirements": [
-    [
-      "oak_leaves",
-      "spruce_leaves",
-      "birch_leaves",
-      "jungle_leaves",
-      "acacia_leaves",
-      "dark_oak_leaves",
-      "azalea_leaves",
-      "flowering_azalea_leaves"
-    ]
-  ]
+  }
 }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте двух лошадей яблоками"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/horse_armorer",
   "rewards": {

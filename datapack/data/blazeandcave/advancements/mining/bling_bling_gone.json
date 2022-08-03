@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Используйте золотую кирку, пока она не сломается, а затем подумайте над тем, что Вы сделали"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:mining/living_like_kings",

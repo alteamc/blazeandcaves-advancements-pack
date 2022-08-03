@@ -9,7 +9,7 @@
     "description": {
       "translate": "Добейтесь безумной скорости, объединив эффекты Скорость II, Грация дельфина, Подводная ходьба III, Скорость душ III и бег"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:nether/soul_runnings",

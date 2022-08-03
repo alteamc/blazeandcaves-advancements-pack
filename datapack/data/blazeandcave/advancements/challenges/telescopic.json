@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Посмотрите на каждого моба с помощью подзорной трубы, каждый из которых должен находится по крайней мере в 25 блоках от Вас"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/root",
@@ -25,7 +25,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:bat",
                   "distance": {
@@ -53,7 +54,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:chicken",
                   "distance": {
@@ -81,7 +83,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:cod",
                   "distance": {
@@ -109,7 +112,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:cow",
                   "distance": {
@@ -137,7 +141,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:mooshroom",
                   "distance": {
@@ -165,7 +170,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:pig",
                   "distance": {
@@ -193,7 +199,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:rabbit",
                   "distance": {
@@ -221,7 +228,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:salmon",
                   "distance": {
@@ -249,7 +257,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:sheep",
                   "distance": {
@@ -277,7 +286,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:squid",
                   "distance": {
@@ -305,7 +315,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:tropical_fish",
                   "distance": {
@@ -333,7 +344,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:turtle",
                   "distance": {
@@ -361,7 +373,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:villager",
                   "distance": {
@@ -389,7 +402,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:wandering_trader",
                   "distance": {
@@ -417,7 +431,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:pufferfish",
                   "distance": {
@@ -445,7 +460,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:cave_spider",
                   "distance": {
@@ -473,7 +489,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:enderman",
                   "distance": {
@@ -501,7 +518,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:panda",
                   "distance": {
@@ -529,7 +547,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:polar_bear",
                   "distance": {
@@ -557,7 +576,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:spider",
                   "distance": {
@@ -585,7 +605,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:zombified_piglin",
                   "distance": {
@@ -613,7 +634,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:blaze",
                   "distance": {
@@ -641,7 +663,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:creeper",
                   "distance": {
@@ -669,7 +692,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:drowned",
                   "distance": {
@@ -697,7 +721,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:endermite",
                   "distance": {
@@ -725,7 +750,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:evoker",
                   "distance": {
@@ -753,7 +779,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:ghast",
                   "distance": {
@@ -781,7 +808,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:guardian",
                   "distance": {
@@ -809,7 +837,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:husk",
                   "distance": {
@@ -837,7 +866,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:magma_cube",
                   "distance": {
@@ -865,7 +895,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:phantom",
                   "distance": {
@@ -893,7 +924,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:pillager",
                   "distance": {
@@ -921,7 +953,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:ravager",
                   "distance": {
@@ -949,7 +982,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:shulker",
                   "distance": {
@@ -977,7 +1011,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:silverfish",
                   "distance": {
@@ -1005,7 +1040,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:skeleton",
                   "distance": {
@@ -1033,7 +1069,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:slime",
                   "distance": {
@@ -1061,7 +1098,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:stray",
                   "distance": {
@@ -1089,7 +1127,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:vex",
                   "distance": {
@@ -1117,7 +1156,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:vindicator",
                   "distance": {
@@ -1145,7 +1185,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:witch",
                   "distance": {
@@ -1173,7 +1214,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:wither_skeleton",
                   "distance": {
@@ -1201,7 +1243,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:zombie_villager",
                   "distance": {
@@ -1229,7 +1272,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:zombie",
                   "distance": {
@@ -1257,7 +1301,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:cat",
                   "distance": {
@@ -1285,7 +1330,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:donkey",
                   "distance": {
@@ -1313,7 +1359,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:horse",
                   "distance": {
@@ -1341,7 +1388,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:llama",
                   "distance": {
@@ -1369,7 +1417,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:mule",
                   "distance": {
@@ -1397,7 +1446,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:parrot",
                   "distance": {
@@ -1425,7 +1475,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:skeleton_horse",
                   "distance": {
@@ -1453,7 +1504,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:trader_llama",
                   "distance": {
@@ -1481,7 +1533,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:wolf",
                   "distance": {
@@ -1509,7 +1562,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:dolphin",
                   "distance": {
@@ -1537,7 +1591,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:fox",
                   "distance": {
@@ -1565,7 +1620,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:ocelot",
                   "distance": {
@@ -1593,7 +1649,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:iron_golem",
                   "distance": {
@@ -1621,7 +1678,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:snow_golem",
                   "distance": {
@@ -1649,7 +1707,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:wither",
                   "distance": {
@@ -1677,7 +1736,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:bee",
                   "distance": {
@@ -1705,7 +1765,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:piglin",
                   "distance": {
@@ -1733,7 +1794,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:hoglin",
                   "distance": {
@@ -1761,7 +1823,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:strider",
                   "distance": {
@@ -1789,7 +1852,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:zoglin",
                   "distance": {
@@ -1817,7 +1881,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:piglin_brute",
                   "distance": {
@@ -1845,7 +1910,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:axolotl",
                   "distance": {
@@ -1873,7 +1939,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:glow_squid",
                   "distance": {
@@ -1901,7 +1968,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:goat",
                   "distance": {
@@ -1929,7 +1997,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:ender_dragon",
                   "distance": {
@@ -1957,9 +2026,126 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "looking_at": {
                   "type": "minecraft:elder_guardian",
+                  "distance": {
+                    "absolute": {
+                      "min": 25
+                    }
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:frog",
+                  "distance": {
+                    "absolute": {
+                      "min": 25
+                    }
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "tadpole": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:tadpole",
+                  "distance": {
+                    "absolute": {
+                      "min": 25
+                    }
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "allay": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:allay",
+                  "distance": {
+                    "absolute": {
+                      "min": 25
+                    }
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:warden",
                   "distance": {
                     "absolute": {
                       "min": 25

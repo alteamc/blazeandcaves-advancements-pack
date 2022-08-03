@@ -9,7 +9,7 @@
 
 # Language: Pirate Speak (The Seven Seas)
 # Author: Cavinator1
-# Pack version supported: 1.11
+# Pack version supported: 1.13.7
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (including the 1.4 update) will be put at the bottom of the file for easy locating and adding by translators
@@ -4075,11 +4075,11 @@
 "Trophies currently enabled": "Special Treasure: Aye",
 "Trophies currently disabled": "Special Treasure: Nay",
 
-"Display scoreboard on tab list": "Put accomplishment list on tab scribble",
-"Clear scoreboard from tab list": "Take accomplishment list off tab scribble",
+"Display scoreboard on tab list": "Put accomplishment list on list scribble",
+"Clear scoreboard from tab list": "Take accomplishment list off list scribble",
 
-"Display scoreboard on sidebar": "Put accomplishment list on sidebar scribble",
-"Clear scoreboard from sidebar": "Take accomplishment list off sidebar scribble",
+"Display scoreboard on sidebar": "Put accomplishment list on starboard scribble",
+"Clear scoreboard from sidebar": "Take accomplishment list off starboard scribble",
 
 "Update scoreboard": "Update accomplishment list",
 
@@ -4385,10 +4385,10 @@
 
 
 # Configuration menu additions in 1.13
-"Cooperative Mode currently enabled": "Working together currently on",
-"Cooperative Mode currently disabled": "Working together currnetly off",
+"Cooperative Mode currently enabled": "Crew Mode currently on",
+"Cooperative Mode currently disabled": "Crew Mode currnetly off",
 
-"Cooperative Mode makes it so that whenever a player gets an advancement, that advancement will be shared across all players.": "Working together means whenever a pirate gets an accomplishment, it be shared across all pirates.",
+"Cooperative Mode makes it so that whenever a player gets an advancement, that advancement will be shared across all players.": "Crew Mode means whenever a pirate gets an accomplishment, it be shared across all pirates.",
 "Everyone's currently-obtained advancements will be shared between all players immediately when turning this setting on.": "Every pirate's current accomplishments will be shared immediately when turnin' this setting on.",
 "While the mode can be turned off, shared advancements cannot be easily revoked.": "While working together can be turned off, shared accomplishments cannot be easily taken away, arr!",
 
@@ -4435,7 +4435,7 @@
 
 "Turn all messages on": "Say Aye to all scribble",
 "Turn all messages off": "Say Nay to all scribble",
-"Set all messages to first-player only (recommended and default for Cooperative Mode)": "Say Aye to all scribble only for first pirate (recommended an' default for working together)",
+"Set all messages to first-player only (recommended and default for Cooperative Mode)": "Say Aye to all scribble only for first pirate (recommended an' default for Crew Mode)",
 "Turn all on except tasks (recommended for large servers)": "Say Aye to all messages except tasks (recommended for large seas)",
 "Turn all on except tasks and goals": "Say Aye to all messages except tasks an' goals",
 
@@ -4507,10 +4507,371 @@
 "Stardust": "Stardust",
 
 "You have explored everything this world has to offer": "Ye have sailed everythin' tha seas have to offer",
-"But at the end of it all, it is all still made from stardust": "But at world's end, it be all made from stardust"
+"But at the end of it all, it is all still made from stardust": "But at world's end, it be all made from stardust",
+
+
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "First pirate on each ship",
+"Click to enable for the first player on each team": "Say aye only for the first pirate on each ship",
+
+"Click to enable Cooperative Mode": "Say aye for Crew Mode",
+"Click to disable Cooperative Mode": "Say nay for Crew Mode",
+"Click to enable Team Cooperative Mode": "Say aye for Ship Crew Mode",
+"Team Cooperative Mode currently enabled": "Ship Crew Mode currently on",
+
+
+
+"Click to view preset options": "Look at yer presets",
+"Message Presets": "Scribble Presets",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "Say Aye to all scribble only for first pirate on ship (recommended an' default for Ship Crew Mode)",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "Say Aye to boring scribble (recommended fer DiscordSRV ships)",
+
+
+
+"Advancement Scoreboard Display Settings": "Accomplishment List Scribble",
+
+"Advancements Scoreboard": "Accomplishment List",
+"First Advancements Scoreboard": "First Accomplishments List",
+
+"Team Advancements": "Ship Accomplishments",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "Lists every ship an' adds up accomplishments o' every pirate in each ship",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "If Cap'n Jack an' Will Turner are on the Black Pearl an' both have 100 accomplishments, the Black Pearl has 200 accomplishments",
+
+"Total Team Advancements": "Total Ship Accomplishments",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "Lists every ship an' counts how many accomplishments have been plundered by any member in each ship",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "If Cap'n Jack an' Will Turner are on the Black Pearl an' both have 100 accomplishments, but 50 are accomplishments they both have, the Black Pearl would have 150 accomplishments",
+
+"Team First Advancements": "Ship First Accomplishments",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "Lists every ship an' adds up the First Accomplishments o' every pirate in each ship",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "If Cap'n Jack an' Will Turner are on the Black Pearl an' both were the first to plunder 100 accomplishments, the Black Pearl would have 200 accomplishments",
+
+"First Advancements in Team": "First Accomplishments for Pirates",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "Lists every pirate an' counts how many accomplishments they were first to plunder among thar ship",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "If Cap'n Jack an' Will Turner are on the Black Pearl, and Cap'n Jack gets 'Settin Sail', Cap'n Jack will have their number go up by 1, but when Will Turner gets it he won't. If Davy Jones is on the Flying Dutchman an' gets 'Settin Sail' after Cap'n Jack did, he still will have his number go up by 1",
+
+"Recommended for Cooperative Mode": "Raise this sail on Crew Mode",
+"Recommended when NOT using Cooperative Mode": "Don't raise this sail on Crew Mode",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "Don't raise this sail on Crew Mode or Ship Crew Mode",
+"Recommended for Team Cooperative Mode": "Raise this sail on Ship Crew Mode",
+"Not recommended for Cooperative Mode": "Don't raise this sail on Crew Mode",
+"Recommended for Cooperative or Team Cooperative Mode": "Raise this sail on Crew Mode or Ship Crew Mode",
+
+"How would you like this scoreboard to be displayed?": "How would ye like this sail to be raised?",
+"On tab list": "On pirate list",
+"On sidebar": "On starboard",
+"Below each player's name": "Below each pirates' hull",
+
+"Clear scoreboard from below player names": "Take accomplishment list off below pirates' hull scribble",
+
+
+
+"Technical Settings": "Cursed Scribble",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "Ahoy! Some o' this scribble may curse yer ship. Only use if ye know what they do, yer scallywag!",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "Checks every accomplishment fer every pirate aboard an' recounts 'em",
+"Should be used if:": "Use if:",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "- Ye have recently upgraded yer ship to a new version, especially across a sea update",
+"- You have been using commands to manually revoke the advancements of player(s)": "- Ye have been usin' foul sailin' to revoke accomplishments o' pirates",
+
+"Update team scoreboards": "Check ship accomplishments",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "Recounts ship accomplishments that draw from pirates' accomplishment lists",
+
+"Reset obtained advancements": "Reset obtained accomplishments",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "Resets the 'bac_obtained' scribble. This curse makes Crew Mode no longer share accomplishments an' every accomplishment becomes back up fer plunder for the First Accomplishments list",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "This curse will stop sharin' o' accomplishments in Crew Mode until they are plundered again, an' also reopen every accomplishment for the First Accomplishment scoreboard",
+"This function should only be used if you intend to turn off Cooperative Mode": "Only use this curse if ye will turn off Crew Mode, ye scallywag!",
+
+"Refresh Cooperative Mode advancement sharing": "Refresh Crew Mode accomplishment sharing",
+
+"Grant missing trophies": "Give special treasure",
+"Gives every online player every trophy from advancements they have obtained so far": "Gives every pirate onboard every special treasure from accomplishments they have plundered so far",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "Only use this curse on seas mapped before the Special Treasure Update (BACAP 1.11) or if ye really want an easy way o' plunderin' them again",
+
+"Revoke all advancements": "Revoke all accomplishments",
+"Revokes every advancement, including resetting scoreboards": "Gets rid o' every accomplishment, including resetting lists an' scribble",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "Ye may choose to curse either yerself, the closest pirate to you, or everyone currently aboard!",
+
+"Once advancements are revoked, they cannot be recovered.": "Once accomplishments are revoked, they cannot be re-plundered.",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "Some ship's manifest accomplishments may re-plunder anyway. If you want these to go away too, sink the ship's manifest file o' the pirates ye want to revoke prior to revoking",
+"Please choose who you would like to revoke advancements from, or to go back": "Choose which pirate ye would like to revoke accomplishments from, or to go back",
+"Yourself": "Yerself",
+"The closest player": "The closest pirate",
+"EVERYONE!! (who is online)": "YER ENTIRE CREW! (who are aboard)",
+">:)": ">:)",
+
+"All advancements have been revoked from %1$s": "All accomplishments have been revoked from %1$s",
+"Error: There are no other players online": "Error: Ye have no crew aboard!",
+
+"Go back": "Plundered",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "A Sailin' Trip Begins",
+"Find a Traveller’s Map": "Find a Treasure Map to a sea",
+
+"Castle of Hrrms": "Castle o' Landlubbers",
+"Enter a Fortified Village": "Enter a Fortified Landlubber's Stronghold",
+
+"Expedition of Discovery": "Voyage o' Discovery",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "Find a Treasure Map that leads to a rare sea, then sail into that sea wit' the map in yer hand",
+
+"Land of Icicles": "Ocean o' Icebergs",
+"Discover a Glacial Chasm biome": "Discover ye Glacial Chasm sea",
+
+"Remote Shelter": "Frozen Island",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "Locate a Glacial Hut deep in a Glacial Chasm sea",
+
+"Spire of Ice": "Spire o' Ice",
+"Enter the Spire, located in a frigidly cold biome": "Enter the Spire, located in frigidly cold seas",
+
+"Under the Ice": "Under the Ice",
+"Delve deep beneath the Spire and open up a loot chest": "Delve deep beneath the Spire an' plunder some booty!",
+
+
+
+## All advancements added in version 1.14 are here
+"Sneak 100": "A vow o' silence",
+"Sneak near something in the Deep Dark to prevent being heard": "Silently go nigh a Dark Ship to prevent it from shooting ye",
+
+"It spreads!": "Abyss flows",
+"Kill a mob near a Sculk Catalyst": "Terminate a monster in range of an ol' sculk stimulus",
+
+"Shriek Forever After": "Scream Forever After",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "Hear ye tha Scream o' a Banshee. Might want to sail away, matey…",
+
+"The Block of Eternal Screaming": "Th' Block o' Screamin' o' Eternity",
+"Use Silk Touch to pick up a Sculk Shrieker": "Use yer Soft Hands to pick up a Screamin' Sculk Base",
+
+"Cataclyst": "Sculk Sinking",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "Sink a Wither near a Sculk Base to unleash sculk upon tha seas",
+
+"Monstrous Sacrifices": "Shipwreck Sacrifices",
+"Kill every hostile monster near a Sculk Catalyst": "Slaughter every monster near a sculk stimulus",
+
+"The Incredible Sculk": "The Black Sculk",
+"Collect a stack of all sculk-related blocks": "Plunder a stack o' all sculk-related blocks",
+
+"Sculker Box": "Sculker Booty",
+"Hold a Shulker Box that is completely filled with Sculk": "Fill a Shulker Box up completely wit' Sculk an' hold it",
+
+"Fallen Kingdom": "Fallen Galleon",
+"Find and enter an Ancient City deep underground": "Find an' enter an Ancient Ship deep under tha sea",
+
+"Frigid Diversions": "Frigid Cannonballs",
+"Loot a chest inside an ice box in an Ancient City": "Plunder booty from an ice box in an Ancient Ship",
+
+"Death Pointer": "Death Pointer",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "Usin' Shards o' Echoin' from Ancient Ships, craft a Compass o' Relootin'",
+
+"9 to 5": "9 t' 5",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "Collect enough pieces o' shanty to put together a full shanty",
+
+"Echonomy": "Echoes on th' sea",
+"Collect a stack of Echo Shards": "Plunder a stack o' Shards o' Echoin'",
+
+"Blind as a Bat": "Candl's Out!",
+"Kill a Bat while under the blindness or darkness effect": "Shoot a Flyin' Mouse while all th' candl's are out!",
+
+
+"Stuck in the Mud": "Sinkin' in th' Mud",
+"Use a Water Bottle on some Dirt to turn it into Mud": "Drop a Bottle o' Bilge on yer filth t' turn it t' mud",
+
+"Elmer Mudd": "Elm'r Mudd",
+"Craft or obtain all forms of Mud and Mud Brick": "Craft or plunder all forms o' Mud an' Bricks o' Mud",
+
+"Mangrove Master": "Master o' Mangroves",
+"Craft every item made out of mangrove wood": "Make all tha mangrove items for ye ship!",
+
+"Incandescent!": "With our Toadcandl's united!",
+"Light up the area with all three hues of Froglight": "Use every Toadcandl' on ye ship",
+
+
+"A Mangrove Grove": "A Mangrove Grove",
+"Plant a Mangrove Propagule in a Grove biome": "Plant a lil' mangrove in a grove",
+
+
+"Frog Family": "Croakin' crew",
+"Breed two Frogs together using slimeballs": "Breed two frogs by feedin' them balls o' slime",
+
+"Bukkit bukkit": "Croakin' chum",
+"Catch a Tadpole in a Bucket": "Catch a polliwog in a pail",
+
+"When the Squad Hops into Town": "Croakin' capture",
+"Attach a lead to each variant of Frog": "Usin' yer rope, tie up each type o' frog",
+
+"Ram": "Rammed",
+"Obtain a Goat’s Horn by having one ram into a block": "Plunder a Horn o' Goat when one rams into yer ship!",
+
+"Loud and Proud": "Loud an' Proud",
+"Play a Goat Horn in the Deep Dark": "Play a Horn o' Goat in th' Abyss",
+
+"Battle of the Bands": "Skirmish o' th' Shanties",
+"Blow into a Goat Horn during a raid": "Blow into a Horn o' Goat durin' a pirate raid",
+
+"Caprymphony": "Caprymphony",
+"Blow every type of Goat Horn": "Blow every type o' Horn o' Goat",
+
+"Animal Kingdom": "Kingdom o' Animals",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "Bring one o' every type o' animal aboard yer ship (all within' 32 fathoms o' you)",
+
+
+"Cargo Carrier": "Coffer Carrier",
+"Ride a Boat with a Chest in it": "Put a coffer aboard ye boat",
+
+"Flipper": "Flipp'r",
+"Give a Dolphin something to play with": "Give a Treasure Hound somethin' to play with",
+
+
+"Allayance": "Pixie o' Playin'",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "Save a Pixie from a Pirate's Galleon or Land Ship an' give it a trinket",
+
+"You’ve Got a Friend in Me": "Ye Got a Matey in Me",
+"Have an Allay deliver items to you": "Have a Pixie ship th' trinkets t' ye",
+
+"Evelyn Evergreen": "Lady Evelyn Ev'rgreen",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "Have a Pixie ship a meager shrub o' spruce to ye while stranded on land",
+
+"Budget Vex": "Pixie Pirate",
+"Give an Allay an Iron Sword": "Hand a Pixie a Cutlass",
+
+"Diagon Allay": "Diagon Galleon",
+"Have an Allay deliver a potion to you in the Deep Dark": "Have a Pixie drop some grog to ye in th' Abyss",
+
+"Birthday Song": "Day of Birth Tune",
+"Have an Allay drop a cake at a note block": "Have a Pixie drop some duff at a block o' tunes",
+
+"Awards Ceremony": "Ceremony o' Awards",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "Have a Pixie present yerself wit' one of yer trophies from one o' the accomplishments",
+
+
+"Now that's a lot of damage": "Now that's a sunk ship!",
+"Succumb to the Warden": "Get sunk by th' Monstrous Beast",
+
+"Blind Stare": "Blind Stare",
+"Look at a Warden with a Spyglass": "Look at yer Monstrous Beast wit' yer Spyglass",
+
+"Stealth is Optional": "Sneakin' be Optional!",
+"Overcome a Warden in the deepest and darkest of caves": "Sink a Monstrous Beast in th' deepest an' darkest parts o' th' abyss",
+
+"Warden Frostbite": "Cap'n Frostbite",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "Bring a Monstrous Beast to th' surface o' a snowy sea an' sink it",
+
+"Not Afraid of Heights": "Not Afraid o' th' Crows Nest",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "Bring a Monstrous Beast to th' crows nest. It can't be afraid o' fallin' if it can't see ye",
+
+"House of Freaks": "Abyss o' Freaks",
+"Summon five Wardens and have them all be within 16 blocks of the player": "Summon five Monstrous Beasts an' have 'em be 16 fathoms away",
+
+
+"Like a Ninja": "Like a Ninja",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "Plunder th' Sly Shift spell on a magic book from an Ancient Ship",
+
+"Silent But Deadly": "Sly But Deathly",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "Sneak an' sprint on sculk wit' full sails while wearin' Sly Shift III pantaloons. Try sayin' that six times swiftly",
+
+
+"Hung, Drawn and Bartered": "Hung, Drawn and Bart'rd",
+"Barter for every possible type of item with Piglins": "Barter for every possible type o' plunder wit' Devil's Swine",
+
+
+"The Void Frogs": "Frogs o' th' Abyss",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "Low'r a Frog into th' abyss wit' Grog o' Mary Poppins' Syndrome, then shoot it so it becomes one wit' the abyss",
+
+
+"Farlander": "Farsailer",
+"Travel all the way to the border of the world": "Sail all th' way to th' edge o' th' Earth",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "Use Soft Hands to plunder a Noise Finder or find one among Ancient Ship booty",
+
+# Spelunker
+"Discover every cave biome": "Sail to every underwater ocean",
+
+# Yay! I got my wood!
+"Collect every type of log": "Make ye all the planks!",
+
+# Stripper
+"Strip the bark off every type of log": "Strip the bark off all th' trees",
+
+# Ecologist
+"Plant down all types of saplings": "Plant down all th' types of meager shrubs",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "Yer trapped on a treasure island, time to go huntin'!",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "Sail to all tha' lands in the Ov'rworld",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "section",
+
+
+# Trophies added in 1.14
+"Mobbo": "Mobbo",
+"They are your bestest friend!": "They be yer first mate!",
+
+"The Cataclyst": "The Cannonclyst",
+"When detonated, it kills every single avatar and NPC in the sector": "When fired, it sinks every single ship an' Pirate in tha sea",
+
+"Claptrap": "Capn' Trap",
+"No, I said “Aaaaaand OPEN!”,": "No, me said “Aaaaaand FIRE!”,",
+"not “Aaaaand close a secondary set of doors!”": "Not “Aaaaand load a secondary set o' cannonballs!”",
+
+"Pickle Rick": "Pickle Rick",
+"Look Morty, I've turned myself into a pickle!": "Look Morty, I turned meself into a pickle!",
+
+"Magic Paintbrush": "Magic Brush o' Paint",
+"For painting with all the colors of the wind": "Fer paintin' wit' all th' colors o' th' wind",
+
+"Very Muddy Boots": "Peg-leg o' Mud",
+"The result of too long in muddy fields": "Th' result o' too long on muddy islands",
+
+"Pride Rock": "Rock o' Pride",
+"Look, Simba. Everything the light touches is our kingdom": "Look, Simba. Everything the light touches is our sea",
+
+"Copper Goat Horn": "Horn o' Goat o' Copper",
+"Such a fun and jazzy instrument, sadly not canon": "Such a fun an' jazzy tool fer playin' sea shanties, sadly not a cannon",
+
+"FrogChamp": "CroakCap'n",
+"It’s Wednesday, my dudes!": "It be Wednesday, mateys!",
+
+"Warden Head": "Head o' Monstrous Beast",
+"Players: How are you meant to kill the Warden?": "Pirates: How are ye meant to sink th' Warden?",
+"Mojang: That's the neat part - you don't!": "Mojang: That be the neat part - ye don't!",
+"You: Hold my golden carrots": "Me: Hold me grog",
+
+"The Warden's Sign": "Sign o' Monstrous Beasts",
+"This sign can’t stop me because I can't see!": "This sign can't stop me because me can't see!",
+
+"Reuben the Wither Storm Ender": "Reuben, Ender o' Wither Storm",
+"He was a great pig": "He be a great swine",
+
+"The Trophy Trophy": "Th' Trophy Trophy",
+"If an Allay brings you this, you will": "If a Pixie brings ye this, ye will",
+"receive the Trophy Trophy Trophy": "receive the Trophy Trophy Trophy",
+
+"Spongebob Squarepants": "Spongebob Squarepants",
+"Who lives in a pineapple under the sea?": "Who lives in a pineapple und'r th' sea?",
+
+"Fence Post": "Mast",
+"Look at this luxurious fence post": "Look at this luxurious mast",
+"With its courageously mundane colour": "Wit' its courageously mundane colour",
+"And violent corners": "An' violent corners",
+"This isn't just any fence post…": "This not be just any mast…",
+"It's my fence post! Seriously, get out!": "It's my mast! Walk the plank!",
+
+"Stone of the Farlands": "Rock o' the Far Seas",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "A preserved piece o' rock from th' seas that existed in ye olden days"
 
 
 
 
-# All advancements and trophies that get added in versions 1.14 or later will be added down here for easy locating by translators who wish to update their language file
+# All advancements and trophies that get added in versions 1.15 or later will be added down here for easy locating by translators who wish to update their language file
 }

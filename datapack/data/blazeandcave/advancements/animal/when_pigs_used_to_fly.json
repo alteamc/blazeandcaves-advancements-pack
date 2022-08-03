@@ -9,7 +9,7 @@
     "description": {
       "translate": "Оседлайте свинью с помощью седла, а затем, будучи верхом на ней, упадите с высоты не менее, чем 5 блоков"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/pork_chop",
   "rewards": {

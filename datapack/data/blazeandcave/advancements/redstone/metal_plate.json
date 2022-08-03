@@ -9,7 +9,7 @@
     "description": {
       "translate": "Время ужинать!"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:redstone/pressure_detector",
   "rewards": {

@@ -10,7 +10,7 @@
     "description": {
       "translate": "Дайте эндермену убить себя в Энде"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:end/kill_dragon",
   "rewards": {

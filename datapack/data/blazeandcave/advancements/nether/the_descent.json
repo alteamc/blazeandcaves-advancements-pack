@@ -9,7 +9,7 @@
     "description": {
       "translate": "Проберитесь в самые нижние глубины Незера"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/nugget_in_a_biscuit",
   "rewards": {
@@ -19,20 +19,29 @@
     "the_descent": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_nether",
-        "position": {
-          "y": {
-            "max": 22
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_nether",
+                "position": {
+                  "y": {
+                    "max": 22
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

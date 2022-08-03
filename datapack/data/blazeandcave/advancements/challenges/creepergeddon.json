@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Заполучите стак голов крипера"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/rise_of_the_skeletons",

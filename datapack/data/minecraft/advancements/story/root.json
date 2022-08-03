@@ -9,7 +9,7 @@
     "description": {
       "translate": "Соберите верстак из четырёх досок"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:bacap/getting_wood",
   "rewards": {

@@ -10,7 +10,7 @@
     "description": {
       "translate": "Примените зачарование «Починка» к части золотой брони, а затем осознайте, какую глупость Вы сделали"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:mining/living_like_kings",

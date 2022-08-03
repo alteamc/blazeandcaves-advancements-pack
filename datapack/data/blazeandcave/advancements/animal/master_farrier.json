@@ -9,7 +9,7 @@
     "description": {
       "translate": "Приручите лошадей всех видов"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:animal/artificial_selection",

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Ударьте моба всеми шестью видами лопат"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:weaponry/axeman",
@@ -31,7 +31,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:wooden_shovel\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_shovel"
+                  ]
+                }
+              }
             }
           }
         }
@@ -50,7 +56,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:stone_shovel\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:stone_shovel"
+                  ]
+                }
+              }
             }
           }
         }
@@ -69,7 +81,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:iron_shovel\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:iron_shovel"
+                  ]
+                }
+              }
             }
           }
         }
@@ -88,7 +106,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:golden_shovel\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:golden_shovel"
+                  ]
+                }
+              }
             }
           }
         }
@@ -107,7 +131,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:diamond_shovel\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond_shovel"
+                  ]
+                }
+              }
             }
           }
         }
@@ -126,7 +156,13 @@
         "damage": {
           "type": {
             "source_entity": {
-              "nbt": "{SelectedItem:{id:\"minecraft:netherite_shovel\",}}"
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:netherite_shovel"
+                  ]
+                }
+              }
             }
           }
         }

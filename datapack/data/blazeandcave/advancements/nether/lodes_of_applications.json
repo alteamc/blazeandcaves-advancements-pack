@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте намагниченный компас во всех трёх измерениях"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:nether/use_lodestone",

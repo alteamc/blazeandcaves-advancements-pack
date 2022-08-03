@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте всех незерских существ при помощи трезубца"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:weaponry/king_of_the_sea",

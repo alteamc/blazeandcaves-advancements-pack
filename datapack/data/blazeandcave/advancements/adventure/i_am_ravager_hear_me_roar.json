@@ -10,7 +10,7 @@
     "description": {
       "translate": "Дайте разорителю удариться об Ваш щит"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/its_so_beast_like",
   "rewards": {

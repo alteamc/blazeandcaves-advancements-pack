@@ -9,7 +9,7 @@
     "description": {
       "translate": "Охотиться на белых медведей в реальной жизни незаконно, но это же Minecraft"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/thin_ice",
   "rewards": {

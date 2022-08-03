@@ -10,7 +10,7 @@
       "color": "#FF2A2A",
       "translate": "Испытайте все возможные эффекты одновременно"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge",
     "hidden": false
   },
@@ -48,7 +48,8 @@
           "minecraft:dolphins_grace": {},
           "minecraft:blindness": {},
           "minecraft:bad_omen": {},
-          "minecraft:hero_of_the_village": {}
+          "minecraft:hero_of_the_village": {},
+          "minecraft:darkness": {}
         }
       }
     }

@@ -10,7 +10,7 @@
     "description": {
       "translate": "Зачаруйте деревянный меч на «Остроту V». Не самое лучшее оружие, но может послужить небольшим раздражителем для кого-нибудь"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/newtons_flaming_laser_sword",

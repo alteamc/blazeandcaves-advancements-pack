@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте кирку с зачарованием «Шёлковое касание», чтобы добыть алмазную руду"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/fortunate_son",

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте все виды ступенек"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/slabs_for_days",
@@ -589,6 +589,30 @@
           {
             "items": [
               "minecraft:deepslate_tile_stairs"
+            ]
+          }
+        ]
+      }
+    },
+    "mangrove_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_stairs"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_stairs"
             ]
           }
         ]

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Получите щиток после взросления маленькой черепашки"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/hey_look_mom",
   "rewards": {

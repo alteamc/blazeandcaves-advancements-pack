@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте и съешьте тушёного кролика"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/lucky_charm",
   "rewards": {

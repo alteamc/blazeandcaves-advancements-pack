@@ -9,7 +9,7 @@
     "description": {
       "translate": "Размножьте двух снежных лис при помощи сладких ягод"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/what_does_the_fox_say",
   "rewards": {

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Создайте все возможные предметы из берёзы"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:building/spruce_lee",
@@ -181,6 +181,18 @@
           {
             "items": [
               "minecraft:birch_boat"
+            ]
+          }
+        ]
+      }
+    },
+    "birch_chest_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_chest_boat"
             ]
           }
         ]

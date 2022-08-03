@@ -11,7 +11,7 @@
       "color": "#FF2A2A",
       "translate": "Победите Визера, надев при этом голову Эндер-дракона… и не касаясь земли"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo",

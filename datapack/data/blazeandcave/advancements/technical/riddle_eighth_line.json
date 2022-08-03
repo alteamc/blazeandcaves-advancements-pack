@@ -16,7 +16,8 @@
           }
         },
         "player": {
-          "player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "blazeandcave:technical/riddle_seventh_line": "true"
             }

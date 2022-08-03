@@ -18,7 +18,7 @@
         }
       ]
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",

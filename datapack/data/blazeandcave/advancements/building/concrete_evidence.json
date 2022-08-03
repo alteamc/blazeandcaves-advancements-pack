@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте бетон, разместив цемент в воде"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/rainbow_sand",
   "rewards": {

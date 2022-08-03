@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Продайте сладкие ягоды лисе с изумрудом во рту"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/snow_fox_64",

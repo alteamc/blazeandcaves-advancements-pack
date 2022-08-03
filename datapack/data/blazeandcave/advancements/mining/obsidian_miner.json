@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Добудьте стак обсидиана. (это займёт некоторое время…)"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:story/enter_the_nether",

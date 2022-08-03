@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте немного плит"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:building/your_door_was_locked",
   "rewards": {
@@ -627,6 +627,30 @@
           }
         ]
       }
+    },
+    "mangrove_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "mud_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mud_brick_slab"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -681,7 +705,9 @@
       "cobbled_deepslate_slab",
       "polished_deepslate_slab",
       "deepslate_brick_slab",
-      "deepslate_tile_slab"
+      "deepslate_tile_slab",
+      "mangrove_slab",
+      "mud_brick_slab"
     ]
   ]
 }

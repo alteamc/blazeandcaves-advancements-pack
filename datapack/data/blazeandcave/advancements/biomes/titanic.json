@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите затонувший корабль в биоме с айсбергами"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:biomes/boatception",
@@ -20,7 +20,6 @@
     "iceberg_deep": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:deep_frozen_ocean",
         "player": [
           {
             "condition": "minecraft:alternative",
@@ -30,7 +29,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:shipwreck"
+                    "structure": "minecraft:shipwreck",
+                    "biome": "minecraft:deep_frozen_ocean"
                   }
                 }
               },
@@ -39,7 +39,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:shipwreck_beached"
+                    "structure": "minecraft:shipwreck_beached",
+                    "biome": "minecraft:deep_frozen_ocean"
                   }
                 }
               }
@@ -51,7 +52,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }
@@ -63,7 +65,6 @@
     "iceberg": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "minecraft:frozen_ocean",
         "player": [
           {
             "condition": "minecraft:alternative",
@@ -73,7 +74,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:shipwreck"
+                    "structure": "minecraft:shipwreck",
+                    "biome": "minecraft:frozen_ocean"
                   }
                 }
               },
@@ -82,7 +84,8 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:shipwreck_beached"
+                    "structure": "minecraft:shipwreck_beached",
+                    "biome": "minecraft:frozen_ocean"
                   }
                 }
               }
@@ -94,7 +97,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

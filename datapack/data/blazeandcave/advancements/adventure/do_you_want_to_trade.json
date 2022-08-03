@@ -9,7 +9,7 @@
     "description": {
       "translate": "Найдите деревню крестьян"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "minecraft:adventure/root",
   "rewards": {
@@ -28,7 +28,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:village"
+                    "structure": "minecraft:village"
                   }
                 }
               },
@@ -37,7 +37,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:village_desert"
+                    "structure": "minecraft:village_desert"
                   }
                 }
               },
@@ -46,7 +46,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:village_plains"
+                    "structure": "minecraft:village_plains"
                   }
                 }
               },
@@ -55,7 +55,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:village_savanna"
+                    "structure": "minecraft:village_savanna"
                   }
                 }
               },
@@ -64,7 +64,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:village_snowy"
+                    "structure": "minecraft:village_snowy"
                   }
                 }
               },
@@ -73,7 +73,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:village_taiga"
+                    "structure": "minecraft:village_taiga"
                   }
                 }
               }
@@ -85,7 +85,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Упадите с большого твёрдолиста"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:mining/this_dirt_is_dirtier",
   "rewards": {

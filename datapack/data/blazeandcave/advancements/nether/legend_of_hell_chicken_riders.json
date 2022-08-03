@@ -8,9 +8,10 @@
       "translate": "Легенда о куриных всадниках"
     },
     "description": {
+      "color": "#75E1FF",
       "translate": "Убейте куриного наездника в Незере"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:nether/high_temperature_fluid_monster",
@@ -23,7 +24,12 @@
       "conditions": {
         "entity": {
           "type": "chicken",
-          "nbt": "{Passengers:[{id:\"minecraft:zombified_piglin\"}]}"
+          "passenger": {
+            "type": "zombified_piglin",
+            "flags": {
+              "is_baby": "true"
+            }
+          }
         }
       }
     },
@@ -32,6 +38,9 @@
       "conditions": {
         "entity": {
           "type": "zombified_piglin",
+          "flags": {
+            "is_baby": "true"
+          },
           "vehicle": {
             "type": "chicken"
           }

@@ -9,7 +9,7 @@
     "description": {
       "translate": "Нанести 16 сердец урона одним ударом"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:enchanting/overkill",
@@ -22,7 +22,8 @@
       "conditions": {
         "damage": {
           "dealt": {
-            "min": 32
+            "min": 32,
+            "max": 999
           },
           "type": {
             "is_explosion": "false",

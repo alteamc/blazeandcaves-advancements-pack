@@ -9,7 +9,7 @@
 
 # Language: 繁體中文(Traditional Chinese)
 # Author: TorchGod
-# Pack version supported: 1.13.2
+# Pack version supported: 1.14
 
 # All language entries are organised in alphabetical order of file name as of 1.3
 # All new advancements added in updates later than 1.3 (1.4, 1.5 and so on) will be put at the bottom of the file for easy locating and adding by translators
@@ -4510,7 +4510,368 @@
 "Stardust": "星塵",
 
 "You have explored everything this world has to offer": "你已經探索了這個世界的所有",
-"But at the end of it all, it is all still made from stardust": "但在旅途的終點，星球的每個部份依然都是由星塵所構"
+"But at the end of it all, it is all still made from stardust": "但在旅途的終點，星球的每個部份依然都是由星塵所構",
+
+
+
+# Configuration menu additions in 1.13.3-1.13.6
+"First player on each team": "隊伍之首",
+"Click to enable for the first player on each team": "按此以啟用隊中之長",
+
+"Click to enable Cooperative Mode": "按此以啟用合作模式",
+"Click to disable Cooperative Mode": "按此以禁用合作模式",
+"Click to enable Team Cooperative Mode": "按此以啟用隊伍合作模式",
+"Team Cooperative Mode currently enabled": "隊伍合作模式啟用中",
+
+
+
+"Click to view preset options": "按此以查看模板選項",
+"Message Presets": "訊息模板",
+"Set all messages to first-player-on-team only (recommended and default for Team Cooperative Mode)": "設置所有訊息僅傳送至隊長(隊伍合作模式的預設選項，推薦其使用)",
+"Turn vanilla messages on (recommended for servers that use plugins that draw from them such as DiscordSRV)": "開啟原版訊息(推薦會從遊戲聊天室中抓取訊息，如DiscordSRV插件的伺服器使用)",
+
+
+
+"Advancement Scoreboard Display Settings": "成就記分板顯示設定",
+
+"Advancements Scoreboard": "成就記分板",
+"First Advancements Scoreboard": "首筆成就記分板",
+
+"Team Advancements": "隊伍總分成就",
+"The Team Advancements Scoreboard lists every team, and adds up the Advancements score of every member in each team": "隊伍總分成就列出所有隊伍，並將成員獲得的成就分數加總顯示",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, Blue team would be listed as 200": "舉例來說，若Alex與Steve都是藍隊，並且都達成100個成就，那藍隊獲得200分",
+
+"Total Team Advancements": "團隊成就",
+"The Total Team Advancements Scoreboard lists every team, and counts how many advancements have been obtained by any member in each team": "團隊成就列出所有隊伍，並將團隊已獲得的成就加總顯示",
+"For example, if Alex and Steve are on Blue team and both have 100 advancements, but 50 of them are advancements they both got, Blue team would be listed as 150": "舉例來說，若Alex與Steve都是藍隊，並且都達成100個成就，但其中有50個成就重複，那藍隊獲得150分",
+
+"Team First Advancements": "首位隊伍總分成就",
+"The Team First Advancements Scoreboard lists every team, and adds up the First Advancements score of every member in each team": "首位隊伍總分成就列出所有隊伍，並將成員獲得的首位成就加總顯示",
+"For example, if Alex and Steve are on Blue team and both were the first to get 100 advancements, Blue team would be listed as 200": "舉例來說，若Alex與Steve都是藍隊，並且都獲得100個首位成就，那藍隊獲得200分",
+
+"First Advancements in Team": "隊伍中首位成就",
+"The First Advancements in Team Scoreboard lists every player, and counts how many advancements they were the first to get out of everyone on their team": "隊伍中首位成就列出隊伍中所有玩家，並計算隊伍成員之中，他們獲得的首位成就數目",
+"For example, if Alex and Steve are on Blue team and Steve gets 'Monster Hunter', Steve will have this score increase by 1, but when Alex gets it they won't. If Bob is on Red team and gets 'Monster Hunter' after Steve did, they will have this score increase by 1": "舉例來說，若Alex與Steve都是藍隊，且Steve獲得了'魔物獵人'成就，那Steve的分數+1，但其後Alex獲得此成就時分數+0，若Bob位於紅隊且在Steve獲得'魔物獵人'成就後獲得成就，分數依然會+1",
+
+"Recommended for Cooperative Mode": "合作模式下推薦使用",
+"Recommended when NOT using Cooperative Mode": "不在合作模式下推薦使用",
+"Recommended when NOT using Cooperative or Team Cooperative Mode": "不在合作模式與隊伍合作模式下推薦使用",
+"Recommended for Team Cooperative Mode": "隊伍合作模式下推薦使用",
+"Not recommended for Cooperative Mode": "合作模式下不推薦使用",
+"Recommended for Cooperative or Team Cooperative Mode": "合作模式與隊伍合作模式下推薦使用",
+
+"How would you like this scoreboard to be displayed?": "你希望計分板顯示於何處？",
+"On tab list": "在Tab列表",
+"On sidebar": "在右側",
+"Below each player's name": "在每個玩家的ID下方",
+
+"Clear scoreboard from below player names": "清除玩家ID下方的記分板",
+
+
+
+"Technical Settings": "技術設置",
+"Warning: Some of these settings may cause adverse effects on your progress, and will cause a lag-spike upon being used. Only use if you absolutely know what they do! Use with caution!": "警告：某些設置可能對你的進度產生副作用，且會造成一個延遲突波。請小心並在你確信你了解他們能做些什麼以後使用！",
+
+# Update Scoreboard
+"Goes through every advancement for every player online, and recounts how many advancements they have": "重新計算所有在線玩家的成就數目",
+"Should be used if:": "只應在下列情形使用：",
+"- You have recently updated to a new datapack version, especially across a new Minecraft update": "你更新了指令包版本，尤其是在Mincraft也經歷了版本更新之下",
+"- You have been using commands to manually revoke the advancements of player(s)": "你有用指令手動撤銷過玩家的成就",
+
+"Update team scoreboards": "更新隊伍記分板",
+"Re-calculates the value of team scoreboards that draw from players' advancement and first advancement scores": "重新計算隊伍成就從玩家成就與首位成就中記分的分數",
+
+"Reset obtained advancements": "重置獲得的成就",
+"Resets the 'bac_obtained' scoreboard. This will make it so that Cooperative Mode will no longer see any advancements as complete and hence not share any, and also set every advancement back up for grabs for the First Advancement scoreboard": "重置'bac_obtained'記分板。這會使合作模式重置並取消共享所有成就，並且將所有首位成就設置為可重新取得",
+"This function will stop sharing of advancements in Cooperative Mode until they are obtained again, and also reopen every advancement for the First Advancements scoreboard": "這個指令會在合作模式獲得成就前取消共享成就，並且重新啟用首位成就記分板的所有成就",
+"This function should only be used if you intend to turn off Cooperative Mode": "這個指令應只在你想要關閉合作模式時使用",
+
+"Refresh Cooperative Mode advancement sharing": "重新整理合作模式共享成就",
+
+"Grant missing trophies": "給予遺失的獎盃",
+"Gives every online player every trophy from advancements they have obtained so far": "給予所有在線玩家所有他們從成就中已經獲得的獎盃",
+"This function should only be used on worlds created before the Trophy Update (BACAP 1.11) or if you really want an easy way of getting them back": "這個指令應只被在獎盃更新前(BACAP 1.11)就已經創建的世界使用，又或是你單純想要一個簡單的方法來重新獲得他們",
+
+"Revoke all advancements": "撤銷所有成就",
+"Revokes every advancement, including resetting scoreboards": "撤銷所有成就，包括重置記分板",
+"You may choose to revoke from either yourself, the closest player to you, or from everyone currently online": "你可以選擇撤銷你的成就，或是離你最近的玩家的成就，或是正在線上的所有玩家的成就",
+
+"Once advancements are revoked, they cannot be recovered.": "當成就被撤銷後無法恢復",
+"Some statistics advancements may come back automatically. If you wish for these to be reset too, you will need to delete the statistics file of players you want to revoke prior to revoking": "某些數據成就可能會自動取回，若你也想要這些成就被重置，你需要在撤銷成就前，將這些玩家的數據檔案率先刪除",
+"Please choose who you would like to revoke advancements from, or to go back": "請選擇須撤銷成就的玩家，或取消並返回",
+"Yourself": "你自己",
+"The closest player": "離你最近的玩家",
+"EVERYONE!! (who is online)": "所有玩家(線上)",
+">:)": ">:)",
+
+"All advancements have been revoked from %1$s": "已從%1$s取回所有成就",
+"Error: There are no other players online": "錯誤：沒有玩家在線",
+
+"Go back": "返回",
+
+
+
+# Advancements added in the Terralith version for BACAP 1.13.5
+"A Journey Begins": "旅途之始",
+"Find a Traveller’s Map": "找到探索者地圖",
+
+"Castle of Hrrms": "赫爾姆斯城堡",
+"Enter a Fortified Village": "進入要塞村莊",
+
+"Expedition of Discovery": "遠征探索",
+"Find a Traveller’s Map that leads to a rare biome, then enter that biome with the map in your hand": "找到稀有生態域的探索者地圖，並且帶著地圖進入生態域",
+
+"Land of Icicles": "冰棘之地",
+"Discover a Glacial Chasm biome": "發現冰川裂谷生態域",
+
+"Remote Shelter": "偏僻避難所",
+"Locate a Glacial Hut deep in a Glacial Chasm biome": "找到冰川裂谷生態域中的冰屋",
+
+"Spire of Ice": "凍漣之塔",
+"Enter the Spire, located in a frigidly cold biome": "進入在凍霜生態系中的高塔",
+
+"Under the Ice": "冰層之下",
+"Delve deep beneath the Spire and open up a loot chest": "潛入塔的深淵並開啟寶藏箱",
+
+
+
+## All advancements added in version 1.14 are here
+"Sneak 100": "暗影潛行",
+"Sneak near something in the Deep Dark to prevent being heard": "在深暗之域中潛行以避免被什麼東西聽到",
+
+"It spreads!": "疫情擴散!",
+"Kill a mob near a Sculk Catalyst": "在幽匿催發體旁殺死生物",
+
+"Shriek Forever After": "永恆的尖嘯中",
+"Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…": "在深暗之域中觸發一個幽匿尖嘯體，你不會想要再次這麼做的…",
+
+"The Block of Eternal Screaming": "永嘯之核",
+"Use Silk Touch to pick up a Sculk Shrieker": "以絲綢之觸撿起一個幽匿尖嘯體",
+
+"Cataclyst": "催化劑",
+"Kill a Wither near a Sculk Catalyst to unleash a large explosion of sculk": "在幽匿催發體旁殺死凋零來釋放幽匿爆炸",
+
+"Monstrous Sacrifices": "魔獸之祭",
+"Kill every hostile monster near a Sculk Catalyst": "在幽匿催發體旁殺死每個敵對生物",
+
+"The Incredible Sculk": "幽匿之奇",
+"Collect a stack of all sculk-related blocks": "蒐集所有種類的幽匿方塊各一組",
+
+"Sculker Box": "幽匿箱",
+"Hold a Shulker Box that is completely filled with Sculk": "拿著一個塞滿幽匿方塊的界伏盒",
+
+"Fallen Kingdom": "失落王國",
+"Find and enter an Ancient City deep underground": "找到並進入一個深淵中的遠古城市",
+
+"Frigid Diversions": "急凍的消遣",
+"Loot a chest inside an ice box in an Ancient City": "在遠古城市的冰箱中打開寶箱",
+
+"Death Pointer": "尋路計",
+"Using Echo Shards found in Ancient Cities, craft a Recovery Compass": "以在遠古城市中找到的迴響碎片合成一個追溯指針",
+
+"9 to 5": "9幻為5",
+"Collect enough Disc Fragments to craft another producer of mysterious sounds": "蒐集足夠的唱片殘片以合成另一個產出謎之聲響的東西",
+
+"Echonomy": "殘響和鳴",
+"Collect a stack of Echo Shards": "蒐集一組迴響碎片",
+
+"Blind as a Bat": "闇影蝙蝠",
+"Kill a Bat while under the blindness or darkness effect": "在失明或黑暗效果下殺死一隻蝙蝠",
+
+
+"Stuck in the Mud": "陷入泥沼",
+"Use a Water Bottle on some Dirt to turn it into Mud": "用水瓶將一些泥土轉化為泥巴",
+
+"Elmer Mudd": "埃爾默·泥尼",
+"Craft or obtain all forms of Mud and Mud Brick": "合成或獲得所有種類的泥巴與泥磚",
+
+"Mangrove Master": "紅樹精",
+"Craft every item made out of mangrove wood": "合成以紅樹木材製作的所有物品",
+
+"Incandescent!": "白如熾耀",
+"Light up the area with all three hues of Froglight": "用三種蛙明燈照亮四周",
+
+
+"A Mangrove Grove": "紅樹林",
+"Plant a Mangrove Propagule in a Grove biome": "在沼澤生態域中種下紅樹林樹苗",
+
+
+"Frog Family": "青蛙家族",
+"Breed two Frogs together using slimeballs": "用史萊姆球繁殖兩隻青蛙",
+
+"Bukkit bukkit": "桶裝桶",
+"Catch a Tadpole in a Bucket": "用水桶捕捉一隻蝌蚪",
+
+"When the Squad Hops into Town": "當小隊步入城鎮",
+"Attach a lead to each variant of Frog": "拴住所有種類的青蛙",
+
+"Ram": "羝",
+"Obtain a Goat’s Horn by having one ram into a block": "使山羊撞上一格方塊來獲得一隻山羊角",
+
+"Loud and Proud": "高昂且飛揚",
+"Play a Goat Horn in the Deep Dark": "在深暗之域中演奏山羊角",
+
+"Battle of the Bands": "激奏樂章",
+"Blow into a Goat Horn during a raid": "在突襲中吹響山羊角",
+
+"Caprymphony": "即興曲",
+"Blow every type of Goat Horn": "吹奏所有種類的山羊角",
+
+"Animal Kingdom": "動物王國",
+"Bring one of every type of animal to one place (have them all within 32 blocks of you)": "攜帶所有種類的動物各一隻在你身旁(32格之內)",
+
+
+"Cargo Carrier": "運貨員",
+"Ride a Boat with a Chest in it": "乘坐副著箱子的船",
+
+"Flipper": "飛揚者",
+"Give a Dolphin something to play with": "送海豚點東西玩",
+
+
+"Allayance": "羈絆",
+"Rescue an Allay from a Pillager Outpost or Woodland Mansion and give it something to play with": "在掠奪者哨塔或森林大宅中拯救一隻悅靈，並且給他點東西玩",
+
+"You’ve Got a Friend in Me": "我們是朋友了",
+"Have an Allay deliver items to you": "獲得悅靈運送的物品",
+
+"Evelyn Evergreen": "常綠的伊芙琳",
+"Have an Allay deliver Spruce Saplings to you while chopping down trees": "在砍伐樹木時獲得悅靈運送的樹苗",
+
+"Budget Vex": "惱鬼Cosplay",
+"Give an Allay an Iron Sword": "給予悅靈一把鐵劍",
+
+"Diagon Allay": "對角之繫",
+"Have an Allay deliver a potion to you in the Deep Dark": "在深暗之域中獲得悅靈運送的藥水",
+
+"Birthday Song": "生日快樂歌",
+"Have an Allay drop a cake at a note block": "使悅靈在音階盒上丟下蛋糕",
+
+"Awards Ceremony": "頒獎典禮",
+"Have an Allay present to you a trophy awarded from completing one of the advancements": "讓悅靈為您獻上完成成就獲得的獎盃",
+
+
+"Now that's a lot of damage": "噢它嘛痛",
+"Succumb to the Warden": "於堅守者周旋中殞落",
+
+"Blind Stare": "石化瞪視",
+"Look at a Warden with a Spyglass": "用望遠鏡觀察一個堅守者",
+
+"Stealth is Optional": "潛影非必要",
+"Overcome a Warden in the deepest and darkest of caves": "在深淵中突破堅守者",
+
+"Warden Frostbite": "凍漣的堅守者",
+"Bring a Warden to the surface of a snowy plains biome and kill it": "帶堅守者至寒冷平原生態系並擊殺之",
+
+"Not Afraid of Heights": "無畏天際",
+"Bring a Warden to world height. It can’t be afraid of heights if it can’t see": "在世界高度限制上擊殺堅守者。它不會恐高的畢竟它看不到",
+
+"House of Freaks": "精神病院",
+"Summon five Wardens and have them all be within 16 blocks of the player": "生成5之堅守者並讓他們與玩家處於16格內",
+
+
+"Like a Ninja": "像忍者一樣",
+"Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City": "在遠古城市中取得迅捷潛行的附魔書",
+
+"Silent But Deadly": "暗影瞬殺",
+"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly": "穿著迅捷潛行III護腿，並在擁有速度II效果時，於幽匿方塊上潛行並衝刺。試著以六倍速流暢的講講看這句話",
+
+
+"Hung, Drawn and Bartered": "談判，殺價，成交",
+"Barter for every possible type of item with Piglins": "於豬布林交易中取得所有種類的物品",
+
+
+"The Void Frogs": "虛無之蛙",
+"Lower a Frog into the void using a Slow Falling potion, then kill it so it becomes one with the void": "以緩降效果讓青蛙墜路深淵，並擊殺之使它成為深淵的一部份",
+
+
+"Farlander": "旅者",
+"Travel all the way to the border of the world": "跋涉至世界的邊境",
+
+
+# Description changes in 1.14
+
+# Vibe Check
+"Use Silk Touch to pick up a Sculk Sensor or find one among Ancient City treasure": "以絲綢之觸或在遠古城市的寶箱中獲得幽匿感測體",
+
+# Spelunker
+"Discover every cave biome": "發現所有洞穴生態域",
+
+# Yay! I got my wood!
+"Collect every type of log": "蒐集所有種類的原木",
+
+# Stripper
+"Strip the bark off every type of log": "削下所有種類原木的皮",
+
+# Ecologist
+"Plant down all types of saplings": "種下所有種類的樹苗",
+
+# The Mighty Hunter
+"Hunt all types of land animals with your bow": "用弓獵殺所有陸上動物",
+
+# Adventuring Time
+"Discover each type of surface biome in the Overworld": "發現所有主世界的表層生態域",
+
+
+# The word 'tab' as it appears when mousing over an Advancement in chat
+"tab": "列表",
+
+
+# Trophies added in 1.14
+"Mobbo": "莫波",
+"They are your bestest friend!": "他們是你最棒棒的朋友!",
+
+"The Cataclyst": "催化劑．極",
+"When detonated, it kills every single avatar and NPC in the sector": "引爆時，它會殺死該區域中的所有化身和NPC",
+
+"Claptrap": "胡扯",
+"No, I said “Aaaaaand OPEN!”,": "不!我說「開門!」",
+"not “Aaaaand close a secondary set of doors!”": "不是叫你把「第二層門關上!」",
+
+"Pickle Rick": "醃菜瑞克",
+"Look Morty, I've turned myself into a pickle!": "看阿莫提，我把自己轉化成醃菜了!",
+
+"Magic Paintbrush": "魔法繪筆",
+"For painting with all the colors of the wind": "風中奇緣彩繪",
+
+"Very Muddy Boots": "非常泥濘的靴子",
+"The result of too long in muddy fields": "它待在泥濘中太久了",
+
+"Pride Rock": "驕傲之岩",
+"Look, Simba. Everything the light touches is our kingdom": "看阿辛巴，所有光芒都照耀著我們王國",
+
+"Copper Goat Horn": "銅製山羊號角",
+"Such a fun and jazzy instrument, sadly not canon": "真是個有趣且爵士風的樂器，可惜他不能當大砲用",
+
+"FrogChamp": "蛙之冠",
+"It’s Wednesday, my dudes!": "今天可是星期三呢，我的朋友!",
+
+"Warden Head": "堅守者之顱",
+"Players: How are you meant to kill the Warden?": "玩家：道理我都懂，但到底要怎麼幹掉堅守者?",
+"Mojang: That's the neat part - you don't!": "Mojang：這就是我們想要的–你不需要啊!",
+"You: Hold my golden carrots": "你：一袋米要扛幾樓!",
+
+"The Warden's Sign": "堅守者之警告詔示",
+"This sign can’t stop me because I can't see!": "它看不見所以沒用的!",
+
+"Reuben the Wither Storm Ender": "魯本．凋零風暴",
+"He was a great pig": "它曾是之偉大的豬…",
+
+"The Trophy Trophy": "獎盃的獎盃",
+"If an Allay brings you this, you will": "如果讓悅靈獻上這玩意，你就會",
+"receive the Trophy Trophy Trophy": "獲得獎盃的獎盃的獎盃",
+
+"Spongebob Squarepants": "海綿寶寶",
+"Who lives in a pineapple under the sea?": "是誰住在深海的大鳳梨裡?",
+
+"Fence Post": "圍籬",
+"Look at this luxurious fence post": "看看這個奢華的圍籬",
+"With its courageously mundane colour": "與他勇極的平實顏色",
+"And violent corners": "和他狂野的邊角",
+"This isn't just any fence post…": "這不是隨便的一個圍籬…",
+"It's my fence post! Seriously, get out!": "這是我的圍籬!知道嗎?現在馬上滾出這裡!",
+
+"Stone of the Farlands": "邊際之岩",
+"A preserved piece of stone from the lands that existed before Beta 1.8": "這是從Beta 1.8版本完好保存至今的一塊石頭"
 
 
 

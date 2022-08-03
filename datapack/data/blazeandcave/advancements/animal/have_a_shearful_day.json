@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте ножницы, чтобы получить шерсть с овцы"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/mary_had_a_little_lamb",
   "rewards": {

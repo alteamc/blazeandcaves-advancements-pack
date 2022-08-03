@@ -9,7 +9,7 @@
     "description": {
       "translate": "Следуйте за оком Эндера"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:nether/enders_chest",
   "rewards": {
@@ -19,15 +19,24 @@
     "in_stronghold": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "stronghold",
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "stronghold"
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

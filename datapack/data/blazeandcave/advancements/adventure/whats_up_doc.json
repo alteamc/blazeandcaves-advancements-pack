@@ -10,7 +10,7 @@
     "description": {
       "translate": "Переверните моба с ног на голову"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/i_just_want_to_make_toast",
   "rewards": {

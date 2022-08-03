@@ -9,7 +9,7 @@
     "description": {
       "translate": "Охотничья экспедиция в джунгли"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:biomes/for_you_my_sweet",
   "rewards": {
@@ -37,7 +37,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:sparse_jungle"
+                    "biome": "minecraft:sparse_jungle"
                   }
                 }
               },
@@ -46,7 +46,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:bamboo_jungle"
+                    "biome": "minecraft:bamboo_jungle"
                   }
                 }
               },
@@ -55,7 +55,7 @@
                 "entity": "this",
                 "predicate": {
                   "location": {
-                    "feature": "minecraft:modified_jungle_edge"
+                    "biome": "minecraft:modified_jungle_edge"
                   }
                 }
               }
@@ -67,7 +67,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

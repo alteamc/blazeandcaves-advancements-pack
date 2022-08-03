@@ -9,7 +9,7 @@
     "description": {
       "translate": "Заберитесь на неимоверную высоту"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:end/sky_high",
@@ -20,19 +20,28 @@
     "world_height": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "y": {
-            "min": 1000
-          }
-        },
         "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 1000
+                  }
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

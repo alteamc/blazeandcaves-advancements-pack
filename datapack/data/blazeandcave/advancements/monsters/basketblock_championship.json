@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте эндермена, со всеми блоками, которые он может держать"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/impossible",
@@ -347,6 +347,15 @@
         "entity": {
           "type": "minecraft:enderman",
           "nbt": "{carriedBlockState:{Name:\"minecraft:moss_block\"}}"
+        }
+      }
+    },
+    "mud": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+          "nbt": "{carriedBlockState:{Name:\"minecraft:mud\"}}"
         }
       }
     }

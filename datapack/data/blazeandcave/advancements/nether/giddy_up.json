@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Ударьте маленького хоглина, на котором сидит маленький пиглин"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:nether/whole_hog",
@@ -26,7 +26,12 @@
           "flags": {
             "is_baby": true
           },
-          "nbt": "{Passengers:[{id:\"minecraft:piglin\"}]}"
+          "passenger": {
+            "type": "minecraft:piglin",
+            "flags": {
+              "is_baby": "true"
+            }
+          }
         }
       }
     }

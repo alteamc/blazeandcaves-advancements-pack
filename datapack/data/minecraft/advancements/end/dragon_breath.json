@@ -9,7 +9,7 @@
     "description": {
       "translate": "Соберите дыхание дракона в пузырёк"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:potion/root",
   "rewards": {

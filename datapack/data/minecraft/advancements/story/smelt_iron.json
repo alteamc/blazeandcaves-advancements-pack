@@ -9,9 +9,9 @@
     "description": {
       "translate": "Переплавьте в печи железную руду в железный слиток"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/hot_topic",
+  "parent": "blazeandcave:mining/renewable_energy",
   "rewards": {
     "function": "bc_rewards:mining/acquire_hardware"
   },

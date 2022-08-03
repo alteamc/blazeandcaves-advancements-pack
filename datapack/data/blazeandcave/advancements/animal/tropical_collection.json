@@ -9,7 +9,7 @@
     "description": {
       "translate": "Соберите все 22 возможных вида тропической рыбы"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:animal/aquarium",

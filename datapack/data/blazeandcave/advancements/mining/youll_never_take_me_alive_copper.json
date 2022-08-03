@@ -10,9 +10,9 @@
     "description": {
       "translate": "Выплавите медный слиток"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
-  "parent": "blazeandcave:mining/hot_topic",
+  "parent": "blazeandcave:mining/renewable_energy",
   "rewards": {
     "function": "bc_rewards:mining/youll_never_take_me_alive_copper"
   },

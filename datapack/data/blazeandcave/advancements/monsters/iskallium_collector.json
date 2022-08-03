@@ -10,7 +10,7 @@
     "description": {
       "translate": "Соберите достаточно сгустков слизи и создайте стак блоков слизи"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:monsters/slime_squisher",

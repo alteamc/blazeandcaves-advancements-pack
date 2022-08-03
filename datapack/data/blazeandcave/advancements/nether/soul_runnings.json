@@ -11,7 +11,7 @@
       "color": "#75E1FF",
       "translate": "Встаньте на песок душ в незеритовых ботинках, зачарованных на «Скорость души III»"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "minecraft:nether/netherite_armor",
@@ -53,7 +53,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "player": {
+                "type_specific": {
+                  "type": "player",
                   "gamemode": "spectator"
                 }
               }

@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Соберите все 16 цветов шерсти"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/live_and_let_dye",

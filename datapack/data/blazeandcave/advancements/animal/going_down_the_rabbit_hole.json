@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Приведите кролика на дно мира, а затем убейте его"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:animal/getting_into_a_stew",

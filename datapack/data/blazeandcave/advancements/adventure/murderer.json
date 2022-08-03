@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте крестьянина"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/your_daily_fix",
   "rewards": {

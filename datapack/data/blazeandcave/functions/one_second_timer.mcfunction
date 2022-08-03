@@ -112,6 +112,18 @@ execute as @a at @s if entity @e[type=skeleton_horse,distance=..5] if entity @e[
 execute as @e[type=pillager,predicate=blazeandcave:no_crossbow] at @s run advancement grant @a[distance=..5] only blazeandcave:adventure/redemption_arc
 
 
+# # Not Afraid of Heights
+execute as @e[type=warden,predicate=blazeandcave:at_world_height] at @s run advancement grant @a[distance=..10] only blazeandcave:monsters/not_afraid_of_heights
+
+
+# # House of Freaks
+execute as @a at @s if entity @e[type=warden,distance=..16] run function blazeandcave:count_wardens
+
+
+# # Animal Kingdom
+execute as @a at @s if entity @e[type=mule,distance=..32] run function blazeandcave:animal_kingdom_check
+
+
 # # Event Horizon
 advancement revoke @a[predicate=!blazeandcave:in_the_end] only blazeandcave:technical/below_void
 

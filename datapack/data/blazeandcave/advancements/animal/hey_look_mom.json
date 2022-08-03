@@ -9,7 +9,7 @@
     "description": {
       "translate": "Используйте морскую траву, чтобы помочь черепахе снести яйца"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:animal/poacher",
   "rewards": {

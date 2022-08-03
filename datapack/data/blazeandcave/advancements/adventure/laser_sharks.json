@@ -9,7 +9,7 @@
     "description": {
       "translate": "Убейте стража"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/monumental",
   "rewards": {

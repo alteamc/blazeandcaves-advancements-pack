@@ -10,7 +10,7 @@
     "description": {
       "translate": "Переживите взрыв крипера, прикрывшись щитом"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:monsters/keep_your_distance",
   "rewards": {

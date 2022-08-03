@@ -9,7 +9,7 @@
     "description": {
       "translate": "Колонизируйте измерение Энд при помощи грядок с картофелем"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:end/void_walker",
   "rewards": {

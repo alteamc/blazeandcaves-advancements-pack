@@ -10,7 +10,7 @@
       "color": "#75E1FF",
       "translate": "Заполучите по стаку все блоков, связанных с пышностью"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "goal"
   },
   "parent": "blazeandcave:mining/iggy",

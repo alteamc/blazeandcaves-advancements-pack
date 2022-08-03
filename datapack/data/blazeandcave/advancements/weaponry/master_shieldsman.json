@@ -10,7 +10,7 @@
     "description": {
       "translate": "Отразите атаку каждого враждебного моба"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:weaponry/flying_colors",
@@ -322,6 +322,28 @@
           "blocked": true,
           "source_entity": {
             "type": "piglin_brute"
+          }
+        }
+      }
+    },
+    "ender_dragon": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "ender_dragon"
+          }
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "warden"
           }
         }
       }

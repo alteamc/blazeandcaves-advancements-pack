@@ -9,7 +9,7 @@
     "description": {
       "translate": "Выживите после получения урона от пустоты"
     },
-    "announce_to_chat": false,
+    "announce_to_chat": "true",
     "frame": "challenge"
   },
   "parent": "blazeandcave:end/the_point_of_no_return",

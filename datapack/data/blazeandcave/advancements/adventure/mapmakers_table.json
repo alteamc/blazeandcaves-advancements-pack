@@ -9,7 +9,7 @@
     "description": {
       "translate": "Создайте стол картографа из бумаги и досок"
     },
-    "announce_to_chat": false
+    "announce_to_chat": "true"
   },
   "parent": "blazeandcave:adventure/mapmaker",
   "rewards": {
